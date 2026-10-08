@@ -1,0 +1,9 @@
+# Keep dist tracked: it includes hand-maintained CSS, JavaScript and artwork.
+.openai/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+*.zip
+dist-pages/

@@ -1,0 +1,482 @@
+{
+  "en": {
+    "name": "English",
+    "government": "Government of Senzovia",
+    "portal": "Government information portal",
+    "nav": [
+      "Home of Website",
+      "National priorities",
+      "Publications",
+      "About Senzovia"
+    ],
+    "hero": [
+      "Public affairs.",
+      "A shared future."
+    ],
+    "intro": "Information on Senzovia, its national priorities and proposals for education, research and public affair.",
+    "eyebrow": "SENZOVIA",
+    "explore": "Explore national priorities",
+    "flagLink": "The national flag",
+    "flag": "National flag of Senzovia",
+    "quick": "Information by topic",
+    "quickIntro": "Read the principles, scope and proposed direction of each policy area.",
+    "featured": "Education & research",
+    "featureTitle": "An education that makes room for discovery.",
+    "featureText": "The ESX proposal combines academic depth, subject choice and time for independent research. Access to opportunity should not be determined by nationality or family income.",
+    "featureLink": "Read the ESX framework",
+    "five": "upper-secondary subjects",
+    "two": "languages, at minimum",
+    "draftLabel": "Proposed framework",
+    "latest": "From the publications register",
+    "allDocs": "All publications",
+    "read": "Read document",
+    "search": "Search",
+    "searchHint": "Search policies, education, the flag…",
+    "results": "Search results",
+    "empty": "No matching documents. Try a different keyword.",
+    "close": "Close",
+    "menu": "Menu",
+    "language": "Language",
+    "skip": "Skip to main content",
+    "onPage": "On this page",
+    "back": "Back to priorities",
+    "download": "Download text",
+    "print": "Print this page",
+    "updated": "Website edition",
+    "date": "3 October 2026",
+    "status": "Document status",
+    "proposal": "Policy proposal",
+    "record": "Information note",
+    "all": "All documents",
+    "filter": "Filter publications",
+    "count": "documents",
+    "related": "Related information",
+    "scope": "Publication scope",
+    "scopeText": "Policy proposals describe a direction for development. They do not establish enacted law, eligibility rules, funding commitments or an operational public service.",
+    "aboutTitle": "About Senzovia",
+    "aboutIntro": "A nation-building project concerned with freedom, equal opportunity and the capacity to turn knowledge into practical outcomes.",
+    "aboutSections": [
+      [
+        "National context",
+        "Senzovia is in a post-war phase in the established national narrative. Its national objectives remain an ongoing undertaking. No account of the conflict, territorial settlement or reconstruction results is asserted here."
+      ],
+      [
+        "Principles and priorities",
+        "The policy programme presented here draws on commitments to personal autonomy, equality, rigorous learning, scientific inquiry and international openness. It translates these commitments into proposals for public discussion rather than claims of completed reform."
+      ],
+      [
+        "Culture and identity",
+        "Senzovia has its own national flag. Its identity is not represented by another country's flag. Cultural development should leave room for individual expression, language choice and encounters with different ways of life."
+      ],
+      [
+        "Status of this portal",
+        "Senzovia is a fictional nation-building project. This portal presents its established elements and proposed policy programme in the form of a government information service. It does not issue legal instruments, identity documents or public benefits. Population, capital, office-holders and constitutional arrangements are not specified in this edition."
+      ]
+    ],
+    "flagIntro": "The national flag is reproduced in full from the supplied reference image.",
+    "flagNotes": [
+      [
+        "Reference image",
+        "The black, red and white composition, two stars and central curved form are preserved as supplied. The original image has a width-to-height ratio of 3:2."
+      ],
+      [
+        "Display and reproduction",
+        "This portal uses the original JPEG without cropping, recolouring, redrawing or animation of its surface. The downloadable file is the same source image."
+      ],
+      [
+        "Interpretation",
+        "No formal explanation of the colours, stars or central form has been established for this edition. This portal does not assign an unofficial symbolic meaning."
+      ]
+    ],
+    "original": "Download original flag",
+    "viewOriginal": "View full-size image",
+    "docsIntro": "Policy proposals and information notes, organised by document status. Dates refer to this website edition, not to legislative adoption.",
+    "priorityIntro": "Six connected areas of development. Each proposal identifies its purpose, approach and matters that require further definition.",
+    "notices": [
+      [
+        "National flag: reference and reproduction",
+        "The supplied flag is the reference image for this portal."
+      ],
+      [
+        "ESX: subject choice and research pathways",
+        "A proposed framework for depth, autonomy and fair access."
+      ],
+      [
+        "Publication scope and document status",
+        "How to distinguish policy proposals from established information."
+      ]
+    ],
+    "footer": "Government of Senzovia",
+    "footerLine": "National information · Policy programme · Public records",
+    "access": "Accessibility",
+    "privacy": "Privacy",
+    "sources": "Reference websites",
+    "motionOn": "Reduce motion",
+    "motionOff": "Enable motion",
+    "top": "Back to top",
+    "accessText": "The portal provides semantic headings, keyboard navigation, visible focus indicators, a skip link, seven language editions and printable documents. Animations respect your device's reduced-motion preference; you can also disable them here. Text can be enlarged using your browser. This edition has not undergone an independent accessibility audit.",
+    "privacyText": "This website does not provide accounts, application forms or payments. Search runs in your browser and does not submit queries to a search service. Language and motion preferences are stored on this device. The website includes no analytics or advertising scripts. The hosting provider may process technical access information under its own policies. External reference links lead to independently operated websites.",
+    "sourcesText": "Before implementation, 21 national government websites were reviewed for information hierarchy, navigation, language and publication structure. These references inform the portal's design; they do not imply endorsement or affiliation. GOV.UK Frontend, USWDS and Motion were also consulted as open-source implementation references.",
+    "principles": [
+      "Personal autonomy",
+      "Equal opportunity",
+      "Knowledge & discovery"
+    ],
+    "topics": [
+      {
+        "id": "education",
+        "title": "Education & learning",
+        "desc": "ESX, subject choice, research pathways and access to opportunity.",
+        "sections": [
+          [
+            "Purpose",
+            "Develop strong academic foundations while preserving the time and autonomy needed for inquiry. Assessment should test understanding and application, with less dependence on mechanical memorisation."
+          ],
+          [
+            "Proposed ESX structure",
+            "The proposal provides five subjects at upper-secondary level. Research may be pursued as a voluntary extracurricular project or as a fifth subject linked to an academic discipline. Students would learn at least two languages; the second need not be the language spoken at home."
+          ],
+          [
+            "Admissions and support",
+            "The proposed system opens upper-secondary and university admissions without nationality-based distinctions. University applications would first meet academic requirements before wider activities are considered. Low-income students would receive automatic activity support; funding levels and implementation arrangements remain to be defined."
+          ]
+        ]
+      },
+      {
+        "id": "research",
+        "title": "Science & innovation",
+        "desc": "Scientific inquiry, software, artificial intelligence and engineering.",
+        "sections": [
+          [
+            "Purpose",
+            "Connect rigorous scientific inquiry with useful outcomes. Priority interests include software engineering, artificial intelligence, data science, physics and robotics, alongside the study of people and institutions."
+          ],
+          [
+            "Research pathways",
+            "Support small teams able to explore substantial problems, develop working prototypes and evaluate their results. Proposed learning pathways connect theory, experimentation and product development rather than treating competitions or awards as ends in themselves."
+          ],
+          [
+            "Evaluation and resources",
+            "A proposed evaluation approach would consider reproducibility, practical value, limitations and social consequences. Programme budgets, grant conditions and research institutions are not established in this edition."
+          ]
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "Freedom & equal opportunity",
+        "desc": "Personal choice, gender equality and access without inherited barriers.",
+        "sections": [
+          [
+            "Personal autonomy",
+            "The proposed policy direction recognises the freedom to choose one's expression, interests and life plans. Gender expectations and pressure to follow a prescribed family or career path should not determine a person's opportunities."
+          ],
+          [
+            "Equal opportunity",
+            "Gender equality and opposition to nationality-based exclusion in education inform this programme. Financial circumstances should not prevent participation in research, learning or wider activities."
+          ],
+          [
+            "Implementation questions",
+            "Effective protections require clear procedures, accessible review and adequate resources. This proposal does not claim that a rights statute, appeals body or enforcement mechanism has already been enacted."
+          ]
+        ]
+      },
+      {
+        "id": "culture",
+        "title": "Culture & the wider world",
+        "desc": "Independent identity, language choice and intercultural understanding.",
+        "sections": [
+          [
+            "Cultural direction",
+            "A shared public culture should allow different forms of expression. Language, art, music and everyday life can connect people without requiring conformity to a single model of identity."
+          ],
+          [
+            "Languages and exchange",
+            "The educational proposal includes at least two languages with meaningful individual choice. Comparative study of languages and societies, including sociolinguistics, can support international understanding."
+          ],
+          [
+            "Discovery and the environment",
+            "Travel, natural landscapes and encounters with other societies inform this cultural outlook. Environmental awareness and time for recreation belong in a conception of a good life. National festivals, heritage designations, official languages and geographical details are not established in this edition."
+          ]
+        ]
+      },
+      {
+        "id": "governance",
+        "title": "Public policy & accountability",
+        "desc": "Evidence, practical implementation and the capacity to revise decisions.",
+        "sections": [
+          [
+            "Decision approach",
+            "Define the problem, identify constraints, compare options and examine likely outcomes. Technical quality and ambitious goals should be accompanied by attention to the people affected by a decision."
+          ],
+          [
+            "Proposed safeguards",
+            "Pilot programmes, published reasoning and opportunities for review would help prevent overplanning and rigid performance targets from narrowing individual choice. These safeguards are proposed design responses, not descriptions of existing institutions."
+          ],
+          [
+            "Review and revision",
+            "Plans should remain open to adjustment when evidence or circumstances change. Success should be assessed through useful outcomes and human wellbeing as well as measurable performance. Constitutional structures, departments and office-holders remain unspecified."
+          ]
+        ]
+      },
+      {
+        "id": "reconstruction",
+        "title": "Post-war development",
+        "desc": "National objectives and the transition towards a sustainable public life.",
+        "sections": [
+          [
+            "Established context",
+            "The national narrative places Senzovia in a post-war period. The completion of its national objectives has not been established. No dates, parties to the conflict or territorial outcomes are added here."
+          ],
+          [
+            "Proposed direction",
+            "Education, scientific capacity, personal freedom and equal opportunity form a proposed basis for the next stage of development. Long-term planning should allow ordinary life, rest and independent interests to flourish."
+          ],
+          [
+            "Information still required",
+            "A reconstruction programme would require a needs assessment, responsible institutions, resources and verifiable milestones. No recovery statistics, expenditure totals or completion rates are presented without an established basis."
+          ]
+        ]
+      }
+    ]
+  },
+  "zh-Hans": {
+    "name": "简体中文",
+    "government": "Senzovia 政府",
+    "portal": "政府信息门户",
+    "nav": [
+      "首页",
+      "国家发展重点",
+      "公开文件",
+      "关于 Senzovia"
+    ],
+    "hero": [
+      "公共事务",
+      "与国家发展"
+    ],
+    "intro": "了解 Senzovia 的国家发展方向，以及教育、科研与公共生活领域的政策构想。",
+    "eyebrow": "SENZOVIA",
+    "explore": "查看国家发展重点",
+    "flagLink": "国家旗帜",
+    "flag": "Senzovia 国旗",
+    "quick": "按主题查阅",
+    "quickIntro": "了解各政策领域的原则、适用范围与拟议发展方向。",
+    "featured": "教育与科研",
+    "featureTitle": "为深入学习与自主探索保留空间。",
+    "featureText": "ESX 教育构想兼顾学术深度、选科自主权与独立科研时间。国籍与家庭收入不应成为获得教育机会的障碍。",
+    "featureLink": "阅读 ESX 框架",
+    "five": "门高中修读科目",
+    "two": "种语言，至少修读",
+    "draftLabel": "拟议框架",
+    "latest": "公开文件选读",
+    "allDocs": "全部公开文件",
+    "read": "阅读文件",
+    "search": "搜索",
+    "searchHint": "搜索政策、教育、国旗等内容…",
+    "results": "搜索结果",
+    "empty": "未找到相关文件，请尝试其他关键词。",
+    "close": "关闭",
+    "menu": "菜单",
+    "language": "语言",
+    "skip": "跳至主要内容",
+    "onPage": "本页目录",
+    "back": "返回发展重点",
+    "download": "下载文本",
+    "print": "打印本页",
+    "updated": "网站版本日期",
+    "date": "2026年10月3日",
+    "status": "文件性质",
+    "proposal": "政策构想",
+    "record": "信息说明",
+    "all": "全部文件",
+    "filter": "筛选公开文件",
+    "count": "份文件",
+    "related": "相关信息",
+    "scope": "发布范围",
+    "scopeText": "政策构想用于说明拟议发展方向，不构成已生效法律、申请资格、财政承诺或已开通的公共服务。",
+    "aboutTitle": "关于 Senzovia",
+    "aboutIntro": "以个人自由、机会平等，以及将知识转化为实际成果的能力为关切的国家建设项目。",
+    "aboutSections": [
+      [
+        "国家背景",
+        "既有国家叙事中的 Senzovia 已进入战后阶段，国家目标仍有待持续实现。本网站不增补未经确定的战争经过、领土安排或重建成果。"
+      ],
+      [
+        "原则与重点",
+        "本网站所呈现的政策方向源于自主选择、平等、严谨学习、科学探索与国际开放的追求。相关内容将这些原则转化为可讨论的政策构想，不将其表述为已经完成的改革。"
+      ],
+      [
+        "文化与认同",
+        "Senzovia 拥有自己的国旗，不以其他国家的旗帜代替。文化发展应为个体表达、语言选择与不同生活方式之间的交流保留空间。"
+      ],
+      [
+        "门户性质",
+        "Senzovia 为架空国家建设项目。本门户以政府信息网站的形式呈现既有设定与拟议政策，不签发法律文件、身份证件或公共补助。本版未载明人口、首都、任职人员或宪制安排。"
+      ]
+    ],
+    "flagIntro": "本页依据提供的参考图像，完整展示国家旗帜。",
+    "flagNotes": [
+      [
+        "参考图像",
+        "旗帜的黑、红、白色构成、两颗星形与中央曲线图形均保留原样。原始图像的宽高比例为 3:2。"
+      ],
+      [
+        "展示与使用",
+        "本门户直接使用原始 JPEG 文件，不裁切、不改色、不重绘，亦不对旗面施加动画。下载文件与原始图像一致。"
+      ],
+      [
+        "象征释义",
+        "本版尚无经确定的颜色、星形或中央图形的正式释义，不擅自赋予其象征含义。"
+      ]
+    ],
+    "original": "下载国旗原图",
+    "viewOriginal": "查看完整原图",
+    "docsIntro": "按文件性质查阅政策构想与信息说明。日期为网站版本日期，不代表立法通过日期。",
+    "priorityIntro": "六个相互关联的发展领域。各项构想分别说明目标、实施思路与有待进一步确定的事项。",
+    "notices": [
+      [
+        "国家旗帜：参考图像与展示规范",
+        "本门户以所提供的国旗原图作为展示依据。"
+      ],
+      [
+        "ESX：选科自主权与科研路径",
+        "兼顾学术深度、自主探索与公平机会的教育构想。"
+      ],
+      [
+        "公开文件的范围与性质",
+        "区分拟议政策与已确定信息，明确公开内容的适用范围。"
+      ]
+    ],
+    "footer": "Senzovia 政府",
+    "footerLine": "国家信息 · 政策方向 · 公开文件",
+    "access": "无障碍访问",
+    "privacy": "隐私说明",
+    "sources": "参考网站",
+    "motionOn": "减少动态效果",
+    "motionOff": "启用动态效果",
+    "top": "返回顶部",
+    "accessText": "本门户提供语义化标题、键盘导航、清晰的焦点提示、跳转至正文的链接、七种语言版本及适合打印的文件页面。动画遵循设备的减少动态效果设置，也可通过本站按钮关闭。可使用浏览器放大文字。本版尚未经独立无障碍审核。",
+    "privacyText": "本网站不提供账户、申请表或付款功能。搜索在浏览器中执行，不向搜索服务提交关键词。语言与动态效果偏好保存在本设备中。网站不包含统计分析或广告脚本；托管服务商可能依其政策处理技术访问记录。外部参考链接指向独立运营的网站。",
+    "sourcesText": "编程前已研究 21 个国家的政府官方网站，比较信息层次、导航、语言与公开文件结构。这些网站仅作为设计参考，不表示认可或隶属关系。同时查阅了 GOV.UK Frontend、USWDS 与 Motion 等开源项目。",
+    "principles": [
+      "个人自主",
+      "机会平等",
+      "知识与探索"
+    ],
+    "topics": [
+      {
+        "id": "education",
+        "title": "教育与学习",
+        "desc": "ESX、选科自主权、科研路径与教育机会。",
+        "sections": [
+          [
+            "政策目标",
+            "建立扎实的学术基础，同时保障开展探索所需的时间与自主权。评价应侧重理解与应用，减少对机械记忆的依赖。"
+          ],
+          [
+            "ESX 拟议结构",
+            "高中阶段拟修读五门科目。科研可作为自愿参加的课后项目，亦可依托所修学术领域，计为第五门正式科目。学生至少学习两种语言，第二语言不必为家庭语言。"
+          ],
+          [
+            "招生与支持",
+            "拟议高中与大学招生不因国籍作区别。大学申请先满足学术要求，再评估其他活动。低收入学生拟自动获得活动资助；资助标准与实施安排仍需进一步确定。"
+          ]
+        ]
+      },
+      {
+        "id": "research",
+        "title": "科学与创新",
+        "desc": "科学探索、软件、人工智能与工程实践。",
+        "sections": [
+          [
+            "政策目标",
+            "将严谨的科学探索与具有实际价值的成果相连接。重点关注软件工程、人工智能、数据科学、物理与机器人，同时重视对人与社会制度的研究。"
+          ],
+          [
+            "科研路径",
+            "支持小型团队研究重要问题、制作可运行的原型并评估成果。拟议学习路径连接理论、实验与产品开发，竞赛或奖项不应成为科研的唯一目的。"
+          ],
+          [
+            "评价与资源",
+            "拟议评价应考虑可复现性、实际价值、局限及社会影响。本版尚未确定项目预算、资助条件或科研机构设置。"
+          ]
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "自由与机会平等",
+        "desc": "个人选择、性别平等与不受先赋条件限制的机会。",
+        "sections": [
+          [
+            "个人自主",
+            "拟议政策尊重个人选择表达方式、兴趣与人生规划的自由。性别期待，以及对家庭或职业道路的既定要求，不应决定个人的发展机会。"
+          ],
+          [
+            "机会平等",
+            "性别平等与反对教育领域的国籍排斥构成本政策方向的重要依据。家庭经济状况不应阻碍科研、学习及其他活动的参与。"
+          ],
+          [
+            "实施事项",
+            "有效保障需要明确程序、可及的复核渠道与充足资源。本构想不宣称权利法案、申诉机构或执行机制已经设立。"
+          ]
+        ]
+      },
+      {
+        "id": "culture",
+        "title": "文化与国际交流",
+        "desc": "独立认同、语言选择与跨文化理解。",
+        "sections": [
+          [
+            "文化方向",
+            "共同的公共文化应容纳不同的表达方式。语言、艺术、音乐与日常生活可以促进交流，而无须要求个体遵从单一的身份范式。"
+          ],
+          [
+            "语言与交流",
+            "教育构想要求至少学习两种语言，同时保障实质性的个人选择。语言与社会的比较研究，包括社会语言学，有助于增进国际理解。"
+          ],
+          [
+            "探索与自然环境",
+            "旅行、自然景观与对不同社会的观察构成这一文化取向的来源。环境意识与休闲时间应纳入对良好生活的理解。国家节日、遗产名录、法定语言与地理资料尚未载明。"
+          ]
+        ]
+      },
+      {
+        "id": "governance",
+        "title": "公共政策与责任",
+        "desc": "证据、实际执行与持续修正决策的能力。",
+        "sections": [
+          [
+            "决策方法",
+            "明确问题，识别限制，比较方案，评估可能结果。技术能力与远大目标应与对政策影响对象的关注相结合。"
+          ],
+          [
+            "拟议保障",
+            "试点、公开论证与复核机会，有助于防止过度规划和僵化绩效目标压缩个体选择。这些保障是拟议的制度设计回应，不是对现行机构的描述。"
+          ],
+          [
+            "评估与调整",
+            "当证据或环境变化时，计划应允许调整。评价成效应同时考虑实际成果、人的生活质量与可衡量的表现。本版尚未确定宪制结构、部门设置或任职人员。"
+          ]
+        ]
+      },
+      {
+        "id": "reconstruction",
+        "title": "战后发展",
+        "desc": "国家目标与可持续公共生活的建设方向。",
+        "sections": [
+          [
+            "已确定背景",
+            "既有国家叙事中的 Senzovia 处于战后阶段，尚未确认国家目标已经实现。本版不补充战争日期、交战方或领土结果。"
+          ],
+          [
+            "拟议发展方向",
+            "教育、科学能力、个人自由与机会平等可作为下一阶段发展的基础。长期规划应为日常生活、休息与独立兴趣的发展留下空间。"
+          ],
+          [
+            "待完善信息",
+            "重建计划仍需需求评估、责任机构、资源安排与可核验的阶段目标。本网站不发布缺乏既定依据的恢复统计、支出金额或完成比例。"
+          ]
+        ]
+      }
+    ]
+  }
+}
