@@ -1,0 +1,53 @@
+name: Deploy Senzovia to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v6
+      - name: Build website
+        run: python3 -X utf8 build.py
+      - name: Verify pages, links, languages and original flag
+        run: python3 -X utf8 verify.py
+      - name: Check JavaScript syntax
+        run: |
+          node --check dist/assets/site.js
+          node --check dist/assets/flag-intro.js
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Prepare project website paths
+        run: |
+          python3 -X utf8 prepare_pages.py
+          node --check dist-pages/assets/site.js
+          node --check dist-pages/assets/flag-intro.js
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist-pages
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
