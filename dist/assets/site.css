@@ -16,3 +16,60 @@ footer{background:#151719;color:#e2e5e7;margin-top:12px;padding-block:48px 24px;
 @media(max-width:410px){.tools{margin-left:auto}.brand strong{font-size:1.32rem}.brand .brand-flag{width:45px;height:30px}.language-control svg{display:none}.language-control select{max-width:99px}.brand small{max-width:175px}.topic-grid{grid-template-columns:1fr}.topic-card{min-height:180px}.principle-strip{grid-template-columns:1fr;gap:10px}.footer-top{flex-direction:column;gap:20px}.hero h1{font-size:2.5rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}::view-transition-old(root),::view-transition-new(root){animation:none!important}}
 @media print{.utility,.site-header,.breadcrumb,.article-aside,footer,.document-actions,.flag-actions,.reading-line,.skip,.related,.motion-toggle{display:none!important}.wrap{width:100%;max-width:none}.page-intro{padding-top:0}.article-grid{display:block;border:0;padding:0}.article-section{break-inside:avoid}.article-body{max-width:none}.scope-note{background:none;border:1px solid #888}.page-intro h1{font-size:28pt}.flag-document{max-width:600px}body{font-size:11pt;color:#000}a{text-decoration:none}}
+.scope-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px 28px;
+    margin-top: 14px;
+}
+
+.scope-actions a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    text-underline-offset: 4px;
+}
+
+.scope-actions a:focus-visible,
+.policy-document a:focus-visible {
+    outline: 3px solid var(--red, #a32d35);
+    outline-offset: 4px;
+}
+
+.policy-back {
+    margin-bottom: 32px;
+}
+
+.policy-document .article-section p + p {
+    margin-top: 1.2em;
+}
+
+.policy-document .article-section {
+    overflow-wrap: anywhere;
+    scroll-margin-top: 32px;
+}
+
+.policy-image {
+    margin: 28px 0;
+}
+
+.policy-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--line, #d7dce0);
+}
+
+.policy-image figcaption {
+    margin-top: 10px;
+    color: var(--muted, #59636b);
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+.policy-pending {
+    margin-bottom: 32px;
+    padding: 24px;
+    background: var(--wash, #f3f4f5);
+}
