@@ -1,0 +1,22 @@
+{
+  "sections": [
+    {
+      "heading": "Chapitre 1 : Objectifs de la politique",
+      "paragraphs": [
+        "Saisir ici le premier paragraphe du texte officiel de ce chapitre.",
+        "Saisir ici le deuxième paragraphe du texte officiel de ce chapitre."
+      ]
+    },
+    {
+      "heading": "Chapitre 2 : Modalités de mise en œuvre de la politique",
+      "paragraphs": [
+        "Saisir ici les modalités précises, le champ d’application et les conditions de mise en œuvre."
+      ],
+      "image": {
+        "src": "/assets/senzovia-flag.jpeg",
+        "alt": "Drapeau de Senzovia",
+        "caption": "Exemple de mise en page d’une image : le drapeau de Senzovia. Avant la publication officielle, remplacer cette image par une illustration en rapport avec ce chapitre ou supprimer cette entrée d’image."
+      }
+    }
+  ]
+}

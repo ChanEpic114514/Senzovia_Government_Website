@@ -1,0 +1,22 @@
+{
+  "sections": [
+    {
+      "heading": "Chapter 1: Policy objectives",
+      "paragraphs": [
+        "Enter the first paragraph of the formal text for this chapter here.",
+        "Enter the second paragraph of the formal text for this chapter here."
+      ]
+    },
+    {
+      "heading": "Chapter 2: Policy arrangements",
+      "paragraphs": [
+        "Enter the specific arrangements, scope of application and implementation conditions here."
+      ],
+      "image": {
+        "src": "/assets/senzovia-flag.jpeg",
+        "alt": "Flag of Senzovia",
+        "caption": "Image layout example: the flag of Senzovia. Before publication, replace this image with an illustration relevant to this chapter, or remove this image entry."
+      }
+    }
+  ]
+}

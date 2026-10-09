@@ -1,0 +1,22 @@
+{
+  "sections": [
+    {
+      "heading": "第一章：政策目標",
+      "paragraphs": [
+        "此處填寫本章第一段正式文本。",
+        "此處填寫本章第二段正式文本。"
+      ]
+    },
+    {
+      "heading": "第二章：政策安排",
+      "paragraphs": [
+        "此處填寫具體安排、適用範圍及實施條件。"
+      ],
+      "image": {
+        "src": "/assets/senzovia-flag.jpeg",
+        "alt": "Senzovia 國旗",
+        "caption": "圖片排版範例：Senzovia 國旗。正式發布前，請換成與本章相關的配圖，或刪除此圖片項。"
+      }
+    }
+  ]
+}

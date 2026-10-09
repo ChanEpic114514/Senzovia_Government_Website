@@ -1,0 +1,22 @@
+{
+  "sections": [
+    {
+      "heading": "Capítulo 1: Objetivos de la política",
+      "paragraphs": [
+        "Introduzca aquí el primer párrafo del texto oficial de este capítulo.",
+        "Introduzca aquí el segundo párrafo del texto oficial de este capítulo."
+      ]
+    },
+    {
+      "heading": "Capítulo 2: Disposiciones para la aplicación de la política",
+      "paragraphs": [
+        "Introduzca aquí las disposiciones específicas, el ámbito de aplicación y las condiciones de ejecución."
+      ],
+      "image": {
+        "src": "/assets/senzovia-flag.jpeg",
+        "alt": "Bandera de Senzovia",
+        "caption": "Ejemplo de disposición de una imagen: la bandera de Senzovia. Antes de la publicación oficial, sustituya esta imagen por una ilustración relacionada con este capítulo o elimine esta entrada de imagen."
+      }
+    }
+  ]
+}
