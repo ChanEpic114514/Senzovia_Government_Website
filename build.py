@@ -1,5 +1,6 @@
 from pathlib import Path
 import json, html, hashlib, re
+from policy_pages import LABELS, render_policy
 
 ROOT = Path(__file__).parent
 OUT = ROOT / 'dist'
@@ -8,6 +9,7 @@ for lang in ['zh-Hant','ja','ko','fr','es']:
     data[lang] = json.loads((ROOT/f'content-{lang}.json').read_text())
 LANGS = ['en','zh-Hans','zh-Hant','ja','ko','fr','es']
 ROUTES = ['home','priorities','publications','about','flag','education','research','rights','culture','governance','reconstruction','scope','accessibility','privacy','references','search']
+ROUTES += [f'{topic["id"]}-full' for topic in data["en"]["topics"]]
 refs = [
  ('United Kingdom','https://www.gov.uk/','Topic-led services; clear separation of policy, guidance and transparency.'),
  ('United States','https://www.usa.gov/','Plain-language task labels and a compact topic directory.'),
@@ -63,13 +65,23 @@ def topic_cards(lang,c):
     return '<div class="topic-grid">'+''.join(f'<a class="topic-card reveal" href="{url(lang,t["id"])}"><span class="card-number">0{i+1}</span><h3>{esc(t["title"])}</h3><p>{esc(t["desc"])}</p><span class="card-rule" aria-hidden="true"></span></a>' for i,t in enumerate(c['topics']))+'</div>'
 def notice_cards(lang,c):
     return '<div class="notice-grid">'+''.join(f'<article class="notice reveal"><div class="notice-meta">{badge(c,"proposal" if i==1 else "record")}<span>2026-10-03</span></div><h3>{link(lang,r,n[0])}</h3><p>{esc(n[1])}</p></article>' for i,(r,n) in enumerate(zip(['flag','education','scope'],c['notices'])))+'</div>'
-def scope_box(lang,c):
-    return f'<aside class="scope-note"><strong>{esc(c["scope"])}</strong><p>{esc(c["scopeText"])}</p>{link(lang,"scope",c["read"])}</aside>'
+def scope_box(lang, c, topic=None):
+    actions = link(lang, "scope", LABELS[lang][0])
+
+    if topic:
+        actions += link(lang, f"{topic}-full", LABELS[lang][1])
+
+    return (
+        f'<aside class="scope-note">'
+        f'<strong>{esc(c["scope"])}</strong>'
+        f'<p>{esc(c["scopeText"])}</p>'
+        f'<div class="scope-actions">{actions}</div></aside>'
+    )
 def sections(c,items):
     return ''.join(f'<section id="section-{i+1}" class="article-section"><span class="section-marker">0{i+1}</span><h2>{esc(h)}</h2><p>{esc(p)}</p></section>' for i,(h,p) in enumerate(items))
-def article(lang,c,title,desc,items,docid,typ='proposal',extra=''):
+def article(lang,c,title,desc,items,docid,typ='proposal',extra='',topic=None):
     toc=''.join(f'<a href="#section-{i+1}"><span>0{i+1}</span>{esc(x[0])}</a>' for i,x in enumerate(items))
-    return intro(lang,c,title,desc,c[typ])+f'''<div class="wrap article-grid"><aside class="article-aside"><div class="toc"><h2>{esc(c['onPage'])}</h2>{toc}<div class="doc-details"><span>{esc(c['status'])}</span>{badge(c,typ)}<span>{esc(c['updated'])}</span><strong>{esc(c['date'])}</strong><span class="doc-code">{docid}</span></div></div></aside><article class="article-body">{extra}{sections(c,items)}{scope_box(lang,c) if typ=='proposal' else ''}<div class="document-actions"><a class="button outline" download href="/assets/documents/{lang}-{docid}.txt">{esc(c['download'])}</a><button class="button outline print-button">{esc(c['print'])}</button></div><div class="related"><h2>{esc(c['related'])}</h2>{link(lang,'publications',c['allDocs'])}{link(lang,'priorities',c['nav'][1])}</div></article></div>'''
+    return intro(lang,c,title,desc,c[typ])+f'''<div class="wrap article-grid"><aside class="article-aside"><div class="toc"><h2>{esc(c['onPage'])}</h2>{toc}<div class="doc-details"><span>{esc(c['status'])}</span>{badge(c,typ)}<span>{esc(c['updated'])}</span><strong>{esc(c['date'])}</strong><span class="doc-code">{docid}</span></div></div></aside><article class="article-body">{extra}{sections(c,items)}{scope_box(lang,c,topic) if typ=='proposal' else ''}<div class="document-actions"><a class="button outline" download href="/assets/documents/{lang}-{docid}.txt">{esc(c['download'])}</a><button class="button outline print-button">{esc(c['print'])}</button></div><div class="related"><h2>{esc(c['related'])}</h2>{link(lang,'publications',c['allDocs'])}{link(lang,'priorities',c['nav'][1])}</div></article></div>'''
 def home(lang,c):
     return f'''<section class="hero"><div class="wrap hero-grid"><div class="hero-copy"><div class="eyebrow">{esc(c['portal'])}</div><h1><span>{esc(c['hero'][0])}</span><span>{esc(c['hero'][1])}</span></h1><p>{esc(c['intro'])}</p>{link(lang,'priorities',c['explore'],'button light')}</div><figure class="hero-flag">{flag(c)}<figcaption><span>SENZOVIA</span>{link(lang,'flag',c['flagLink'])}</figcaption></figure></div><div class="wrap principle-strip">{''.join(f'<span><i aria-hidden="true">0{i+1}</i>{esc(v)}</span>' for i,v in enumerate(c['principles']))}</div></section>
 <section class="wrap section"><div class="section-heading"><div><div class="eyebrow">01 / SENZOVIA</div><h2>{esc(c['quick'])}</h2></div><p>{esc(c['quickIntro'])}</p></div>{topic_cards(lang,c)}</section>
@@ -104,11 +116,32 @@ for lang in LANGS:
     for route in ROUTES:
         title=c['nav'][0]; desc=c['intro']; body=''; items=None; code=None; typ='record'
         if route=='home': body=home(lang,c)
+        elif route.endswith('-full'):
+            topic_id = route.removesuffix('-full')
+            i = next(
+                i for i, t in enumerate(c['topics'])
+                if t['id'] == topic_id
+            )
+            topic = c['topics'][i]
+            title = topic['title'] + ' — ' + LABELS[lang][2]
+            desc = topic['desc']
+
+            full_body, full_text = render_policy(ROOT, lang, topic, c)
+            body = intro(lang, c, title, desc, c['proposal']) + full_body
+
+            search.append({
+                'title': title,
+                'description': desc,
+                'text': full_text,
+                'url': url(lang, route),
+                'type': 'proposal',
+                'code': f'P-{i+1:02}-FULL'
+            })
         elif route=='priorities': title=c['nav'][1];desc=c['priorityIntro'];body=priority(lang,c)
         elif route=='publications': title=c['nav'][2];desc=c['docsIntro'];body=documents(lang,c)
-        elif route in [t['id'] for t in c['topics']]:
+        elif route.removesuffix('-full') in [t['id'] for t in c['topics']]:
             i=next(i for i,t in enumerate(c['topics']) if t['id']==route);t=c['topics'][i]
-            title=t['title'];desc=t['desc'];items=t['sections'];code=f'P-{i+1:02}';typ='proposal';body=article(lang,c,title,desc,items,code)
+            title=t['title'];desc=t['desc'];items=t['sections'];code=f'P-{i+1:02}';typ='proposal';body=article(lang,c,title,desc,items,code,topic=route)
         elif route=='flag':
             title=c['flag'];desc=c['flagIntro'];items=c['flagNotes'];code='N-01'
             extra=f'<figure class="flag-document">{flag(c)}<figcaption>{esc(c["flag"])} · 3:2</figcaption></figure><div class="flag-actions"><a class="button dark" download="Senzovia-flag.jpeg" href="/assets/senzovia-flag.jpeg">{esc(c["original"])}</a><a href="/assets/senzovia-flag.jpeg">{esc(c["viewOriginal"])}</a></div>'
