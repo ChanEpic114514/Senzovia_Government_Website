@@ -52,7 +52,7 @@ def render_policy(root, lang, topic, content):
     rendered = []
     searchable = []
 
-    for number, section in enumerate(sections, 1):
+    def render_section(section, anchor, level=2):
         heading = section["heading"]
         paragraphs = section.get("paragraphs", [])
 
@@ -62,13 +62,6 @@ def render_policy(root, lang, topic, content):
             raise ValueError(
                 f"{source}: paragraphs must be a list of strings"
             )
-
-        anchor = f"policy-section-{number}"
-
-        navigation.append(
-            f'<a href="#{anchor}">'
-            f'<span>{number:02}</span>{escape(heading)}</a>'
-        )
 
         body = "".join(
             f"<p>{escape(paragraph)}</p>"
@@ -107,10 +100,39 @@ def render_policy(root, lang, topic, content):
 
             searchable.extend([alt, caption])
 
-        rendered.append(
-            f'<section class="article-section" id="{anchor}">'
-            f'<h2>{escape(heading)}</h2>{body}</section>'
+        subsections = section.get("subsections", [])
+        if not isinstance(subsections, list) or (subsections and level >= 3):
+            raise ValueError(f"{source}: only one subsection level is supported")
+
+        for child_number, child in enumerate(subsections, 1):
+            body += render_section(child, f"{anchor}-{child_number}", level + 1)
+
+        closing = section.get("closing", [])
+        if not isinstance(closing, list) or not all(isinstance(p, str) for p in closing):
+            raise ValueError(f"{source}: closing must be a list of strings")
+        body += "".join(f"<p>{escape(paragraph)}</p>" for paragraph in closing)
+        searchable.extend(closing)
+
+        section_class = "article-section" if level == 2 else "policy-subsection"
+        return (
+            f'<section class="{section_class}" id="{anchor}">'
+            f'<h{level}>{escape(heading)}</h{level}>{body}</section>'
         )
+
+    for number, section in enumerate(sections, 1):
+        anchor = f"policy-section-{number}"
+        navigation.append(
+            f'<a href="#{anchor}">'
+            f'<span>{number:02}</span>{escape(section["heading"])}</a>'
+        )
+        subsections = section.get("subsections", [])
+        if subsections:
+            links = "".join(
+                f'<li><a href="#{anchor}-{index}">{escape(child["heading"])}</a></li>'
+                for index, child in enumerate(subsections, 1)
+            )
+            navigation.append(f'<ul class="policy-toc-children">{links}</ul>')
+        rendered.append(render_section(section, anchor))
 
     if not sections:
         rendered.append(

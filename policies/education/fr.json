@@ -1,22 +1,340 @@
 {
   "sections": [
     {
-      "heading": "Chapitre 1 : Objectifs de la politique",
+      "heading": "Objectifs de la politique",
       "paragraphs": [
-        "Saisir ici le premier paragraphe du texte officiel de ce chapitre.",
-        "Saisir ici le deuxième paragraphe du texte officiel de ce chapitre."
+        "Le Gouvernement de Senzovia propose la création de l’Education System X (ESX), un cadre national d’éducation complet destiné à promouvoir l’excellence académique, la liberté intellectuelle, l’égalité des chances, le développement individuel et l’apprentissage tout au long de la vie.",
+        "L’ESX vise un système dans lequel la rigueur académique et le bien-être personnel se renforcent mutuellement au lieu de se nuire. L’éducation ne saurait se réduire aux résultats d’examen, à la compétition pour le prestige des établissements ou à la seule préparation à l’emploi. Sa finalité fondamentale est de donner à chacun les connaissances, les capacités de raisonnement, les compétences pratiques, l’autonomie et la curiosité intellectuelle nécessaires pour comprendre le monde, participer utilement à la société et poursuivre ses aspirations.",
+        "Les principaux objectifs de l’ESX sont les suivants :"
+      ],
+      "subsections": [
+        {
+          "heading": "1. Établir l’égalité des chances éducatives pour tous.",
+          "paragraphs": [
+            "L’accès à l’éducation doit être guidé par l’égalité universelle des êtres humains. La nationalité, la citoyenneté, l’appartenance ethnique, le lieu de naissance, le milieu familial et la situation économique ne doivent déterminer ni l’admissibilité académique d’une personne ni les critères d’admission qui lui sont appliqués. Senzovia entend développer un système ouvert à l’international, où les possibilités d’éducation sont réparties selon des principes transparents et équitables."
+          ]
+        },
+        {
+          "heading": "2. Maintenir des exigences académiques élevées en éliminant les pressions éducatives inutiles.",
+          "paragraphs": [
+            "L’ESX doit distinguer les défis académiques intellectuellement féconds des charges excessives, des préparations répétitives aux examens, de la mémorisation mécanique et des compétitions peu utiles à un apprentissage véritable. Il doit préserver un temps d’enseignement suffisant et la profondeur disciplinaire tout en protégeant la santé physique, le bien-être psychologique, les intérêts personnels et le temps des élèves en dehors de l’éducation formelle."
+          ]
+        },
+        {
+          "heading": "3. Privilégier la compréhension, le raisonnement et l’application pratique.",
+          "paragraphs": [
+            "L’enseignement et l’évaluation doivent mettre l’accent sur la compréhension conceptuelle, l’esprit critique, le raisonnement logique, la résolution de problèmes, la créativité et l’application des connaissances à des situations nouvelles. La mémorisation doit se limiter aux savoirs essentiels qui soutiennent une compréhension fluide et une application compétente, plutôt qu’à la reproduction d’explications imposées ou de modèles d’examen."
+          ]
+        },
+        {
+          "heading": "4. Protéger l’indépendance intellectuelle et la liberté de pensée.",
+          "paragraphs": [
+            "L’éducation doit développer l’aptitude à examiner les preuves, évaluer des explications concurrentes, interroger les présupposés et former des jugements indépendants. Les établissements ne doivent pas imposer de conclusions politiques, philosophiques ou idéologiques sur des questions légitimement discutables. Le désaccord respectueux, la recherche intellectuelle et l’examen critique des institutions publiques doivent être reconnus comme des composantes légitimes de l’éducation."
+          ]
+        },
+        {
+          "heading": "5. Permettre une exploration académique réelle et une spécialisation individuelle.",
+          "paragraphs": [
+            "Les élèves doivent pouvoir découvrir de nombreuses disciplines avant de prendre des décisions académiques importantes. Leur liberté de choisir des matières selon leurs intérêts, leurs aptitudes et leurs aspirations doit croître au fil de leur parcours. Les voies éducatives doivent rester suffisamment souples pour permettre des changements d’orientation."
+          ]
+        },
+        {
+          "heading": "6. Promouvoir les compétences multilingues et la compréhension internationale.",
+          "paragraphs": [
+            "L’anglais doit être la langue principale commune de l’éducation. Chaque élève doit apprendre au moins une autre langue, choisie selon ses préférences plutôt que son ascendance ou sa langue familiale. L’éducation multilingue doit favoriser la communication, la compréhension culturelle et la participation aux communautés académiques et professionnelles internationales."
+          ]
+        },
+        {
+          "heading": "7. Intégrer la recherche scientifique, le développement technologique et l’apprentissage appliqué.",
+          "paragraphs": [
+            "Les élèves doivent accéder à de véritables possibilités de recherche, d’expérimentation, d’ingénierie, d’informatique et d’autres formes d’investigation autonome. Les enseignements académique et appliqué doivent être reconnus comme complémentaires dans le développement intellectuel et pratique, sans hiérarchie institutionnelle entre eux."
+          ]
+        },
+        {
+          "heading": "8. Garantir l’autonomie, la dignité et les droits fondamentaux des élèves.",
+          "paragraphs": [
+            "Les établissements doivent respecter les élèves comme des personnes dotées de droits, d’intérêts et de capacités croissantes à décider de manière autonome. Les libertés d’expression, d’association, de réunion pacifique, d’apparence personnelle, de désaccord académique et de participation aux affaires scolaires doivent être protégées, sous réserve des restrictions proportionnées nécessaires à la sécurité, aux droits d’autrui et au bon fonctionnement de l’éducation."
+          ]
+        },
+        {
+          "heading": "9. Établir des évaluations et admissions transparentes fondées sur les compétences.",
+          "paragraphs": [
+            "Les qualifications doivent refléter des niveaux de maîtrise démontrés plutôt que des proportions fixes de candidats. Les admissions doivent distinguer l’admissibilité académique de la capacité d’accueil et ne pas fabriquer de différences artificielles de mérite dans le seul but de répartir des possibilités limitées."
+          ]
+        },
+        {
+          "heading": "10. Faire de l’éducation un soutien au développement humain tout au long de la vie.",
+          "paragraphs": [
+            "Les décisions éducatives de l’enfance ou de l’adolescence ne doivent pas limiter inutilement les perspectives futures. Les élèves doivent accéder à des passerelles, des voies alternatives, la formation continue et la reprise d’études. L’ESX doit reconnaître la continuité du développement intellectuel et la possibilité de faire évoluer ses intérêts et aspirations au cours de la vie."
+          ]
+        }
+      ],
+      "closing": [
+        "Par ces objectifs, Senzovia entend établir un système éducatif fondé sur trois principes :",
+        "Rigueur éducative. Liberté intellectuelle. Égalité des chances."
       ]
     },
     {
-      "heading": "Chapitre 2 : Modalités de mise en œuvre de la politique",
-      "paragraphs": [
-        "Saisir ici les modalités précises, le champ d’application et les conditions de mise en œuvre."
-      ],
-      "image": {
-        "src": "/assets/senzovia-flag.jpeg",
-        "alt": "Drapeau de Senzovia",
-        "caption": "Exemple de mise en page d’une image : le drapeau de Senzovia. Avant la publication officielle, remplacer cette image par une illustration en rapport avec ce chapitre ou supprimer cette entrée d’image."
-      }
+      "heading": "Contenu de la politique",
+      "paragraphs": [],
+      "subsections": [
+        {
+          "heading": "1. Structure nationale de l’éducation",
+          "paragraphs": [
+            "L’ESX doit adopter un cursus préuniversitaire de douze ans : six années d’enseignement primaire, trois de premier cycle du secondaire et trois de second cycle du secondaire.",
+            "Le primaire doit normalement accueillir les enfants d’environ six à douze ans, le premier cycle du secondaire ceux de douze à quinze ans et le second cycle ceux de quinze à dix-huit ans.",
+            "Le système doit progresser des apprentissages fondamentaux et de l’exploration intellectuelle générale vers la spécialisation académique avancée, l’enseignement appliqué et la recherche autonome.",
+            "Le primaire ne doit pas constituer un mécanisme de sélection académique précoce. Le premier cycle du secondaire doit offrir une découverte systématique des disciplines et des choix de matières éclairés. Le second cycle doit proposer des études avancées au moyen de combinaisons individuelles de matières.",
+            "Les établissements de même niveau doivent disposer de ressources publiques, de normes pédagogiques, d’installations et de possibilités globalement comparables. Les différences institutionnelles ne doivent pas être délibérément entretenues pour créer une hiérarchie artificielle de qualité éducative."
+          ]
+        },
+        {
+          "heading": "2. Politique nationale d’éducation linguistique",
+          "paragraphs": [
+            "L’anglais doit être établi comme principale langue commune d’enseignement dans tout le système national.",
+            "Les élèves doivent développer leur maîtrise de l’anglais par un enseignement linguistique formel et son usage continu en mathématiques, sciences, sciences humaines, technologie et dans les autres matières.",
+            "Chaque élève doit apprendre au moins deux langues, dont l’anglais et au moins une langue supplémentaire.",
+            "La langue supplémentaire doit être librement choisie parmi celles proposées par le réseau national d’éducation. Aucune langue particulière ne doit être imposée en raison de l’origine ethnique, de la nationalité, de l’ascendance ou de la langue familiale.",
+            "Les établissements doivent soutenir cet apprentissage par la communication, des apports linguistiques compréhensibles, le développement progressif de la lecture et de l’écriture et des usages authentiques. L’enseignement des langues étrangères ne doit pas reposer principalement sur la mémorisation de terminologie grammaticale ou de listes de mots isolés.",
+            "Les élèves doivent pouvoir apprendre plus de deux langues et changer de langue supplémentaire grâce à des dispositifs de transition appropriés.",
+            "L’usage de langues autres que l’anglais dans les échanges personnels, la vie familiale et les activités culturelles doit être respecté. La désignation de l’anglais comme langue éducative commune ne doit pas imposer une assimilation linguistique ou culturelle."
+          ]
+        },
+        {
+          "heading": "3. Enseignement primaire",
+          "paragraphs": [
+            "Le primaire doit comporter trois étapes : Fondations, pour les première et deuxième années ; Exploration, pour les troisième et quatrième ; et Transition, pour les cinquième et sixième.",
+            "L’étape Fondations doit privilégier les bases de la lecture et de l’écriture, la communication, la compréhension mathématique, la curiosité, les interactions sociales et des habitudes d’apprentissage positives.",
+            "L’étape Exploration doit faire découvrir l’observation scientifique, les phénomènes naturels, les sociétés, l’histoire, la géographie, la technologie, l’expression artistique et l’investigation pratique.",
+            "L’étape Transition doit consolider les capacités académiques essentielles et préparer progressivement à l’enseignement disciplinaire plus systématique du premier cycle du secondaire.",
+            "L’anglais et les mathématiques doivent constituer les principales matières soumises à des examens formels durant tout le primaire.",
+            "L’anglais doit se concentrer sur les compétences pratiques : compréhension écrite, interprétation de l’information, communication claire, écriture fonctionnelle et usage approprié de la langue. La critique littéraire avancée, la rédaction stéréotypée et la mémorisation extensive de termes littéraires ne doivent pas être des composantes obligatoires de l’évaluation primaire.",
+            "Les mathématiques doivent privilégier la compréhension des nombres, l’arithmétique, les fractions, les rapports, la géométrie, l’interprétation des données, l’initiation au raisonnement algébrique et la résolution de problèmes.",
+            "Les sciences, les sciences humaines, les langues supplémentaires, l’informatique, les arts et l’éducation physique doivent rester essentiels, sans être soumis à des examens formels à forts enjeux.",
+            "Ces matières doivent être enseignées par des enquêtes, observations, activités pratiques, discussions, expérimentations et explorations adaptées à l’âge. Les enseignants peuvent fournir des retours descriptifs sur les progrès sans transformer chaque matière en compétition chiffrée.",
+            "Les écoles primaires doivent maintenir des horaires raisonnables et limiter les devoirs répétitifs. Le jeu libre, les loisirs, la vie familiale et les intérêts autonomes doivent être reconnus comme importants pour le développement de l’enfant."
+          ]
+        },
+        {
+          "heading": "4. Passage du primaire au secondaire",
+          "paragraphs": [
+            "L’ESX doit abolir les examens de fin de primaire à forts enjeux utilisés pour sélectionner les élèves à l’entrée du secondaire.",
+            "Les élèves doivent normalement intégrer des établissements polyvalents du premier cycle secondaire selon une répartition géographique raisonnable.",
+            "L’autorité nationale de l’éducation doit chercher à maintenir des ressources et une qualité pédagogique comparables entre établissements, afin de réduire les incitations à la préparation intensive aux examens d’entrée et à la concurrence résidentielle pour certaines écoles.",
+            "Les résultats du primaire peuvent servir à identifier les besoins et à apporter un soutien adapté, mais ne doivent pas devenir un mécanisme de classement académique permanent."
+          ]
+        },
+        {
+          "heading": "5. Premier cycle de l’enseignement secondaire",
+          "paragraphs": [
+            "Le premier cycle doit comprendre trois années d’exploration académique, de choix de matières et de consolidation progressive.",
+            "La première année doit faire découvrir l’anglais, les mathématiques, les langues supplémentaires, la littérature, l’histoire, la géographie, l’économie, la psychologie, la physique, la chimie, la biologie et l’informatique.",
+            "Les matières exploratoires doivent présenter les questions centrales, concepts fondamentaux, méthodes caractéristiques et applications pratiques de chaque discipline, afin de permettre un choix éclairé des études ultérieures.",
+            "La découverte peut être organisée en modules semestriels plutôt qu’en enseignements simultanés de toutes les disciplines sur l’année entière.",
+            "Les évaluations de première année doivent principalement porter sur la compréhension fondamentale et le raisonnement introductif. Elles doivent éclairer l’orientation sans interdire durablement certains choix de matières.",
+            "À partir de la deuxième année, les élèves doivent normalement suivre sept matières principales : anglais, mathématiques, une langue supplémentaire et quatre options librement choisies.",
+            "Les options ne doivent pas être imposées selon des groupes prédéfinis de sciences, de sciences humaines ou de matières techniques.",
+            "En deuxième année, les établissements doivent prévoir quatre occasions de réexaminer et changer les options. Des enseignements de rattrapage et conseils adaptés doivent faciliter ces changements sans perturber inutilement les apprentissages.",
+            "La troisième année doit consolider les matières choisies et préparer à l’examen national de fin du premier cycle secondaire."
+          ]
+        },
+        {
+          "heading": "6. Examen de fin du premier cycle secondaire",
+          "paragraphs": [
+            "Un examen national doit être organisé à la fin du premier cycle et constituer la principale qualification académique d’accès au second cycle.",
+            "Les élèves doivent être évalués dans leurs sept matières principales.",
+            "L’examen doit rester dans les limites d’un programme clairement publié et évaluer la compréhension, les connaissances essentielles, le raisonnement et l’application de principes à des problèmes nouveaux.",
+            "L’évaluation ne doit pas favoriser la reproduction mécanique de corrigés types lorsqu’une autre explication est académiquement exacte et suffisamment justifiée.",
+            "L’autorité nationale des examens doit maintenir des critères transparents, des procédures appropriées d’harmonisation et des standards comparables entre les années."
+          ]
+        },
+        {
+          "heading": "7. Second cycle de l’enseignement secondaire",
+          "paragraphs": [
+            "Le second cycle doit comprendre trois années d’études académiques et appliquées avancées.",
+            "Chaque élève doit choisir exactement cinq matières donnant lieu à une qualification officielle. Leur combinaison doit être déterminée principalement par ses intérêts académiques, ses capacités et ses aspirations.",
+            "Aucune règle générale ne doit imposer un nombre fixe de matières scientifiques, humaines, linguistiques ou appliquées dans ce cursus de cinq matières.",
+            "Les mathématiques approfondies doivent exiger l’étude simultanée des mathématiques. Les matières de recherche doivent reposer sur des fondements disciplinaires appropriés ; les formations pratiques spécialisées peuvent imposer les prérequis nécessaires de sécurité et de compétence.",
+            "Le catalogue national doit inclure mathématiques, mathématiques approfondies, physique, chimie, biologie, sciences de l’environnement, informatique, littérature, histoire, géographie, économie, psychologie, linguistique, sociologie et politique, ainsi que d’autres langues étrangères.",
+            "Les matières appliquées doivent notamment inclure systèmes d’ingénierie, électronique, développement logiciel, architecture et construction, sciences culinaires, pratiques de santé et d’accompagnement, production médiatique, gestion opérationnelle des entreprises et fabrication avancée.",
+            "Les élèves doivent pouvoir combiner matières académiques et appliquées dans le même cursus.",
+            "L’enseignement de l’anglais doit être intégré à son usage académique dans les différentes matières, sans imposer automatiquement une épreuve obligatoire distincte d’anglais.",
+            "Les élèves peuvent suivre des cours complémentaires, conférences, clubs, programmes linguistiques et études autonomes au-delà des cinq matières certifiées. Cela ne doit pas automatiquement créer des qualifications d’examen supplémentaires ni des avantages chiffrés à l’admission."
+          ]
+        },
+        {
+          "heading": "8. Exigences académiques avancées",
+          "paragraphs": [
+            "Les matières du second cycle doivent offrir une profondeur suffisante pour préparer à l’enseignement supérieur, à la recherche autonome, à la spécialisation technique et au développement professionnel.",
+            "Les mathématiques et mathématiques approfondies doivent développer un raisonnement avancé ; les secondes doivent inclure algèbre supérieure, analyse, vecteurs, nombres complexes, bases de l’algèbre linéaire et des équations différentielles, probabilités et statistiques.",
+            "Les sciences naturelles doivent privilégier la compréhension des lois fondamentales, des mécanismes, des méthodes expérimentales, des relations mathématiques et des preuves scientifiques.",
+            "Les sciences humaines et sociales doivent mettre l’accent sur l’analyse des sources, les interprétations concurrentes, les données empiriques, le raisonnement comparatif et l’évaluation des phénomènes sociaux complexes.",
+            "L’informatique et les enseignements informatiques appliqués doivent comprendre une pratique réelle de la programmation, des algorithmes, de la conception de systèmes, du développement logiciel, des tests et de la résolution de problèmes concrets.",
+            "Les élèves doivent acquérir les connaissances disciplinaires essentielles, tout en évitant la mémorisation inutile de longues explications, de dissertations modèles, de structures d’évaluation figées et de vastes collections d’exemples propres aux examens."
+          ]
+        },
+        {
+          "heading": "9. Enseignements académique et appliqué",
+          "paragraphs": [
+            "L’ESX doit proposer un second cycle unifié où coexistent matières académiques et appliquées, sans séparation officielle entre filières académiques supérieures et filières professionnelles dévalorisées.",
+            "Les matières appliquées doivent conserver des objectifs rigoureux, des fondements théoriques adaptés, une pratique encadrée et une évaluation technique authentique.",
+            "Elles peuvent mener à l’université, à l’enseignement supérieur appliqué, à la formation professionnelle, à l’apprentissage, à l’emploi ou à la poursuite d’études.",
+            "Le système ne doit pas présumer que l’université est la seule issue légitime ou souhaitable du secondaire.",
+            "Les parcours académiques et appliqués doivent rester perméables pour permettre l’acquisition des prérequis manquants et les réorientations."
+          ]
+        },
+        {
+          "heading": "10. Recherche des élèves et investigation autonome",
+          "paragraphs": [
+            "Les établissements du second cycle doivent proposer des possibilités volontaires de recherche indépendante et d’investigation académique encadrée.",
+            "La recherche peut être une activité extrascolaire sans occuper l’une des cinq matières officielles.",
+            "Les élèves peuvent aussi choisir une matière de recherche officiellement certifiée, rattachée à une discipline pertinente étudiée simultanément.",
+            "Les possibilités doivent dépasser les sciences de laboratoire pour inclure mathématiques, informatique, sciences humaines et sociales, linguistique et domaines interdisciplinaires.",
+            "Les élèves chercheurs doivent être accompagnés dans la formulation des questions, la revue de littérature, le choix des méthodes, la collecte des preuves, l’analyse des résultats, l’identification des limites et la communication des conclusions.",
+            "L’évaluation doit considérer la qualité du processus, l’originalité du raisonnement, la pertinence méthodologique, la validité des conclusions et la compréhension du travail démontrée par l’élève.",
+            "Rapports, données ou code pertinents, traces du processus et soutenances orales peuvent contribuer à l’évaluation.",
+            "La publication dans une revue, des résultats expérimentaux positifs ou la réussite à des concours externes ne doivent pas déterminer automatiquement la note.",
+            "Les établissements doivent offrir un accès raisonnable à des mentors, équipements, bases de données, logiciels et soutiens institutionnels, sans dépendance aux relations familiales ou aux ressources financières personnelles."
+          ]
+        },
+        {
+          "heading": "11. Évaluation fondée sur les compétences",
+          "paragraphs": [
+            "L’ESX doit adopter une évaluation critériée dans laquelle les notes correspondent à des niveaux de maîtrise définis publiquement.",
+            "La meilleure note ne doit pas être réservée à une proportion prédéterminée de candidats.",
+            "Si tous les candidats démontrent la compétence requise, tous doivent pouvoir obtenir la note correspondante.",
+            "Le cadre national doit utiliser des niveaux de compétence reflétant une maîtrise avancée, forte, solide, élémentaire ou insuffisante.",
+            "Les autorités doivent recourir à des méthodes adaptées d’équivalence statistique, d’expertise, d’harmonisation des corrections et d’assurance qualité pour maintenir une cohérence raisonnable entre les années.",
+            "Les établissements supérieurs doivent normalement utiliser les niveaux officiels de compétence plutôt que de faibles écarts de points bruts pour vérifier le respect des exigences académiques publiées."
+          ]
+        },
+        {
+          "heading": "12. Évaluation et intelligence artificielle",
+          "paragraphs": [
+            "Le système doit reconnaître à la fois l’importance des compétences indépendantes et l’usage éducatif légitime des technologies numériques modernes.",
+            "Les évaluations peuvent relever de trois conditions principales : sans ressources externes, avec ressources autorisées et avec assistance de l’IA.",
+            "Les évaluations sans ressources doivent mesurer les connaissances et le raisonnement démontrés de manière autonome.",
+            "Les évaluations avec ressources peuvent autoriser manuels, documents de référence et autres sources approuvées.",
+            "Les évaluations assistées par l’IA peuvent en permettre l’usage pour rechercher, programmer, rédiger, analyser ou résoudre des problèmes, à condition que l’élève reste responsable de l’évaluation de la fiabilité, de l’exactitude et de l’adéquation du résultat.",
+            "Les établissements doivent vérifier de manière proportionnée la compréhension individuelle et la paternité du travail, notamment par explication orale, tâches surveillées, démonstrations ou examen du processus de recherche.",
+            "La politique ne doit supposer ni qu’il est possible d’exclure totalement l’IA de l’éducation, ni que le simple recours à une assistance technologique prouve une incapacité académique."
+          ]
+        },
+        {
+          "heading": "13. Choix des matières et mobilité académique",
+          "paragraphs": [
+            "Les élèves doivent bénéficier d’occasions structurées d’explorer leurs intérêts avant de choisir des matières spécialisées.",
+            "Les établissements doivent informer sur les contenus, les exigences d’apprentissage, les parcours futurs et les prérequis pertinents.",
+            "Les conseillers doivent soutenir des décisions éclairées sans se substituer au jugement personnel en développement de l’élève.",
+            "Ceux qui souhaitent ensuite accéder à un domaine sans préparation suffisante doivent pouvoir suivre des passerelles, cours intensifs, examens de compétence ou formations préparatoires adaptés.",
+            "Les décisions académiques prises à l’adolescence ne doivent pas devenir des obstacles inutilement irréversibles à la poursuite des études."
+          ]
+        },
+        {
+          "heading": "14. Droits des élèves et liberté sur les campus",
+          "paragraphs": [
+            "L’ESX doit établir un cadre national protégeant les droits fondamentaux et la dignité des élèves.",
+            "Les élèves doivent jouir des libertés d’expression, de désaccord académique, de réunion pacifique, d’association et de participation à des organisations étudiantes.",
+            "Ils peuvent créer des clubs, publier des médias, critiquer les politiques éducatives, présenter des pétitions et mener des actions pacifiques sur la gouvernance scolaire et les questions sociales plus larges.",
+            "Les choix raisonnables de coiffure, couleur de cheveux, apparence, relations personnelles et expression individuelle doivent normalement être respectés.",
+            "Les établissements peuvent limiter ces libertés lorsque cela est nécessaire pour protéger la sécurité, la vie privée, les droits d’autrui ou l’efficacité de l’enseignement. Ces restrictions doivent poursuivre un but légitime et rester proportionnées.",
+            "La gestion ordinaire des classes et les consignes raisonnables de sécurité demeurent applicables.",
+            "Les décisions disciplinaires graves et les restrictions substantielles de droits doivent suivre des procédures transparentes et disposer de voies appropriées de réexamen indépendant."
+          ]
+        },
+        {
+          "heading": "15. Bien-être et conditions d’apprentissage",
+          "paragraphs": [
+            "L’éducation formelle doit offrir suffisamment d’enseignement sans occuper inutilement toute la vie quotidienne des élèves.",
+            "Le second cycle doit normalement prévoir environ vingt-huit à trente heures d’enseignement hebdomadaire, incluant les cinq matières principales et les activités scolaires complémentaires essentielles.",
+            "Le programme national doit être géré dans une enveloppe horaire définie. Toute nouvelle obligation d’apprentissage doit prendre en compte ses effets sur le temps existant et la charge des élèves.",
+            "Les établissements doivent éviter les devoirs répétitifs et les préparations aux examens dont l’intérêt éducatif est limité.",
+            "Le repos, les loisirs, les projets personnels, les activités culturelles et les relations sociales doivent être reconnus comme des éléments légitimes de la vie des élèves.",
+            "Les difficultés d’assiduité, de motivation, d’organisation ou de progression doivent conduire à un accompagnement gradué plutôt qu’à des restrictions permanentes automatiques."
+          ]
+        },
+        {
+          "heading": "16. Éducation inclusive et soutien individuel",
+          "paragraphs": [
+            "Les établissements doivent apporter un soutien adapté aux élèves en situation de handicap, présentant des différences neurodéveloppementales, des difficultés spécifiques d’apprentissage ou d’autres besoins éducatifs individuels.",
+            "Ce soutien peut comprendre accessibilité des locaux, technologies d’assistance, enseignement spécialisé, aménagements raisonnables des examens, organisation individualisée des apprentissages et autres moyens appropriés de démontrer les compétences.",
+            "L’objectif doit être une participation réelle et une évaluation équitable des aptitudes pertinentes, plutôt que des procédures identiques imposées indépendamment des situations personnelles.",
+            "Les élèves défavorisés économiquement doivent pouvoir bénéficier d’une aide pour les nécessités de la participation éducative : supports, transport, repas, hébergement le cas échéant, technologie et possibilités académiques ou extrascolaires.",
+            "L’admissibilité aux aides fondées sur les besoins doit être déterminée par des critères transparents de situation financière, non par la nationalité."
+          ]
+        },
+        {
+          "heading": "17. Admission au second cycle secondaire",
+          "paragraphs": [
+            "L’admission doit reposer sur des exigences académiques publiées et des procédures transparentes d’affectation.",
+            "Les élèves satisfaisant au niveau requis doivent être considérés comme académiquement admissibles au programme concerné.",
+            "Si les candidatures admissibles dépassent les places, les autorités doivent d’abord examiner l’augmentation des capacités, une meilleure répartition des ressources et des solutions comparables.",
+            "Un système coordonné d’admission et d’appariement des préférences doit chercher à affecter les candidats qualifiés à des établissements adaptés en respectant leurs choix déclarés.",
+            "Si les capacités restent insuffisantes entre candidats également qualifiés, une répartition aléatoire transparente peut servir de mécanisme de dernier recours.",
+            "Les seuils académiques ne doivent pas être artificiellement relevés dans le seul but de préserver l’exclusivité d’un établissement ou un taux d’admission fixé à l’avance."
+          ]
+        },
+        {
+          "heading": "18. Admission universitaire et accès à l’enseignement supérieur",
+          "paragraphs": [
+            "L’admission universitaire doit normalement comporter deux étapes principales.",
+            "La première doit établir l’admissibilité académique selon les prérequis disciplinaires et compétences annoncés publiquement.",
+            "Les candidats ne satisfaisant pas aux prérequis indispensables ne doivent pas accéder à la sélection globale ordinaire uniquement grâce à des réalisations extrascolaires.",
+            "La seconde doit évaluer l’adéquation des candidats qualifiés au moyen de preuves pertinentes d’engagement intellectuel, d’investigation autonome, de réalisations pratiques, de développement personnel et d’autres caractéristiques adaptées au programme.",
+            "Recherche, activités extrascolaires, emploi, responsabilités familiales et apprentissage autonome peuvent constituer des preuves lorsqu’ils témoignent d’un engagement ou d’une capacité significatifs.",
+            "Les autorités doivent éviter les barèmes mécaniques fondés sur le nombre d’activités, de certificats, de titres de responsabilité ou de publications.",
+            "Lorsque les candidats satisfaisant aux critères dépassent les capacités, des mécanismes transparents d’appariement et d’affectation institutionnels peuvent être employés.",
+            "Le système national doit chercher à proposer une diversité suffisante de formations universitaires, appliquées, professionnelles et alternatives rigoureuses, sans faire de l’admission dans un établissement prestigieux particulier l’unique mesure de réussite."
+          ]
+        },
+        {
+          "heading": "19. Égalité internationale en matière d’éducation",
+          "paragraphs": [
+            "Senzovia doit poursuivre des admissions académiques indépendantes de la nationalité dans le second cycle secondaire et l’enseignement supérieur.",
+            "Aucun candidat ne doit bénéficier d’un traitement préférentiel ou défavorable pour la seule raison de sa citoyenneté, nationalité, naissance ou situation migratoire.",
+            "Tous les candidats d’un même programme doivent être évalués selon les mêmes normes académiques publiées et critères de sélection pertinents.",
+            "Les informations administratives nécessaires à l’immigration, au logement ou à d’autres fins licites doivent, autant que possible, être traitées séparément de l’évaluation académique.",
+            "Les quotas par nationalité et les préférences automatiques de citoyenneté ne doivent pas figurer dans le cadre proposé de sélection académique de l’ESX.",
+            "Senzovia doit chercher à élargir l’accès par la coopération internationale, les campus à l’étranger, les établissements partenaires et des systèmes compatibles de qualifications.",
+            "L’égalité d’admissibilité n’implique pas une capacité illimitée ; si les demandes dépassent les places, la répartition doit être transparente et non discriminatoire."
+          ]
+        },
+        {
+          "heading": "20. Accessibilité financière et coopération éducative internationale",
+          "paragraphs": [
+            "Le Gouvernement doit chercher à empêcher que le revenu familial prive une personne qualifiée de l’accès à une possibilité éducative pour laquelle elle a été sélectionnée.",
+            "Les aides doivent être réparties selon les besoins démontrés et les coûts réels de participation.",
+            "Elles peuvent couvrir frais de scolarité, hébergement, repas, transport, équipements académiques, matériel de recherche et participation nécessaire aux activités éducatives.",
+            "La coopération internationale peut être soutenue par les finances publiques, dotations institutionnelles, contributions philanthropiques, partenariats et un Fonds mondial pour l’éducation proposé.",
+            "Les financements doivent être conçus pour rester durables sans introduire de discrimination académique liée à la nationalité.",
+            "La collaboration internationale doit aussi soutenir les échanges scientifiques, le renforcement des capacités éducatives et la circulation volontaire des connaissances et des compétences."
+          ]
+        },
+        {
+          "heading": "21. Développement des enseignants et ressources éducatives",
+          "paragraphs": [
+            "La qualité de l’ESX doit reposer sur un corps enseignant très compétent et soutenu professionnellement.",
+            "La formation doit privilégier les savoirs disciplinaires, l’efficacité pédagogique, la psychologie de l’éducation, l’évaluation équitable, le développement des élèves et l’accompagnement de l’investigation autonome.",
+            "Les enseignants doivent bénéficier de formations adaptées, de charges raisonnables et de ressources pédagogiques.",
+            "Les obligations administratives doivent être simplifiées autant que possible pour concentrer le temps professionnel sur l’enseignement, les retours, le mentorat, les programmes et l’amélioration éducative.",
+            "Les enseignants doivent bénéficier de dignité professionnelle, de liberté académique légitime, de protections de l’emploi appropriées et de procédures transparentes de réclamation et d’examen professionnel.",
+            "Les autorités doivent réduire les disparités scolaires par des financements équitables, des équipements spécialisés partagés, la collaboration, l’enseignement à distance lorsqu’il convient et une offre coordonnée de matières."
+          ]
+        },
+        {
+          "heading": "22. Gouvernance, responsabilité et amélioration continue",
+          "paragraphs": [
+            "Le Gouvernement doit établir des dispositifs transparents de planification, de définition des standards, de supervision des établissements et d’évaluation indépendante.",
+            "L’évaluation doit faire l’objet d’un contrôle professionnel et de garanties contre les changements arbitraires de niveaux de notes, l’ingérence politique et les conflits d’intérêts institutionnels.",
+            "Les droits des élèves doivent être soutenus par des procédures de plainte accessibles et impartiales.",
+            "La politique doit être revue périodiquement avec les contributions des enseignants, élèves, familles, universités, chercheurs, experts professionnels et institutions publiques concernées.",
+            "Les revues doivent examiner réussite académique, compréhension conceptuelle, bien-être, temps d’apprentissage, dépendance au soutien privé, inégalités socioéconomiques, accès à la recherche, disponibilité des combinaisons de matières et charge des enseignants.",
+            "Les réformes majeures des programmes ou évaluations doivent considérer leurs avantages éducatifs, leurs besoins financiers, leurs effets administratifs et leurs conséquences sur les possibilités des élèves.",
+            "L’ESX doit rester révisable si des preuves crédibles montrent que certaines dispositions sont inefficaces, inéquitables ou incompatibles avec ses principes fondateurs.",
+            "Sa mesure ultime ne doit pas être seulement le classement aux examens ou le prestige institutionnel, mais sa capacité à permettre à chacun d’acquérir de véritables connaissances, d’exercer un jugement indépendant, d’accéder à des possibilités significatives et de vivre avec liberté, dignité et sens."
+          ]
+        }
+      ]
     }
   ]
 }

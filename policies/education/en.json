@@ -1,22 +1,340 @@
 {
   "sections": [
     {
-      "heading": "Chapter 1: Policy objectives",
+      "heading": "Policy Objectives",
       "paragraphs": [
-        "Enter the first paragraph of the formal text for this chapter here.",
-        "Enter the second paragraph of the formal text for this chapter here."
+        "The Government of Senzovia proposes the establishment of Education System X (ESX), a comprehensive national education framework designed to promote academic excellence, intellectual freedom, equal opportunity, individual development, and lifelong learning.",
+        "ESX seeks to establish an education system in which academic rigour and personal well-being reinforce rather than undermine one another. Education shall not be reduced to examination performance, competition for institutional prestige, or preparation for employment alone. Its fundamental purpose is to equip individuals with the knowledge, reasoning abilities, practical skills, independence, and intellectual curiosity necessary to understand the world, participate meaningfully in society, and pursue their own aspirations.",
+        "The principal objectives of ESX are as follows:"
+      ],
+      "subsections": [
+        {
+          "heading": "1. Establish equal educational opportunities for all individuals.",
+          "paragraphs": [
+            "Access to education shall be guided by universal human equality. Nationality, citizenship, ethnicity, place of birth, family background, and economic circumstances shall not determine an individual's academic eligibility or institutional admission standards. Senzovia seeks to develop an internationally accessible education system in which educational opportunities are allocated according to transparent and equitable principles."
+          ]
+        },
+        {
+          "heading": "2. Maintain high academic standards while eliminating unnecessary educational pressure.",
+          "paragraphs": [
+            "ESX shall distinguish intellectually valuable academic challenges from excessive workloads, repetitive examination preparation, mechanical memorisation, and competition that contributes little to genuine learning. The system shall preserve sufficient instructional time and disciplinary depth while protecting students' physical health, psychological well-being, personal interests, and time outside formal education."
+          ]
+        },
+        {
+          "heading": "3. Prioritise understanding, reasoning, and practical application.",
+          "paragraphs": [
+            "Teaching and assessment shall emphasise conceptual understanding, critical thinking, logical reasoning, problem-solving, creativity, and the ability to apply knowledge in unfamiliar situations. Memorisation shall be limited to essential knowledge that supports fluent understanding and competent application, rather than the reproduction of prescribed explanations or examination templates."
+          ]
+        },
+        {
+          "heading": "4. Protect intellectual independence and freedom of thought.",
+          "paragraphs": [
+            "Education shall develop students' ability to examine evidence, evaluate competing explanations, question assumptions, and form independent judgements. Schools shall not require adherence to prescribed political, philosophical, or ideological conclusions on genuinely contestable questions. Respectful disagreement, academic inquiry, and critical examination of public institutions shall be recognised as legitimate parts of education."
+          ]
+        },
+        {
+          "heading": "5. Enable meaningful academic exploration and individual specialisation.",
+          "paragraphs": [
+            "Students shall have opportunities to encounter a broad range of disciplines before making consequential academic choices. As they progress through the education system, they shall gain increasing freedom to select subjects according to their interests, abilities, and aspirations. Educational pathways shall remain sufficiently flexible to accommodate changes in academic direction."
+          ]
+        },
+        {
+          "heading": "6. Promote multilingual competence and international understanding.",
+          "paragraphs": [
+            "English shall serve as the common primary language of education. Every student shall learn at least one additional language, selected according to individual preference rather than ancestry or family language. Multilingual education shall promote communication, cultural understanding, and participation in international academic and professional communities."
+          ]
+        },
+        {
+          "heading": "7. Integrate scientific research, technological development, and applied learning.",
+          "paragraphs": [
+            "Students shall have access to authentic research opportunities, practical experimentation, engineering, computing, and other forms of independent investigation. Academic and applied education shall be recognised as complementary forms of intellectual and practical development, without establishing an institutional hierarchy between them."
+          ]
+        },
+        {
+          "heading": "8. Safeguard student autonomy, dignity, and fundamental rights.",
+          "paragraphs": [
+            "Schools shall respect students as individuals possessing rights, interests, and developing capacities for independent decision-making. Freedom of expression, association, peaceful assembly, personal appearance, academic disagreement, and participation in school affairs shall be protected, subject to proportionate restrictions necessary for safety, the rights of others, and the effective functioning of education."
+          ]
+        },
+        {
+          "heading": "9. Establish transparent and competency-based assessment and admissions.",
+          "paragraphs": [
+            "Academic qualifications shall reflect demonstrated standards of mastery rather than fixed percentages of examination candidates. Admissions procedures shall distinguish academic eligibility from institutional capacity and shall not manufacture artificial differences in merit solely to distribute scarce opportunities."
+          ]
+        },
+        {
+          "heading": "10. Ensure that education supports human development throughout life.",
+          "paragraphs": [
+            "Educational decisions made during childhood or adolescence shall not unnecessarily restrict future opportunities. Students shall have access to academic bridging, alternative pathways, further education, and opportunities for renewed study. ESX shall recognise that intellectual development is continuous and that individuals may change their interests and aspirations throughout their lives."
+          ]
+        }
+      ],
+      "closing": [
+        "Through these objectives, Senzovia seeks to establish an education system founded upon three principles:",
+        "Rigorous Education. Intellectual Freedom. Equal Opportunity."
       ]
     },
     {
-      "heading": "Chapter 2: Policy arrangements",
-      "paragraphs": [
-        "Enter the specific arrangements, scope of application and implementation conditions here."
-      ],
-      "image": {
-        "src": "/assets/senzovia-flag.jpeg",
-        "alt": "Flag of Senzovia",
-        "caption": "Image layout example: the flag of Senzovia. Before publication, replace this image with an illustration relevant to this chapter, or remove this image entry."
-      }
+      "heading": "Policy Content",
+      "paragraphs": [],
+      "subsections": [
+        {
+          "heading": "1. National Educational Structure",
+          "paragraphs": [
+            "ESX shall adopt a twelve-year pre-university education framework consisting of six years of primary education, three years of lower secondary education, and three years of upper secondary education.",
+            "Primary education shall ordinarily serve children aged approximately six to twelve, lower secondary education those aged approximately twelve to fifteen, and upper secondary education those aged approximately fifteen to eighteen.",
+            "The system shall progressively develop from foundational learning and broad intellectual exploration towards advanced academic specialisation, applied education, and independent research.",
+            "Primary education shall not function as an early academic selection mechanism. Lower secondary education shall provide systematic exposure to academic disciplines and opportunities for informed subject selection. Upper secondary education shall provide advanced study through individually selected subject combinations.",
+            "Schools at equivalent educational levels shall be provided with broadly comparable public resources, instructional standards, facilities, and opportunities. Institutional differences shall not be deliberately maintained to create an artificial hierarchy of educational quality."
+          ]
+        },
+        {
+          "heading": "2. National Language Education Policy",
+          "paragraphs": [
+            "English shall be established as the common primary language of instruction throughout the national education system.",
+            "Students shall develop English proficiency through formal language education and its continuous use across mathematics, science, humanities, technology, and other subjects.",
+            "Every student shall learn at least two languages, including English and at least one additional language.",
+            "The additional language shall be freely selected from the languages made available through the national education network. Students shall not be required to study a particular language on the basis of their ethnicity, nationality, ancestry, or the language spoken by their family.",
+            "Schools shall support the learning of additional languages through communication, comprehensible input, progressive literacy development, and authentic language use. The teaching of foreign languages shall not rely primarily on the memorisation of grammatical terminology or isolated vocabulary lists.",
+            "Students shall be permitted to study more than two languages and to change their additional language through appropriate bridging arrangements.",
+            "The use of languages other than English in personal communication, family life, and cultural activities shall be respected. The designation of English as the common educational language shall not constitute a requirement for linguistic or cultural assimilation."
+          ]
+        },
+        {
+          "heading": "3. Primary Education",
+          "paragraphs": [
+            "Primary education shall be divided into three developmental stages: Foundation, comprising Primary Years 1 and 2; Exploration, comprising Primary Years 3 and 4; and Transition, comprising Primary Years 5 and 6.",
+            "The Foundation stage shall emphasise basic literacy, communication, mathematical understanding, curiosity, social interaction, and the development of positive learning habits.",
+            "The Exploration stage shall introduce students to scientific observation, natural phenomena, societies, history, geography, technology, artistic expression, and practical investigation.",
+            "The Transition stage shall consolidate essential academic abilities and gradually prepare students for the more systematic disciplinary education provided at lower secondary level.",
+            "English and Mathematics shall constitute the principal formally examined academic subjects throughout primary education.",
+            "English education shall concentrate on practical language competence, including reading comprehension, information interpretation, clear communication, functional writing, and appropriate language use. Advanced literary criticism, formulaic composition, and extensive memorisation of literary terminology shall not be compulsory components of primary assessment.",
+            "Mathematics shall emphasise numerical understanding, arithmetic, fractions, ratios, geometry, data interpretation, introductory algebraic reasoning, and problem-solving.",
+            "Science, humanities, additional languages, computing, arts, and physical education shall remain essential components of primary education but shall not be subject to high-stakes formal examinations.",
+            "These subjects shall be taught through age-appropriate inquiry, observation, practical activities, discussion, experimentation, and exploration. Teachers may provide descriptive feedback on students' progress without converting every subject into a numerical competition.",
+            "Primary schools shall maintain reasonable instructional hours and minimise repetitive homework. Unstructured play, recreation, family life, and independent interests shall be recognised as important elements of childhood development."
+          ]
+        },
+        {
+          "heading": "4. Primary-to-Secondary Transition",
+          "paragraphs": [
+            "ESX shall abolish high-stakes primary school leaving examinations used for academic selection into secondary schools.",
+            "Students shall ordinarily enter comprehensive lower secondary schools according to reasonable geographical arrangements.",
+            "The national education authority shall seek to maintain comparable educational resources and instructional quality among schools, thereby reducing incentives for intensive primary school entrance preparation and residential competition for particular institutions.",
+            "Primary academic results may be used to identify learning needs and provide suitable support, but shall not constitute a mechanism for permanent academic classification."
+          ]
+        },
+        {
+          "heading": "5. Lower Secondary Education",
+          "paragraphs": [
+            "Lower secondary education shall comprise three years of progressive academic exploration, subject selection, and consolidation.",
+            "During the first year, students shall encounter a broad range of academic disciplines, including English, Mathematics, additional languages, Literature, History, Geography, Economics, Psychology, Physics, Chemistry, Biology, and Computer Science.",
+            "Exploratory subjects shall introduce their central questions, foundational concepts, characteristic methods, and practical applications. Their purpose shall be to enable students to understand what each discipline involves before selecting subjects for further study.",
+            "Subject exposure may be organised through semester-based modules rather than requiring all disciplines to be taught simultaneously throughout the entire year.",
+            "First-year assessments shall primarily evaluate foundational understanding and introductory reasoning. Results shall inform academic guidance without permanently restricting future subject choices.",
+            "From the second year onwards, students shall ordinarily pursue seven principal academic subjects, consisting of English, Mathematics, one additional language, and four freely selected electives.",
+            "Students shall not be required to select electives from predetermined science, humanities, or technical subject groups.",
+            "During the second year, schools shall provide four scheduled opportunities for students to reconsider and change their elective subjects. Appropriate bridging instruction and academic guidance shall facilitate such changes without unnecessarily disrupting learning.",
+            "The third year shall consolidate the selected subjects and prepare students for the national lower secondary graduation examination."
+          ]
+        },
+        {
+          "heading": "6. Lower Secondary Graduation Examination",
+          "paragraphs": [
+            "A national examination shall be conducted at the conclusion of lower secondary education and shall constitute the principal academic qualification for entry into upper secondary education.",
+            "Students shall be assessed in their seven principal academic subjects.",
+            "Examination content shall remain within a clearly published syllabus and shall evaluate demonstrated understanding, essential knowledge, reasoning, and the application of principles to unfamiliar problems.",
+            "Assessment shall not reward the mechanical reproduction of model answers when an alternative explanation is academically accurate and sufficiently justified.",
+            "The national examination authority shall maintain transparent assessment criteria, appropriate moderation procedures, and comparable standards between examination years."
+          ]
+        },
+        {
+          "heading": "7. Upper Secondary Education",
+          "paragraphs": [
+            "Upper secondary education shall consist of three years of advanced academic and applied study.",
+            "Each student shall select exactly five formally credentialed subjects. Subject combinations shall be determined primarily by individual academic interests, capabilities, and future aspirations.",
+            "No general requirement shall compel students to include a fixed number of science, humanities, language, or applied subjects in their five-subject programme.",
+            "Further Mathematics shall require concurrent study of Mathematics. Research subjects shall require an appropriate disciplinary foundation, while specialised practical courses may impose necessary safety and competency prerequisites.",
+            "The national upper secondary subject catalogue shall include Mathematics, Further Mathematics, Physics, Chemistry, Biology, Environmental Science, Computer Science, Literature, History, Geography, Economics, Psychology, Linguistics, Sociology and Politics, and additional foreign languages.",
+            "Applied subjects shall include areas such as Engineering Systems, Electronics, Software Development, Architecture and Construction, Culinary Science, Health and Care Practice, Media Production, Business Operations, and Advanced Manufacturing.",
+            "Students shall be permitted to combine academic and applied subjects within the same programme.",
+            "Upper secondary English instruction shall be integrated into the wider use of academic English across subjects rather than automatically requiring a separate compulsory English examination subject.",
+            "Students may participate in supplementary courses, academic lectures, clubs, language programmes, and independent study beyond their five formally credentialed subjects. Such participation shall not automatically create additional examination credentials or numerical admissions advantages."
+          ]
+        },
+        {
+          "heading": "8. Advanced Academic Standards",
+          "paragraphs": [
+            "Upper secondary subjects shall provide sufficient depth to prepare students for higher education, independent research, technical specialisation, and professional development.",
+            "Mathematics and Further Mathematics shall develop advanced mathematical reasoning, with Further Mathematics incorporating higher algebra, calculus, vectors, complex numbers, foundations of linear algebra and differential equations, probability, and statistics.",
+            "Natural science courses shall prioritise understanding of fundamental laws, mechanisms, experimental methods, mathematical relationships, and scientific evidence.",
+            "Humanities and social science subjects shall emphasise source analysis, competing interpretations, empirical evidence, comparative reasoning, and the evaluation of complex social phenomena.",
+            "Computer Science and applied computing courses shall involve authentic programming, algorithms, system design, software development, testing, and practical problem-solving.",
+            "Students shall be expected to acquire essential disciplinary knowledge while avoiding unnecessary memorisation of lengthy explanations, model essays, fixed evaluation structures, and extensive collections of examination-specific examples."
+          ]
+        },
+        {
+          "heading": "9. Academic and Applied Education",
+          "paragraphs": [
+            "ESX shall operate a unified upper secondary framework in which academic and applied subjects coexist without formal separation into higher-status academic streams and lower-status vocational streams.",
+            "Applied subjects shall maintain rigorous learning outcomes, appropriate theoretical foundations, supervised practical training, and authentic technical assessment.",
+            "Students may progress from these subjects into universities, applied higher education institutions, professional training, apprenticeships, employment, or further study.",
+            "The education system shall not assume that university attendance is the only legitimate or desirable outcome of secondary education.",
+            "Academic and applied pathways shall remain permeable, allowing individuals to acquire missing prerequisites and change direction."
+          ]
+        },
+        {
+          "heading": "10. Student Research and Independent Inquiry",
+          "paragraphs": [
+            "Upper secondary schools shall provide opportunities for voluntary independent research and supervised academic investigation.",
+            "Research may be undertaken as an extracurricular activity without occupying one of the five formal subjects.",
+            "Alternatively, students may elect a formally credentialed research subject associated with a relevant academic discipline studied concurrently.",
+            "Research opportunities shall extend beyond laboratory sciences to mathematics, computing, humanities, social sciences, linguistics, and interdisciplinary fields.",
+            "Students undertaking research shall receive guidance in formulating research questions, reviewing relevant literature, selecting methods, collecting evidence, analysing findings, identifying limitations, and communicating conclusions.",
+            "Formal research assessment shall consider the quality of the research process, originality of reasoning, methodological appropriateness, validity of conclusions, and the student's demonstrated understanding of the work.",
+            "Research reports, relevant data or code, process records, and oral defences may form part of the assessment.",
+            "Publication in an academic journal, positive experimental findings, or success in external competitions shall not automatically determine the grade awarded.",
+            "Schools shall provide reasonable access to research mentors, equipment, databases, software, and institutional support without requiring students to rely on family connections or personal financial resources."
+          ]
+        },
+        {
+          "heading": "11. Competency-Based Assessment",
+          "paragraphs": [
+            "ESX shall adopt a criterion-referenced assessment system in which grades correspond to publicly defined levels of academic mastery.",
+            "The award of the highest grade shall not be restricted to a predetermined percentage of candidates.",
+            "Where all candidates demonstrate the required level of competence, all shall be eligible to receive the corresponding grade.",
+            "The national assessment framework shall use competency bands reflecting advanced, strong, secure, basic, and insufficient levels of mastery.",
+            "Examination authorities shall employ appropriate statistical equating, expert review, marking moderation, and examination quality assurance to maintain reasonably consistent standards across different years.",
+            "Higher education institutions shall ordinarily use official competency grades rather than minor differences in raw examination marks when determining whether published academic requirements have been satisfied."
+          ]
+        },
+        {
+          "heading": "12. Assessment and Artificial Intelligence",
+          "paragraphs": [
+            "The assessment system shall recognise both the importance of independent competence and the legitimate educational use of modern digital technologies.",
+            "Assessments may be conducted under three principal conditions: closed-resource assessment, permitted-resource assessment, and AI-assisted assessment.",
+            "Closed-resource assessments shall evaluate knowledge and reasoning demonstrated independently by the student.",
+            "Permitted-resource assessments may allow access to textbooks, reference materials, or other authorised information sources.",
+            "AI-assisted assessments may permit the use of artificial intelligence for research, programming, drafting, analysis, or problem-solving, provided that the student remains responsible for evaluating the reliability, accuracy, and suitability of the resulting work.",
+            "Schools shall adopt proportionate methods of verifying individual understanding and authorship, including oral explanation, supervised tasks, demonstrations, or examination of the research process.",
+            "Assessment policy shall not assume that artificial intelligence can be entirely excluded from education, nor that the mere use of technological assistance demonstrates academic incompetence."
+          ]
+        },
+        {
+          "heading": "13. Student Subject Choice and Academic Mobility",
+          "paragraphs": [
+            "Students shall receive structured opportunities to explore academic interests before selecting specialised subjects.",
+            "Schools shall provide information about subject content, learning requirements, future educational pathways, and relevant prerequisites.",
+            "Academic advisors shall support informed decision-making without replacing the student's own developing judgement.",
+            "Students who later wish to enter a field for which they lack the necessary preparation shall have access to appropriate bridging programmes, intensive courses, competency examinations, or foundation study.",
+            "Academic decisions made during adolescence shall not become unnecessarily irreversible barriers to future education."
+          ]
+        },
+        {
+          "heading": "14. Student Rights and Campus Freedom",
+          "paragraphs": [
+            "ESX shall establish a national framework protecting the fundamental rights and dignity of students.",
+            "Students shall enjoy freedom of expression, academic disagreement, peaceful assembly, association, and participation in student organisations.",
+            "Students may establish clubs, publish student media, criticise educational policies, present petitions, and participate in peaceful advocacy concerning school governance and wider social issues.",
+            "Reasonable personal choices concerning hairstyle, hair colour, appearance, personal relationships, and individual expression shall ordinarily be respected.",
+            "Schools may impose restrictions where necessary to protect safety, privacy, the rights of others, or the effective delivery of education. Such restrictions shall pursue legitimate purposes and remain proportionate to the circumstances.",
+            "Ordinary classroom management and reasonable safety instructions shall remain enforceable.",
+            "Serious disciplinary decisions and substantial restrictions of student rights shall be subject to transparent procedures and appropriate avenues of independent review."
+          ]
+        },
+        {
+          "heading": "15. Student Welfare and Learning Conditions",
+          "paragraphs": [
+            "Formal education shall provide sufficient academic instruction without unnecessarily occupying students' entire daily lives.",
+            "Upper secondary instructional time shall ordinarily be designed around approximately twenty-eight to thirty hours per week, including the five principal subjects and essential supplementary school activities.",
+            "The national curriculum shall be managed within a defined time budget. Proposals to introduce additional compulsory learning requirements shall account for their effect on existing instructional time and student workload.",
+            "Schools shall avoid repetitive homework and examination preparation that produces limited educational benefit.",
+            "Rest, recreation, personal projects, cultural activities, and social relationships shall be recognised as legitimate elements of student life.",
+            "Students experiencing difficulties with attendance, motivation, organisation, or academic progress shall be offered graduated guidance and support rather than automatically being subjected to permanent restrictions."
+          ]
+        },
+        {
+          "heading": "16. Inclusive Education and Individual Support",
+          "paragraphs": [
+            "Educational institutions shall provide appropriate support for students with disabilities, neurodevelopmental differences, specific learning difficulties, and other individual educational needs.",
+            "Such support may include accessible facilities, assistive technology, specialist instruction, reasonable examination accommodations, individualised learning arrangements, and alternative methods of demonstrating competence where appropriate.",
+            "The objective shall be meaningful educational participation and fair assessment of relevant abilities, rather than the imposition of identical procedures regardless of individual circumstances.",
+            "Students from economically disadvantaged backgrounds shall have access to assistance covering necessary educational participation, including learning materials, transportation, meals, accommodation where applicable, technology, and academic or extracurricular opportunities.",
+            "Eligibility for needs-based educational support shall be determined through transparent financial circumstances rather than nationality."
+          ]
+        },
+        {
+          "heading": "17. Upper Secondary Admissions",
+          "paragraphs": [
+            "Admission to upper secondary institutions shall be based upon published academic requirements and transparent allocation procedures.",
+            "Students who satisfy the required academic standards shall be regarded as academically eligible for the corresponding programme.",
+            "Where eligible applications exceed available places, education authorities shall first examine opportunities to expand capacity, improve resource distribution, and provide comparable alternatives.",
+            "A coordinated admissions and preference-matching system shall seek to allocate qualified students to suitable institutions while respecting their stated preferences.",
+            "Where capacity remains insufficient among equally qualified applicants, transparent random allocation may be used as a final mechanism.",
+            "Admission procedures shall not artificially increase academic thresholds solely to maintain institutional exclusivity or a predetermined acceptance rate."
+          ]
+        },
+        {
+          "heading": "18. University Admissions and Higher Education Access",
+          "paragraphs": [
+            "University admission shall ordinarily consist of two principal stages.",
+            "The first stage shall establish academic eligibility according to publicly stated subject prerequisites and competency requirements.",
+            "Applicants who do not satisfy the required academic prerequisites shall not advance to the ordinary holistic selection stage solely on the basis of extracurricular achievements.",
+            "The second stage shall assess the suitability of academically qualified applicants through relevant evidence of intellectual engagement, independent inquiry, practical achievement, personal development, and other characteristics appropriate to the programme.",
+            "Research, extracurricular activities, employment, family responsibilities, and independent learning may constitute relevant evidence where they demonstrate meaningful commitment or capability.",
+            "Admissions authorities shall avoid mechanical scoring based on the number of activities, certificates, leadership titles, or publications.",
+            "Where the number of applicants satisfying the relevant selection criteria exceeds available capacity, transparent institutional matching and allocation mechanisms may be employed.",
+            "The national higher education system shall seek to provide a sufficient range of academically rigorous university, applied, professional, and alternative educational opportunities without treating attendance at a particular prestigious institution as the sole measure of success."
+          ]
+        },
+        {
+          "heading": "19. International Educational Equality",
+          "paragraphs": [
+            "Senzovia shall pursue nationality-blind academic admissions throughout its upper secondary and higher education systems.",
+            "Applicants shall not receive preferential or adverse academic treatment solely because of citizenship, nationality, place of birth, or immigration background.",
+            "All applicants to a given programme shall be evaluated against the same published academic standards and relevant selection criteria.",
+            "Administrative information required for immigration, accommodation, or other lawful purposes shall be handled separately from academic merit assessment wherever practicable.",
+            "Nationality-based admission quotas and automatic citizenship preferences shall not form part of the proposed ESX academic selection framework.",
+            "Senzovia shall seek to expand access through international educational cooperation, overseas campuses, partner institutions, and compatible qualification systems.",
+            "Equal eligibility shall not imply unlimited institutional capacity; where applications exceed places, allocation shall follow transparent and nondiscriminatory procedures."
+          ]
+        },
+        {
+          "heading": "20. Financial Accessibility and International Educational Cooperation",
+          "paragraphs": [
+            "The Government shall seek to ensure that family income does not prevent academically qualified individuals from accessing educational opportunities for which they are selected.",
+            "Financial assistance shall be allocated according to demonstrated need and the actual costs of educational participation.",
+            "Assistance may cover tuition, accommodation, meals, transport, academic equipment, research materials, and necessary participation in educational activities.",
+            "International educational cooperation may be supported through public finance, institutional endowments, philanthropic contributions, partnerships, and a proposed Global Education Endowment.",
+            "Funding arrangements shall be designed to remain sustainable without introducing nationality-based academic discrimination.",
+            "International collaboration shall also support scientific exchange, educational capacity building, and the voluntary international circulation of knowledge and expertise."
+          ]
+        },
+        {
+          "heading": "21. Teacher Development and Educational Resources",
+          "paragraphs": [
+            "The quality of ESX shall depend upon a highly capable, professionally supported teaching workforce.",
+            "Teacher preparation shall emphasise disciplinary knowledge, effective instruction, educational psychology, fair assessment, student development, and the ability to facilitate independent inquiry.",
+            "Teachers shall be provided with appropriate professional development, reasonable workloads, and access to teaching resources.",
+            "Administrative requirements shall be simplified wherever possible so that professional time can be concentrated on instruction, feedback, mentoring, curriculum development, and educational improvement.",
+            "Teachers shall enjoy professional dignity, legitimate academic freedom, appropriate employment protections, and transparent procedures for grievances and professional review.",
+            "Public authorities shall work to reduce disparities between schools through equitable funding, shared specialist facilities, teacher collaboration, remote instruction where suitable, and coordinated subject provision."
+          ]
+        },
+        {
+          "heading": "22. Educational Governance, Accountability, and Continuous Improvement",
+          "paragraphs": [
+            "The Government shall establish transparent arrangements for educational planning, standards, institutional oversight, and independent evaluation.",
+            "The assessment system shall be subject to professional scrutiny and safeguards against arbitrary changes to grade standards, political interference, and institutional conflicts of interest.",
+            "Student rights protections shall be supported by accessible and impartial complaint procedures.",
+            "Educational policy shall undergo periodic review informed by teachers, students, families, universities, researchers, professional experts, and relevant public institutions.",
+            "Reviews shall consider academic achievement, conceptual understanding, student well-being, learning time, private tutoring dependence, socioeconomic inequality, access to research, the availability of subject combinations, and teacher workload.",
+            "Significant curriculum or assessment reforms shall be accompanied by consideration of their educational benefits, financial requirements, administrative effects, and consequences for student opportunity.",
+            "ESX shall remain open to revision where credible evidence demonstrates that particular arrangements are ineffective, inequitable, or inconsistent with its founding principles.",
+            "The ultimate measure of the system shall not be examination rankings or institutional prestige alone, but whether it enables individuals to develop genuine knowledge, exercise independent judgement, access meaningful opportunities, and live with freedom, dignity, and purpose."
+          ]
+        }
+      ]
     }
   ]
 }

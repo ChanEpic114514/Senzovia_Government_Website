@@ -1,22 +1,340 @@
 {
   "sections": [
     {
-      "heading": "Capítulo 1: Objetivos de la política",
+      "heading": "Objetivos de la política",
       "paragraphs": [
-        "Introduzca aquí el primer párrafo del texto oficial de este capítulo.",
-        "Introduzca aquí el segundo párrafo del texto oficial de este capítulo."
+        "El Gobierno de Senzovia propone establecer el Education System X (ESX), un marco educativo nacional integral destinado a promover la excelencia académica, la libertad intelectual, la igualdad de oportunidades, el desarrollo individual y el aprendizaje permanente.",
+        "El ESX busca un sistema en el que el rigor académico y el bienestar personal se refuercen mutuamente en lugar de perjudicarse. La educación no debe reducirse al rendimiento en los exámenes, a la competencia por el prestigio institucional ni exclusivamente a la preparación para el empleo. Su propósito fundamental es dotar a las personas de los conocimientos, el razonamiento, las habilidades prácticas, la independencia y la curiosidad intelectual necesarios para comprender el mundo, participar de forma significativa en la sociedad y perseguir sus propias aspiraciones.",
+        "Los principales objetivos del ESX son los siguientes:"
+      ],
+      "subsections": [
+        {
+          "heading": "1. Establecer oportunidades educativas iguales para todas las personas.",
+          "paragraphs": [
+            "El acceso a la educación deberá regirse por la igualdad humana universal. La nacionalidad, la ciudadanía, el origen étnico, el lugar de nacimiento, los antecedentes familiares y la situación económica no deberán determinar la elegibilidad académica ni los criterios de admisión aplicables a una persona. Senzovia aspira a desarrollar un sistema accesible internacionalmente que distribuya las oportunidades mediante principios transparentes y equitativos."
+          ]
+        },
+        {
+          "heading": "2. Mantener altos estándares académicos y eliminar las presiones educativas innecesarias.",
+          "paragraphs": [
+            "El ESX deberá distinguir los desafíos académicos de valor intelectual de las cargas excesivas, la preparación repetitiva de exámenes, la memorización mecánica y la competencia que aporta poco al aprendizaje real. Preservará suficiente tiempo de enseñanza y profundidad disciplinaria, protegiendo la salud física, el bienestar psicológico, los intereses personales y el tiempo del alumnado fuera de la educación formal."
+          ]
+        },
+        {
+          "heading": "3. Priorizar la comprensión, el razonamiento y la aplicación práctica.",
+          "paragraphs": [
+            "La enseñanza y la evaluación deberán destacar la comprensión conceptual, el pensamiento crítico, el razonamiento lógico, la resolución de problemas, la creatividad y la aplicación del conocimiento en situaciones desconocidas. La memorización se limitará a los conocimientos esenciales que permiten una comprensión fluida y una aplicación competente, y no a reproducir explicaciones prescritas o plantillas de examen."
+          ]
+        },
+        {
+          "heading": "4. Proteger la independencia intelectual y la libertad de pensamiento.",
+          "paragraphs": [
+            "La educación deberá desarrollar la capacidad de examinar pruebas, evaluar explicaciones contrapuestas, cuestionar supuestos y formar juicios independientes. Los centros no exigirán adhesión a conclusiones políticas, filosóficas o ideológicas prescritas sobre cuestiones legítimamente discutibles. El desacuerdo respetuoso, la indagación académica y el examen crítico de las instituciones públicas serán partes legítimas de la educación."
+          ]
+        },
+        {
+          "heading": "5. Permitir una exploración académica significativa y una especialización individual.",
+          "paragraphs": [
+            "El alumnado deberá conocer una amplia variedad de disciplinas antes de tomar decisiones académicas trascendentes. A medida que avance, tendrá mayor libertad para elegir asignaturas según sus intereses, capacidades y aspiraciones. Los itinerarios mantendrán suficiente flexibilidad para admitir cambios de orientación."
+          ]
+        },
+        {
+          "heading": "6. Promover la competencia multilingüe y la comprensión internacional.",
+          "paragraphs": [
+            "El inglés será la lengua principal común de la educación. Cada estudiante aprenderá al menos otra lengua, elegida por preferencia individual y no por ascendencia o lengua familiar. La educación multilingüe promoverá la comunicación, la comprensión cultural y la participación en comunidades académicas y profesionales internacionales."
+          ]
+        },
+        {
+          "heading": "7. Integrar investigación científica, desarrollo tecnológico y aprendizaje aplicado.",
+          "paragraphs": [
+            "El alumnado tendrá acceso a investigación auténtica, experimentación práctica, ingeniería, informática y otras formas de indagación independiente. La educación académica y la aplicada se reconocerán como formas complementarias de desarrollo intelectual y práctico, sin establecer una jerarquía institucional entre ellas."
+          ]
+        },
+        {
+          "heading": "8. Salvaguardar la autonomía, la dignidad y los derechos fundamentales del alumnado.",
+          "paragraphs": [
+            "Los centros respetarán al alumnado como personas con derechos, intereses y capacidades crecientes de decisión independiente. Se protegerán las libertades de expresión, asociación, reunión pacífica, apariencia personal, discrepancia académica y participación en los asuntos escolares, con las restricciones proporcionadas necesarias para la seguridad, los derechos ajenos y el funcionamiento eficaz de la educación."
+          ]
+        },
+        {
+          "heading": "9. Establecer evaluaciones y admisiones transparentes basadas en competencias.",
+          "paragraphs": [
+            "Las cualificaciones reflejarán estándares demostrados de dominio, no porcentajes fijos de examinados. Los procedimientos distinguirán la elegibilidad académica de la capacidad institucional y no crearán diferencias artificiales de mérito con el único fin de repartir oportunidades escasas."
+          ]
+        },
+        {
+          "heading": "10. Garantizar que la educación apoye el desarrollo humano durante toda la vida.",
+          "paragraphs": [
+            "Las decisiones educativas de la infancia o adolescencia no deberán limitar innecesariamente las oportunidades futuras. Habrá acceso a nivelación académica, itinerarios alternativos, formación continua y reincorporación al estudio. El ESX reconocerá la continuidad del desarrollo intelectual y la posibilidad de cambiar de intereses y aspiraciones a lo largo de la vida."
+          ]
+        }
+      ],
+      "closing": [
+        "Mediante estos objetivos, Senzovia busca establecer un sistema basado en tres principios:",
+        "Educación rigurosa. Libertad intelectual. Igualdad de oportunidades."
       ]
     },
     {
-      "heading": "Capítulo 2: Disposiciones para la aplicación de la política",
-      "paragraphs": [
-        "Introduzca aquí las disposiciones específicas, el ámbito de aplicación y las condiciones de ejecución."
-      ],
-      "image": {
-        "src": "/assets/senzovia-flag.jpeg",
-        "alt": "Bandera de Senzovia",
-        "caption": "Ejemplo de disposición de una imagen: la bandera de Senzovia. Antes de la publicación oficial, sustituya esta imagen por una ilustración relacionada con este capítulo o elimine esta entrada de imagen."
-      }
+      "heading": "Contenido de la política",
+      "paragraphs": [],
+      "subsections": [
+        {
+          "heading": "1. Estructura educativa nacional",
+          "paragraphs": [
+            "El ESX adoptará una estructura preuniversitaria de doce años: seis de primaria, tres de secundaria inferior y tres de secundaria superior.",
+            "La primaria atenderá normalmente a edades aproximadas de seis a doce años; la secundaria inferior, de doce a quince; y la superior, de quince a dieciocho.",
+            "El sistema avanzará progresivamente desde el aprendizaje fundamental y la exploración intelectual amplia hacia la especialización académica avanzada, la educación aplicada y la investigación independiente.",
+            "La primaria no funcionará como mecanismo de selección académica temprana. La secundaria inferior ofrecerá una introducción sistemática a las disciplinas y oportunidades de elección informada. La superior proporcionará estudios avanzados mediante combinaciones individuales de asignaturas.",
+            "Los centros del mismo nivel tendrán recursos públicos, estándares docentes, instalaciones y oportunidades ampliamente comparables. No se mantendrán diferencias deliberadamente para crear una jerarquía artificial de calidad educativa."
+          ]
+        },
+        {
+          "heading": "2. Política nacional de educación lingüística",
+          "paragraphs": [
+            "El inglés se establecerá como principal lengua común de enseñanza en todo el sistema nacional.",
+            "Su dominio se desarrollará mediante enseñanza lingüística formal y uso continuado en matemáticas, ciencias, humanidades, tecnología y otras materias.",
+            "Cada estudiante aprenderá al menos dos lenguas, entre ellas inglés y como mínimo una adicional.",
+            "La lengua adicional se elegirá libremente entre las disponibles en la red educativa nacional. No se exigirá una lengua concreta por origen étnico, nacionalidad, ascendencia o idioma familiar.",
+            "Los centros apoyarán este aprendizaje mediante comunicación, aportaciones lingüísticas comprensibles, desarrollo progresivo de la lectura y escritura y uso auténtico. La enseñanza de lenguas extranjeras no dependerá principalmente de memorizar terminología gramatical o listas de vocabulario aislado.",
+            "Se permitirá estudiar más de dos lenguas y cambiar la adicional mediante mecanismos adecuados de nivelación.",
+            "Se respetará el uso de otras lenguas en la comunicación personal, la vida familiar y las actividades culturales. Designar el inglés como lengua educativa común no impondrá asimilación lingüística ni cultural."
+          ]
+        },
+        {
+          "heading": "3. Educación primaria",
+          "paragraphs": [
+            "La primaria se dividirá en tres etapas: Fundamentos, en los cursos primero y segundo; Exploración, en tercero y cuarto; y Transición, en quinto y sexto.",
+            "Fundamentos destacará alfabetización básica, comunicación, comprensión matemática, curiosidad, interacción social y hábitos positivos de aprendizaje.",
+            "Exploración introducirá observación científica, fenómenos naturales, sociedades, historia, geografía, tecnología, expresión artística e indagación práctica.",
+            "Transición consolidará las capacidades académicas esenciales y preparará gradualmente para la enseñanza disciplinaria más sistemática de la secundaria inferior.",
+            "Inglés y Matemáticas serán las principales asignaturas sometidas a exámenes formales durante toda la primaria.",
+            "El inglés se centrará en la competencia práctica: comprensión lectora, interpretación de información, comunicación clara, escritura funcional y uso adecuado. La crítica literaria avanzada, la composición estereotipada y la memorización extensa de términos literarios no serán componentes obligatorios de la evaluación primaria.",
+            "Las matemáticas priorizarán comprensión numérica, aritmética, fracciones, razones, geometría, interpretación de datos, razonamiento algebraico inicial y resolución de problemas.",
+            "Ciencias, humanidades, lenguas adicionales, informática, artes y educación física seguirán siendo esenciales, pero no estarán sujetas a exámenes formales de consecuencias decisivas.",
+            "Estas materias se enseñarán mediante indagación, observación, actividades prácticas, debate, experimentación y exploración apropiadas para la edad. El profesorado podrá ofrecer comentarios descriptivos sin convertir todas las materias en una competición numérica.",
+            "Las escuelas mantendrán horarios razonables y minimizarán los deberes repetitivos. El juego libre, el ocio, la vida familiar y los intereses independientes se reconocerán como elementos importantes del desarrollo infantil."
+          ]
+        },
+        {
+          "heading": "4. Transición de primaria a secundaria",
+          "paragraphs": [
+            "El ESX abolirá los exámenes de final de primaria de consecuencias decisivas utilizados para la selección académica en secundaria.",
+            "El alumnado ingresará normalmente en centros integrales de secundaria inferior según una organización geográfica razonable.",
+            "La autoridad nacional procurará mantener recursos y calidad docente comparables, reduciendo los incentivos para la preparación intensiva de pruebas de ingreso y la competencia residencial por determinados centros.",
+            "Los resultados de primaria podrán identificar necesidades y orientar apoyos, pero no constituirán un mecanismo de clasificación académica permanente."
+          ]
+        },
+        {
+          "heading": "5. Secundaria inferior",
+          "paragraphs": [
+            "La secundaria inferior comprenderá tres años de exploración académica, elección de materias y consolidación progresivas.",
+            "En el primer año se conocerán inglés, matemáticas, lenguas adicionales, literatura, historia, geografía, economía, psicología, física, química, biología y ciencias de la computación.",
+            "Las materias exploratorias presentarán las preguntas centrales, los conceptos fundamentales, los métodos característicos y las aplicaciones de cada disciplina, para comprenderla antes de elegir estudios posteriores.",
+            "La introducción podrá organizarse por módulos semestrales, sin exigir que todas las disciplinas se impartan simultáneamente durante el año entero.",
+            "Las evaluaciones del primer año medirán principalmente comprensión fundamental y razonamiento introductorio. Orientarán el asesoramiento sin restringir permanentemente las elecciones futuras.",
+            "Desde el segundo año se cursarán normalmente siete materias principales: inglés, matemáticas, una lengua adicional y cuatro optativas de libre elección.",
+            "No se exigirá elegir optativas dentro de grupos predeterminados de ciencias, humanidades o materias técnicas.",
+            "Durante el segundo año habrá cuatro oportunidades programadas para reconsiderar y cambiar optativas. La nivelación y orientación adecuadas facilitarán los cambios sin interrupciones innecesarias del aprendizaje.",
+            "El tercer año consolidará las materias elegidas y preparará para el examen nacional de final de secundaria inferior."
+          ]
+        },
+        {
+          "heading": "6. Examen de final de secundaria inferior",
+          "paragraphs": [
+            "Al finalizar esta etapa se realizará un examen nacional que constituirá la principal cualificación académica de acceso a la secundaria superior.",
+            "Se evaluarán las siete materias principales.",
+            "El examen se limitará a un programa claramente publicado y evaluará comprensión demostrada, conocimientos esenciales, razonamiento y aplicación de principios a problemas desconocidos.",
+            "No se premiará la reproducción mecánica de respuestas modelo cuando una explicación alternativa sea académicamente correcta y esté suficientemente justificada.",
+            "La autoridad nacional mantendrá criterios transparentes, procedimientos adecuados de moderación y estándares comparables entre convocatorias anuales."
+          ]
+        },
+        {
+          "heading": "7. Secundaria superior",
+          "paragraphs": [
+            "La secundaria superior consistirá en tres años de estudios académicos y aplicados avanzados.",
+            "Cada estudiante elegirá exactamente cinco asignaturas con acreditación oficial. La combinación dependerá principalmente de sus intereses académicos, capacidades y aspiraciones futuras.",
+            "Ninguna regla general impondrá un número fijo de asignaturas científicas, humanísticas, lingüísticas o aplicadas dentro de las cinco.",
+            "Matemáticas Avanzadas requerirá cursar Matemáticas simultáneamente. Las materias de investigación exigirán fundamentos disciplinarios adecuados; los cursos prácticos especializados podrán imponer requisitos necesarios de seguridad y competencia.",
+            "El catálogo nacional incluirá Matemáticas, Matemáticas Avanzadas, Física, Química, Biología, Ciencias Ambientales, Ciencias de la Computación, Literatura, Historia, Geografía, Economía, Psicología, Lingüística, Sociología y Política, y otras lenguas extranjeras.",
+            "Las asignaturas aplicadas abarcarán Sistemas de Ingeniería, Electrónica, Desarrollo de Software, Arquitectura y Construcción, Ciencia Culinaria, Prácticas de Salud y Cuidados, Producción de Medios, Operaciones Empresariales y Fabricación Avanzada.",
+            "Se permitirá combinar materias académicas y aplicadas dentro del mismo programa.",
+            "La enseñanza del inglés se integrará en el uso del inglés académico en todas las materias, sin exigir automáticamente una asignatura examinable de inglés obligatoria y separada.",
+            "Se podrá participar en cursos complementarios, conferencias, clubes, programas lingüísticos y estudio independiente más allá de las cinco asignaturas acreditadas. Esto no generará automáticamente credenciales de examen adicionales ni ventajas numéricas en la admisión."
+          ]
+        },
+        {
+          "heading": "8. Estándares académicos avanzados",
+          "paragraphs": [
+            "Las materias de secundaria superior ofrecerán profundidad suficiente para preparar para educación superior, investigación independiente, especialización técnica y desarrollo profesional.",
+            "Matemáticas y Matemáticas Avanzadas desarrollarán razonamiento avanzado; la segunda incluirá álgebra superior, cálculo, vectores, números complejos, fundamentos de álgebra lineal y ecuaciones diferenciales, probabilidad y estadística.",
+            "Las ciencias naturales priorizarán comprender leyes fundamentales, mecanismos, métodos experimentales, relaciones matemáticas y pruebas científicas.",
+            "Humanidades y ciencias sociales destacarán análisis de fuentes, interpretaciones contrapuestas, evidencia empírica, razonamiento comparativo y evaluación de fenómenos sociales complejos.",
+            "Las ciencias de la computación y la informática aplicada incluirán programación real, algoritmos, diseño de sistemas, desarrollo de software, pruebas y resolución práctica de problemas.",
+            "Se adquirirán conocimientos disciplinarios esenciales evitando memorizar innecesariamente explicaciones extensas, ensayos modelo, estructuras fijas de evaluación y amplias colecciones de ejemplos específicos de examen."
+          ]
+        },
+        {
+          "heading": "9. Educación académica y aplicada",
+          "paragraphs": [
+            "El ESX operará un marco unificado de secundaria superior donde coexistan materias académicas y aplicadas, sin separación formal entre vías académicas de mayor estatus y vías profesionales de menor estatus.",
+            "Las materias aplicadas mantendrán resultados de aprendizaje rigurosos, fundamentos teóricos adecuados, prácticas supervisadas y evaluación técnica auténtica.",
+            "Desde estas materias se podrá acceder a universidades, instituciones superiores aplicadas, formación profesional, aprendizaje laboral, empleo o estudios posteriores.",
+            "El sistema no supondrá que la universidad sea el único resultado legítimo o deseable de la secundaria.",
+            "Las vías académicas y aplicadas permanecerán permeables, permitiendo adquirir requisitos faltantes y cambiar de orientación."
+          ]
+        },
+        {
+          "heading": "10. Investigación estudiantil e indagación independiente",
+          "paragraphs": [
+            "Los centros de secundaria superior ofrecerán investigación independiente voluntaria e indagación académica supervisada.",
+            "La investigación podrá realizarse como actividad extracurricular sin ocupar una de las cinco asignaturas oficiales.",
+            "También podrá elegirse una asignatura de investigación acreditada y vinculada a una disciplina pertinente cursada simultáneamente.",
+            "Las oportunidades irán más allá de las ciencias de laboratorio e incluirán matemáticas, informática, humanidades, ciencias sociales, lingüística y campos interdisciplinarios.",
+            "Se orientará al alumnado investigador en la formulación de preguntas, revisión bibliográfica, elección de métodos, recogida de pruebas, análisis de resultados, identificación de límites y comunicación de conclusiones.",
+            "La evaluación formal considerará calidad del proceso, originalidad del razonamiento, adecuación metodológica, validez de las conclusiones y comprensión demostrada por el estudiante.",
+            "Podrán evaluarse informes, datos o código pertinentes, registros del proceso y defensas orales.",
+            "La publicación en revistas, los resultados experimentales positivos o el éxito en concursos externos no determinarán automáticamente la calificación.",
+            "Los centros proporcionarán acceso razonable a mentores, equipos, bases de datos, software y apoyo institucional sin exigir dependencia de contactos familiares o recursos económicos personales."
+          ]
+        },
+        {
+          "heading": "11. Evaluación basada en competencias",
+          "paragraphs": [
+            "El ESX adoptará una evaluación referida a criterios, con calificaciones correspondientes a niveles de dominio definidos públicamente.",
+            "La nota máxima no quedará restringida a un porcentaje predeterminado de candidatos.",
+            "Si todos demuestran el nivel requerido, todos podrán recibir la calificación correspondiente.",
+            "El marco nacional utilizará niveles de competencia que reflejen dominio avanzado, alto, sólido, básico e insuficiente.",
+            "Las autoridades emplearán equiparación estadística adecuada, revisión experta, moderación de correcciones y garantía de calidad para mantener estándares razonablemente coherentes entre años.",
+            "Las instituciones superiores utilizarán normalmente calificaciones oficiales de competencia, en lugar de diferencias menores de puntuación bruta, para verificar los requisitos académicos publicados."
+          ]
+        },
+        {
+          "heading": "12. Evaluación e inteligencia artificial",
+          "paragraphs": [
+            "El sistema reconocerá tanto la importancia de la competencia independiente como el uso educativo legítimo de las tecnologías digitales modernas.",
+            "Las evaluaciones podrán realizarse en tres condiciones principales: sin recursos externos, con recursos permitidos y con asistencia de IA.",
+            "Las evaluaciones sin recursos medirán los conocimientos y el razonamiento que el estudiante demuestra independientemente.",
+            "Las evaluaciones con recursos podrán permitir libros de texto, materiales de consulta y otras fuentes autorizadas.",
+            "Las evaluaciones con IA podrán autorizar su uso en investigación, programación, redacción, análisis o resolución de problemas, siempre que el estudiante siga siendo responsable de evaluar la fiabilidad, exactitud y adecuación del resultado.",
+            "Los centros verificarán proporcionalmente la comprensión individual y la autoría mediante explicaciones orales, tareas supervisadas, demostraciones o revisión del proceso investigador.",
+            "La política no supondrá que la IA pueda excluirse totalmente de la educación ni que usar asistencia tecnológica demuestre por sí solo incapacidad académica."
+          ]
+        },
+        {
+          "heading": "13. Elección de materias y movilidad académica",
+          "paragraphs": [
+            "Se proporcionarán oportunidades estructuradas para explorar intereses antes de elegir asignaturas especializadas.",
+            "Los centros informarán sobre contenidos, exigencias de aprendizaje, itinerarios futuros y requisitos previos pertinentes.",
+            "Los orientadores apoyarán decisiones informadas sin sustituir el juicio propio del estudiante en desarrollo.",
+            "Quienes deseen posteriormente acceder a un campo sin preparación suficiente tendrán acceso a nivelación, cursos intensivos, exámenes de competencia o estudios preparatorios adecuados.",
+            "Las decisiones académicas de la adolescencia no deberán convertirse en barreras innecesariamente irreversibles para la educación futura."
+          ]
+        },
+        {
+          "heading": "14. Derechos del alumnado y libertad en los centros",
+          "paragraphs": [
+            "El ESX establecerá un marco nacional que proteja los derechos fundamentales y la dignidad del alumnado.",
+            "Se garantizarán libertades de expresión, discrepancia académica, reunión pacífica, asociación y participación en organizaciones estudiantiles.",
+            "El alumnado podrá crear clubes, publicar medios, criticar políticas educativas, presentar peticiones y promover pacíficamente posiciones sobre gobierno escolar y asuntos sociales más amplios.",
+            "Se respetarán normalmente las decisiones razonables sobre peinado, color del cabello, apariencia, relaciones personales y expresión individual.",
+            "Los centros podrán restringir derechos cuando sea necesario para proteger seguridad, privacidad, derechos ajenos o enseñanza eficaz. Las restricciones tendrán fines legítimos y serán proporcionales a las circunstancias.",
+            "La gestión ordinaria del aula y las instrucciones razonables de seguridad seguirán siendo exigibles.",
+            "Las decisiones disciplinarias graves y las restricciones sustanciales de derechos estarán sujetas a procedimientos transparentes y vías adecuadas de revisión independiente."
+          ]
+        },
+        {
+          "heading": "15. Bienestar y condiciones de aprendizaje",
+          "paragraphs": [
+            "La educación formal proporcionará suficiente enseñanza sin ocupar innecesariamente toda la vida cotidiana del alumnado.",
+            "El horario de secundaria superior se diseñará normalmente en torno a veintiocho a treinta horas semanales, incluidas las cinco materias principales y las actividades escolares complementarias esenciales.",
+            "El currículo nacional se gestionará dentro de un presupuesto temporal definido. Las propuestas de nuevas obligaciones considerarán sus efectos sobre el tiempo de enseñanza existente y la carga del alumnado.",
+            "Los centros evitarán deberes repetitivos y preparación de exámenes de escaso beneficio educativo.",
+            "Descanso, ocio, proyectos personales, actividades culturales y relaciones sociales serán elementos legítimos de la vida estudiantil.",
+            "Las dificultades de asistencia, motivación, organización o progreso académico recibirán orientación y apoyo graduales, en vez de restricciones permanentes automáticas."
+          ]
+        },
+        {
+          "heading": "16. Educación inclusiva y apoyo individual",
+          "paragraphs": [
+            "Las instituciones ofrecerán apoyo adecuado al alumnado con discapacidad, diferencias del neurodesarrollo, dificultades específicas de aprendizaje y otras necesidades educativas individuales.",
+            "Podrá incluir instalaciones accesibles, tecnología de apoyo, enseñanza especializada, ajustes razonables en exámenes, organización individualizada del aprendizaje y formas alternativas de demostrar competencias cuando proceda.",
+            "El objetivo será la participación educativa significativa y la evaluación justa de capacidades pertinentes, no imponer procedimientos idénticos sin considerar circunstancias individuales.",
+            "El alumnado económicamente desfavorecido tendrá acceso a ayudas para materiales, transporte, comidas, alojamiento cuando corresponda, tecnología y oportunidades académicas o extracurriculares necesarias para participar.",
+            "La elegibilidad para ayudas según necesidad se determinará mediante criterios financieros transparentes, no por nacionalidad."
+          ]
+        },
+        {
+          "heading": "17. Admisión a secundaria superior",
+          "paragraphs": [
+            "La admisión se basará en requisitos académicos publicados y procedimientos transparentes de asignación.",
+            "Quienes cumplan los estándares se considerarán académicamente elegibles para el programa correspondiente.",
+            "Si las solicitudes elegibles superan las plazas, las autoridades examinarán primero ampliar capacidad, mejorar distribución de recursos y ofrecer alternativas comparables.",
+            "Un sistema coordinado de admisión y correspondencia de preferencias buscará asignar al alumnado cualificado a centros adecuados respetando sus preferencias declaradas.",
+            "Si persiste la insuficiencia entre solicitantes igualmente cualificados, podrá utilizarse una asignación aleatoria transparente como último recurso.",
+            "No se elevarán artificialmente los umbrales solo para preservar la exclusividad institucional o una tasa predeterminada de aceptación."
+          ]
+        },
+        {
+          "heading": "18. Admisión universitaria y acceso a educación superior",
+          "paragraphs": [
+            "La admisión universitaria constará normalmente de dos etapas principales.",
+            "La primera establecerá la elegibilidad académica según requisitos de asignaturas y competencias publicados.",
+            "Quienes no cumplan los requisitos académicos esenciales no accederán a la selección integral ordinaria únicamente por logros extracurriculares.",
+            "La segunda evaluará la idoneidad de quienes sí estén cualificados mediante pruebas pertinentes de participación intelectual, indagación independiente, logros prácticos, desarrollo personal y otras características apropiadas al programa.",
+            "Investigación, actividades extracurriculares, empleo, responsabilidades familiares y aprendizaje independiente podrán aportar pruebas cuando demuestren compromiso o capacidad significativos.",
+            "Las autoridades evitarán puntuaciones mecánicas por número de actividades, certificados, cargos de liderazgo o publicaciones.",
+            "Si los solicitantes que cumplen los criterios superan la capacidad, podrán emplearse mecanismos transparentes de correspondencia y asignación institucional.",
+            "El sistema nacional procurará una variedad suficiente de oportunidades universitarias, aplicadas, profesionales y alternativas académicamente rigurosas, sin considerar una institución prestigiosa concreta como única medida del éxito."
+          ]
+        },
+        {
+          "heading": "19. Igualdad educativa internacional",
+          "paragraphs": [
+            "Senzovia promoverá admisiones académicas sin consideración de nacionalidad en secundaria superior y educación superior.",
+            "No habrá trato académico preferente ni desfavorable por el solo motivo de ciudadanía, nacionalidad, lugar de nacimiento o antecedentes migratorios.",
+            "Todos los solicitantes de un programa se evaluarán con los mismos estándares publicados y criterios pertinentes.",
+            "La información administrativa necesaria para inmigración, alojamiento u otros fines lícitos se tratará por separado de la valoración académica siempre que sea viable.",
+            "Las cuotas por nacionalidad y las preferencias automáticas por ciudadanía no formarán parte del marco de selección académica propuesto.",
+            "Senzovia procurará ampliar el acceso mediante cooperación internacional, campus en el extranjero, instituciones asociadas y sistemas compatibles de cualificaciones.",
+            "La igualdad de elegibilidad no implica capacidad ilimitada; si las solicitudes superan las plazas, se asignarán mediante procedimientos transparentes y no discriminatorios."
+          ]
+        },
+        {
+          "heading": "20. Accesibilidad económica y cooperación educativa internacional",
+          "paragraphs": [
+            "El Gobierno procurará que los ingresos familiares no impidan a personas académicamente cualificadas acceder a oportunidades para las que hayan sido seleccionadas.",
+            "Las ayudas se distribuirán según necesidades demostradas y costes reales de participación.",
+            "Podrán cubrir matrícula, alojamiento, alimentación, transporte, equipos académicos, materiales de investigación y participación necesaria en actividades educativas.",
+            "La cooperación internacional podrá financiarse mediante fondos públicos, dotaciones institucionales, contribuciones filantrópicas, alianzas y un Fondo Mundial de Educación propuesto.",
+            "La financiación se diseñará para ser sostenible sin introducir discriminación académica por nacionalidad.",
+            "La colaboración también apoyará intercambio científico, desarrollo de capacidades educativas y circulación internacional voluntaria de conocimientos y experiencia."
+          ]
+        },
+        {
+          "heading": "21. Desarrollo docente y recursos educativos",
+          "paragraphs": [
+            "La calidad del ESX dependerá de un profesorado altamente competente y apoyado profesionalmente.",
+            "La preparación docente destacará conocimientos disciplinarios, enseñanza eficaz, psicología educativa, evaluación justa, desarrollo del alumnado y facilitación de la indagación independiente.",
+            "El profesorado dispondrá de desarrollo profesional adecuado, cargas razonables y recursos didácticos.",
+            "Se simplificarán en lo posible las obligaciones administrativas para concentrar el tiempo profesional en enseñanza, retroalimentación, mentoría, desarrollo curricular y mejora educativa.",
+            "El profesorado tendrá dignidad profesional, libertad académica legítima, protecciones laborales adecuadas y procedimientos transparentes de reclamación y revisión profesional.",
+            "Las autoridades reducirán las disparidades mediante financiación equitativa, instalaciones especializadas compartidas, colaboración docente, enseñanza remota cuando proceda y oferta coordinada de asignaturas."
+          ]
+        },
+        {
+          "heading": "22. Gobernanza, rendición de cuentas y mejora continua",
+          "paragraphs": [
+            "El Gobierno establecerá mecanismos transparentes de planificación educativa, estándares, supervisión institucional y evaluación independiente.",
+            "El sistema de evaluación tendrá escrutinio profesional y salvaguardias frente a cambios arbitrarios en los estándares de calificación, interferencias políticas y conflictos de intereses institucionales.",
+            "Los derechos del alumnado se respaldarán mediante procedimientos de reclamación accesibles e imparciales.",
+            "La política se revisará periódicamente con aportaciones de docentes, estudiantes, familias, universidades, investigadores, expertos profesionales e instituciones públicas pertinentes.",
+            "Las revisiones considerarán logros académicos, comprensión conceptual, bienestar, tiempo de aprendizaje, dependencia de clases particulares, desigualdad socioeconómica, acceso a investigación, disponibilidad de combinaciones de asignaturas y carga docente.",
+            "Las reformas curriculares o evaluativas importantes considerarán beneficios educativos, necesidades financieras, efectos administrativos y consecuencias para las oportunidades del alumnado.",
+            "El ESX permanecerá abierto a revisión cuando pruebas fiables muestren que ciertas disposiciones son ineficaces, inequitativas o incompatibles con sus principios fundacionales.",
+            "La medida definitiva no será solo la clasificación en exámenes o el prestigio institucional, sino si permite adquirir conocimientos genuinos, ejercer juicio independiente, acceder a oportunidades significativas y vivir con libertad, dignidad y propósito."
+          ]
+        }
+      ]
     }
   ]
 }
