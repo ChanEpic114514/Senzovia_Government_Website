@@ -1,22 +1,431 @@
 {
+  "title": "Senzovia — Política Nacional de Ciencia e Innovación",
+  "introduction": [
+    "Marco nacional de política propuesto para el debate público y el desarrollo institucional."
+  ],
   "sections": [
     {
-      "heading": "Capítulo 1: Objetivos de la política",
+      "heading": "Objetivos de la política",
       "paragraphs": [
-        "Introduzca aquí el primer párrafo del texto oficial de este capítulo.",
-        "Introduzca aquí el segundo párrafo del texto oficial de este capítulo."
+        "El Gobierno de Senzovia propone establecer una Política Nacional de Ciencia e Innovación integral para impulsar los descubrimientos científicos, proteger la libertad intelectual, ampliar las oportunidades de investigación, fomentar la innovación tecnológica y garantizar que el progreso científico contribuya al bienestar humano.",
+        "Senzovia reconoce la ciencia como una actividad humana fundamental. Su valor trasciende el crecimiento económico, la competencia tecnológica y las aplicaciones prácticas inmediatas. La indagación científica permite a la humanidad comprender el mundo natural, investigar la sociedad, cuestionar supuestos establecidos y explorar preguntas cuya importancia quizá aún no se comprenda plenamente.",
+        "Por ello, el sistema científico nacional deberá basarse en la autonomía científica, la igualdad de oportunidades, la integridad intelectual, la cooperación internacional, la innovación responsable y la rendición de cuentas ante la sociedad.",
+        "Los principales objetivos son los siguientes."
+      ],
+      "subsections": [
+        {
+          "heading": "1. Proteger la libertad científica y la investigación independiente.",
+          "paragraphs": [
+            "Los científicos deberán tener libertad para formular preguntas de investigación, examinar explicaciones alternativas, desarrollar métodos experimentales y comunicar sus resultados sin injerencias políticas o institucionales injustificadas.",
+            "Las prioridades científicas deberán ser determinadas principalmente por la comunidad científica, en lugar de ser impuestas por las autoridades políticas. La investigación financiada por el Gobierno deberá gozar de la misma independencia intelectual efectiva que la realizada por universidades, instituciones independientes y organizaciones privadas.",
+            "El Gobierno no deberá exigir conclusiones predeterminadas ni suprimir resultados científicamente justificados por el mero hecho de que cuestionen posiciones políticas, económicas o sociales predominantes."
+          ]
+        },
+        {
+          "heading": "2. Hacer accesible la investigación a las personas capacitadas, con independencia de su procedencia.",
+          "paragraphs": [
+            "Senzovia busca establecer un sistema en el que la capacidad científica y la calidad de las investigaciones propuestas importen más que las credenciales formales, el prestigio institucional, la edad o las relaciones sociales.",
+            "Las personas deberán poder solicitar directamente financiación pública para investigar sin necesidad de tener un título universitario o un puesto académico convencional.",
+            "Los estudiantes, los investigadores independientes y quienes trabajen fuera de las instituciones tradicionales deberán disponer de oportunidades reales de participar en los descubrimientos científicos.",
+            "La participación internacional deberá seguir siendo un elemento central del sistema nacional de investigación, incluidas oportunidades para que investigadores cualificados realicen proyectos financiados desde el extranjero."
+          ]
+        },
+        {
+          "heading": "3. Proporcionar apoyo integral y sostenido a la investigación que cumpla los criterios científicos.",
+          "paragraphs": [
+            "La investigación científica deberá tener una alta prioridad en el gasto público nacional.",
+            "Senzovia propone un sistema en el que los proyectos que cumplan las normas científicas establecidas y los requisitos de costes razonables reciban apoyo financiero adecuado, en lugar de competir por un número de ayudas fijado artificialmente.",
+            "El sistema deberá dar prioridad a la investigación iniciada por los propios investigadores, manteniendo un apoyo adecuado a los desafíos científicos de importancia estratégica.",
+            "La financiación deberá guiarse por el mérito científico, la calidad metodológica, la viabilidad y unas necesidades razonables de recursos, y no por preferencias políticas o reputaciones institucionales."
+          ]
+        },
+        {
+          "heading": "4. Fomentar la exploración científica sin penalizar el fracaso de buena fe.",
+          "paragraphs": [
+            "El progreso científico suele implicar incertidumbre, experimentos infructuosos, resultados inesperados y el rechazo de hipótesis antes plausibles.",
+            "Senzovia deberá distinguir el fracaso científico legítimo de la negligencia, la deshonestidad o el uso indebido de recursos públicos.",
+            "Quienes realicen investigaciones responsables y metodológicamente sólidas no deberán ser penalizados simplemente porque sus proyectos no produzcan los resultados esperados.",
+            "El sistema nacional deberá reconocer los resultados negativos, los estudios de replicación y la corrección de errores científicos como contribuciones valiosas al conocimiento."
+          ]
+        },
+        {
+          "heading": "5. Desarrollar un ecosistema de investigación independiente y conectado internacionalmente.",
+          "paragraphs": [
+            "Senzovia deberá desarrollar una red nacional de investigación descentralizada, articulada en torno a universidades, institutos independientes y organizaciones de cooperación científica.",
+            "La inversión pública deberá apoyar laboratorios, instrumentos científicos, infraestructura informática y otras instalaciones necesarias para la investigación avanzada.",
+            "Se deberá fomentar la cooperación de las instituciones nacionales con organizaciones internacionales de investigación, universidades y científicos independientes.",
+            "La cooperación científica internacional deberá guiarse por el valor de la investigación y las necesidades científicas prácticas, y no únicamente por el prestigio nacional."
+          ]
+        },
+        {
+          "heading": "6. Fomentar la innovación tecnológica y el desarrollo comercial responsable.",
+          "paragraphs": [
+            "Los descubrimientos científicos deberían tener oportunidades de contribuir a tecnologías prácticas, mejores servicios públicos, nuevas industrias y desarrollo económico.",
+            "Senzovia deberá apoyar los derechos legítimos de propiedad intelectual, el emprendimiento basado en la investigación y los mercados tecnológicos competitivos.",
+            "Las empresas que cumplan los requisitos deberán acceder a incentivos fiscales a la investigación y el desarrollo, incluidos créditos fiscales reembolsables cuando proceda.",
+            "La política pública deberá fomentar la innovación sin sustituir innecesariamente la competencia del mercado por el control gubernamental directo.",
+            "Al mismo tiempo, las aplicaciones tecnológicas con consecuencias importantes para la seguridad o los derechos fundamentales deberán seguir sujetas a salvaguardias jurídicas adecuadas."
+          ]
+        },
+        {
+          "heading": "7. Garantizar que el progreso científico contribuya al bienestar público.",
+          "paragraphs": [
+            "El desarrollo científico debería mejorar, en última instancia, la capacidad de las personas para llevar una vida sana, informada, independiente y plena.",
+            "Senzovia deberá fomentar el desarrollo y la disponibilidad de productos científicos y tecnológicos importantes, especialmente los relacionados con necesidades públicas esenciales.",
+            "El Gobierno deberá procurar conciliar los incentivos comerciales legítimos con el acceso del público mediante competencia leal, licencias voluntarias, mecanismos de contratación y obligaciones de interés público claramente establecidas.",
+            "La innovación apoyada con recursos públicos deberá seguir rindiendo cuentas a la sociedad que contribuye a su desarrollo."
+          ]
+        },
+        {
+          "heading": "8. Establecer una gobernanza científica transparente, responsable y adaptable.",
+          "paragraphs": [
+            "La independencia de la comunidad científica deberá ir acompañada de normas rigurosas de integridad, responsabilidad financiera y rendición de cuentas institucional.",
+            "La evaluación de la investigación deberá realizarse mediante expertos cualificados, con salvaguardias frente a la corrupción, los conflictos de intereses, la discriminación y los monopolios institucionales.",
+            "Los organismos independientes de supervisión deberán velar por la integridad de los procedimientos y el uso lícito de los fondos públicos sin sustituir el conocimiento científico especializado por juicios políticos.",
+            "La política científica deberá evaluarse periódicamente y revisarse cuando la evidencia demuestre que sus instituciones o mecanismos de aplicación necesitan mejoras."
+          ]
+        }
+      ],
+      "closing": [
+        "Mediante estos objetivos, Senzovia busca establecer un entorno científico nacional en el que se pueda buscar conocimiento libremente, las oportunidades de investigación sean realmente accesibles, se fomente la innovación y el progreso científico sirva a la humanidad."
       ]
     },
     {
-      "heading": "Capítulo 2: Disposiciones para la aplicación de la política",
-      "paragraphs": [
-        "Introduzca aquí las disposiciones específicas, el ámbito de aplicación y las condiciones de ejecución."
+      "heading": "Contenido de la política",
+      "paragraphs": [],
+      "subsections": [
+        {
+          "heading": "1. Libertad científica y autonomía de la investigación",
+          "paragraphs": [
+            "La libertad científica deberá ser un principio fundacional del sistema nacional de investigación.",
+            "Los investigadores deberán tener derecho a seleccionar preguntas científicas, formular hipótesis, diseñar métodos, examinar teorías alternativas y comunicar resultados dentro de los límites de la legislación aplicable y de las exigencias éticas legítimas.",
+            "Las orientaciones científicas deberán ser determinadas principalmente por los investigadores y sus comunidades profesionales.",
+            "Las autoridades no deberán prescribir las conclusiones de las investigaciones ni restringir investigaciones legítimas únicamente porque sus resultados contradigan la política oficial, las creencias sociales establecidas o los intereses comerciales.",
+            "Los investigadores de instituciones públicas deberán gozar de una libertad académica efectiva comparable a la de quienes trabajan en universidades y organizaciones independientes.",
+            "La financiación pública no deberá estar condicionada a la conformidad ideológica ni al apoyo a posiciones políticas predeterminadas.",
+            "La asignación de recursos científicos seguirá sujeta a una administración financiera conforme a derecho, pero esta no deberá utilizarse como medio indirecto para controlar las conclusiones científicas."
+          ]
+        },
+        {
+          "heading": "2. Gobernanza científica nacional",
+          "paragraphs": [
+            "Senzovia propone crear un Consejo Científico Nacional encargado de coordinar la gobernanza científica del sistema público de investigación.",
+            "El Consejo deberá constituirse mediante elecciones representativas dentro de la comunidad científica.",
+            "Su estructura deberá garantizar una representación adecuada de disciplinas, instituciones y etapas profesionales, incluidos investigadores cualificados al inicio de su carrera e investigadores independientes.",
+            "Ninguna universidad, disciplina de investigación o grupo de académicos de mayor trayectoria deberá tener derecho a un dominio institucional permanente sobre las decisiones científicas nacionales.",
+            "El Consejo deberá desarrollar normas de evaluación científica, organizar las revisiones de financiación, identificar necesidades de grandes infraestructuras y coordinar la cooperación científica entre instituciones.",
+            "Los juicios científicos profesionales deberán permanecer en el ámbito de la comunidad científica.",
+            "El Gobierno y el poder legislativo conservarán sus responsabilidades constitucionales en materia de gasto público, legislación, obligaciones internacionales y protección de los derechos fundamentales.",
+            "La autonomía científica no eximirá a instituciones o personas de la supervisión legal."
+          ]
+        },
+        {
+          "heading": "3. Integridad y rendición de cuentas de la investigación: supervisión independiente",
+          "paragraphs": [
+            "Se deberá establecer un organismo independiente de integridad y rendición de cuentas de la investigación para supervisar la administración lícita y responsable de la ciencia apoyada con recursos públicos.",
+            "Sus responsabilidades incluirán investigar faltas de integridad científica, corrupción, conflictos de intereses, decisiones de financiación indebidas y uso inadecuado de recursos de investigación.",
+            "Las investigaciones deberán seguir procedimientos transparentes y criterios probatorios adecuados.",
+            "Los investigadores e instituciones investigados deberán tener derecho a responder a las acusaciones, presentar pruebas pertinentes y solicitar una revisión independiente.",
+            "El organismo supervisor no deberá tener una autoridad ilimitada para determinar la verdad científica ni para anular desacuerdos legítimos entre expertos.",
+            "Las controversias sobre calidad científica deberán resolverse normalmente mediante revisión científica cualificada, mientras que las cuestiones de legalidad y equidad procedimental seguirán sujetas a un examen jurídico independiente."
+          ]
+        },
+        {
+          "heading": "4. Elegibilidad universal para la financiación de la investigación",
+          "paragraphs": [
+            "La financiación pública deberá ser accesible a quienes demuestren capacidad para realizar investigación científica creíble.",
+            "La mera presentación de una propuesta no deberá exigir un título académico específico, un puesto universitario ni la pertenencia a una institución de investigación establecida.",
+            "La aptitud científica deberá evaluarse conforme a los conocimientos pertinentes, la capacidad investigadora, la competencia metodológica, la viabilidad y los méritos del trabajo propuesto.",
+            "Los investigadores independientes deberán poder solicitar financiación directamente.",
+            "Cuando sea necesario apoyo administrativo, financiero o técnico, podrán establecerse mecanismos institucionales adecuados sin transferir automáticamente la dirección científica a otra persona o entidad distinta del investigador principal.",
+            "Los investigadores extranjeros seguirán siendo elegibles para participar en programas públicos, incluidos los mecanismos de investigación a distancia e internacional.",
+            "La evaluación deberá distinguir el mérito científico de la nacionalidad o la afiliación institucional. Los programas destinados a reforzar la capacidad investigadora dentro de Senzovia podrán establecer requisitos transparentes vinculados a sus objetivos reales de desarrollo nacional.",
+            "Esos requisitos no deberán encubrir discriminaciones ajenas al propósito legítimo del programa."
+          ]
+        },
+        {
+          "heading": "5. Oportunidades de investigación para estudiantes y jóvenes científicos",
+          "paragraphs": [
+            "El sistema nacional de investigación deberá cooperar con Education System X (ESX) para ampliar las oportunidades científicas sustantivas de los estudiantes.",
+            "Los jóvenes investigadores que demuestren capacidad suficiente deberán poder realizar investigaciones independientes, participar en equipos y solicitar apoyo público.",
+            "Los menores deberán recibir orientación, protección y asistencia institucional adecuadas cuando lo exija la ley.",
+            "Los contratos financieros, las responsabilidades jurídicas y otras obligaciones que los menores no puedan asumir legalmente deberán gestionarse mediante mecanismos autorizados adecuados.",
+            "Estos mecanismos no deberán privar automáticamente a los jóvenes investigadores de independencia intelectual, reconocimiento o derechos legítimos relacionados con sus contribuciones.",
+            "Los estudiantes universitarios cualificados y otros jóvenes investigadores capacitados podrán participar en la evaluación científica cuando sus conocimientos especializados sean pertinentes para el trabajo evaluado.",
+            "La participación en la investigación seguirá siendo voluntaria y no deberá convertirse en un requisito educativo obligatorio ni en otra forma de competencia por credenciales."
+          ]
+        },
+        {
+          "heading": "6. Financiación nacional de la investigación",
+          "paragraphs": [
+            "La investigación científica deberá reconocerse como una prioridad principal de la inversión nacional.",
+            "El Gobierno deberá procurar una financiación pública estable y sustancial para la investigación fundamental, la investigación aplicada y el desarrollo experimental.",
+            "La investigación iniciada por los investigadores deberá recibir la mayor parte de la financiación general, reflejando que los descubrimientos importantes suelen surgir de preguntas no identificadas previamente por gobiernos u organizaciones comerciales.",
+            "Se podrá conceder apoyo adicional a desafíos científicos estratégicos, siempre que los investigadores profesionales mantengan el control de los métodos y las conclusiones científicas.",
+            "Los fondos públicos deberán distribuirse mediante evaluación experta y no según el prestigio institucional, las conexiones políticas o cuotas numéricas predeterminadas.",
+            "Los proyectos que cumplan las normas establecidas de calidad científica, legalidad, viabilidad y coste razonable deberán tener derecho a financiación adecuada en el marco nacional propuesto.",
+            "El Gobierno no deberá sustituir la evaluación científica por sorteos ni por límites artificiales al número de ayudas.",
+            "No obstante, la aprobación de financiación deberá responder a necesidades de investigación justificadas. No constituirá un derecho incondicional a cualquier presupuesto solicitado."
+          ]
+        },
+        {
+          "heading": "7. Compromisos de financiación a largo plazo y responsabilidad fiscal",
+          "paragraphs": [
+            "La financiación pública de la investigación deberá funcionar mediante compromisos financieros definidos legalmente y respaldados por planificación presupuestaria plurianual.",
+            "Las ayudas deberán especificar los importes aprobados, los mecanismos de pago, las responsabilidades del proyecto y los procedimientos de modificación legítima.",
+            "Cuando las asignaciones ordinarias no basten para cumplir las obligaciones establecidas, el Gobierno deberá solicitar financiación complementaria mediante el procedimiento legal correspondiente.",
+            "Los compromisos de financiación deberán considerarse junto con las responsabilidades constitucionales y fiscales más amplias del Gobierno.",
+            "Durante una emergencia fiscal grave, el Gobierno podrá solicitar ajustes legales del calendario de futuros pagos.",
+            "Estos ajustes no deberán permitir la cancelación arbitraria de proyectos aprobados, el trato discriminatorio a investigadores ni el incumplimiento de obligaciones financieras jurídicamente exigibles.",
+            "Los investigadores afectados deberán disponer de mecanismos adecuados de revisión y recursos jurídicos.",
+            "El sistema nacional deberá mantener registros transparentes de compromisos futuros, gastos previstos y riesgos fiscales importantes.",
+            "Las obligaciones de financiación deberán someterse periódicamente a evaluaciones de sostenibilidad a largo plazo.",
+            "No se deberán ocultar dificultades financieras elevando artificialmente los umbrales científicos de admisión, retrasando deliberadamente las solicitudes o tergiversando la calidad de investigaciones que, de otro modo, serían elegibles."
+          ]
+        },
+        {
+          "heading": "8. Evaluación de la investigación y revisión por pares",
+          "paragraphs": [
+            "Las propuestas deberán ser evaluadas por expertos cualificados con conocimientos científicos pertinentes.",
+            "La evaluación deberá considerar la importancia científica, la calidad metodológica, la viabilidad, la capacidad del solicitante para realizar el trabajo y la razonabilidad de las necesidades financieras.",
+            "Los evaluadores deberán declarar los conflictos de intereses pertinentes y abstenerse de decisiones en las que su imparcialidad quede sustancialmente comprometida.",
+            "Las evaluaciones no deberán verse influidas por las creencias políticas, las relaciones personales o la reputación institucional del solicitante, salvo cuando capacidades institucionales específicas sean directamente pertinentes para ejecutar el proyecto.",
+            "Los solicitantes deberán recibir explicaciones adecuadas de las decisiones y disponer de procedimientos para impugnar errores procedimentales sustanciales.",
+            "La revisión financiera deberá determinar si el gasto propuesto es necesario y proporcionado, sin sustituir el juicio experto sobre el valor científico.",
+            "Los procedimientos deberán mantener normas rigurosas y evitar trámites innecesarios y requisitos administrativos duplicados."
+          ]
+        },
+        {
+          "heading": "9. Investigación interdisciplinaria",
+          "paragraphs": [
+            "La investigación que abarque varias disciplinas deberá evaluarse mediante la cooperación de las estructuras de revisión científica existentes que correspondan.",
+            "Senzovia no deberá exigir una burocracia nacional totalmente separada para la investigación interdisciplinaria por el mero hecho de combinar campos establecidos.",
+            "Evaluadores debidamente cualificados de las disciplinas pertinentes deberán examinar la contribución científica y los requisitos metodológicos de la propuesta.",
+            "Una evaluación integrada deberá determinar el mérito científico global de la investigación.",
+            "Ninguna disciplina tendrá automáticamente poder de veto solo porque una propuesta no se ajuste a sus métodos habituales.",
+            "Las objeciones metodológicas sustanciales deberán examinarse profesionalmente, y las exigencias legales o éticas aplicables seguirán siendo vinculantes con independencia de la valoración científica conjunta.",
+            "La investigación interdisciplinaria deberá acceder a financiación conforme a los mismos principios generales de admisión que las demás investigaciones."
+          ]
+        },
+        {
+          "heading": "10. Integridad científica, ética de la investigación y fracaso de buena fe",
+          "paragraphs": [
+            "Las instituciones y los investigadores deberán mantener normas adecuadas de honestidad científica, transparencia metodológica y gestión responsable de recursos.",
+            "La fabricación, la falsificación, el plagio, la ocultación deliberada de conflictos de intereses sustanciales y otras formas reconocidas de mala conducta investigadora deberán ser objeto de investigación independiente.",
+            "El desacuerdo científico, los experimentos infructuosos, los resultados negativos y el rechazo de hipótesis no constituirán por sí mismos mala conducta.",
+            "Se deberá animar a los investigadores a informar con exactitud de hallazgos inesperados, en vez de alterar conclusiones para satisfacer a financiadores o instituciones.",
+            "Los proyectos deberán someterse a un seguimiento proporcionado de sus avances científicos y gastos.",
+            "La revisión ética deberá organizarse según los riesgos reales de la investigación.",
+            "Las investigaciones de bajo riesgo deberían seguir procedimientos simplificados cuando sea legalmente apropiado; las que impliquen riesgos importantes para personas, comunidades o el medioambiente deberán someterse a un examen independiente más amplio.",
+            "La supervisión deberá proteger la actividad científica legítima sin imponer barreras administrativas innecesarias."
+          ]
+        },
+        {
+          "heading": "11. Universidades e instituciones independientes de investigación",
+          "paragraphs": [
+            "Senzovia deberá desarrollar un ecosistema descentralizado centrado en universidades e instituciones científicas independientes.",
+            "Las organizaciones deberán gozar de amplia autonomía para definir especialidades, formar equipos y desarrollar cooperación nacional o internacional.",
+            "La financiación pública deberá apoyar la actividad científica de distintas instituciones, en lugar de distribuirse mediante jerarquías institucionales permanentes.",
+            "El Gobierno no deberá establecer un monopolio centralizado que restrinja innecesariamente el desarrollo de organizaciones científicas independientes.",
+            "Las universidades e institutos que reciban recursos públicos seguirán respondiendo por su uso lícito y por las responsabilidades públicas asociadas.",
+            "La autonomía institucional no justificará la exclusión discriminatoria de oportunidades o infraestructuras de investigación sostenidas con recursos públicos."
+          ]
+        },
+        {
+          "heading": "12. Infraestructura científica nacional",
+          "paragraphs": [
+            "El Gobierno deberá apoyar la creación y el mantenimiento de grandes infraestructuras necesarias para el desarrollo científico.",
+            "Podrán incluir laboratorios, instrumental científico, observatorios, recursos informáticos y otras instalaciones avanzadas de investigación.",
+            "Las grandes instalaciones deberán desarrollarse conforme a necesidades científicas demostradas y evaluaciones independientes de viabilidad y costes razonables.",
+            "Las universidades e instituciones independientes cualificadas deberán poder competir abiertamente por la responsabilidad de operar instalaciones públicas de investigación.",
+            "La selección deberá considerar la especialización científica, la capacidad operativa, la responsabilidad financiera y la capacidad institucional para cumplir los requisitos de acceso público.",
+            "La investigación no comercial con fines científicos y de interés público legítimos deberá acceder gratuitamente a las instalaciones elegibles financiadas con fondos públicos.",
+            "La investigación y el desarrollo comerciales deberán, por regla general, pagar tarifas que reflejen los costes razonables de uso.",
+            "Cuando la demanda supere la capacidad disponible, el acceso deberá asignarse según la necesidad científica, los requisitos técnicos y la urgencia temporal, y no según el prestigio institucional ni exclusivamente por orden de llegada.",
+            "Las decisiones de asignación deberán ser transparentes y estar sujetas a revisión adecuada."
+          ]
+        },
+        {
+          "heading": "13. Grandes proyectos científicos",
+          "paragraphs": [
+            "Los proyectos científicos de gran escala deberán someterse a una evaluación científica, de ingeniería y financiera integral antes de su aprobación definitiva.",
+            "Los proyectos aprobados deberán recibir apoyo a largo plazo para sus planes autorizados de construcción y ejecución.",
+            "La aprobación deberá precisar los objetivos científicos, el alcance previsto, los recursos estimados, las responsabilidades principales y el compromiso financiero público máximo.",
+            "Las autoridades no deberán alterar arbitrariamente los objetivos científicos aprobados durante la construcción.",
+            "La planificación deberá considerar los gastos operativos, las necesidades de mantenimiento y las obligaciones previsibles a largo plazo.",
+            "Cuando los costes previstos superen el límite autorizado, el proyecto deberá someterse a una reevaluación técnica y financiera independiente.",
+            "Todo gasto gubernamental adicional por encima del máximo aprobado requerirá una nueva autorización legal.",
+            "Si el proyecto original ya no puede completarse con los recursos disponibles, podrán considerarse modificaciones científicamente justificadas, financiación adicional lícita o procedimientos de terminación.",
+            "Ninguna institución deberá ocultar sobrecostes importantes ni fallos técnicos para mantener una apariencia de éxito."
+          ]
+        },
+        {
+          "heading": "14. Publicación científica, datos y reproducibilidad",
+          "paragraphs": [
+            "Los investigadores deberán tener libertad para publicar resultados y participar en el debate académico.",
+            "La investigación financiada públicamente deberá cumplir requisitos razonables de transparencia científica y verificación independiente.",
+            "Los investigadores deberán aportar información suficiente sobre métodos, evidencia y limitaciones sustanciales para permitir un examen científico adecuado.",
+            "La forma y el alcance del intercambio de datos deberán tener en cuenta la privacidad, la ética, la confidencialidad legítima, la propiedad intelectual y otras obligaciones legales aplicables.",
+            "Cuando publicar sin restricciones los datos subyacentes vulnere protecciones legítimas, podrán utilizarse acceso controlado, verificación independiente u otros mecanismos apropiados.",
+            "Los investigadores deberán conservar discrecionalidad adecuada respecto al intercambio de materiales que exceda las obligaciones mínimas establecidas por ley y por sus acuerdos de financiación.",
+            "Podrán permitirse restricciones temporales a la publicación por motivos legítimos, como solicitudes de patente y exigencias de confidencialidad claramente justificadas.",
+            "Estas restricciones estarán sujetas a límites legales y procedimientos adecuados de revisión.",
+            "La reproducibilidad científica y la replicación independiente deberán reconocerse como objetivos legítimos de investigación susceptibles de apoyo."
+          ]
+        },
+        {
+          "heading": "15. Propiedad intelectual y comercialización de la investigación",
+          "paragraphs": [
+            "Senzovia deberá proteger los derechos legítimos de propiedad intelectual derivados de la investigación y del desarrollo tecnológico.",
+            "Los investigadores, las instituciones y las empresas podrán celebrar acuerdos lícitos sobre titularidad, licencias y desarrollo comercial de resultados.",
+            "Los descubrimientos apoyados públicamente podrán ser objeto de licencias comerciales exclusivas temporales cuando estas ofrezcan incentivos razonables para su desarrollo posterior y aplicación práctica.",
+            "Las licencias exclusivas no deberán ser ilimitadas.",
+            "La legislación aplicable establecerá duraciones máximas, requisitos de revisión y salvaguardias frente a restricciones indebidas de la competencia.",
+            "Los acuerdos deberán distinguir entre la duración legal de los derechos de propiedad intelectual y la duración de una licencia comercial exclusiva concreta.",
+            "Los investigadores deberán recibir reconocimiento adecuado por sus contribuciones, y sus derechos legales deberán protegerse mediante acuerdos transparentes.",
+            "La tecnología apoyada públicamente seguirá sujeta a las obligaciones de interés público aplicables establecidas por ley o por las condiciones originales de financiación y licencia."
+          ]
+        },
+        {
+          "heading": "16. Incentivos fiscales a la investigación y el desarrollo",
+          "paragraphs": [
+            "Senzovia deberá fomentar la investigación privada y la innovación tecnológica mediante incentivos fiscales transparentes a la investigación y el desarrollo.",
+            "Las empresas elegibles deberán poder solicitar beneficios fiscales por gastos de investigación que cumplan los requisitos.",
+            "El nivel de apoyo variará según la naturaleza de la actividad investigadora definida por ley, y no automáticamente según el tamaño o la reputación de la empresa.",
+            "Las empresas elegibles deberán disponer de créditos fiscales reembolsables para investigación y desarrollo, incluidas empresas emergentes que cumplan los requisitos y no tengan beneficios imponibles suficientes.",
+            "Los gastos de investigación deberán evaluarse según sus características científicas y tecnológicas sustantivas.",
+            "Las actividades comerciales ordinarias no se convertirán en elegibles simplemente cambiando descripciones contables o terminología del proyecto.",
+            "El Gobierno deberá establecer salvaguardias adecuadas contra solicitudes fraudulentas, duplicaciones injustificadas de apoyo público y una administración tributaria incoherente.",
+            "Las empresas elegibles conservarán el derecho a una evaluación transparente y a una revisión independiente."
+          ]
+        },
+        {
+          "heading": "17. Emprendimiento tecnológico y competencia de mercado",
+          "paragraphs": [
+            "Senzovia deberá apoyar una economía competitiva impulsada por la innovación.",
+            "Los científicos y emprendedores deberán ser libres de crear empresas, comercializar descubrimientos legítimos, buscar inversión privada y participar en mercados tecnológicos nacionales e internacionales.",
+            "El apoyo gubernamental se canalizará principalmente mediante financiación científica, infraestructura pública, incentivos fiscales e instituciones jurídicas justas, en lugar de recurrir habitualmente a la propiedad estatal directa de empresas tecnológicas privadas.",
+            "Las empresas seguirán siendo responsables de sus decisiones comerciales y obligaciones financieras.",
+            "El derecho de la competencia deberá proteger los mercados frente a conductas monopolísticas ilícitas, prácticas de exclusión y otras formas de comportamiento anticompetitivo.",
+            "El éxito comercial legítimo y la titularidad de propiedad intelectual no constituirán por sí mismos motivos de intervención gubernamental.",
+            "Cuando tecnologías apoyadas públicamente estén sujetas a licencias exclusivas, sus acuerdos comerciales deberán respetar las normas de competencia aplicables y las obligaciones de interés público establecidas."
+          ]
+        },
+        {
+          "heading": "18. Despliegue responsable de tecnologías emergentes",
+          "paragraphs": [
+            "La investigación científica y el despliegue de tecnología en la sociedad deberán tratarse como actividades distintas.",
+            "La libertad de investigar una tecnología no otorgará automáticamente un derecho irrestricto a desplegarla en aplicaciones que afecten a la seguridad pública o a los derechos fundamentales.",
+            "Las aplicaciones con riesgos significativos definidos legalmente requerirán una verificación de seguridad adecuada antes de su despliegue comercial.",
+            "El poder legislativo establecerá las normas de riesgo aplicables.",
+            "Expertos técnicos cualificados evaluarán las aplicaciones concretas conforme a sus características reales, usos previstos y evidencia pertinente.",
+            "La regulación deberá ser proporcionada a los riesgos demostrados o razonablemente fundamentados.",
+            "Las autoridades no deberán prohibir investigaciones legítimas basándose únicamente en inquietudes especulativas o desacuerdos políticos.",
+            "Las empresas que busquen el despliegue comercial deberán asumir los costes de la verificación de seguridad exigida por ley.",
+            "Los procedimientos de verificación deberán ser transparentes, administrados profesionalmente y susceptibles de revisión.",
+            "Las exigencias regulatorias no deberán crear ventajas competitivas injustificadas para empresas establecidas ni barreras innecesarias a la innovación tecnológica lícita."
+          ]
+        },
+        {
+          "heading": "19. Acceso público a tecnologías importantes",
+          "paragraphs": [
+            "El sistema científico nacional deberá procurar que los grandes avances produzcan beneficios públicos reales.",
+            "Se prestará especial atención a tecnologías relacionadas con la atención sanitaria esencial, la seguridad pública, la accesibilidad y otras necesidades humanas importantes.",
+            "Senzovia buscará principalmente un acceso razonable mediante competencia de mercado, licencias voluntarias, negociación comercial, contratación pública y compromisos contractuales legalmente establecidos.",
+            "Los acuerdos de investigación pública y las licencias comerciales podrán definir de antemano obligaciones de interés público adecuadas.",
+            "Estas obligaciones deberán ser transparentes, proporcionadas y compatibles con incentivos legítimos a la innovación.",
+            "El Gobierno no deberá imponer restricciones comerciales arbitrarias ni desconocer retroactivamente derechos legales establecidos.",
+            "Cuando los mecanismos ordinarios del mercado no protejan necesidades públicas esenciales, toda intervención excepcional requerirá una base jurídica separada y claramente definida, debido proceso, protección adecuada de derechos legítimos y cumplimiento de las obligaciones legales aplicables.",
+            "Los programas científicos y tecnológicos apoyados públicamente podrán priorizar las necesidades de los ciudadanos de Senzovia en determinados mecanismos de bienestar público.",
+            "Estas prioridades no deberán extinguir automáticamente los derechos fundamentales, los derechos legalmente reconocidos ni las protecciones esenciales de los no ciudadanos."
+          ]
+        },
+        {
+          "heading": "20. Carreras científicas y movilidad profesional",
+          "paragraphs": [
+            "Senzovia deberá apoyar una comunidad laboral investigadora caracterizada por independencia profesional, flexibilidad y movilidad.",
+            "El empleo investigador funcionará generalmente mediante mecanismos institucionales, de mercado y por proyecto, en lugar de garantías universales de empleo público permanente.",
+            "Los investigadores conservarán el derecho a cambiar de institución, crear organizaciones independientes y buscar oportunidades científicas internacionales.",
+            "Los cambios de afiliación no deberán exigir automáticamente abandonar investigaciones legítimamente financiadas.",
+            "Procedimientos adecuados regularán la transferencia o continuidad de ayudas, considerando la dirección del proyecto, las responsabilidades contractuales, los equipos y la rendición de cuentas sobre fondos públicos.",
+            "Los investigadores seguirán teniendo derecho a las protecciones laborales aplicables, un trato contractual justo y las salvaguardias sociales establecidas.",
+            "El desarrollo profesional deberá reconocer contribuciones reales, en lugar de basarse exclusivamente en antigüedad, prestigio institucional o acumulación de credenciales."
+          ]
+        },
+        {
+          "heading": "21. Cooperación científica internacional",
+          "paragraphs": [
+            "Senzovia deberá participar activamente en la comunidad científica internacional.",
+            "La cooperación se basará en calidad investigadora, beneficio mutuo, compatibilidad profesional y requisitos jurídicos legítimos.",
+            "La comunidad científica nacional determinará si los objetivos concretos se alcanzan mejor mediante proyectos nacionales independientes, participación en programas internacionales existentes o liderazgo de nuevas colaboraciones internacionales.",
+            "El Gobierno no deberá exigir a las instituciones proyectos motivados principalmente por prestigio diplomático.",
+            "Los investigadores internacionales cualificados deberán poder realizar trabajos financiados fuera de Senzovia cuando lo permitan las condiciones del proyecto y la legislación aplicable.",
+            "Las ayudas internacionales se administrarán según la escala, la complejidad financiera y los riesgos reales del proyecto.",
+            "Los proyectos menores y de bajo riesgo podrán tener mecanismos simplificados; los mayores o más complejos podrán requerir administración financiera y supervisión adicionales.",
+            "Los acuerdos internacionales deberán abordar adecuadamente las responsabilidades de investigación, las obligaciones financieras, la propiedad intelectual, el tratamiento lícito de datos y la resolución de controversias.",
+            "La investigación transfronteriza seguirá sujeta a las salvaguardias legales aplicables, sin restricciones innecesarias basadas únicamente en la nacionalidad."
+          ]
+        },
+        {
+          "heading": "22. Oportunidad científica e igualdad de participación",
+          "paragraphs": [
+            "El sistema nacional deberá procurar eliminar barreras ajenas a la capacidad científica.",
+            "Las personas cualificadas deberán tener oportunidades reales de participar con independencia de su origen socioeconómico, discapacidad, itinerario educativo o relaciones institucionales.",
+            "Se proporcionarán ajustes razonables y el apoyo práctico necesario conforme a las circunstancias pertinentes.",
+            "Las oportunidades públicas de investigación no deberán asignarse mediante privilegios hereditarios, influencia de donantes, favoritismo político o preferencias institucionales arbitrarias.",
+            "Los sistemas de evaluación deberán distinguir los requisitos legítimos de investigación de los obstáculos administrativos innecesarios.",
+            "Senzovia apoyará vías para que estudiantes, investigadores independientes, profesionales experimentados y personas que cambien de carrera puedan incorporarse o reincorporarse a la investigación.",
+            "El acceso a la ciencia deberá entenderse como una oportunidad de contribuir al conocimiento, no como una obligación de seguir una carrera científica."
+          ]
+        },
+        {
+          "heading": "23. Transparencia y rendición de cuentas ante la sociedad",
+          "paragraphs": [
+            "Las instituciones de investigación apoyadas públicamente deberán funcionar conforme a normas adecuadas de transparencia y rendición de cuentas.",
+            "El Gobierno publicará los criterios generales sobre financiación, uso lícito de recursos públicos y decisiones importantes relativas a la infraestructura científica nacional.",
+            "Podrá reservarse información cuando sea necesario para proteger la privacidad personal, la confidencialidad comercial legítima, la integridad investigadora u otros intereses reconocidos legalmente.",
+            "Organismos independientes examinarán quejas sobre procedimientos injustos, irregularidades financieras, conflictos de intereses y abuso de autoridad institucional.",
+            "La ciudadanía deberá tener oportunidades adecuadas de examinar la política científica y plantear inquietudes sobre su aplicación.",
+            "La consulta pública no autorizará a las autoridades políticas a imponer conclusiones científicas predeterminadas ni a sustituir evidencia científica legítima por preferencias populares."
+          ]
+        },
+        {
+          "heading": "24. Responsabilidad ambiental y social",
+          "paragraphs": [
+            "Las instituciones científicas y las grandes instalaciones deberán cumplir las protecciones ambientales, de seguridad pública y de derechos humanos aplicables.",
+            "Los proyectos con consecuencias ambientales importantes se someterán a una evaluación de impacto adecuada y, cuando proceda, a mitigación y seguimiento.",
+            "Las instituciones deberán considerar el uso responsable de energía, materiales, suelo y otros recursos públicos al diseñar grandes infraestructuras.",
+            "El desarrollo científico y tecnológico no deberá perseguirse mediante vulneraciones injustificadas de la dignidad humana, la privacidad personal o los derechos legítimos de las comunidades afectadas.",
+            "Toda restricción de la actividad científica deberá contar con fundamento legal y ser proporcionada a los intereses protegidos."
+          ]
+        },
+        {
+          "heading": "25. Evaluación de la política científica y mejora continua",
+          "paragraphs": [
+            "Senzovia evaluará sus políticas de ciencia e innovación mediante procedimientos transparentes basados en evidencia.",
+            "La evaluación considerará calidad científica, descubrimientos significativos, acceso a oportunidades de investigación, integridad institucional, desarrollo tecnológico, sostenibilidad fiscal y contribuciones al bienestar público.",
+            "Ningún indicador numérico único servirá como medida definitiva del éxito científico.",
+            "El número de publicaciones, las clasificaciones de citas, los registros de patentes, los ingresos comerciales y el prestigio institucional podrán aportar información pertinente, pero no reemplazarán la evaluación científica y social sustantiva.",
+            "El Gobierno realizará revisiones independientes periódicas del sistema científico nacional y publicará resultados y recomendaciones apropiados.",
+            "Los fallos institucionales graves, los riesgos emergentes o cambios importantes del conocimiento científico podrán justificar una revisión anticipada.",
+            "Las revisiones de la política deberán mejorar su eficacia respetando la libertad científica, los derechos legales establecidos y los compromisos públicos legítimos."
+          ]
+        },
+        {
+          "heading": "26. Situación jurídica y aplicación",
+          "paragraphs": [
+            "Esta Política Nacional de Ciencia e Innovación constituye un marco propuesto para desarrollar las instituciones científicas y el sistema de innovación de Senzovia.",
+            "No declara que las instituciones, los derechos de financiación, los incentivos fiscales, los servicios públicos o los mecanismos regulatorios descritos ya hayan sido aprobados o establecidos.",
+            "Su aplicación requerirá legislación adecuada, asignaciones públicas lícitas, mecanismos administrativos, normas profesionales y supervisión independiente.",
+            "Las tasas financieras concretas, los plazos legales, los procedimientos institucionales y los requisitos técnicos se determinarán mediante los procesos jurídicos y de elaboración de políticas correspondientes.",
+            "Cuando sean aplicables obligaciones constitucionales, derechos fundamentales y protecciones jurídicas establecidas, la aplicación seguirá sujeta a ellos.",
+            "El Gobierno revisará el marco cuando sea necesario para garantizar que la libertad científica, la innovación responsable, la rendición de cuentas y la sostenibilidad a largo plazo del sistema nacional de investigación se refuercen mutuamente."
+          ]
+        }
       ],
-      "image": {
-        "src": "/assets/senzovia-flag.jpeg",
-        "alt": "Bandera de Senzovia",
-        "caption": "Ejemplo de disposición de una imagen: la bandera de Senzovia. Antes de la publicación oficial, sustituya esta imagen por una ilustración relacionada con este capítulo o elimine esta entrada de imagen."
-      }
+      "closing": [
+        "Mediante esta política, Senzovia busca construir una sociedad que proteja la curiosidad científica, permita buscar conocimiento sin barreras innecesarias, desarrolle la innovación con libertad y responsabilidad, y haga que los beneficios de los descubrimientos contribuyan a un futuro humano más capaz, equitativo y próspero."
+      ]
     }
   ]
 }

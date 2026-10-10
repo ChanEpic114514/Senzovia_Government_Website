@@ -52,6 +52,18 @@ def render_policy(root, lang, topic, content):
     rendered = []
     searchable = []
 
+    title = document.get("title", "")
+    introduction = document.get("introduction", [])
+    if not isinstance(title, str) or not isinstance(introduction, list) or not all(
+        isinstance(paragraph, str) for paragraph in introduction
+    ):
+        raise ValueError(f"{source}: title and introduction must contain text")
+    if title:
+        rendered.append(f'<p class="policy-document-title"><strong>{escape(title)}</strong></p>')
+        searchable.append(title)
+    rendered.extend(f"<p>{escape(paragraph)}</p>" for paragraph in introduction)
+    searchable.extend(introduction)
+
     def render_section(section, anchor, level=2):
         heading = section["heading"]
         paragraphs = section.get("paragraphs", [])
@@ -158,3 +170,4 @@ def render_policy(root, lang, topic, content):
     )
 
     return body, " ".join(searchable)
+

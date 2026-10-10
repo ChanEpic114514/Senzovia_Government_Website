@@ -1,22 +1,431 @@
 {
+  "title": "Senzovia — National Science & Innovation Policy",
+  "introduction": [
+    "Proposed national policy framework for public discussion and institutional development."
+  ],
   "sections": [
     {
-      "heading": "Chapter 1: Policy objectives",
+      "heading": "Policy Objectives",
       "paragraphs": [
-        "Enter the first paragraph of the formal text for this chapter here.",
-        "Enter the second paragraph of the formal text for this chapter here."
+        "The Government of Senzovia proposes the establishment of a comprehensive National Science & Innovation Policy to advance scientific discovery, protect intellectual freedom, expand research opportunities, encourage technological innovation, and ensure that scientific progress contributes to human well-being.",
+        "Senzovia recognises science as a fundamental human endeavour. Its value extends beyond economic growth, technological competition, and immediate practical applications. Scientific inquiry enables humanity to understand the natural world, investigate society, challenge established assumptions, and explore questions whose significance may not yet be fully understood.",
+        "The national science system shall therefore be founded upon scientific autonomy, equal opportunity, intellectual integrity, international cooperation, responsible innovation, and public accountability.",
+        "The principal policy objectives are as follows."
+      ],
+      "subsections": [
+        {
+          "heading": "1. Protect scientific freedom and independent inquiry.",
+          "paragraphs": [
+            "Scientists shall have the freedom to formulate research questions, investigate competing explanations, develop experimental methods, and communicate their findings without unjustified political or institutional interference.",
+            "Scientific priorities shall be determined primarily by the scientific community rather than imposed by political authorities. Government-funded research shall enjoy the same substantive intellectual independence as research conducted by universities, independent institutions, and private organisations.",
+            "The Government shall not require researchers to produce predetermined conclusions or suppress scientifically justified findings merely because they challenge prevailing political, economic, or social positions."
+          ]
+        },
+        {
+          "heading": "2. Make scientific research accessible to qualified individuals regardless of background.",
+          "paragraphs": [
+            "Senzovia seeks to establish a research system in which scientific ability and the quality of proposed research matter more than formal credentials, institutional prestige, age, or social connections.",
+            "Individuals shall be able to apply directly for public research funding without being required to hold a university degree or a conventional academic appointment.",
+            "Students, independent researchers, and researchers working outside traditional institutions shall have meaningful opportunities to participate in scientific discovery.",
+            "International participation shall remain a central feature of the national research system, including opportunities for qualified researchers to conduct funded projects from abroad."
+          ]
+        },
+        {
+          "heading": "3. Provide comprehensive and sustained support for scientifically qualified research.",
+          "paragraphs": [
+            "Scientific research shall constitute a high priority in national public expenditure.",
+            "Senzovia proposes a funding system under which research projects satisfying established scientific standards and reasonable cost requirements receive appropriate financial support, rather than competing for an artificially fixed number of awards.",
+            "The system shall prioritise investigator-initiated research while retaining appropriate support for strategically important scientific challenges.",
+            "Research funding shall be guided by scientific merit, methodological quality, feasibility, and reasonable resource requirements—not political preferences or institutional reputation."
+          ]
+        },
+        {
+          "heading": "4. Encourage scientific exploration without penalising honest failure.",
+          "paragraphs": [
+            "Scientific progress frequently involves uncertainty, unsuccessful experiments, unexpected results, and the rejection of previously plausible hypotheses.",
+            "Senzovia shall distinguish legitimate scientific failure from negligence, dishonesty, or misuse of public resources.",
+            "Researchers conducting responsible and methodologically sound investigations shall not be penalised merely because their projects fail to produce the expected results.",
+            "The national research system shall recognise negative findings, replication studies, and the correction of scientific errors as valuable contributions to knowledge."
+          ]
+        },
+        {
+          "heading": "5. Develop an independent, internationally connected research ecosystem.",
+          "paragraphs": [
+            "Senzovia shall develop a decentralised national research network centred on universities, independent research institutes, and collaborative scientific organisations.",
+            "Public investment shall support laboratories, scientific instruments, computing infrastructure, and other facilities necessary for advanced research.",
+            "Domestic institutions shall be encouraged to cooperate with international research organisations, universities, and independent scientists.",
+            "International scientific cooperation shall be guided by research value and practical scientific needs rather than national prestige alone."
+          ]
+        },
+        {
+          "heading": "6. Encourage technological innovation and responsible commercial development.",
+          "paragraphs": [
+            "Scientific discoveries should have opportunities to contribute to practical technologies, improved public services, new industries, and economic development.",
+            "Senzovia shall support legitimate intellectual property rights, research-based entrepreneurship, and competitive technology markets.",
+            "Eligible enterprises shall have access to research and development tax incentives, including refundable credits where appropriate.",
+            "Public policy shall encourage innovation without unnecessarily replacing market competition with direct government control.",
+            "At the same time, technological applications with significant implications for safety or fundamental rights shall remain subject to appropriate legal safeguards."
+          ]
+        },
+        {
+          "heading": "7. Ensure that scientific progress contributes to public welfare.",
+          "paragraphs": [
+            "Scientific development should ultimately improve people’s ability to live healthy, informed, independent, and fulfilling lives.",
+            "Senzovia shall encourage the development and availability of important scientific and technological products, particularly those relating to essential public needs.",
+            "The Government shall seek to reconcile legitimate commercial incentives with public access through fair competition, voluntary licensing, procurement arrangements, and clearly established public-interest obligations.",
+            "Publicly supported innovation shall remain accountable to the society that contributes to its development."
+          ]
+        },
+        {
+          "heading": "8. Establish transparent, accountable, and adaptable scientific governance.",
+          "paragraphs": [
+            "The independence of the scientific community shall be accompanied by strong standards of integrity, financial responsibility, and institutional accountability.",
+            "Research evaluation shall be conducted through qualified expert review, with safeguards against corruption, conflicts of interest, discrimination, and institutional monopolies.",
+            "Independent oversight bodies shall supervise procedural integrity and the lawful use of public funds without substituting political judgement for scientific expertise.",
+            "Science policy shall be evaluated regularly and revised when evidence demonstrates that its institutions or implementation mechanisms require improvement."
+          ]
+        }
+      ],
+      "closing": [
+        "Through these objectives, Senzovia seeks to establish a national scientific environment in which knowledge can be pursued freely, research opportunities are genuinely accessible, innovation is encouraged, and scientific progress serves humanity."
       ]
     },
     {
-      "heading": "Chapter 2: Policy arrangements",
-      "paragraphs": [
-        "Enter the specific arrangements, scope of application and implementation conditions here."
+      "heading": "Policy Content",
+      "paragraphs": [],
+      "subsections": [
+        {
+          "heading": "1. Scientific Freedom and Research Autonomy",
+          "paragraphs": [
+            "Scientific freedom shall be a foundational principle of the national research system.",
+            "Researchers shall have the right to select scientific questions, develop hypotheses, design research methods, examine competing theories, and communicate findings within the boundaries of applicable law and legitimate ethical requirements.",
+            "Scientific directions shall be determined primarily by researchers and their professional communities.",
+            "Government authorities shall not prescribe the conclusions of scientific investigations or restrict legitimate research solely because its findings conflict with official policy, established social beliefs, or commercial interests.",
+            "Researchers employed by public institutions shall enjoy substantive academic freedom comparable to that of researchers working in universities and independent organisations.",
+            "Public funding shall not be conditional upon ideological conformity or support for predetermined political positions.",
+            "The allocation of scientific resources shall remain subject to lawful financial administration, but such administration shall not be used as an indirect means of controlling scientific conclusions."
+          ]
+        },
+        {
+          "heading": "2. National Scientific Governance",
+          "paragraphs": [
+            "Senzovia proposes the establishment of a National Scientific Council, responsible for coordinating the scientific governance of the public research system.",
+            "The Council shall be constituted through representative elections within the scientific community.",
+            "Its structure shall provide appropriate representation across scientific disciplines, research institutions, and career stages, including qualified early-career and independent researchers.",
+            "No single university, research discipline, or senior academic group shall be entitled to permanent institutional dominance over national scientific decision-making.",
+            "The Council’s responsibilities shall include developing scientific evaluation standards, organising research funding reviews, identifying major research infrastructure requirements, and coordinating scientific cooperation across institutions.",
+            "Professional scientific judgements shall remain within the scientific community.",
+            "The Government and legislature shall retain their constitutional responsibilities for public expenditure, legislation, international obligations, and the protection of fundamental rights.",
+            "Scientific autonomy shall not exempt institutions or individuals from lawful oversight."
+          ]
+        },
+        {
+          "heading": "3. Independent Research Integrity and Accountability",
+          "paragraphs": [
+            "An independent research integrity and accountability body shall be established to supervise the lawful and responsible administration of publicly supported scientific research.",
+            "Its responsibilities shall include investigating research misconduct, corruption, conflicts of interest, improper funding decisions, and misuse of research resources.",
+            "Investigations shall follow transparent procedures and appropriate standards of evidence.",
+            "Researchers and institutions subject to investigation shall possess rights to respond to allegations, present relevant evidence, and seek independent review.",
+            "The oversight body shall not possess unrestricted authority to determine scientific truth or override legitimate expert disagreement.",
+            "Disputes concerning scientific quality shall ordinarily be resolved through qualified scientific review, while questions of legality and procedural fairness shall remain subject to independent legal scrutiny."
+          ]
+        },
+        {
+          "heading": "4. Universal Eligibility for Research Funding",
+          "paragraphs": [
+            "Public research funding shall be accessible to individuals who can demonstrate the ability to conduct credible scientific research.",
+            "Applicants shall not be required to possess a specific academic degree, hold a university appointment, or belong to an established research institution solely to submit a proposal.",
+            "Scientific eligibility shall be assessed according to relevant knowledge, research capability, methodological competence, feasibility, and the merits of the proposed investigation.",
+            "Independent researchers shall be permitted to apply directly for funding.",
+            "Where administrative, financial, or technical support is necessary, appropriate institutional arrangements may be provided without automatically transferring scientific leadership away from the principal researcher.",
+            "Foreign researchers shall remain eligible to participate in public research programmes, including through remote and international research arrangements.",
+            "Research evaluation shall distinguish scientific merit from nationality or institutional affiliation. Programmes intended to strengthen research capacity within Senzovia may establish transparent requirements relating to their genuine domestic development objectives.",
+            "Such requirements shall not be used to disguise discrimination unrelated to the programme’s legitimate purpose."
+          ]
+        },
+        {
+          "heading": "5. Research Opportunities for Students and Young Scientists",
+          "paragraphs": [
+            "The national research system shall cooperate with Education System X (ESX) to expand meaningful scientific opportunities for students.",
+            "Young researchers demonstrating sufficient ability shall be permitted to undertake independent investigations, participate in research teams, and apply for public research support.",
+            "Minors shall receive appropriate mentoring, safeguarding, and institutional assistance where required by law.",
+            "Financial contracts, legal liabilities, and other responsibilities that cannot lawfully be undertaken by minors shall be managed through suitable authorised arrangements.",
+            "These arrangements shall not automatically deprive young researchers of intellectual independence, recognition, or legitimate rights relating to their contributions.",
+            "Qualified university students and other capable young researchers may participate in scientific evaluation where their expertise is appropriate to the work being assessed.",
+            "Participation in scientific research shall remain voluntary and shall not become a compulsory educational requirement or an additional form of credential competition."
+          ]
+        },
+        {
+          "heading": "6. National Research Funding",
+          "paragraphs": [
+            "Scientific research shall be recognised as a major national investment priority.",
+            "The Government shall seek to provide stable and substantial public funding for fundamental research, applied investigations, and experimental development.",
+            "Investigator-initiated research shall receive the majority of general research funding, reflecting the principle that important scientific discoveries frequently emerge from questions not identified in advance by governments or commercial organisations.",
+            "Additional support may be provided for strategically significant scientific challenges, provided that professional researchers retain control over scientific methods and conclusions.",
+            "Public research funds shall be distributed through expert evaluation rather than institutional prestige, political connections, or predetermined numerical quotas.",
+            "Projects satisfying the established standards of scientific quality, legal compliance, feasibility, and reasonable cost shall be entitled to appropriate funding under the proposed national framework.",
+            "The Government shall not use lotteries or artificially restricted award numbers as substitutes for scientific evaluation.",
+            "Funding approval shall nevertheless relate to justified research requirements. It shall not constitute an unconditional entitlement to whatever budget an applicant requests."
+          ]
+        },
+        {
+          "heading": "7. Long-Term Funding Commitments and Fiscal Responsibility",
+          "paragraphs": [
+            "Public research funding shall operate through legally defined financial commitments supported by multi-year budget planning.",
+            "Research grants shall specify approved financial amounts, payment arrangements, project responsibilities, and procedures for legitimate amendments.",
+            "Where ordinary research appropriations are insufficient to meet established obligations, the Government shall seek supplementary funding through the appropriate legal process.",
+            "Research funding commitments shall be considered alongside the Government’s wider constitutional and fiscal responsibilities.",
+            "During a severe fiscal emergency, the Government may seek lawful adjustments to the timing of future grant payments.",
+            "Such adjustments shall not permit arbitrary cancellation of approved research projects, discriminatory treatment of researchers, or the disregard of legally enforceable financial obligations.",
+            "Affected researchers shall have access to appropriate review and legal remedies.",
+            "The national funding system shall maintain transparent records of future commitments, expected expenditure, and significant fiscal risks.",
+            "Research funding obligations shall be subject to regular long-term sustainability assessments.",
+            "Financial difficulties shall not be concealed through artificially raising scientific qualification thresholds, deliberately delaying applications, or misrepresenting the quality of otherwise eligible research."
+          ]
+        },
+        {
+          "heading": "8. Research Evaluation and Peer Review",
+          "paragraphs": [
+            "Research proposals shall be assessed by qualified experts with relevant scientific knowledge.",
+            "Evaluation shall consider scientific significance, methodological quality, feasibility, the applicant’s capacity to conduct the proposed work, and the reasonableness of financial requirements.",
+            "Reviewers shall disclose relevant conflicts of interest and withdraw from decisions in which their impartiality would be materially compromised.",
+            "Scientific evaluations shall not be influenced by an applicant’s political beliefs, personal connections, or institutional reputation except where specific institutional capabilities are directly relevant to project execution.",
+            "Applicants shall have access to appropriate explanations of funding decisions and procedures for challenging material procedural errors.",
+            "Financial review shall assess whether proposed expenditure is necessary and proportionate without replacing expert judgements concerning scientific value.",
+            "Review procedures shall be designed to maintain rigorous standards while avoiding unnecessary paperwork and duplicative administrative requirements."
+          ]
+        },
+        {
+          "heading": "9. Interdisciplinary Research",
+          "paragraphs": [
+            "Research involving multiple academic disciplines shall be evaluated through cooperation among relevant existing scientific review structures.",
+            "Senzovia shall not require interdisciplinary research to pass through an entirely separate national bureaucracy merely because it combines established fields.",
+            "Appropriately qualified reviewers from the relevant disciplines shall assess the scientific contribution and methodological requirements of the proposal.",
+            "An integrated evaluation shall determine the overall scientific merit of the research.",
+            "No single discipline shall automatically possess veto power merely because a proposal does not conform to its conventional research methods.",
+            "Substantial methodological concerns shall receive appropriate professional examination, and applicable legal or ethical requirements shall remain binding regardless of the aggregate scientific assessment.",
+            "Interdisciplinary research shall have access to funding under the same general qualification principles as other research."
+          ]
+        },
+        {
+          "heading": "10. Scientific Integrity, Research Ethics, and Honest Failure",
+          "paragraphs": [
+            "Research institutions and investigators shall maintain appropriate standards of scientific honesty, methodological transparency, and responsible resource management.",
+            "Fabrication, falsification, plagiarism, deliberate concealment of material conflicts of interest, and other established forms of research misconduct shall be subject to independent investigation.",
+            "Scientific disagreement, unsuccessful experiments, negative results, and the rejection of hypotheses shall not themselves constitute misconduct.",
+            "Researchers shall be encouraged to report unexpected findings accurately rather than alter their conclusions to satisfy funding bodies or institutional expectations.",
+            "Research projects shall undergo proportionate monitoring of scientific progress and expenditure.",
+            "Ethical review shall be organised according to the actual risks associated with the research.",
+            "Low-risk investigations should be subject to simplified procedures where legally appropriate, while research involving significant risks to individuals, communities, or the environment shall receive more extensive independent examination.",
+            "Research oversight shall protect legitimate scientific activity without imposing unnecessary administrative barriers."
+          ]
+        },
+        {
+          "heading": "11. Universities and Independent Research Institutions",
+          "paragraphs": [
+            "Senzovia shall develop a decentralised research ecosystem centred on universities and independent scientific institutions.",
+            "Research organisations shall enjoy substantial autonomy in defining their scientific specialisations, establishing research teams, and pursuing domestic or international cooperation.",
+            "Public research funding shall support scientific activity across institutions rather than being distributed through permanent institutional hierarchies.",
+            "The Government shall not establish a centralised research monopoly that unnecessarily restricts the development of independent scientific organisations.",
+            "Universities and research institutes receiving public resources shall remain accountable for their lawful use and for the public responsibilities attached to them.",
+            "Institutional autonomy shall not justify discriminatory exclusion from publicly supported research opportunities or infrastructure."
+          ]
+        },
+        {
+          "heading": "12. National Scientific Infrastructure",
+          "paragraphs": [
+            "The Government shall support the establishment and maintenance of major research infrastructure necessary for scientific development.",
+            "Such infrastructure may include laboratories, scientific instrumentation, observatories, computing resources, and other advanced research facilities.",
+            "Major facilities shall be developed according to demonstrated scientific needs and independent assessments of their feasibility and reasonable costs.",
+            "Qualified universities and independent research institutions shall be eligible to compete openly for the responsibility of operating public research facilities.",
+            "Selection shall consider scientific expertise, operational competence, financial responsibility, and the institution’s capacity to fulfil public access requirements.",
+            "Non-commercial research serving legitimate scientific and public-interest purposes shall have free access to eligible publicly funded research facilities.",
+            "Commercial research and development shall generally pay fees reflecting the reasonable costs of facility use.",
+            "Where demand exceeds available capacity, access shall be allocated according to scientific need, technical requirements, and time sensitivity rather than institutional prestige or a purely first-come-first-served system.",
+            "Allocation decisions shall be transparent and subject to appropriate review."
+          ]
+        },
+        {
+          "heading": "13. Major Scientific Projects",
+          "paragraphs": [
+            "Large-scale scientific projects shall undergo comprehensive scientific, engineering, and financial assessment before final approval.",
+            "Approved projects shall receive long-term support for their authorised construction and implementation plans.",
+            "Project approval shall specify the scientific objectives, intended scope, expected resources, principal responsibilities, and maximum public financial commitment.",
+            "Government authorities shall not arbitrarily alter approved scientific objectives during construction.",
+            "Operational expenditure, maintenance requirements, and foreseeable long-term obligations shall be considered during project planning.",
+            "Where projected costs exceed the authorised financial limit, the project shall undergo independent technical and financial reassessment.",
+            "Additional government expenditure beyond the approved maximum shall require renewed legal authorisation.",
+            "Where the original project can no longer be completed within available resources, scientifically justified modifications, additional lawful financing, or termination procedures may be considered.",
+            "No institution shall conceal major cost overruns or technical failures in order to preserve the appearance of project success."
+          ]
+        },
+        {
+          "heading": "14. Research Publication, Data, and Reproducibility",
+          "paragraphs": [
+            "Researchers shall enjoy the freedom to publish scientific findings and participate in academic debate.",
+            "Publicly funded research shall meet reasonable requirements for scientific transparency and independent verification.",
+            "Researchers shall provide sufficient information about their methods, evidence, and material limitations to permit appropriate scientific scrutiny.",
+            "The form and extent of data sharing shall take account of privacy, research ethics, legitimate confidentiality, intellectual property, and other applicable legal obligations.",
+            "Where unrestricted publication of underlying data would violate legitimate protections, controlled access, independent verification, or other suitable arrangements may be used.",
+            "Researchers shall retain appropriate discretion over the sharing of materials beyond the minimum obligations established by law and their research funding agreements.",
+            "Temporary restrictions on publication may be permitted for legitimate reasons, including patent applications and clearly justified confidentiality requirements.",
+            "Such restrictions shall be subject to statutory limits and appropriate review procedures.",
+            "Scientific reproducibility and independent replication shall be recognised as legitimate research objectives eligible for support."
+          ]
+        },
+        {
+          "heading": "15. Intellectual Property and Research Commercialisation",
+          "paragraphs": [
+            "Senzovia shall protect legitimate intellectual property rights arising from scientific research and technological development.",
+            "Researchers, research institutions, and enterprises may enter into lawful arrangements concerning the ownership, licensing, and commercial development of research results.",
+            "Publicly supported discoveries may be granted temporary exclusive commercial licences where such arrangements provide a reasonable incentive for further development and practical application.",
+            "Exclusive licensing shall not be unlimited.",
+            "Applicable law shall establish maximum durations, review requirements, and safeguards against improper restrictions on competition.",
+            "Licensing arrangements shall distinguish between the legal duration of intellectual property rights and the duration of any particular exclusive commercial licence.",
+            "Researchers shall receive appropriate recognition for their contributions, and their legal rights shall be protected through transparent agreements.",
+            "Publicly supported technology shall remain subject to applicable public-interest obligations established by law or by the terms of the original funding and licensing arrangements."
+          ]
+        },
+        {
+          "heading": "16. Research and Development Tax Incentives",
+          "paragraphs": [
+            "Senzovia shall encourage private-sector research and technological innovation through transparent research and development tax incentives.",
+            "Eligible enterprises shall be permitted to claim tax benefits for qualifying research expenditure.",
+            "The level of support shall vary according to the nature of the research activity, as defined by law, rather than automatically according to the size or reputation of the company.",
+            "Refundable research and development tax credits shall be available to qualifying enterprises, including eligible early-stage businesses without sufficient taxable profits.",
+            "Research expenditure shall be assessed according to its substantive scientific and technological characteristics.",
+            "Ordinary commercial activities shall not become eligible for research incentives merely through changes in accounting descriptions or project terminology.",
+            "The Government shall establish appropriate safeguards against fraudulent claims, unreasonable duplication of public support, and inconsistent tax administration.",
+            "Eligible enterprises shall retain rights to transparent assessment and independent review."
+          ]
+        },
+        {
+          "heading": "17. Technological Entrepreneurship and Market Competition",
+          "paragraphs": [
+            "Senzovia shall support the development of a competitive, innovation-driven economy.",
+            "Scientists and entrepreneurs shall be free to establish enterprises, commercialise legitimate discoveries, seek private investment, and participate in domestic and international technology markets.",
+            "Government support shall primarily operate through scientific funding, public infrastructure, tax incentives, and fair legal institutions rather than routine direct state ownership of private technology companies.",
+            "Businesses shall remain responsible for their commercial decisions and financial obligations.",
+            "Competition law shall protect markets against unlawful monopolistic conduct, exclusionary practices, and other forms of anti-competitive behaviour.",
+            "Legitimate commercial success and intellectual property ownership shall not themselves constitute grounds for government intervention.",
+            "Where publicly supported technologies are subject to exclusive licences, their commercial arrangements shall remain consistent with applicable competition rules and established public-interest obligations."
+          ]
+        },
+        {
+          "heading": "18. Responsible Deployment of Emerging Technologies",
+          "paragraphs": [
+            "Scientific investigation and the deployment of technology into society shall be treated as distinct activities.",
+            "The freedom to research a technology shall not automatically establish an unrestricted right to deploy it in applications affecting public safety or fundamental rights.",
+            "For technological applications presenting legally defined significant risks, appropriate safety verification shall be required before commercial deployment.",
+            "The legislature shall establish the governing risk standards.",
+            "Qualified technical experts shall assess particular applications according to their actual characteristics, intended uses, and relevant evidence.",
+            "Regulation shall be proportionate to the demonstrated or reasonably substantiated risks involved.",
+            "Government authorities shall not prohibit legitimate scientific investigation solely on the basis of speculative concerns or political disagreement.",
+            "Businesses seeking commercial deployment shall be responsible for the costs of legally required safety verification.",
+            "Verification procedures shall be transparent, professionally administered, and subject to review.",
+            "Regulatory requirements shall not be used to create unjustified competitive advantages for established corporations or unnecessary barriers to lawful technological innovation."
+          ]
+        },
+        {
+          "heading": "19. Public Access to Important Technologies",
+          "paragraphs": [
+            "The national science system shall seek to ensure that major scientific advances can produce meaningful public benefits.",
+            "Particular attention shall be given to technologies relating to essential healthcare, public safety, accessibility, and other important human needs.",
+            "Senzovia shall primarily pursue reasonable access through market competition, voluntary licensing, commercial negotiation, public procurement, and legally established contractual commitments.",
+            "Public research agreements and commercial licences may define appropriate public-interest obligations in advance.",
+            "Such obligations shall be transparent, proportionate, and consistent with legitimate innovation incentives.",
+            "The Government shall not impose arbitrary commercial restrictions or retroactively disregard established legal rights.",
+            "Where ordinary market arrangements fail to protect essential public needs, any exceptional intervention shall require a separate and clearly defined legal basis, due process, appropriate protection of legitimate rights, and compliance with applicable legal obligations.",
+            "Publicly supported science and technology programmes may prioritise the needs of Senzovian citizens in designated public welfare arrangements.",
+            "Such priorities shall not automatically extinguish the fundamental rights, lawful entitlements, or essential protections of non-citizens."
+          ]
+        },
+        {
+          "heading": "20. Scientific Careers and Professional Mobility",
+          "paragraphs": [
+            "Senzovia shall support a research workforce characterised by professional independence, flexibility, and mobility.",
+            "Research employment shall generally operate through institutional, market-based, and project-based arrangements rather than universal guarantees of permanent government employment.",
+            "Researchers shall retain the right to change institutions, form independent research organisations, and pursue international scientific opportunities.",
+            "Changes in institutional affiliation shall not automatically require the abandonment of legitimately funded research.",
+            "Appropriate procedures shall govern the transfer or continuation of research grants, taking account of project leadership, contractual responsibilities, research equipment, and public financial accountability.",
+            "Researchers shall remain entitled to applicable labour protections, fair contractual treatment, and established social safeguards.",
+            "Scientific career development shall recognise genuine research contributions rather than relying exclusively on seniority, institutional prestige, or accumulated credentials."
+          ]
+        },
+        {
+          "heading": "21. International Scientific Cooperation",
+          "paragraphs": [
+            "Senzovia shall actively participate in the international scientific community.",
+            "Scientific cooperation shall be based on research quality, mutual benefit, professional compatibility, and legitimate legal requirements.",
+            "The national scientific community shall determine whether particular research objectives are best achieved through independent domestic projects, participation in existing international programmes, or the leadership of new international collaborations.",
+            "The Government shall not require scientific institutions to pursue projects primarily for diplomatic prestige.",
+            "Qualified international researchers shall be permitted to undertake funded work outside Senzovia where project conditions and applicable laws allow.",
+            "International grants shall be administered according to the scale, financial complexity, and actual risks of the project.",
+            "Smaller, lower-risk projects may receive simplified funding arrangements, while larger or more complex projects may require additional financial administration and oversight.",
+            "International cooperation agreements shall appropriately address research responsibilities, financial obligations, intellectual property, lawful data handling, and dispute resolution.",
+            "Cross-border research shall remain subject to applicable legal safeguards without imposing unnecessary restrictions based solely on nationality."
+          ]
+        },
+        {
+          "heading": "22. Scientific Opportunity and Equal Participation",
+          "paragraphs": [
+            "The national research system shall seek to remove barriers unrelated to scientific ability.",
+            "Qualified individuals shall have meaningful opportunities to participate regardless of socioeconomic background, disability, educational pathway, or institutional connections.",
+            "Reasonable accommodations and necessary practical support shall be provided according to relevant circumstances.",
+            "Public research opportunities shall not be allocated through hereditary privilege, donor influence, political patronage, or arbitrary institutional preference.",
+            "Evaluation systems shall distinguish legitimate research requirements from unnecessary administrative obstacles.",
+            "Senzovia shall support pathways through which students, independent researchers, experienced professionals, and individuals changing careers may enter or re-enter scientific research.",
+            "Access to science shall be understood as an opportunity to contribute to knowledge, not as an obligation to pursue a scientific career."
+          ]
+        },
+        {
+          "heading": "23. Transparency and Public Accountability",
+          "paragraphs": [
+            "Publicly supported research institutions shall operate under appropriate standards of transparency and accountability.",
+            "The Government shall publish the general criteria governing research funding, the lawful use of public resources, and significant decisions concerning national scientific infrastructure.",
+            "Information may be withheld where necessary to protect personal privacy, legitimate commercial confidentiality, research integrity, or other legally recognised interests.",
+            "Independent bodies shall examine complaints concerning unfair procedures, financial misconduct, conflicts of interest, and abuse of institutional authority.",
+            "Members of the public shall have appropriate opportunities to scrutinise science policy and raise concerns regarding its implementation.",
+            "Public consultation shall not authorise political authorities to impose predetermined scientific conclusions or substitute popular preference for legitimate scientific evidence."
+          ]
+        },
+        {
+          "heading": "24. Environmental and Social Responsibility",
+          "paragraphs": [
+            "Scientific institutions and major research facilities shall comply with applicable environmental, public safety, and human rights protections.",
+            "Projects with significant environmental consequences shall undergo appropriate impact assessment and, where necessary, mitigation and monitoring.",
+            "Research institutions shall consider the responsible use of energy, materials, land, and other public resources when designing major infrastructure.",
+            "Scientific and technological development shall not be pursued through unjustified violations of human dignity, personal privacy, or the legitimate rights of affected communities.",
+            "Any restrictions on scientific activity shall remain legally grounded and proportionate to the interests being protected."
+          ]
+        },
+        {
+          "heading": "25. Scientific Policy Evaluation and Continuous Improvement",
+          "paragraphs": [
+            "Senzovia shall evaluate its science and innovation policies through transparent, evidence-based procedures.",
+            "Assessment shall consider scientific quality, meaningful discoveries, access to research opportunities, institutional integrity, technological development, fiscal sustainability, and contributions to public welfare.",
+            "No single numerical indicator shall serve as the definitive measure of scientific success.",
+            "Publication counts, citation rankings, patent registrations, commercial revenues, and institutional prestige may provide relevant information, but shall not replace substantive scientific and social evaluation.",
+            "The Government shall conduct periodic independent reviews of the national science system and publish appropriate findings and recommendations.",
+            "Major institutional failures, emerging risks, or significant changes in scientific knowledge may justify earlier review.",
+            "Policy revisions shall seek to improve effectiveness while respecting scientific freedom, established legal rights, and legitimate public commitments."
+          ]
+        },
+        {
+          "heading": "26. Legal Status and Implementation",
+          "paragraphs": [
+            "This National Science & Innovation Policy constitutes a proposed framework for the development of Senzovia’s scientific institutions and innovation system.",
+            "It does not represent a declaration that the institutions, funding entitlements, tax incentives, public services, or regulatory mechanisms described above have already been enacted or established.",
+            "Implementation shall require appropriate legislation, lawful public appropriations, administrative arrangements, professional standards, and independent oversight.",
+            "Specific financial rates, statutory time limits, institutional procedures, and technical requirements shall be determined through the relevant legal and policy-making processes.",
+            "Where constitutional obligations, fundamental rights, and established legal protections apply, implementation shall remain subject to those requirements.",
+            "The Government shall review the framework as necessary to ensure that scientific freedom, responsible innovation, public accountability, and the long-term sustainability of the national research system remain mutually reinforcing."
+          ]
+        }
       ],
-      "image": {
-        "src": "/assets/senzovia-flag.jpeg",
-        "alt": "Flag of Senzovia",
-        "caption": "Image layout example: the flag of Senzovia. Before publication, replace this image with an illustration relevant to this chapter, or remove this image entry."
-      }
+      "closing": [
+        "Through this policy, Senzovia seeks to build a society in which scientific curiosity is protected, knowledge is pursued without unnecessary barriers, innovation develops through freedom and responsibility, and the benefits of discovery contribute to a more capable, equitable, and flourishing human future."
+      ]
     }
   ]
 }
