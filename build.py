@@ -9,7 +9,8 @@ for lang in ['zh-Hant','ja','ko','fr','es']:
     data[lang] = json.loads((ROOT/f'content-{lang}.json').read_text())
 LANGS = ['en','zh-Hans','zh-Hant','ja','ko','fr','es']
 ROUTES = ['home','priorities','publications','about','flag','education','research','rights','culture','governance','reconstruction','scope','accessibility','privacy','references','search']
-ROUTES += [f'{topic["id"]}-full' for topic in data["en"]["topics"]]
+TOPICS_WITH_FULL_POLICIES = {'education','research','rights'}
+ROUTES += [f'{topic["id"]}-full' for topic in data["en"]["topics"] if topic["id"] in TOPICS_WITH_FULL_POLICIES]
 refs = [
  ('United Kingdom','https://www.gov.uk/','Topic-led services; clear separation of policy, guidance and transparency.'),
  ('United States','https://www.usa.gov/','Plain-language task labels and a compact topic directory.'),
@@ -68,7 +69,7 @@ def notice_cards(lang,c):
 def scope_box(lang, c, topic=None):
     actions = link(lang, "scope", LABELS[lang][0])
 
-    if topic:
+    if topic in TOPICS_WITH_FULL_POLICIES:
         actions += link(lang, f"{topic}-full", LABELS[lang][1])
 
     return (

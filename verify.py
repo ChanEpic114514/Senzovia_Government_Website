@@ -35,11 +35,20 @@ for p,page in parsed.items():
  if p.name=='index.html' and len(page.selects)!=7:errors.append(f'{p}: language coverage {len(page.selects)}')
 for lang in ['en','zh-Hans','zh-Hant','ja','ko','fr','es']:
  index=json.loads((root/f'assets/search-{lang}.json').read_text())
- if len(index)!=15:errors.append(f'{lang}: search records {len(index)}')
+ if len(index)!=12:errors.append(f'{lang}: search records {len(index)}')
  for d in index:
   if not (root/d['url'].strip('/')/'index.html').exists():errors.append(f'{lang}: bad index route')
   if not d['text']:errors.append(f'{lang}: missing translated body')
+ for topic in ['education', 'research', 'rights']:
+  summary=(root/lang/topic/'index.html').read_text()
+  if f'/{lang}/{topic}-full/' not in summary:errors.append(f'{lang}: missing full-policy link for {topic}')
+  if not (root/lang/f'{topic}-full'/'index.html').is_file():errors.append(f'{lang}: missing full-policy page for {topic}')
+ for topic in ['culture', 'governance', 'reconstruction']:
+  summary=(root/lang/topic/'index.html').read_text()
+  if f'/{lang}/{topic}-full/' in summary:errors.append(f'{lang}: unwanted full-policy link for {topic}')
+  if (root/lang/f'{topic}-full'/'index.html').exists():errors.append(f'{lang}: unwanted full-policy page for {topic}')
+  if any(d['url']==f'/{lang}/{topic}-full/' for d in index):errors.append(f'{lang}: unwanted full-policy search result for {topic}')
 expected='15821ce299ab785bd3f58e39d9c674d2d6060e40edc956080d1738cc11b57c65'
 assert hashlib.sha256((root/'assets/senzovia-flag.jpeg').read_bytes()).hexdigest()==expected
 assert not errors,'\n'.join(errors)
-print(json.dumps({'html_pages':len(pages),'internal_links':'passed','language_links':'7 per page','search_documents':105,'download_documents':len(list((root/'assets/documents').glob('*.txt'))),'flag':'byte-for-byte identical','errors':errors}))
+print(json.dumps({'html_pages':len(pages),'internal_links':'passed','language_links':'7 per page','search_documents':84,'download_documents':len(list((root/'assets/documents').glob('*.txt'))),'flag':'byte-for-byte identical','errors':errors}))
