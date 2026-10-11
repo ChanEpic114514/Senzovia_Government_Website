@@ -1,22 +1,457 @@
 {
+  "title": "Senzovia — Libertad e igualdad de oportunidades",
   "sections": [
     {
-      "heading": "Capítulo 1: Objetivos de la política",
+      "heading": "Objetivos de la política",
       "paragraphs": [
-        "Introduzca aquí el primer párrafo del texto oficial de este capítulo.",
-        "Introduzca aquí el segundo párrafo del texto oficial de este capítulo."
+        "El Gobierno de Senzovia reconoce la libertad individual, la dignidad humana, la igualdad y la autonomía personal como principios fundamentales sobre los que se funda la República.",
+        "Todo ser humano deberá tener derecho a determinar el rumbo de su vida, desarrollar su identidad, perseguir sus aspiraciones y participar en la sociedad sin injerencias, discriminación u opresión injustificadas.",
+        "Senzovia afirma que la finalidad del gobierno no es controlar a las personas, prescribir formas de vida aceptables ni imponer conformidad a la sociedad. El gobierno existe para proteger los derechos fundamentales, mantener la justicia, ofrecer igualdad de oportunidades y servir al pueblo del que deriva su autoridad.",
+        "Por tanto, la libertad deberá entenderse no solo como ausencia de injerencia gubernamental, sino también como protección frente a la coacción, la discriminación, la explotación y el ejercicio arbitrario del poder por otras personas o instituciones.",
+        "La República reconoce que no puede existir libertad auténtica cuando se niegan oportunidades por circunstancias ajenas al control individual. La igualdad de oportunidades será, en consecuencia, un componente inseparable de la concepción nacional de la libertad.",
+        "Los principales objetivos son los siguientes."
+      ],
+      "subsections": [
+        {
+          "heading": "1. Garantizar las libertades individuales fundamentales.",
+          "paragraphs": [
+            "Toda persona deberá disfrutar de libertad de pensamiento, expresión, asociación, circulación, identidad personal y vida privada.",
+            "El Estado no deberá interferir arbitrariamente en estas libertades. Solo se permitirán restricciones expresamente autorizadas por el derecho constitucional para proteger los derechos fundamentales de otras personas, bajo supervisión judicial independiente."
+          ]
+        },
+        {
+          "heading": "2. Establecer la igualdad de género como principio constitucional fundamental.",
+          "paragraphs": [
+            "Todas las personas deberán gozar de igual dignidad y condición jurídica, con independencia del sexo, la orientación sexual, la identidad o expresión de género, o las características sexuales.",
+            "La República reconocerá la autodeterminación y la fluidez de género como derechos fundamentales.",
+            "Nadie deberá ser obligado a aceptar una identidad de género por características biológicas, expectativas sociales, tradiciones familiares o doctrinas religiosas."
+          ]
+        },
+        {
+          "heading": "3. Eliminar la discriminación y la subordinación por razón de género.",
+          "paragraphs": [
+            "El Estado prohibirá la discriminación de género en instituciones públicas y privadas, empleo, educación, servicios públicos y participación social.",
+            "La República también prohibirá el acoso deliberado por razón de género, la promoción pública de la desigualdad de género y la negación intencional de la identidad de género individual, protegiendo a la vez la investigación académica legítima y la indagación basada en evidencia.",
+            "La igualdad de género tendrá primacía constitucional sobre prácticas religiosas o doctrinas institucionales incompatibles."
+          ]
+        },
+        {
+          "heading": "4. Proteger la autonomía corporal y la soberanía personal.",
+          "paragraphs": [
+            "Toda persona tendrá el derecho fundamental a decidir sobre su cuerpo, tratamiento médico, opciones reproductivas y estilo de vida.",
+            "Nadie deberá sufrir intervenciones corporales no deseadas, coacción ni procedimientos médicos sin consentimiento.",
+            "El Estado protegerá la autonomía corporal frente a vulneraciones por personas, instituciones y autoridades públicas."
+          ]
+        },
+        {
+          "heading": "5. Garantizar la libertad política y la rendición de cuentas pública.",
+          "paragraphs": [
+            "Toda persona será libre de criticar al gobierno, cuestionar las instituciones, expresar descontento político y defender cambios políticos.",
+            "La autoridad política permanecerá subordinada al pueblo.",
+            "La Constitución establecerá mecanismos para que los ciudadanos examinen, impugnen y limiten de forma independiente el poder gubernamental."
+          ]
+        },
+        {
+          "heading": "6. Establecer protecciones integrales de la privacidad digital.",
+          "paragraphs": [
+            "Las comunicaciones privadas, la información personal y las actividades digitales recibirán una sólida protección constitucional.",
+            "El Estado prohibirá la vigilancia digital indiscriminada y la supervisión no autorizada por organismos públicos, empresas y particulares.",
+            "Todo acceso excepcional con fines de investigación requerirá una justificación lícita, específica y supervisada independientemente."
+          ]
+        },
+        {
+          "heading": "7. Garantizar la igualdad de oportunidades para todas las personas.",
+          "paragraphs": [
+            "Nadie deberá ser privado del acceso al empleo, a servicios públicos o a oportunidades de desarrollo personal por características personales irrelevantes.",
+            "La selección laboral y el avance profesional se basarán en competencia demostrada, cualificaciones pertinentes y exigencias del puesto.",
+            "El Estado eliminará barreras estructurales que impidan ejercer las capacidades y participar plenamente en la sociedad."
+          ]
+        },
+        {
+          "heading": "8. Asegurar la accesibilidad y la inclusión.",
+          "paragraphs": [
+            "La República reconocerá que la igualdad de trato requiere adaptaciones adecuadas para personas con diferentes necesidades físicas, sensoriales, cognitivas y de otra índole relativas a la accesibilidad.",
+            "Las infraestructuras públicas, las instituciones y los presupuestos gubernamentales incorporarán los recursos necesarios para la participación efectiva de personas con discapacidad y de quienes necesiten apoyo adicional."
+          ]
+        },
+        {
+          "heading": "9. Ampliar oportunidades mediante educación e innovación científica.",
+          "paragraphs": [
+            "Senzovia promoverá una amplia movilidad social mediante su sistema educativo nacional, el avance científico, la innovación tecnológica y la disponibilidad generalizada de oportunidades de desarrollo personal.",
+            "El Sistema Educativo de Senzovia (ESX) será el marco principal de la igualdad educativa. Sus disposiciones detalladas permanecerán en la política nacional de educación."
+          ]
+        },
+        {
+          "heading": "10. Garantizar la igualdad ante la ley.",
+          "paragraphs": [
+            "Toda persona recibirá igual protección jurídica y acceso a la justicia.",
+            "Nadie disfrutará de inmunidad ni trato jurídico privilegiado por riqueza, posición social, influencia política, autoridad institucional o relaciones personales.",
+            "El Estado establecerá mecanismos eficaces para investigar discriminación, reparar vulneraciones de derechos y exigir responsabilidades a las autoridades públicas."
+          ]
+        },
+        {
+          "heading": "11. Proteger la libertad de circulación y de nacionalidad.",
+          "paragraphs": [
+            "Los ciudadanos disfrutarán de libertad de circulación, residencia, viajes internacionales y elección de nacionalidad.",
+            "El Estado no privará involuntariamente a un ciudadano de la nacionalidad de Senzovia.",
+            "Los derechos humanos fundamentales de los extranjeros recibirán igual respeto y protección."
+          ]
+        },
+        {
+          "heading": "12. Hacer de la protección de los derechos humanos una responsabilidad permanente del Estado.",
+          "paragraphs": [
+            "Una institución nacional independiente de derechos humanos supervisará las garantías constitucionales, investigará vulneraciones, protegerá a personas vulnerables y ofrecerá recursos accesibles.",
+            "Ningún gobierno, mayoría política, autoridad pública o institución privada tendrá poder irrestricto sobre los derechos fundamentales individuales."
+          ]
+        }
       ]
     },
     {
-      "heading": "Capítulo 2: Disposiciones para la aplicación de la política",
-      "paragraphs": [
-        "Introduzca aquí las disposiciones específicas, el ámbito de aplicación y las condiciones de ejecución."
+      "heading": "Contenido de la política",
+      "paragraphs": [],
+      "subsections": [
+        {
+          "heading": "1. Supremacía constitucional de los derechos individuales",
+          "paragraphs": [
+            "La libertad, la igualdad, la dignidad y la autonomía personal constituirán principios constitucionales exigibles, no privilegios discrecionales otorgados por el gobierno.",
+            "Toda legislación, decisión administrativa, procedimiento judicial e institución pública actuará conforme a estos principios.",
+            "La Constitución prevalecerá sobre leyes ordinarias, directivas ejecutivas, normas institucionales, tradiciones culturales y doctrinas religiosas.",
+            "Ninguna autoridad gubernamental tendrá un poder ilimitado para suspender o suprimir libertades fundamentales.",
+            "Cuando sea necesario intervenir para evitar una vulneración de derechos ajenos, la intervención deberá tener una base jurídica clara, perseguir una finalidad protectora legítima y someterse a revisión judicial independiente.",
+            "Los ciudadanos dispondrán de recursos constitucionales contra actuaciones gubernamentales que interfieran ilícitamente en sus libertades.",
+            "El Estado reconocerá que la libertad individual es el punto de partida de la gobernanza pública, mientras que las restricciones necesitan justificación jurídica específica."
+          ]
+        },
+        {
+          "heading": "2. Libertad de expresión, pensamiento y participación política",
+          "paragraphs": [
+            "Toda persona será libre de expresar opiniones políticas, criticar decisiones gubernamentales, cuestionar dirigentes y promover cambios en las instituciones públicas.",
+            "La crítica al gobierno, incluida la crítica severa, la sátira y las expresiones públicas de descontento, no justificará castigos penales.",
+            "Las personas tendrán libertad para participar en manifestaciones pacíficas, crear asociaciones, incorporarse a organizaciones políticas y participar en el debate público.",
+            "Nadie será obligado a expresar apoyo al gobierno, a una ideología política o a una institución pública.",
+            "El Estado no exigirá lealtad política para acceder a servicios públicos ordinarios, educación, empleo o protección jurídica fundamental.",
+            "Se protegerán el periodismo independiente, el comentario político y la investigación de interés público.",
+            "La República reconocerá la libertad de pensamiento como libertad personal fundamental. Las meras creencias privadas, incluidas las contrarias a los valores sociales predominantes, no constituirán por sí solas delitos.",
+            "No obstante, la protección constitucional de la expresión no se extenderá sin límites a conductas y formas de promoción pública prohibidas por las leyes de igualdad de género de Senzovia."
+          ]
+        },
+        {
+          "heading": "3. Igualdad de género y libertad de autodeterminación de género",
+          "paragraphs": [
+            "Toda persona tendrá derecho a determinar, expresar, explorar y cambiar su identidad de género.",
+            "La identidad de género no se determinará jurídicamente solo por anatomía reproductiva, cromosomas, sexo asignado al nacer o expectativas convencionales de masculinidad y feminidad.",
+            "La República reconocerá que la identidad de género puede permanecer estable o cambiar a lo largo de la vida.",
+            "Nadie estará obligado a mantener permanentemente una identidad de género determinada.",
+            "Todos los géneros disfrutarán de igual reconocimiento constitucional, dignidad y derechos civiles.",
+            "Las personas serán libres de decidir su apariencia, vestimenta, peinado, forma de expresión e identidad personal sin conformidad obligatoria con roles tradicionales de género.",
+            "Se prohibirá a familiares, centros educativos, empleadores, organizaciones religiosas y otras autoridades imponer una identidad de género mediante coacción, intimidación, violencia o restricciones ilícitas.",
+            "Los derechos de identidad y expresión de género se extenderán a menores, con salvaguardias adecuadas a la evolución de sus capacidades y a su bienestar."
+          ],
+          "subsections": [
+            {
+              "heading": "Reconocimiento jurídico del género",
+              "paragraphs": [
+                "Todo niño tendrá protecciones de identidad jurídica y nacionalidad desde el nacimiento.",
+                "A los catorce años, las personas realizarán el registro de identidad personal previsto y declararán independientemente su identidad de género.",
+                "El proceso seguirá el principio de Autodeclaración de Género (Gender Self-Declaration).",
+                "No se exigirá examen psicológico, evaluación conductual, prueba ideológica, inspección anatómica ni prueba de conformidad para determinar si el género declarado se ajusta suficientemente a las expectativas sociales.",
+                "El reconocimiento jurídico no dependerá de cirugía, tratamiento hormonal u otros procedimientos médicos.",
+                "Las personas tendrán derecho a modificar su identidad de género registrada mediante un procedimiento jurídico accesible.",
+                "El Estado protegerá la confidencialidad de los registros de género y prohibirá divulgar innecesariamente clasificaciones anteriores."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "4. Igualdad matrimonial y de derechos familiares",
+          "paragraphs": [
+            "El matrimonio civil estará disponible para todas las personas legalmente elegibles y que consientan, sin distinción por sexo, identidad o expresión de género, u orientación sexual.",
+            "Ninguna combinación de géneros quedará excluida del matrimonio civil únicamente por las identidades de sus integrantes.",
+            "Todos los matrimonios legalmente reconocidos tendrán igual condición en el derecho civil.",
+            "Las personas casadas gozarán de iguales derechos en propiedad, herencia, responsabilidades parentales, decisiones familiares, divorcio y acceso a servicios públicos.",
+            "Ningún matrimonio establecerá una relación jurídicamente exigible de superioridad o subordinación por género.",
+            "El matrimonio no otorgará a ningún cónyuge autoridad sobre los derechos fundamentales del otro.",
+            "Las disposiciones matrimoniales religiosas o culturales que pretendan privar a un cónyuge de igualdad jurídica, autonomía corporal, libertad de circulación o decisión independiente carecerán de fuerza legal.",
+            "El derecho de familia se administrará exclusivamente conforme a la Constitución y a la legislación civil aplicable."
+          ]
+        },
+        {
+          "heading": "5. Instalaciones públicas neutrales respecto al género y participación deportiva",
+          "paragraphs": [],
+          "subsections": [
+            {
+              "heading": "Instalaciones públicas",
+              "paragraphs": [
+                "Las instalaciones de provisión pública no impondrán segregación obligatoria por género a sus usuarios.",
+                "Los aseos públicos, vestuarios e instalaciones comparables se diseñarán para personas de todas las identidades de género.",
+                "El diseño ofrecerá privacidad adecuada mediante espacios individuales cerrados, mecanismos seguros e infraestructura accesible.",
+                "Los requisitos de seguridad y privacidad se aplicarán por igual a todos, sin depender de una clasificación binaria obligatoria."
+              ]
+            },
+            {
+              "heading": "Deportes y competición atlética",
+              "paragraphs": [
+                "La República promoverá una clasificación del deporte competitivo basada en criterios fisiológicos evaluados científicamente, con las características hormonales como fundamento principal de agrupación.",
+                "La clasificación no se basará automáticamente en identidad de género o sexo asignado al nacer.",
+                "Las autoridades deportivas elaborarán clasificaciones hormonales apropiadas para cada disciplina, apoyadas en investigación transparente y evidencia revisada regularmente.",
+                "Estos sistemas buscarán equilibrar equidad competitiva, inclusión, dignidad individual y seguridad de los participantes.",
+                "La información médica de los deportistas permanecerá confidencial y no se divulgará públicamente sin necesidad.",
+                "Los deportes recreativos y comunitarios permanecerán abiertos, sin exclusiones injustificadas por género."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "6. Prohibición de discriminación y odio por razón de género",
+          "paragraphs": [
+            "La República prohibirá la discriminación de género en todos los ámbitos de la vida pública y de la actividad privada regulada legalmente.",
+            "La discriminación incluirá desigualdad de trato ilícita, exclusión, negación de oportunidades, acoso o privación de derechos por sexo, orientación sexual, identidad o expresión de género, o características sexuales."
+          ],
+          "subsections": [
+            {
+              "heading": "Formas de expresión prohibidas",
+              "paragraphs": [
+                "La ley prohibirá específicamente:"
+              ],
+              "items": [
+                "Amenazas directas por género, acoso dirigido y humillación deliberada.",
+                "Promoción pública de la subordinación jurídica o social de un género a otro.",
+                "Promoción pública de negar iguales derechos civiles por el género de las personas.",
+                "Negación deliberada de la identidad de género ajena en circunstancias definidas como ilícitas por la legislación de igualdad de género.",
+                "Incitación a violencia, discriminación o coacción por razón de género."
+              ],
+              "closing": [
+                "Las vulneraciones acreditadas darán lugar a sanciones jurídicas exigibles.",
+                "La legislación determinará las penas según la naturaleza y gravedad de la conducta, con posibilidad de sanciones penales para infracciones graves.",
+                "Las definiciones legales distinguirán la promoción discriminatoria intencional y el acoso de la discusión, la información periodística y el examen académico legítimos."
+              ]
+            },
+            {
+              "heading": "Protección de la libertad académica",
+              "paragraphs": [
+                "La investigación científica, el análisis filosófico, la investigación social y el debate basado en evidencia sobre género seguirán protegidos.",
+                "Los investigadores podrán estudiar cuestiones biológicas, psicológicas, sociológicas y jurídicas sobre género, incluidas aquellas con desacuerdo o evidencia científica no concluyente.",
+                "Los resultados no se prohibirán simplemente por diferir de posiciones sociales o políticas predominantes.",
+                "La protección académica dependerá de una indagación auténtica, argumentación razonada, integridad metodológica y uso correcto de pruebas, no de coincidir con conclusiones oficiales.",
+                "El Estado no usará la prohibición de discriminación de género como justificación general para suprimir investigaciones académicas legítimas."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "7. Gobierno secular y regulación de prácticas religiosas",
+          "paragraphs": [
+            "Senzovia será una república estrictamente secular.",
+            "Ninguna religión tendrá autoridad constitucional sobre el Estado, sus leyes, sus instituciones públicas o los derechos civiles individuales.",
+            "Las doctrinas religiosas no prevalecerán sobre la Constitución ni eximirán de leyes que protejan la igualdad de género y la autonomía individual.",
+            "La República adoptará una postura deliberadamente restrictiva ante prácticas religiosas incompatibles con sus principios constitucionales.",
+            "Las actividades religiosas podrán realizarse dentro de los límites del derecho civil secular. La libertad de práctica religiosa no se reconocerá como derecho incondicional capaz de prevalecer sobre las protecciones constitucionales de igualdad.",
+            "El Estado no establecerá instituciones religiosas como autoridades en matrimonio, identidad de género, política educativa o estado civil."
+          ],
+          "subsections": [
+            {
+              "heading": "Prohibición de discriminación religiosa por género",
+              "paragraphs": [
+                "Se prohibirán doctrinas, costumbres, instituciones y prácticas religiosas que impongan subordinación ilícita por género, incluidos acuerdos presentados como voluntarios cuando pretendan establecer desigualdades vinculantes de condición jurídica o derechos fundamentales.",
+                "Ninguna norma religiosa creará una obligación exigible de someterse a otra persona por razón de género.",
+                "El Estado mantendrá una supervisión reforzada del cumplimiento por organizaciones y prácticas religiosas para detectar infracciones de igualdad de género.",
+                "La supervisión se centrará en prácticas organizativas, conductas observables y pruebas jurídicamente pertinentes. La afiliación religiosa por sí sola no probará mala conducta ni responsabilidad penal."
+              ]
+            },
+            {
+              "heading": "Responsabilidad agravada por discriminación de género vinculada a la religión",
+              "paragraphs": [
+                "Cuando un acto acreditado de discriminación ilícita por género esté motivado por doctrina religiosa, justificado mediante ella o cometido para aplicarla, la conexión religiosa constituirá una agravante legal.",
+                "La República adopta esta distinción por su preocupación de que normas religiosas discriminatorias adquieran influencia social adicional mediante autoridad religiosa organizada, transmisión institucional y promoción repetida entre comunidades.",
+                "Por ello, la vinculación religiosa podrá aumentar la pena incluso cuando el daño inmediato sea comparable al de un delito sin motivación religiosa.",
+                "Senzovia establecerá penas legales severas para la discriminación de género vinculada a la religión, incluida una categoría agravada de condena comparable a la prevista para delitos de violación.",
+                "La legislación penal especificará los delitos, la prueba de motivación religiosa, los intervalos de pena aplicables y los procedimientos judiciales.",
+                "Esta agravante se aplicará a la conducta y a la motivación demostrada, independientemente de la afiliación religiosa personal del infractor.",
+                "Nadie será castigado penalmente solo por pertenecer a una religión o mantener creencias religiosas privadas."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "8. Autonomía corporal y protección frente a vulneraciones personales",
+          "paragraphs": [
+            "Toda persona tendrá soberanía sobre su propio cuerpo.",
+            "Las personas tendrán derecho a tomar decisiones médicas y reproductivas, aceptar o rechazar tratamientos y determinar su presentación corporal.",
+            "El tratamiento médico requerirá normalmente consentimiento informado y voluntario, con salvaguardias estrictamente delimitadas cuando no pueda obtenerse consentimiento válido.",
+            "Nadie será obligado a procedimientos médicos o modificaciones corporales solo para ajustarse a expectativas sociales, políticas, religiosas o de género.",
+            "El Estado no interferirá en decisiones corporales personales únicamente porque las autoridades las consideren poco convencionales o indeseables.",
+            "Se permitirá una intervención protectora cuando sea necesaria para evitar daños ilícitos a otra persona, con decisiones regidas por legislación clara y supervisión independiente."
+          ],
+          "subsections": [
+            {
+              "heading": "Autonomía sexual y consentimiento",
+              "paragraphs": [
+                "Todas las personas recibirán igual protección frente a violencia sexual, coacción, explotación y vulneraciones no consentidas de la autonomía corporal.",
+                "La autonomía sexual no dependerá del género, estado civil, historial de relaciones u orientación sexual.",
+                "El matrimonio, las relaciones personales y la afiliación religiosa nunca constituirán consentimiento automático o permanente para actividades sexuales.",
+                "Los delitos sexuales graves estarán sujetos a penas estrictas e investigación eficaz.",
+                "Las víctimas tendrán derecho a protección accesible, apoyo confidencial, procedimientos justos y recursos.",
+                "La responsabilidad penal y la condena se determinarán mediante debido proceso, con delitos y penas especificados legalmente."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "9. Privacidad digital y libertad frente a la vigilancia",
+          "paragraphs": [
+            "La privacidad de la información personal y las comunicaciones digitales recibirá protección constitucional.",
+            "Se prohibirá a organismos públicos, empresas, empleadores, centros educativos y particulares vigilar sin autorización las actividades digitales personales.",
+            "La República prohibirá la vigilancia digital masiva, indiscriminada o continua de la población.",
+            "No se accederá sin justificación legal a mensajes privados, registros de comunicaciones, archivos personales, actividad de navegación u otra información digital sensible.",
+            "Las personas tendrán derecho a usar tecnologías de comunicación seguras y cifradas.",
+            "Las autoridades no establecerán sistemas generales de vigilancia digital para controlar opiniones políticas, creencias personales, relaciones sociales o conductas privadas lícitas."
+          ],
+          "subsections": [
+            {
+              "heading": "Investigaciones penales excepcionales",
+              "paragraphs": [
+                "Podrá permitirse acceso selectivo a información digital cuando sea necesario para investigar delitos graves o proteger derechos fundamentales.",
+                "Este acceso requerirá fundamento jurídico específico, autorización judicial independiente, límites de investigación claramente definidos y salvaguardias eficaces contra abusos.",
+                "La autorización no permitirá recopilar indiscriminadamente información personal no relacionada.",
+                "Las personas tendrán derechos exigibles de acceso a sus datos, rectificación de registros inexactos, protección frente a divulgación no autorizada y supresión cuando sea jurídicamente apropiado.",
+                "Las vulneraciones de privacidad digital por autoridades o instituciones privadas estarán sujetas a investigación independiente y recursos jurídicos."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "10. Libertad de circulación, residencia y nacionalidad",
+          "paragraphs": [
+            "Todo ciudadano de Senzovia será libre de viajar, salir de la República, regresar y elegir residencia.",
+            "El Estado no prohibirá arbitrariamente la salida o el regreso de sus ciudadanos.",
+            "Los ciudadanos podrán solicitar, adquirir o renunciar voluntariamente a una nacionalidad conforme a procedimientos legales establecidos.",
+            "La República permitirá nacionalidades múltiples y no exigirá renunciar a ciudadanía extranjera únicamente por poseer nacionalidad de Senzovia.",
+            "Ningún ciudadano será privado involuntariamente de la nacionalidad de Senzovia por el Estado.",
+            "La nacionalidad no se revocará como castigo por desacuerdo político, crítica gubernamental, creencias religiosas, identidad personal o conducta social."
+          ],
+          "subsections": [
+            {
+              "heading": "Derechos de los extranjeros",
+              "paragraphs": [
+                "Los extranjeros residentes o visitantes disfrutarán de igual protección de sus derechos humanos fundamentales.",
+                "Su dignidad, autonomía corporal, privacidad, acceso a la justicia y protección contra discriminación no dependerán de la ciudadanía.",
+                "Las distinciones en participación política, situación migratoria u otras responsabilidades específicas de ciudadanía deberán establecerse transparentemente por ley y no justificarán malos tratos arbitrarios."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "11. Igualdad laboral y de oportunidades profesionales",
+          "paragraphs": [
+            "Las decisiones laborales se basarán en competencia, cualificaciones pertinentes, desempeño demostrado y requisitos profesionales legítimos.",
+            "Los empleadores no discriminarán a candidatos o trabajadores por sexo, identidad de género, orientación sexual, nacionalidad, etnia, discapacidad, origen familiar u otras características ajenas al trabajo.",
+            "Contratación, ascenso, remuneración, formación profesional y despido seguirán criterios justos y transparentes.",
+            "Se prohibirá decidir oportunidades profesionales mediante criterios discriminatorios, preferencias personales arbitrarias o características sociales irrelevantes.",
+            "Quienes realicen trabajo equivalente en condiciones equivalentes recibirán trato igual bajo la legislación laboral aplicable.",
+            "Las personas con discapacidad recibirán ajustes razonables en el trabajo para evaluar justamente sus capacidades y permitir participación efectiva.",
+            "Los empleadores establecerán procedimientos accesibles para denunciar discriminación e impugnar decisiones laborales injustas.",
+            "Las infracciones recibirán sanciones administrativas, civiles o penales adecuadas según su gravedad.",
+            "La República reconocerá el mérito como principio de selección profesional, evitando que desventajas estructurales impidan demostrar capacidades reales."
+          ]
+        },
+        {
+          "heading": "12. Accesibilidad e igualdad de participación",
+          "paragraphs": [
+            "El Estado garantizará la participación efectiva en la vida pública de personas con discapacidad y con necesidades adicionales de accesibilidad.",
+            "La accesibilidad será responsabilidad ordinaria del gobierno, no un servicio caritativo opcional.",
+            "Edificios públicos, transportes, instituciones educativas, plataformas gubernamentales digitales, instalaciones recreativas y otras infraestructuras apoyadas públicamente incorporarán diseño inclusivo.",
+            "El presupuesto nacional proporcionará recursos específicos para infraestructura accesible, tecnologías de asistencia, ajustes razonables y servicios esenciales de apoyo.",
+            "Las instituciones públicas deberán identificar y eliminar barreras evitables a la participación.",
+            "Las políticas reconocerán necesidades diversas y que un trato idéntico no siempre proporciona igualdad real de oportunidades.",
+            "Las personas afectadas estarán representadas en la consulta, evaluación y mejora de las medidas de accesibilidad."
+          ]
+        },
+        {
+          "heading": "13. Movilidad social y ampliación de oportunidades",
+          "paragraphs": [
+            "Senzovia perseguirá una sociedad donde las personas desarrollen capacidades y aspiraciones con independencia de riqueza heredada, origen social, conexiones familiares o circunstancias de nacimiento.",
+            "La República priorizará ampliar oportunidades mediante dos sistemas nacionales principales:"
+          ],
+          "subsections": [
+            {
+              "heading": "Educación",
+              "paragraphs": [
+                "El Sistema Educativo de Senzovia (ESX) proporcionará la base de las oportunidades educativas y del desarrollo de capacidades individuales.",
+                "Sus principios, estructuras y mecanismos de distribución de recursos se regirán por la Política Nacional de Educación."
+              ]
+            },
+            {
+              "heading": "Innovación científica y tecnológica",
+              "paragraphs": [
+                "El descubrimiento científico, el avance tecnológico, el emprendimiento y la difusión amplia del conocimiento contribuirán a ampliar oportunidades económicas y profesionales.",
+                "La República fomentará innovación que cree nuevos campos de empleo, amplíe el acceso público a tecnologías útiles y reduzca barreras evitables a la participación.",
+                "La innovación apoyada públicamente se evaluará no solo por crecimiento económico, sino también por su contribución a mayores oportunidades y al bienestar humano.",
+                "El Estado vigilará desigualdades estructurales que impidan acceder a nuevas oportunidades y desarrollará medidas lícitas para afrontarlas.",
+                "La igualdad de oportunidades no exigirá resultados idénticos. Exigirá que nadie sea injustamente impedido de perseguir oportunidades ni juzgado por características personales irrelevantes."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "14. Soberanía popular y control público del gobierno",
+          "paragraphs": [
+            "Toda autoridad política legítima de Senzovia procederá del pueblo.",
+            "Las instituciones ejercerán autoridad delegada y responderán ante la ciudadanía en todo momento.",
+            "La Constitución establecerá mecanismos sólidos de supervisión cívica capaces de investigar, cuestionar y limitar la acción gubernamental.",
+            "Los ciudadanos tendrán derechos exigibles para solicitar información pública, revisar gastos, impugnar decisiones administrativas, presentar peticiones y participar en supervisión democrática.",
+            "El sistema constitucional dispondrá de mecanismos de investigación pública independiente, rendición de cuentas institucional y destitución lícita de funcionarios que abusen de autoridad.",
+            "Se protegerán la organización pública pacífica y la participación política colectiva.",
+            "Los funcionarios no quedarán exentos de responsabilidad simplemente por su cargo o condición institucional.",
+            "El Estado mantendrá procedimientos transparentes de decisión y gasto, salvo protecciones de confidencialidad estrictamente definidas y legalmente necesarias.",
+            "Tribunales y órganos supervisores independientes podrán revisar actuaciones gubernamentales ilícitas y ofrecer recursos eficaces.",
+            "La soberanía popular no autorizará a una mayoría política a suprimir derechos constitucionales fundamentales de minorías o individuos.",
+            "La República seguirá el principio de que el gobierno responde ante los ciudadanos, no que los ciudadanos existen para servirlo."
+          ]
+        },
+        {
+          "heading": "15. Comisión independiente de derechos humanos",
+          "paragraphs": [
+            "Senzovia establecerá una Comisión Nacional de Derechos Humanos independiente, responsable de supervisar y proteger las libertades constitucionales.",
+            "La Comisión actuará independientemente de instrucciones ejecutivas y gozará de autonomía institucional protegida legalmente.",
+            "Sus responsabilidades incluirán:"
+          ],
+          "items": [
+            "Investigar denuncias creíbles de vulneraciones de derechos humanos.",
+            "Supervisar la conducta de autoridades e instituciones públicas.",
+            "Examinar discriminación sistémica y barreras a la igualdad de oportunidades.",
+            "Revisar la aplicación de leyes de igualdad de género y antidiscriminación.",
+            "Evaluar el cumplimiento de protecciones de privacidad y vigilancia digital.",
+            "Investigar incumplimientos de adaptaciones de accesibilidad legalmente exigidas.",
+            "Recomendar medidas correctivas y reformas institucionales.",
+            "Publicar informes independientes sobre los derechos humanos en Senzovia.",
+            "Ayudar a las personas a obtener recursos jurídicos adecuados."
+          ],
+          "closing": [
+            "La Comisión accederá a registros institucionales pertinentes mediante procedimientos legales y podrá remitir vulneraciones graves a autoridades judiciales competentes.",
+            "Su independencia se protegerá mediante nombramientos transparentes, financiación segura y salvaguardias contra la destitución arbitraria de sus miembros.",
+            "Las personas podrán denunciar sin temor a represalias.",
+            "El Estado prohibirá intimidar, obstaculizar o castigar a quienes busquen lícitamente protección de derechos humanos."
+          ]
+        },
+        {
+          "heading": "16. Justicia igualitaria y aplicación de derechos constitucionales",
+          "paragraphs": [
+            "Todas las personas serán iguales ante la ley y tendrán derecho a protección judicial imparcial.",
+            "La República garantizará debido proceso, enjuiciamiento independiente, presunción de inocencia y derecho a impugnar acusaciones y decisiones gubernamentales mediante procedimientos adecuados.",
+            "La sanción penal requerirá prueba de una conducta ilícita definida legalmente.",
+            "No se presumirá responsabilidad penal solo por religión, identidad, origen social o asociación con una comunidad.",
+            "Los tribunales aplicarán agravantes legales conforme a la Constitución y a las pruebas establecidas en cada procedimiento.",
+            "La legislación ofrecerá sanciones eficaces contra discriminación ilícita, coacción, acoso y vulneraciones de derechos constitucionales.",
+            "Los recursos judiciales podrán incluir órdenes ejecutables, indemnización, medidas protectoras, corrección institucional y penas cuando correspondan.",
+            "Los funcionarios que vulneren garantías constitucionales serán investigados y rendirán cuentas.",
+            "Ninguna institución podrá eludir protecciones constitucionales mediante reglamentos internos, acuerdos privados o alegaciones de privilegio institucional.",
+            "El sistema jurídico protegerá a las personas tanto del abuso gubernamental como de la interferencia ilícita de particulares u organizaciones privadas."
+          ]
+        }
       ],
-      "image": {
-        "src": "/assets/senzovia-flag.jpeg",
-        "alt": "Bandera de Senzovia",
-        "caption": "Ejemplo de disposición de una imagen: la bandera de Senzovia. Antes de la publicación oficial, sustituya esta imagen por una ilustración relacionada con este capítulo o elimine esta entrada de imagen."
-      }
+      "closing": [
+        "El Gobierno de Senzovia afirma que la libertad y la igualdad de oportunidades no son privilegios reservados a determinados grupos, sino condiciones fundamentales de la dignidad humana. La República protegerá la capacidad de cada persona para determinar su identidad, ejercer sus derechos, desarrollar sus capacidades y participar en la sociedad, manteniendo salvaguardias exigibles contra la discriminación, la coacción y el abuso de poder."
+      ]
     }
   ]
 }

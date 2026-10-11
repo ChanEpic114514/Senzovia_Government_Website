@@ -132,3 +132,8 @@ footer{background:#151719;color:#e2e5e7;margin-top:12px;padding-block:48px 24px;
         padding: 4px;
     }
 }
+
+.policy-subsection h4{margin:24px 0 12px;font-size:1.05rem;line-height:1.5;letter-spacing:0}
+.policy-list{padding-left:1.5em;margin:16px 0 24px}
+.policy-list li{margin-bottom:12px;line-height:1.8}
+@media print{.policy-subsection h4{break-after:avoid}}

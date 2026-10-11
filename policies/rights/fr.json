@@ -1,22 +1,457 @@
 {
+  "title": "Senzovia — Liberté et égalité des chances",
   "sections": [
     {
-      "heading": "Chapitre 1 : Objectifs de la politique",
+      "heading": "Objectifs de la politique",
       "paragraphs": [
-        "Saisir ici le premier paragraphe du texte officiel de ce chapitre.",
-        "Saisir ici le deuxième paragraphe du texte officiel de ce chapitre."
+        "Le Gouvernement de Senzovia reconnaît la liberté individuelle, la dignité humaine, l’égalité et l’autonomie personnelle comme des principes fondamentaux sur lesquels repose la République.",
+        "Chaque être humain devra avoir le droit de déterminer le cours de sa vie, de développer son identité, de poursuivre ses ambitions et de participer à la société sans ingérence, discrimination ou oppression injustifiée.",
+        "Senzovia affirme que le rôle du gouvernement n’est pas de contrôler les individus, de prescrire des modes de vie acceptables ou d’imposer le conformisme à la société. Le gouvernement existe pour protéger les droits fondamentaux, maintenir la justice, offrir l’égalité des chances et servir le peuple dont il tire son autorité.",
+        "La liberté devra donc être comprise non seulement comme l’absence d’ingérence gouvernementale, mais aussi comme la protection des personnes contre la coercition, la discrimination, l’exploitation et l’exercice arbitraire du pouvoir par d’autres personnes ou institutions.",
+        "La République reconnaît qu’il ne peut exister de liberté véritable lorsque des personnes sont privées de possibilités en raison de circonstances indépendantes de leur volonté. L’égalité des chances constituera donc une composante indissociable de la conception nationale de la liberté.",
+        "Les principaux objectifs sont les suivants."
+      ],
+      "subsections": [
+        {
+          "heading": "1. Garantir les libertés individuelles fondamentales.",
+          "paragraphs": [
+            "Chaque personne devra jouir de la liberté de pensée, d’expression, d’association, de circulation, d’identité personnelle et de vie privée.",
+            "L’État ne devra pas intervenir arbitrairement dans l’exercice de ces libertés. Les restrictions ne seront admises que lorsqu’elles sont expressément autorisées par le droit constitutionnel pour protéger les droits fondamentaux d’autrui, sous contrôle juridictionnel indépendant."
+          ]
+        },
+        {
+          "heading": "2. Établir l’égalité de genre comme principe constitutionnel fondamental.",
+          "paragraphs": [
+            "Toutes les personnes devront bénéficier d’une dignité et d’un statut juridique égaux, indépendamment du sexe, de l’orientation sexuelle, de l’identité ou de l’expression de genre, ou des caractéristiques sexuelles.",
+            "La République devra reconnaître l’autodétermination du genre et la fluidité de genre comme des droits fondamentaux.",
+            "Nul ne devra être contraint d’accepter une identité de genre particulière en raison de caractéristiques biologiques, d’attentes sociales, de traditions familiales ou de doctrines religieuses."
+          ]
+        },
+        {
+          "heading": "3. Éliminer la discrimination et la subordination fondées sur le genre.",
+          "paragraphs": [
+            "L’État devra interdire la discrimination de genre dans les institutions publiques et privées, l’emploi, l’éducation, les services publics et la participation sociale.",
+            "La République devra également interdire le harcèlement délibéré fondé sur le genre, la promotion publique de l’inégalité de genre et la négation intentionnelle de l’identité de genre d’une personne, tout en protégeant la recherche académique légitime et l’investigation fondée sur des preuves.",
+            "L’égalité de genre devra avoir une primauté constitutionnelle sur les pratiques religieuses ou doctrines institutionnelles incompatibles."
+          ]
+        },
+        {
+          "heading": "4. Protéger l’autonomie corporelle et la souveraineté personnelle.",
+          "paragraphs": [
+            "Chaque personne devra disposer du droit fondamental de décider de son corps, de ses soins médicaux, de ses choix reproductifs et de son mode de vie.",
+            "Nul ne devra subir d’intervention corporelle non désirée, de coercition ou de procédure médicale non consentie.",
+            "L’État devra protéger l’autonomie corporelle contre les atteintes commises par des personnes, des institutions et des autorités publiques."
+          ]
+        },
+        {
+          "heading": "5. Garantir la liberté politique et la responsabilité publique.",
+          "paragraphs": [
+            "Toute personne devra être libre de critiquer le gouvernement, de remettre en question les institutions publiques, d’exprimer son mécontentement politique et de promouvoir un changement politique.",
+            "L’autorité politique devra rester subordonnée au peuple.",
+            "La Constitution devra établir des mécanismes permettant aux citoyens d’examiner, de contester et de limiter le pouvoir gouvernemental de manière indépendante."
+          ]
+        },
+        {
+          "heading": "6. Établir une protection complète de la vie privée numérique.",
+          "paragraphs": [
+            "Les communications privées, les informations personnelles et les activités numériques devront bénéficier d’une forte protection constitutionnelle.",
+            "L’État devra interdire la surveillance numérique indiscriminée et le suivi non autorisé par les organismes publics, les entreprises et les particuliers.",
+            "Tout accès exceptionnel à des fins d’enquête devra reposer sur une justification légale, précise et soumise à un contrôle indépendant."
+          ]
+        },
+        {
+          "heading": "7. Garantir l’égalité des chances pour tous.",
+          "paragraphs": [
+            "Nul ne devra se voir refuser l’accès à l’emploi, aux services publics ou aux possibilités de développement personnel en raison de caractéristiques personnelles sans pertinence.",
+            "Le recrutement et la progression professionnelle devront reposer sur les compétences démontrées, les qualifications pertinentes et les exigences du poste.",
+            "L’État devra supprimer les obstacles structurels qui empêchent les personnes d’exercer leurs capacités et de participer pleinement à la société."
+          ]
+        },
+        {
+          "heading": "8. Assurer l’accessibilité et l’inclusion.",
+          "paragraphs": [
+            "La République devra reconnaître que l’égalité de traitement exige des aménagements appropriés pour les personnes ayant des besoins physiques, sensoriels, cognitifs ou autres en matière d’accessibilité.",
+            "Les infrastructures publiques, les institutions et les budgets gouvernementaux devront intégrer les ressources nécessaires à la participation effective des personnes handicapées et de celles qui ont besoin d’un soutien supplémentaire."
+          ]
+        },
+        {
+          "heading": "9. Élargir les possibilités grâce à l’éducation et à l’innovation scientifique.",
+          "paragraphs": [
+            "Senzovia devra favoriser une large mobilité sociale par son système éducatif national, les progrès scientifiques, l’innovation technologique et la disponibilité généralisée de possibilités de développement personnel.",
+            "Le Système éducatif de Senzovia (ESX) constituera le cadre principal de l’égalité éducative. Ses dispositions détaillées resteront définies dans la politique nationale d’éducation."
+          ]
+        },
+        {
+          "heading": "10. Garantir l’égalité devant la loi.",
+          "paragraphs": [
+            "Toute personne devra bénéficier d’une protection juridique égale et de l’accès à la justice.",
+            "Nul ne devra bénéficier d’une immunité ou d’un traitement juridique privilégié du fait de sa richesse, de son statut social, de son influence politique, de son autorité institutionnelle ou de ses relations personnelles.",
+            "L’État devra établir des mécanismes efficaces pour enquêter sur la discrimination, remédier aux violations des droits et demander des comptes aux autorités publiques."
+          ]
+        },
+        {
+          "heading": "11. Protéger la liberté de circulation et de nationalité.",
+          "paragraphs": [
+            "Les citoyens devront jouir de la liberté de circulation, de résidence, de voyage international et de choix de nationalité.",
+            "L’État ne devra pas priver involontairement un citoyen de la nationalité de Senzovia.",
+            "Les droits humains fondamentaux des ressortissants étrangers devront bénéficier du même respect et de la même protection."
+          ]
+        },
+        {
+          "heading": "12. Faire de la protection des droits humains une responsabilité permanente de l’État.",
+          "paragraphs": [
+            "Une institution nationale indépendante des droits humains devra surveiller le respect des garanties constitutionnelles, enquêter sur les violations, protéger les personnes vulnérables et offrir des recours accessibles.",
+            "Aucun gouvernement, majorité politique, autorité publique ou institution privée ne devra disposer d’un pouvoir illimité sur les droits fondamentaux des personnes."
+          ]
+        }
       ]
     },
     {
-      "heading": "Chapitre 2 : Modalités de mise en œuvre de la politique",
-      "paragraphs": [
-        "Saisir ici les modalités précises, le champ d’application et les conditions de mise en œuvre."
+      "heading": "Contenu de la politique",
+      "paragraphs": [],
+      "subsections": [
+        {
+          "heading": "1. Primauté constitutionnelle des droits individuels",
+          "paragraphs": [
+            "La liberté, l’égalité, la dignité et l’autonomie personnelle devront constituer des principes constitutionnels juridiquement opposables, et non des privilèges discrétionnaires accordés par le gouvernement.",
+            "Toutes les lois, décisions administratives, procédures judiciaires et institutions publiques devront respecter ces principes.",
+            "La Constitution devra primer sur les lois ordinaires, les directives exécutives, les règles institutionnelles, les traditions culturelles et les doctrines religieuses.",
+            "Aucune autorité gouvernementale ne devra disposer d’un pouvoir illimité de suspendre ou de supprimer les libertés fondamentales.",
+            "Lorsqu’une intervention est nécessaire pour empêcher une atteinte aux droits d’autrui, elle devra avoir une base juridique claire, poursuivre un objectif légitime de protection et rester soumise à un contrôle juridictionnel indépendant.",
+            "Les citoyens devront disposer de recours constitutionnels contre les actes gouvernementaux qui portent illégalement atteinte à leurs libertés.",
+            "L’État devra reconnaître que la liberté individuelle est le point de départ de la gouvernance publique, tandis que toute restriction exige une justification juridique précise."
+          ]
+        },
+        {
+          "heading": "2. Liberté d’expression, de pensée et de participation politique",
+          "paragraphs": [
+            "Toute personne devra être libre d’exprimer des opinions politiques, de critiquer les décisions gouvernementales, de contester les dirigeants politiques et de promouvoir des changements institutionnels.",
+            "La critique du gouvernement, y compris la critique sévère, la satire et l’expression publique du mécontentement, ne devra pas justifier de sanction pénale.",
+            "Les personnes devront être libres de participer à des manifestations pacifiques, de créer des associations, d’adhérer à des organisations politiques et de prendre part au débat public.",
+            "Nul ne devra être contraint d’exprimer son soutien au gouvernement, à une idéologie politique ou à une institution publique.",
+            "L’État ne devra pas exiger de loyauté politique pour accéder aux services publics ordinaires, à l’éducation, à l’emploi ou à la protection juridique fondamentale.",
+            "Le journalisme indépendant, le commentaire politique et les enquêtes d’intérêt public devront être protégés.",
+            "La République devra reconnaître la liberté de pensée comme une liberté personnelle fondamentale. Les seules convictions privées, y compris celles contraires aux valeurs sociales dominantes, ne constitueront pas en elles-mêmes des infractions pénales.",
+            "Toutefois, la protection constitutionnelle de l’expression ne s’étendra pas sans limites aux comportements et à la promotion publique interdits par les lois de Senzovia sur l’égalité de genre."
+          ]
+        },
+        {
+          "heading": "3. Égalité de genre et liberté d’autodétermination du genre",
+          "paragraphs": [
+            "Toute personne devra avoir le droit de déterminer, d’exprimer, d’explorer et de modifier sa propre identité de genre.",
+            "L’identité de genre ne devra pas être juridiquement déterminée par la seule anatomie reproductive, les chromosomes, le sexe assigné à la naissance ou les attentes conventionnelles relatives à la masculinité et à la féminité.",
+            "La République devra reconnaître que l’identité de genre peut rester stable ou évoluer au cours de la vie.",
+            "Nul ne devra être tenu de conserver définitivement une identité de genre particulière.",
+            "Tous les genres devront bénéficier d’une reconnaissance constitutionnelle, d’une dignité et de droits civils égaux.",
+            "Les personnes devront être libres de déterminer leur apparence, leurs vêtements, leur coiffure, leur mode d’expression et leur identité personnelle sans conformité obligatoire aux rôles de genre traditionnels.",
+            "Il sera interdit aux familles, établissements d’enseignement, employeurs, organisations religieuses et autres autorités d’imposer une identité de genre à autrui par coercition, intimidation, violence ou restrictions illégales.",
+            "Les droits à l’identité et à l’expression de genre s’étendront aux mineurs, avec des garanties adaptées à l’évolution de leurs capacités et à leur bien-être."
+          ],
+          "subsections": [
+            {
+              "heading": "Reconnaissance juridique du genre",
+              "paragraphs": [
+                "Chaque enfant devra bénéficier dès la naissance de protections relatives à l’identité juridique et à la nationalité.",
+                "À quatorze ans, les personnes devront accomplir l’enregistrement d’identité personnelle prévu et déclarer de manière indépendante leur identité de genre.",
+                "Cette procédure suivra le principe de l’autodéclaration du genre (Gender Self-Declaration).",
+                "Aucun examen psychologique, évaluation comportementale, test idéologique, inspection anatomique ou test de conformité ne devra déterminer si le genre déclaré correspond suffisamment aux attentes sociales.",
+                "La reconnaissance juridique du genre ne dépendra pas d’une opération chirurgicale, d’un traitement hormonal ou d’une autre procédure médicale.",
+                "Les personnes devront pouvoir modifier leur identité de genre enregistrée par une procédure juridique accessible.",
+                "L’État devra protéger la confidentialité des dossiers de genre et interdire la divulgation inutile des classifications antérieures."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "4. Égalité du mariage et des droits familiaux",
+          "paragraphs": [
+            "Le mariage civil devra être ouvert à toutes les personnes légalement éligibles et consentantes, indépendamment du sexe, de l’identité ou de l’expression de genre, ou de l’orientation sexuelle.",
+            "Aucune combinaison de genres ne devra être exclue du mariage civil au seul motif de l’identité des personnes concernées.",
+            "Tous les mariages légalement reconnus devront avoir un statut égal en droit civil.",
+            "Les personnes mariées devront jouir de droits égaux concernant les biens, l’héritage, les responsabilités parentales, les décisions familiales, le divorce et l’accès aux services publics.",
+            "Aucun mariage ne devra créer une relation juridiquement contraignante de supériorité ou de subordination fondée sur le genre.",
+            "Le mariage ne devra conférer à aucun conjoint une autorité sur les droits fondamentaux de l’autre.",
+            "Les dispositions matrimoniales religieuses ou culturelles visant à priver un conjoint de son égalité juridique, de son autonomie corporelle, de sa liberté de circulation ou de décision indépendante seront sans effet juridique.",
+            "Le droit de la famille sera administré exclusivement selon la Constitution et la législation civile applicable."
+          ]
+        },
+        {
+          "heading": "5. Installations publiques non séparées par genre et participation sportive",
+          "paragraphs": [],
+          "subsections": [
+            {
+              "heading": "Installations publiques",
+              "paragraphs": [
+                "Les installations mises à disposition par les pouvoirs publics ne devront pas imposer de séparation obligatoire selon le genre.",
+                "Les toilettes publiques, vestiaires et installations comparables devront être conçus pour accueillir toutes les identités de genre.",
+                "La conception devra garantir une intimité appropriée par des espaces individuels fermés, des dispositifs sûrs et des infrastructures accessibles.",
+                "Les exigences de sécurité et d’intimité s’appliqueront également à tous, sans dépendre d’une classification binaire obligatoire."
+              ]
+            },
+            {
+              "heading": "Sports et compétitions",
+              "paragraphs": [
+                "La République devra poursuivre un système de classification sportive compétitive fondé sur des critères physiologiques évalués scientifiquement, les caractéristiques hormonales constituant la base principale du regroupement des participants.",
+                "La classification ne devra pas reposer automatiquement sur l’identité de genre ou le sexe assigné à la naissance.",
+                "Les autorités sportives compétentes devront élaborer des classifications hormonales adaptées aux disciplines, à partir de recherches transparentes et de données régulièrement réexaminées.",
+                "Ces systèmes devront chercher à concilier équité compétitive, inclusion, dignité individuelle et sécurité des participants.",
+                "Les informations médicales des athlètes resteront confidentielles et ne feront pas l’objet de divulgations publiques inutiles.",
+                "La participation aux activités sportives de loisir et communautaires restera ouverte, sans exclusion injustifiée fondée sur le genre."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "6. Interdiction de la discrimination et de la haine fondées sur le genre",
+          "paragraphs": [
+            "La République devra interdire la discrimination de genre dans tous les domaines de la vie publique et de l’activité privée réglementée par la loi.",
+            "La discrimination comprendra les inégalités de traitement illégales, l’exclusion, le refus de possibilités, le harcèlement ou la privation de droits fondés sur le sexe, l’orientation sexuelle, l’identité ou l’expression de genre, ou les caractéristiques sexuelles."
+          ],
+          "subsections": [
+            {
+              "heading": "Formes d’expression interdites",
+              "paragraphs": [
+                "La loi devra interdire expressément :"
+              ],
+              "items": [
+                "Les menaces directes fondées sur le genre, le harcèlement ciblé et l’humiliation délibérée.",
+                "La promotion publique de la subordination juridique ou sociale d’un genre à un autre.",
+                "La promotion publique du refus de droits civils égaux en raison du genre.",
+                "La négation délibérée de l’identité de genre d’autrui dans les circonstances définies comme illégales par la législation sur l’égalité de genre.",
+                "L’incitation à la violence, à la discrimination ou à la coercition fondées sur le genre."
+              ],
+              "closing": [
+                "Les violations établies entraîneront des sanctions juridiques exécutoires.",
+                "Les peines seront fixées par la loi selon la nature et la gravité des actes, avec la possibilité de sanctions pénales pour les infractions graves.",
+                "Les définitions juridiques devront distinguer la promotion discriminatoire intentionnelle et le harcèlement de la discussion, du reportage et de l’examen académique légitimes."
+              ]
+            },
+            {
+              "heading": "Protection de la liberté académique",
+              "paragraphs": [
+                "L’investigation scientifique, l’analyse philosophique, la recherche sociale et la discussion fondée sur des preuves concernant le genre resteront protégées.",
+                "Les chercheurs pourront examiner les questions biologiques, psychologiques, sociologiques et juridiques relatives au genre, y compris celles faisant l’objet de désaccords ou de données scientifiques non concluantes.",
+                "Les résultats ne devront pas être interdits au seul motif qu’ils divergent des positions sociales ou politiques dominantes.",
+                "La protection académique dépendra d’une véritable démarche de recherche, d’arguments raisonnés, de l’intégrité méthodologique et d’un usage approprié des preuves, et non de l’accord avec des conclusions officielles.",
+                "L’État ne devra pas utiliser l’interdiction de la discrimination de genre comme justification générale pour réprimer la recherche académique légitime."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "7. Gouvernance laïque et réglementation des pratiques religieuses",
+          "paragraphs": [
+            "Senzovia devra être une république strictement laïque.",
+            "Aucune religion ne devra détenir d’autorité constitutionnelle sur l’État, sa législation, ses institutions publiques ou les droits civils des personnes.",
+            "Les doctrines religieuses ne primeront pas sur la Constitution et ne permettront pas de dérogations aux lois protégeant l’égalité de genre et l’autonomie individuelle.",
+            "La République adoptera une approche délibérément restrictive à l’égard des pratiques religieuses incompatibles avec ses principes constitutionnels.",
+            "Les activités religieuses pourront être exercées dans les limites du droit civil laïque. La liberté de pratique religieuse ne sera pas reconnue comme un droit inconditionnel susceptible de primer sur les garanties constitutionnelles d’égalité.",
+            "L’État ne devra pas établir d’institutions religieuses comme autorités en matière de mariage, d’identité de genre, de politique éducative ou d’état civil."
+          ],
+          "subsections": [
+            {
+              "heading": "Interdiction de la discrimination religieuse fondée sur le genre",
+              "paragraphs": [
+                "Les doctrines, coutumes, institutions et pratiques religieuses imposant une subordination illégale fondée sur le genre seront interdites, y compris les arrangements présentés comme volontaires lorsqu’ils cherchent à établir des inégalités contraignantes de statut juridique ou de droits fondamentaux.",
+                "Aucune règle religieuse ne devra créer d’obligation exécutoire de se soumettre à l’autorité d’autrui en raison du genre.",
+                "L’État maintiendra un contrôle renforcé de la conformité des organisations et pratiques religieuses afin de déceler les violations de la législation sur l’égalité de genre.",
+                "Ce contrôle portera sur les pratiques organisationnelles, les comportements observables et les preuves juridiquement pertinentes. La seule appartenance religieuse ne constituera pas une preuve de faute ou de responsabilité pénale."
+              ]
+            },
+            {
+              "heading": "Responsabilité aggravée pour discrimination de genre liée à la religion",
+              "paragraphs": [
+                "Lorsqu’un acte établi de discrimination illégale de genre est motivé par une doctrine religieuse, justifié par celle-ci ou commis pour l’appliquer, ce lien religieux constituera une circonstance aggravante légale.",
+                "La République adopte cette distinction en raison de sa préoccupation concernant l’influence sociale supplémentaire que peuvent acquérir les normes religieuses discriminatoires par l’autorité religieuse organisée, la transmission institutionnelle et leur promotion répétée dans les communautés.",
+                "Ainsi, le lien religieux pourra entraîner une peine accrue même lorsque le préjudice immédiat est comparable à celui d’une infraction sans motivation religieuse.",
+                "Senzovia établira des peines légales sévères pour la discrimination de genre liée à la religion, notamment une catégorie aggravée de peines comparable à celle prévue pour les infractions de viol.",
+                "La définition des infractions, la preuve de la motivation religieuse, les fourchettes de peines applicables et les procédures judiciaires seront précisées par la législation pénale.",
+                "Cette disposition aggravante s’appliquera aux actes et à la motivation prouvée, indépendamment de l’appartenance religieuse personnelle de l’auteur.",
+                "Nul ne sera puni pénalement pour la seule appartenance à une religion ou pour des convictions religieuses privées."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "8. Autonomie corporelle et protection contre les atteintes à la personne",
+          "paragraphs": [
+            "Toute personne devra disposer de la souveraineté sur son propre corps.",
+            "Les individus auront le droit de décider de leurs soins médicaux et de leur reproduction, d’accepter ou de refuser un traitement et de déterminer leur présentation corporelle.",
+            "Les soins médicaux nécessiteront normalement un consentement éclairé et volontaire, sous réserve de garanties étroitement définies lorsque ce consentement ne peut être obtenu valablement.",
+            "Nul ne sera contraint à une procédure médicale ou à une modification corporelle pour le seul motif de se conformer à des attentes sociales, politiques, religieuses ou de genre.",
+            "L’État ne devra pas intervenir dans les choix corporels personnels au seul motif que les autorités les jugent inhabituels ou indésirables.",
+            "Une intervention protectrice sera admise lorsqu’elle est nécessaire pour prévenir un préjudice illégal à autrui, les décisions étant régies par une législation claire et un contrôle indépendant."
+          ],
+          "subsections": [
+            {
+              "heading": "Autonomie sexuelle et consentement",
+              "paragraphs": [
+                "Toute personne bénéficiera d’une protection égale contre les violences sexuelles, la coercition, l’exploitation et les atteintes non consenties à l’autonomie corporelle.",
+                "L’autonomie sexuelle ne dépendra pas du genre, du statut matrimonial, du passé relationnel ou de l’orientation sexuelle.",
+                "Le mariage, les relations personnelles et l’appartenance religieuse ne constitueront jamais un consentement automatique ou permanent à une activité sexuelle.",
+                "Les infractions sexuelles graves feront l’objet de peines pénales sévères et d’enquêtes efficaces.",
+                "Les victimes auront droit à une protection accessible, à un soutien confidentiel, à des procédures équitables et à des recours.",
+                "La responsabilité pénale et les peines seront établies selon une procédure régulière, les infractions et sanctions étant définies par la loi."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "9. Vie privée numérique et liberté face à la surveillance",
+          "paragraphs": [
+            "La confidentialité des informations personnelles et des communications numériques bénéficiera d’une protection constitutionnelle.",
+            "Il sera interdit aux organismes publics, entreprises, employeurs, établissements d’enseignement et particuliers de surveiller sans autorisation les activités numériques personnelles.",
+            "La République interdira la surveillance numérique massive, indiscriminée ou continue de la population.",
+            "Les messages privés, relevés de communications, fichiers personnels, activités de navigation et autres informations numériques sensibles ne seront pas accessibles sans justification légale.",
+            "Les personnes auront le droit d’utiliser des technologies de communication sûres et chiffrées.",
+            "Les autorités publiques ne devront pas établir de systèmes généraux de surveillance numérique destinés à suivre les opinions politiques, les convictions personnelles, les relations sociales ou les comportements privés légaux."
+          ],
+          "subsections": [
+            {
+              "heading": "Enquêtes pénales exceptionnelles",
+              "paragraphs": [
+                "Un accès ciblé aux informations numériques pourra être autorisé lorsque cela est nécessaire pour enquêter sur des infractions graves ou protéger des droits fondamentaux.",
+                "Cet accès exigera une base juridique précise, une autorisation juridictionnelle indépendante, des limites d’enquête clairement définies et des garanties efficaces contre les abus.",
+                "L’autorisation ne permettra pas la collecte indiscriminée d’informations personnelles sans rapport avec l’enquête.",
+                "Les personnes disposeront de droits exécutoires d’accès à leurs données, de rectification des dossiers inexacts, de protection contre la divulgation non autorisée et de suppression lorsque cela est juridiquement approprié.",
+                "Les violations de la vie privée numérique par les autorités publiques ou les institutions privées feront l’objet d’enquêtes indépendantes et de recours juridiques."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "10. Liberté de circulation, de résidence et de nationalité",
+          "paragraphs": [
+            "Chaque citoyen de Senzovia sera libre de voyager, de quitter la République, d’y revenir et de choisir sa résidence.",
+            "L’État ne devra pas interdire arbitrairement aux citoyens de quitter leur pays ou d’y revenir.",
+            "Les citoyens seront libres de demander, d’acquérir ou d’abandonner volontairement une nationalité conformément aux procédures établies.",
+            "La République autorisera la pluralité de nationalités et n’exigera pas la renonciation à une citoyenneté étrangère pour le seul motif de détenir la nationalité de Senzovia.",
+            "Aucun citoyen ne pourra être involontairement privé de la nationalité de Senzovia par l’État.",
+            "La nationalité ne sera pas retirée pour sanctionner un désaccord politique, la critique du gouvernement, une conviction religieuse, une identité personnelle ou un comportement social."
+          ],
+          "subsections": [
+            {
+              "heading": "Droits des ressortissants étrangers",
+              "paragraphs": [
+                "Les étrangers résidant en Senzovia ou la visitant bénéficieront d’une égale protection de leurs droits humains fondamentaux.",
+                "Leur dignité, leur autonomie corporelle, leur vie privée, leur accès à la justice et leur protection contre la discrimination ne dépendront pas de la citoyenneté.",
+                "Toute distinction relative à la participation politique, au statut migratoire ou à d’autres responsabilités propres à la citoyenneté devra être établie de façon transparente par la loi et ne justifiera pas de mauvais traitements arbitraires."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "11. Égalité dans l’emploi et les possibilités professionnelles",
+          "paragraphs": [
+            "Les décisions d’emploi reposeront sur les compétences, les qualifications pertinentes, les performances démontrées et les exigences professionnelles légitimes.",
+            "Les employeurs ne devront pas discriminer les candidats ou salariés selon le sexe, l’identité de genre, l’orientation sexuelle, la nationalité, l’origine ethnique, le handicap, le milieu familial ou d’autres caractéristiques étrangères au travail.",
+            "Le recrutement, la promotion, la rémunération, la formation et le licenciement seront régis par des normes équitables et transparentes.",
+            "Il sera interdit de déterminer les possibilités professionnelles par des critères discriminatoires, des préférences personnelles arbitraires ou des caractéristiques sociales non pertinentes.",
+            "Les salariés effectuant un travail équivalent dans des conditions équivalentes bénéficieront d’un traitement égal selon le droit de l’emploi applicable.",
+            "Les personnes handicapées bénéficieront d’aménagements raisonnables au travail pour permettre une évaluation équitable de leurs capacités et une participation effective.",
+            "Les employeurs établiront des procédures accessibles pour signaler la discrimination et contester les décisions d’emploi injustes.",
+            "Les violations seront soumises à des sanctions administratives, civiles ou pénales appropriées selon leur gravité.",
+            "La République reconnaîtra le mérite comme principe de sélection professionnelle tout en veillant à ce que les désavantages structurels n’empêchent pas les personnes de démontrer leurs capacités réelles."
+          ]
+        },
+        {
+          "heading": "12. Accessibilité et participation égale",
+          "paragraphs": [
+            "L’État veillera à ce que les personnes handicapées et celles ayant des besoins supplémentaires d’accessibilité puissent participer effectivement à la vie publique.",
+            "L’accessibilité sera considérée comme une responsabilité ordinaire de l’État, et non comme un service caritatif facultatif.",
+            "Les bâtiments publics, transports, établissements d’enseignement, plateformes publiques numériques, équipements de loisir et autres infrastructures soutenues publiquement intégreront les principes de conception inclusive.",
+            "Le budget national prévoira des ressources dédiées aux infrastructures accessibles, technologies d’assistance, aménagements raisonnables et services essentiels de soutien.",
+            "Les institutions publiques devront identifier et supprimer les obstacles évitables à la participation.",
+            "Les politiques d’accessibilité reconnaîtront la diversité des besoins et le fait qu’un traitement identique n’offre pas toujours une véritable égalité des chances.",
+            "Les personnes concernées seront représentées dans la consultation, l’évaluation et l’amélioration des dispositifs d’accessibilité."
+          ]
+        },
+        {
+          "heading": "13. Mobilité sociale et élargissement des possibilités",
+          "paragraphs": [
+            "Senzovia visera une société où chacun peut développer ses capacités et aspirations indépendamment de la richesse héritée, du milieu social, des relations familiales ou des circonstances de naissance.",
+            "La République privilégiera l’élargissement des possibilités par deux systèmes nationaux principaux :"
+          ],
+          "subsections": [
+            {
+              "heading": "Éducation",
+              "paragraphs": [
+                "Le Système éducatif de Senzovia (ESX) constituera le fondement des possibilités éducatives et du développement des capacités individuelles.",
+                "Ses principes, structures institutionnelles et mécanismes d’allocation des ressources seront régis par la Politique nationale d’éducation."
+              ]
+            },
+            {
+              "heading": "Innovation scientifique et technologique",
+              "paragraphs": [
+                "Les découvertes scientifiques, les progrès technologiques, l’entrepreneuriat et la large diffusion du savoir contribueront à élargir les possibilités économiques et professionnelles.",
+                "La République encouragera l’innovation créant de nouveaux domaines d’emploi, élargissant l’accès du public aux technologies utiles et réduisant les obstacles évitables à la participation.",
+                "L’innovation soutenue publiquement sera évaluée non seulement selon la croissance économique, mais aussi selon sa contribution à l’élargissement des possibilités et au bien-être humain.",
+                "L’État surveillera les inégalités structurelles empêchant l’accès aux nouvelles possibilités et élaborera des mesures légales pour y remédier.",
+                "L’égalité des chances n’exigera pas des résultats identiques pour tous. Elle exigera que nul ne soit injustement empêché de poursuivre des possibilités ou jugé selon des caractéristiques personnelles sans pertinence."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "14. Souveraineté populaire et contrôle public du gouvernement",
+          "paragraphs": [
+            "Toute autorité politique légitime en Senzovia émanera du peuple.",
+            "Les institutions exerceront une autorité déléguée et resteront à tout moment responsables devant le public.",
+            "La Constitution établira de puissants mécanismes de contrôle citoyen permettant d’enquêter sur l’action gouvernementale, de la contester et de la limiter.",
+            "Les citoyens disposeront de droits exécutoires de demander des informations publiques, d’examiner les dépenses, de contester les décisions administratives, de saisir les autorités par pétition et de participer au contrôle démocratique.",
+            "Le système constitutionnel prévoira des mécanismes d’enquête publique indépendante, de responsabilité institutionnelle et de destitution légale des agents abusant de leur autorité.",
+            "L’organisation publique pacifique et la participation politique collective seront protégées.",
+            "Les agents publics ne bénéficieront pas d’une immunité de responsabilité du seul fait de leur fonction ou statut institutionnel.",
+            "L’État maintiendra des procédures transparentes de décision et de dépense, sauf lorsque des protections de confidentialité strictement définies sont légalement nécessaires.",
+            "Les tribunaux et organes de contrôle indépendants pourront examiner les actes illégaux du gouvernement et fournir des recours efficaces.",
+            "La souveraineté populaire n’autorisera pas une majorité politique à supprimer les droits constitutionnels fondamentaux de minorités ou d’individus.",
+            "La République fonctionnera selon le principe que le gouvernement rend des comptes aux citoyens, et non que les citoyens existent pour servir le gouvernement."
+          ]
+        },
+        {
+          "heading": "15. Commission indépendante des droits humains",
+          "paragraphs": [
+            "Senzovia établira une Commission nationale indépendante des droits humains chargée de surveiller et de protéger les libertés constitutionnelles.",
+            "La Commission fonctionnera indépendamment des directives de l’exécutif et jouira d’une autonomie institutionnelle protégée par la loi.",
+            "Ses responsabilités comprendront :"
+          ],
+          "items": [
+            "Enquêter sur les plaintes crédibles relatives aux violations des droits humains.",
+            "Surveiller la conduite des autorités et institutions publiques.",
+            "Examiner les discriminations systémiques et les obstacles à l’égalité des chances.",
+            "Examiner l’application des lois sur l’égalité de genre et la non-discrimination.",
+            "Évaluer le respect des protections de la vie privée et contre la surveillance numérique.",
+            "Enquêter sur les manquements aux aménagements d’accessibilité légalement requis.",
+            "Recommander des mesures correctives et des réformes institutionnelles.",
+            "Publier des rapports indépendants sur la situation des droits humains en Senzovia.",
+            "Aider les personnes à accéder aux recours juridiques appropriés."
+          ],
+          "closing": [
+            "La Commission aura accès aux dossiers institutionnels pertinents par des procédures légales et pourra saisir les autorités judiciaires compétentes des violations graves.",
+            "Son indépendance sera protégée par des nominations transparentes, un financement sécurisé et des garanties contre la révocation arbitraire de ses membres.",
+            "Les personnes pourront porter plainte sans crainte de représailles.",
+            "L’État interdira l’intimidation, l’entrave ou la sanction visant les personnes qui cherchent légalement une protection de leurs droits humains."
+          ]
+        },
+        {
+          "heading": "16. Justice égale et mise en œuvre des droits constitutionnels",
+          "paragraphs": [
+            "Toutes les personnes seront égales devant la loi et auront droit à une protection judiciaire impartiale.",
+            "La République garantira une procédure régulière, un jugement indépendant, la présomption d’innocence et le droit de contester les accusations et décisions gouvernementales par des procédures appropriées.",
+            "Toute peine pénale exigera la preuve d’un acte illicite défini par la loi.",
+            "Nul ne sera présumé pénalement responsable du seul fait de sa religion, de son identité, de son milieu social ou de ses liens avec une communauté.",
+            "Les tribunaux appliqueront les circonstances aggravantes légales conformément à la Constitution et aux preuves établies dans chaque procédure.",
+            "La loi prévoira des sanctions efficaces contre la discrimination illégale, la coercition, le harcèlement et les violations des droits constitutionnels.",
+            "Les recours pourront comprendre des injonctions exécutoires, des indemnisations, des mesures de protection, des corrections institutionnelles et, le cas échéant, des peines pénales.",
+            "Les agents publics portant atteinte aux garanties constitutionnelles feront l’objet d’enquêtes et devront rendre des comptes.",
+            "Aucune institution ne pourra contourner les protections constitutionnelles par des règles internes, des accords privés ou des prétentions à un privilège institutionnel.",
+            "Le système juridique protégera les personnes tant contre les abus gouvernementaux que contre les ingérences illégales de personnes ou d’organisations privées."
+          ]
+        }
       ],
-      "image": {
-        "src": "/assets/senzovia-flag.jpeg",
-        "alt": "Drapeau de Senzovia",
-        "caption": "Exemple de mise en page d’une image : le drapeau de Senzovia. Avant la publication officielle, remplacer cette image par une illustration en rapport avec ce chapitre ou supprimer cette entrée d’image."
-      }
+      "closing": [
+        "Le Gouvernement de Senzovia affirme que la liberté et l’égalité des chances ne sont pas des privilèges réservés à certains groupes, mais des conditions fondamentales de la dignité humaine. La République protégera la capacité de chacun à déterminer son identité, à exercer ses droits, à développer ses capacités et à participer à la société, tout en maintenant des garanties exécutoires contre la discrimination, la coercition et l’abus de pouvoir."
+      ]
     }
   ]
 }

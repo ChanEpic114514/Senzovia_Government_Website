@@ -81,6 +81,15 @@ def render_policy(root, lang, topic, content):
         )
         searchable.extend([heading, *paragraphs])
 
+        items = section.get("items", [])
+        if not isinstance(items, list) or not all(isinstance(item, str) for item in items):
+            raise ValueError(f"{source}: items must be a list of strings")
+        if items:
+            body += '<ul class="policy-list">' + "".join(
+                f"<li>{escape(item)}</li>" for item in items
+            ) + "</ul>"
+            searchable.extend(items)
+
         picture = section.get("image")
 
         if picture:
@@ -113,8 +122,8 @@ def render_policy(root, lang, topic, content):
             searchable.extend([alt, caption])
 
         subsections = section.get("subsections", [])
-        if not isinstance(subsections, list) or (subsections and level >= 3):
-            raise ValueError(f"{source}: only one subsection level is supported")
+        if not isinstance(subsections, list) or (subsections and level >= 4):
+            raise ValueError(f"{source}: only two subsection levels are supported")
 
         for child_number, child in enumerate(subsections, 1):
             body += render_section(child, f"{anchor}-{child_number}", level + 1)

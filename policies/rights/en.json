@@ -1,22 +1,457 @@
 {
+  "title": "Senzovia — Freedom & Equal Opportunity",
   "sections": [
     {
-      "heading": "Chapter 1: Policy objectives",
+      "heading": "Policy Objectives",
       "paragraphs": [
-        "Enter the first paragraph of the formal text for this chapter here.",
-        "Enter the second paragraph of the formal text for this chapter here."
+        "The Government of Senzovia recognises individual freedom, human dignity, equality, and personal autonomy as fundamental principles upon which the Republic is founded.",
+        "Every human being shall possess the right to determine the course of their own life, develop their identity, pursue their ambitions, and participate in society without unjustified interference, discrimination, or oppression.",
+        "Senzovia affirms that the purpose of government is not to control individuals, prescribe acceptable ways of living, or impose conformity upon society. Government exists to protect fundamental rights, maintain justice, provide equal opportunities, and serve the people from whom its authority is derived.",
+        "Freedom shall therefore be understood not merely as the absence of government interference, but also as the protection of individuals against coercion, discrimination, exploitation, and the arbitrary exercise of power by other individuals or institutions.",
+        "The Republic recognises that genuine freedom cannot exist where individuals are denied opportunities because of circumstances beyond their control. Equal opportunity shall consequently form an inseparable component of the national understanding of liberty.",
+        "The principal policy objectives are as follows."
+      ],
+      "subsections": [
+        {
+          "heading": "1. Guarantee fundamental individual freedoms.",
+          "paragraphs": [
+            "Every individual shall enjoy freedom of thought, expression, association, movement, personal identity, and private life.",
+            "The State shall not arbitrarily interfere with the exercise of these freedoms. Restrictions shall be permitted only where expressly authorised by constitutional law to protect the fundamental rights of others, subject to independent judicial oversight."
+          ]
+        },
+        {
+          "heading": "2. Establish gender equality as a fundamental constitutional principle.",
+          "paragraphs": [
+            "All individuals shall enjoy equal dignity and legal status regardless of sex, sexual orientation, gender identity, gender expression, or sex characteristics.",
+            "The Republic shall recognise gender self-determination and gender fluidity as fundamental rights.",
+            "No individual shall be compelled to accept a particular gender identity because of biological characteristics, social expectations, family traditions, or religious doctrines."
+          ]
+        },
+        {
+          "heading": "3. Eliminate gender-based discrimination and subordination.",
+          "paragraphs": [
+            "The State shall prohibit gender-based discrimination in public and private institutions, employment, education, public services, and social participation.",
+            "The Republic shall additionally prohibit deliberate gender-based harassment, public advocacy of gender inequality, and intentional denial of individual gender identity, while protecting legitimate academic research and evidence-based inquiry.",
+            "Gender equality shall take constitutional precedence over conflicting religious practices or institutional doctrines."
+          ]
+        },
+        {
+          "heading": "4. Protect bodily autonomy and personal sovereignty.",
+          "paragraphs": [
+            "Every individual shall possess the fundamental right to make decisions concerning their own body, medical treatment, reproductive choices, and personal lifestyle.",
+            "No person shall be subjected to unwanted bodily interference, coercion, or non-consensual medical procedures.",
+            "The State shall protect bodily autonomy against violations by individuals, institutions, and public authorities."
+          ]
+        },
+        {
+          "heading": "5. Guarantee political freedom and public accountability.",
+          "paragraphs": [
+            "All individuals shall have the freedom to criticise the government, question public institutions, express political dissatisfaction, and advocate political change.",
+            "Political authority shall remain subordinate to the people.",
+            "The Constitution shall establish mechanisms through which citizens can independently scrutinise, challenge, and constrain government power."
+          ]
+        },
+        {
+          "heading": "6. Establish comprehensive digital privacy protections.",
+          "paragraphs": [
+            "Private communications, personal information, and digital activities shall receive strong constitutional protection.",
+            "The State shall prohibit indiscriminate digital surveillance and unauthorised monitoring by government agencies, corporations, and private individuals.",
+            "Any exceptional investigative access shall require a lawful, specific, and independently supervised justification."
+          ]
+        },
+        {
+          "heading": "7. Guarantee equal opportunities for all individuals.",
+          "paragraphs": [
+            "No person shall be denied access to employment, public services, or opportunities for personal development because of irrelevant personal characteristics.",
+            "Employment selection and professional advancement shall be based upon demonstrated competence, relevant qualifications, and the requirements of the position.",
+            "The State shall remove structural barriers that prevent individuals from exercising their abilities and participating fully in society."
+          ]
+        },
+        {
+          "heading": "8. Ensure accessibility and inclusion.",
+          "paragraphs": [
+            "The Republic shall recognise that equal treatment requires appropriate accommodation for individuals with different physical, sensory, cognitive, and other accessibility needs.",
+            "Public infrastructure, institutions, and government budgets shall incorporate the resources necessary to enable meaningful participation by persons with disabilities and other individuals requiring additional support."
+          ]
+        },
+        {
+          "heading": "9. Expand opportunities through education and scientific innovation.",
+          "paragraphs": [
+            "Senzovia shall pursue broad social mobility through its national education system, scientific advancement, technological innovation, and the widespread availability of opportunities for personal development.",
+            "The Education System of Senzovia (ESX) shall serve as the principal framework for educational equality. Its detailed provisions shall remain within the national education policy."
+          ]
+        },
+        {
+          "heading": "10. Guarantee equality before the law.",
+          "paragraphs": [
+            "Every person shall receive equal legal protection and access to justice.",
+            "No individual shall receive immunity or privileged legal treatment because of wealth, social position, political influence, institutional authority, or personal relationships.",
+            "The State shall establish effective mechanisms to investigate discrimination, remedy rights violations, and hold public authorities accountable."
+          ]
+        },
+        {
+          "heading": "11. Protect freedom of movement and nationality.",
+          "paragraphs": [
+            "Citizens shall enjoy freedom of movement, residence, international travel, and nationality choice.",
+            "The State shall not involuntarily deprive a citizen of Senzovian nationality.",
+            "The fundamental human rights of foreign nationals shall receive equal respect and protection."
+          ]
+        },
+        {
+          "heading": "12. Make the protection of human rights a permanent responsibility of the State.",
+          "paragraphs": [
+            "An independent national human rights institution shall monitor compliance with constitutional guarantees, investigate violations, protect vulnerable individuals, and provide accessible remedies.",
+            "No government, political majority, public authority, or private institution shall possess unrestricted power over the fundamental rights of individuals."
+          ]
+        }
       ]
     },
     {
-      "heading": "Chapter 2: Policy arrangements",
-      "paragraphs": [
-        "Enter the specific arrangements, scope of application and implementation conditions here."
+      "heading": "Policy Content",
+      "paragraphs": [],
+      "subsections": [
+        {
+          "heading": "1. Constitutional Supremacy of Individual Rights",
+          "paragraphs": [
+            "Freedom, equality, dignity, and personal autonomy shall constitute enforceable constitutional principles rather than discretionary privileges granted by the government.",
+            "All legislation, administrative decisions, judicial procedures, and public institutions shall operate in accordance with these principles.",
+            "The Constitution shall take precedence over ordinary legislation, executive directives, institutional rules, cultural traditions, and religious doctrines.",
+            "No government authority shall possess an unrestricted power to suspend or remove fundamental freedoms.",
+            "Where intervention is necessary to prevent a violation of another person's rights, it must possess a clear legal basis, pursue a legitimate protective purpose, and remain subject to independent judicial scrutiny.",
+            "Citizens shall have access to constitutional remedies against government actions that unlawfully interfere with their freedoms.",
+            "The State shall recognise that individual liberty is the starting point of public governance, while restrictions require specific legal justification."
+          ]
+        },
+        {
+          "heading": "2. Freedom of Expression, Thought and Political Participation",
+          "paragraphs": [
+            "Every individual shall possess the freedom to express political opinions, criticise government decisions, challenge political leaders, and advocate changes to public institutions.",
+            "Criticism of the government, including severe criticism, satire, and public expressions of dissatisfaction, shall not constitute grounds for criminal punishment.",
+            "Individuals shall enjoy freedom to participate in peaceful demonstrations, establish associations, join political organisations, and engage in public debate.",
+            "No person shall be compelled to express support for the government, a political ideology, or a public institution.",
+            "The State shall not require political loyalty as a condition of access to ordinary public services, education, employment, or fundamental legal protection.",
+            "Independent journalism, political commentary, and public-interest investigation shall be protected.",
+            "The Republic shall recognise freedom of thought as a fundamental personal liberty. Mere private beliefs, including beliefs contrary to prevailing social values, shall not independently constitute criminal offences.",
+            "However, the constitutional protection of expression shall not extend without limitation to conduct and public advocacy prohibited under Senzovia's gender equality laws."
+          ]
+        },
+        {
+          "heading": "3. Gender Equality and Freedom of Gender Self-Determination",
+          "paragraphs": [
+            "Every individual shall possess the right to determine, express, explore, and change their own gender identity.",
+            "Gender identity shall not be legally determined solely by reproductive anatomy, chromosomes, sex assigned at birth, or conventional expectations concerning masculinity and femininity.",
+            "The Republic shall recognise that gender identity may remain stable or change during an individual's lifetime.",
+            "No person shall be required to maintain a particular gender identity permanently.",
+            "All genders shall enjoy equal constitutional recognition, dignity, and civil rights.",
+            "Individuals shall have the freedom to determine their own appearance, clothing, hairstyle, manner of expression, and personal identity without compulsory conformity to traditional gender roles.",
+            "Family members, educational institutions, employers, religious organisations, and other authorities shall be prohibited from using coercion, intimidation, violence, or unlawful restrictions to impose a gender identity upon another person.",
+            "Gender identity and expression rights shall extend to minors, with safeguards appropriate to their evolving capacities and personal welfare."
+          ],
+          "subsections": [
+            {
+              "heading": "Legal Gender Recognition",
+              "paragraphs": [
+                "Every child shall possess legal identity and nationality protections from birth.",
+                "At the age of fourteen, individuals shall undertake their designated personal identity registration and independently declare their gender identity.",
+                "This process shall follow the principle of Gender Self-Declaration.",
+                "No psychological examination, behavioural assessment, ideological test, anatomical inspection, or conformity test shall be required to establish whether an individual's declared gender is sufficiently consistent with social expectations.",
+                "Legal gender recognition shall not depend upon undergoing surgery, hormonal treatment, or other medical procedures.",
+                "Individuals shall possess the right to amend their registered gender identity through an accessible legal process.",
+                "The State shall protect the confidentiality of personal gender records and prohibit unnecessary disclosure of previous gender classifications."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "4. Marriage Equality and Equal Family Rights",
+          "paragraphs": [
+            "Civil marriage shall be available to all legally eligible and consenting individuals regardless of sex, gender identity, gender expression, or sexual orientation.",
+            "No gender combination shall be excluded from civil marriage solely because of the identities of the persons involved.",
+            "All legally recognised marriages shall possess equal status under civil law.",
+            "Married individuals shall enjoy equal rights concerning property, inheritance, parental responsibilities, family decisions, divorce, and access to public services.",
+            "No marriage shall establish a legally enforceable relationship of gender-based superiority or subordination.",
+            "Neither spouse shall acquire authority over the other's fundamental rights merely through marriage.",
+            "Religious or cultural marriage provisions that attempt to deprive a spouse of equal legal status, bodily autonomy, freedom of movement, or independent decision-making shall have no legal force.",
+            "Family law shall be administered exclusively according to the Constitution and applicable civil legislation."
+          ]
+        },
+        {
+          "heading": "5. Gender-Neutral Public Facilities and Sporting Participation",
+          "paragraphs": [],
+          "subsections": [
+            {
+              "heading": "Public Facilities",
+              "paragraphs": [
+                "Publicly provided facilities shall not impose compulsory gender segregation upon their users.",
+                "Public toilets, changing areas, and comparable facilities shall be designed to accommodate individuals of all gender identities.",
+                "Facility design shall provide appropriate personal privacy through enclosed individual spaces, secure arrangements, and accessible infrastructure.",
+                "Safety and privacy requirements shall apply equally to every user without reliance upon compulsory binary gender classification."
+              ]
+            },
+            {
+              "heading": "Sports and Athletic Competition",
+              "paragraphs": [
+                "The Republic shall pursue a system of competitive sports classification based upon scientifically evaluated physiological criteria, with hormonal characteristics serving as the principal basis for grouping participants.",
+                "Sports classification shall not rely automatically upon gender identity or sex assigned at birth.",
+                "Relevant sporting authorities shall develop hormone-based classifications appropriate to different sporting disciplines, drawing upon transparent scientific research and regularly reviewed evidence.",
+                "Such systems shall seek to balance competitive fairness, inclusion, individual dignity, and participant safety.",
+                "Athletes' medical information shall remain confidential and shall not be subjected to unnecessary public disclosure.",
+                "Participation in recreational and community sporting activities shall remain open without unjustified gender-based exclusion."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "6. Prohibition of Gender Discrimination and Gender-Based Hate",
+          "paragraphs": [
+            "The Republic shall prohibit gender discrimination in all areas of public life and legally regulated private activity.",
+            "Discrimination shall include unlawful unequal treatment, exclusion, denial of opportunity, harassment, or deprivation of rights based upon sex, sexual orientation, gender identity, gender expression, or sex characteristics."
+          ],
+          "subsections": [
+            {
+              "heading": "Prohibited Forms of Expression",
+              "paragraphs": [
+                "The law shall specifically prohibit:"
+              ],
+              "items": [
+                "Direct gender-based threats, targeted harassment, and deliberate humiliation.",
+                "Public advocacy of the legal or social subordination of one gender to another.",
+                "Public advocacy of denying equal civil rights to individuals because of their gender.",
+                "Deliberate denial of another person's gender identity in circumstances defined as unlawful under the gender equality legislation.",
+                "Incitement to gender-based violence, discrimination, or coercion."
+              ],
+              "closing": [
+                "Established violations shall result in enforceable legal sanctions.",
+                "Penalties shall be established by legislation according to the nature and severity of the conduct, with criminal sanctions available for serious offences.",
+                "Legal definitions shall distinguish intentional discriminatory advocacy and harassment from legitimate discussion, reporting, and academic examination."
+              ]
+            },
+            {
+              "heading": "Protection of Academic Freedom",
+              "paragraphs": [
+                "Scientific investigation, philosophical analysis, social research, and evidence-based discussion concerning gender shall remain protected.",
+                "Researchers shall be permitted to investigate biological, psychological, sociological, and legal questions concerning gender, including questions involving disagreement or unresolved scientific evidence.",
+                "Research findings shall not be prohibited merely because they differ from prevailing social or political positions.",
+                "Academic protection shall depend upon genuine inquiry, reasoned argument, methodological integrity, and the proper use of evidence, rather than agreement with official conclusions.",
+                "The State shall not use the prohibition of gender discrimination as a general justification for suppressing legitimate academic investigation."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "7. Secular Governance and Regulation of Religious Practices",
+          "paragraphs": [
+            "Senzovia shall be a strictly secular republic.",
+            "No religion shall possess constitutional authority over the State, its legislation, its public institutions, or the civil rights of individuals.",
+            "Religious doctrines shall not override the Constitution or provide exemptions from laws protecting gender equality and individual autonomy.",
+            "The Republic shall adopt a deliberately restrictive approach to religious practices where such practices conflict with its constitutional principles.",
+            "Religious activities may be conducted within the limits established by secular civil law. Freedom of religious practice shall not be recognised as an unconditional right capable of overriding constitutional equality protections.",
+            "The State shall not establish religious institutions as authorities over marriage, gender identity, education policy, or civil status."
+          ],
+          "subsections": [
+            {
+              "heading": "Prohibition of Religious Gender Discrimination",
+              "paragraphs": [
+                "Religious doctrines, customs, institutions, and practices that impose unlawful gender-based subordination shall be prohibited, including arrangements presented as voluntary where they attempt to establish binding inequalities in legal status or fundamental rights.",
+                "No religious rule shall create an enforceable obligation for a person to submit to the authority of another individual because of gender.",
+                "The State shall maintain enhanced compliance oversight of religious organisations and practices to identify violations of gender equality legislation.",
+                "Such oversight shall focus on organisational practices, observable conduct, and legally relevant evidence. Religious affiliation alone shall not constitute proof of misconduct or criminal liability."
+              ]
+            },
+            {
+              "heading": "Aggravated Liability for Religiously Connected Gender Discrimination",
+              "paragraphs": [
+                "Where an established act of unlawful gender discrimination is motivated by, justified through, or committed in enforcement of religious doctrine, the religious connection shall constitute a statutory aggravating circumstance.",
+                "The Republic adopts this distinction on the basis of its concern that discriminatory religious norms may acquire additional social influence through organised religious authority, institutional transmission, and repeated promotion across communities.",
+                "Accordingly, religious involvement may result in enhanced punishment even where the immediate harm is comparable to that of a non-religiously motivated offence.",
+                "Senzovia shall establish severe statutory penalties for religiously connected gender discrimination, including an aggravated sentencing category comparable to that prescribed for rape offences.",
+                "The definition of offences, proof of religious motivation, applicable sentencing ranges, and judicial procedures shall be specified in criminal legislation.",
+                "This aggravating provision shall apply to conduct and proven motivation, irrespective of the offender's personal religious affiliation.",
+                "No person shall be criminally punished solely for belonging to a religion or privately holding religious beliefs."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "8. Bodily Autonomy and Protection Against Personal Violations",
+          "paragraphs": [
+            "Every person shall possess sovereignty over their own body.",
+            "Individuals shall have the right to make personal medical and reproductive decisions, accept or refuse medical treatment, and determine their own bodily presentation.",
+            "Medical treatment shall ordinarily require informed and voluntary consent, subject to narrowly defined safeguards for circumstances in which valid consent cannot be obtained.",
+            "No person shall be compelled to undergo medical procedures or bodily modification merely to conform to social, political, religious, or gender expectations.",
+            "The State shall not interfere with personal bodily decisions solely because authorities consider those decisions unconventional or undesirable.",
+            "Protective intervention shall be permitted where necessary to prevent unlawful harm to another individual, with decisions governed by clear legislation and independent oversight."
+          ],
+          "subsections": [
+            {
+              "heading": "Sexual Autonomy and Consent",
+              "paragraphs": [
+                "All individuals shall enjoy equal protection against sexual violence, coercion, exploitation, and non-consensual violations of bodily autonomy.",
+                "Sexual autonomy shall not depend upon gender, marital status, relationship history, or sexual orientation.",
+                "Marriage, personal relationships, and religious affiliation shall never constitute automatic or permanent consent to sexual activity.",
+                "Serious sexual offences shall be subject to stringent criminal penalties and effective investigation.",
+                "Victims shall be entitled to accessible protection, confidential support, fair legal procedures, and remedies.",
+                "Criminal liability and sentencing shall be established through due process, with the relevant offence definitions and penalties specified in legislation."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "9. Digital Privacy and Freedom from Surveillance",
+          "paragraphs": [
+            "The privacy of personal information and digital communications shall receive constitutional protection.",
+            "Government agencies, corporations, employers, educational institutions, and private individuals shall be prohibited from conducting unauthorised surveillance of personal digital activities.",
+            "The Republic shall prohibit mass, indiscriminate, or continuous digital monitoring of the population.",
+            "Private messages, communications records, personal files, browsing activities, and other sensitive digital information shall not be accessed without lawful justification.",
+            "Individuals shall have the right to use secure and encrypted communication technologies.",
+            "Public authorities shall not establish general systems of digital surveillance for the purpose of monitoring political opinions, personal beliefs, social relationships, or lawful private behaviour."
+          ],
+          "subsections": [
+            {
+              "heading": "Exceptional Criminal Investigations",
+              "paragraphs": [
+                "Targeted access to digital information may be permitted where necessary for the investigation of serious offences or the protection of fundamental rights.",
+                "Such access shall require a specific legal basis, independent judicial authorisation, clearly defined investigative limits, and effective safeguards against misuse.",
+                "Authorisation shall not permit indiscriminate collection of unrelated personal information.",
+                "Individuals shall possess enforceable rights concerning access to their personal data, correction of inaccurate records, protection against unauthorised disclosure, and deletion where legally appropriate.",
+                "Violations of digital privacy by public authorities or private institutions shall be subject to independent investigation and legal remedies."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "10. Freedom of Movement, Residence and Nationality",
+          "paragraphs": [
+            "Every Senzovian citizen shall enjoy freedom to travel, leave the Republic, return to the Republic, and select their place of residence.",
+            "The State shall not arbitrarily prohibit citizens from departing or returning to their country.",
+            "Citizens shall possess the freedom to seek, acquire, or voluntarily relinquish nationality in accordance with established legal procedures.",
+            "The Republic shall permit multiple nationality and shall not require citizens to renounce foreign citizenship solely because they possess Senzovian nationality.",
+            "No citizen shall be involuntarily deprived of Senzovian nationality by the State.",
+            "Nationality shall not be revoked as punishment for political disagreement, criticism of the government, religious belief, personal identity, or social conduct."
+          ],
+          "subsections": [
+            {
+              "heading": "Rights of Foreign Nationals",
+              "paragraphs": [
+                "Foreign nationals shall enjoy equal protection of their fundamental human rights while residing in or visiting Senzovia.",
+                "Their human dignity, bodily autonomy, privacy, access to justice, and protection from discrimination shall not depend upon citizenship.",
+                "Any distinctions concerning political participation, immigration status, or other citizenship-specific responsibilities must be established transparently by law and shall not justify arbitrary mistreatment."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "11. Equality of Employment and Professional Opportunity",
+          "paragraphs": [
+            "Employment decisions shall be based upon competence, relevant qualifications, demonstrated performance, and legitimate occupational requirements.",
+            "Employers shall not discriminate against applicants or employees on the basis of sex, gender identity, sexual orientation, nationality, ethnicity, disability, family background, or other characteristics unrelated to the work.",
+            "Recruitment, promotion, compensation, professional training, and dismissal shall be governed by fair and transparent standards.",
+            "Employers shall be prohibited from using discriminatory criteria, arbitrary personal preferences, or irrelevant social characteristics to determine professional opportunity.",
+            "Employees performing equivalent work under equivalent conditions shall receive equal treatment under applicable employment legislation.",
+            "Persons with disabilities shall receive reasonable workplace accommodations to enable fair assessment of their abilities and effective participation.",
+            "Employers shall establish accessible procedures for reporting discrimination and contesting unfair employment decisions.",
+            "Violations shall be subject to appropriate administrative, civil, or criminal sanctions according to the seriousness of the conduct.",
+            "The Republic shall recognise merit as a principle of professional selection while ensuring that structural disadvantages do not prevent individuals from demonstrating their actual abilities."
+          ]
+        },
+        {
+          "heading": "12. Accessibility and Equal Participation",
+          "paragraphs": [
+            "The State shall ensure that persons with disabilities and individuals with additional accessibility needs can participate meaningfully in public life.",
+            "Accessibility shall be treated as an ordinary responsibility of government rather than an optional charitable service.",
+            "Public buildings, transportation systems, educational institutions, digital government platforms, recreational facilities, and other publicly supported infrastructure shall incorporate inclusive design principles.",
+            "The national budget shall provide dedicated resources for accessible infrastructure, assistive technologies, reasonable accommodations, and essential support services.",
+            "Public institutions shall be required to identify and remove avoidable barriers to participation.",
+            "Accessibility policies shall recognise that individuals have different needs and that identical treatment does not always provide genuinely equal opportunity.",
+            "Affected individuals shall be represented in the consultation, evaluation, and improvement of accessibility arrangements."
+          ]
+        },
+        {
+          "heading": "13. Social Mobility and the Expansion of Opportunity",
+          "paragraphs": [
+            "Senzovia shall pursue a society in which individuals can develop their abilities and aspirations independently of inherited wealth, social background, family connections, or circumstances of birth.",
+            "The Republic shall prioritise the expansion of opportunity through two principal national systems:"
+          ],
+          "subsections": [
+            {
+              "heading": "Education",
+              "paragraphs": [
+                "The Education System of Senzovia (ESX) shall provide the foundation for educational opportunity and the development of individual capabilities.",
+                "Its principles, institutional structures, and resource allocation mechanisms shall be governed by the National Education Policy."
+              ]
+            },
+            {
+              "heading": "Scientific and Technological Innovation",
+              "paragraphs": [
+                "Scientific discovery, technological advancement, entrepreneurship, and the broad diffusion of knowledge shall contribute to the expansion of economic and professional opportunities.",
+                "The Republic shall encourage innovation that creates new fields of employment, expands public access to useful technologies, and reduces avoidable barriers to participation.",
+                "Publicly supported innovation shall be evaluated not only by economic growth, but also by its contribution to wider opportunity and human well-being.",
+                "The State shall monitor structural inequalities that prevent individuals from accessing new opportunities and shall develop lawful measures to address them.",
+                "Equal opportunity shall not require every individual to achieve identical outcomes. It shall require that individuals are not unjustly prevented from pursuing opportunities or judged according to irrelevant personal characteristics."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "14. Popular Sovereignty and Public Control of Government",
+          "paragraphs": [
+            "All legitimate political authority in Senzovia shall originate from the people.",
+            "Government institutions shall exercise delegated authority and shall remain accountable to the public at all times.",
+            "The Constitution shall establish strong mechanisms of civic oversight capable of investigating, challenging, and constraining government action.",
+            "Citizens shall possess enforceable rights to request public information, scrutinise government expenditure, challenge administrative decisions, petition public authorities, and participate in democratic oversight.",
+            "The constitutional system shall provide mechanisms for independent public investigation, institutional accountability, and the lawful removal of officials who abuse public authority.",
+            "Peaceful public organisation and collective political participation shall be protected.",
+            "Public officials shall not receive immunity from accountability merely because of their position or institutional status.",
+            "The State shall maintain transparent procedures for decision-making and expenditure, except where narrowly defined confidentiality protections are legally necessary.",
+            "Independent courts and oversight institutions shall have authority to review unlawful government actions and provide effective remedies.",
+            "Popular sovereignty shall not authorise a political majority to remove the fundamental constitutional rights of minority groups or individuals.",
+            "The Republic shall operate upon the principle that government is accountable to citizens, rather than citizens existing to serve the government."
+          ]
+        },
+        {
+          "heading": "15. Independent Human Rights Commission",
+          "paragraphs": [
+            "Senzovia shall establish an independent National Human Rights Commission responsible for monitoring and protecting constitutional freedoms.",
+            "The Commission shall operate independently of executive direction and shall possess legally protected institutional autonomy.",
+            "Its responsibilities shall include:"
+          ],
+          "items": [
+            "Investigating credible complaints concerning human rights violations.",
+            "Monitoring the conduct of public authorities and institutions.",
+            "Examining systemic discrimination and barriers to equal opportunity.",
+            "Reviewing the implementation of gender equality and anti-discrimination legislation.",
+            "Assessing compliance with privacy and digital surveillance protections.",
+            "Investigating failures to provide legally required accessibility accommodations.",
+            "Recommending corrective measures and institutional reforms.",
+            "Publishing independent reports concerning the condition of human rights in Senzovia.",
+            "Assisting individuals in accessing appropriate legal remedies."
+          ],
+          "closing": [
+            "The Commission shall possess access to relevant institutional records through lawful procedures and shall be able to refer serious violations to competent judicial authorities.",
+            "Its independence shall be protected through transparent appointments, secure funding arrangements, and safeguards against arbitrary dismissal of its members.",
+            "Individuals shall be able to submit complaints without fear of retaliation.",
+            "The State shall prohibit intimidation, obstruction, or punishment directed against persons who lawfully seek human rights protection."
+          ]
+        },
+        {
+          "heading": "16. Equal Justice and Enforcement of Constitutional Rights",
+          "paragraphs": [
+            "All persons shall be equal before the law and entitled to impartial judicial protection.",
+            "The Republic shall guarantee due process, independent adjudication, the presumption of innocence, and the right to challenge allegations and government decisions through appropriate legal procedures.",
+            "Criminal punishment shall require proof of legally defined wrongdoing.",
+            "No person shall be presumed criminally liable solely because of their religion, identity, social background, or association with a particular community.",
+            "Courts shall apply statutory aggravating circumstances according to the Constitution and the evidence established in individual proceedings.",
+            "Legislation shall provide effective sanctions against unlawful discrimination, coercion, harassment, and violations of constitutional rights.",
+            "Judicial remedies may include enforceable orders, compensation, protective measures, institutional correction, and criminal penalties where applicable.",
+            "Public officials who violate constitutional protections shall be subject to investigation and accountability.",
+            "No institution shall be authorised to circumvent constitutional protections through internal regulations, private agreements, or claims of institutional privilege.",
+            "The legal system shall protect individuals against both governmental abuse and unlawful interference by private persons or organisations."
+          ]
+        }
       ],
-      "image": {
-        "src": "/assets/senzovia-flag.jpeg",
-        "alt": "Flag of Senzovia",
-        "caption": "Image layout example: the flag of Senzovia. Before publication, replace this image with an illustration relevant to this chapter, or remove this image entry."
-      }
+      "closing": [
+        "The Government of Senzovia affirms that freedom and equal opportunity are not privileges reserved for particular groups, but fundamental conditions of human dignity. The Republic shall protect the ability of every individual to determine their identity, exercise their rights, develop their capabilities, and participate in society, while maintaining enforceable safeguards against discrimination, coercion, and the abuse of power."
+      ]
     }
   ]
 }
