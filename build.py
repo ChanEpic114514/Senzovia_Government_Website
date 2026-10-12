@@ -1,6 +1,7 @@
 from pathlib import Path
 import json, html, hashlib, re
 from policy_pages import LABELS, render_policy
+from publication_tools import LABELS as PUBLICATION_LABELS, search_controls, search_sections
 
 ROOT = Path(__file__).parent
 OUT = ROOT / 'dist'
@@ -49,7 +50,8 @@ def head(lang,c,route,title,desc):
     options=''.join(f'<option value="{url(k,route)}" lang="{k}" {"selected" if k==lang else ""}>{data[k]["name"]}</option>' for k in LANGS)
     nav=''.join(link(lang,r,label,'current' if route==r or (r=='priorities' and route in [t['id'] for t in c['topics']]) else '') for r,label in zip(['home','priorities','publications','about'],c['nav']))
     alternates=''.join(f'<link rel="alternate" hreflang="{k}" href="{url(k,route)}">' for k in LANGS)
-    return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)} | {esc(c['government'])}</title><meta name="description" content="{esc(desc)}"><meta name="theme-color" content="#121416"><link rel="icon" href="/assets/senzovia-flag.jpeg" type="image/jpeg"><link rel="stylesheet" href="/assets/site.css">{alternates}<script src="/assets/site.js" defer></script><link rel="stylesheet" href="/assets/flag-intro.css">
+    extra_styles = '<link rel="stylesheet" href="/assets/publication-tools.css">' if route == 'search' or route.endswith('-full') else ''
+    return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)} | {esc(c['government'])}</title><meta name="description" content="{esc(desc)}"><meta name="theme-color" content="#121416"><link rel="icon" href="/assets/senzovia-flag.jpeg" type="image/jpeg"><link rel="stylesheet" href="/assets/site.css">{alternates}{extra_styles}<script src="/assets/site.js" defer></script><link rel="stylesheet" href="/assets/flag-intro.css">
 <script src="/assets/flag-intro.js" defer></script><link rel="stylesheet" href="/assets/pride-particles.css">
 <script src="/assets/pride-particles.js" defer></script><link rel="stylesheet" href="/assets/theme-gallery.css">
 <script src="/assets/theme-gallery.js" defer></script></head><body data-lang="{lang}" data-route="{route}" data-motion-on="{esc(c['motionOn'])}" data-motion-off="{esc(c['motionOff'])}">
@@ -88,12 +90,12 @@ def article(lang,c,title,desc,items,docid,typ='proposal',extra='',topic=None):
 def home(lang,c):
     return f'''<section class="hero"><div class="wrap hero-grid"><div class="hero-copy"><div class="eyebrow">{esc(c['portal'])}</div><h1><span>{esc(c['hero'][0])}</span><span>{esc(c['hero'][1])}</span></h1><p>{esc(c['intro'])}</p>{link(lang,'priorities',c['explore'],'button light')}</div><figure class="hero-flag">{flag(c)}<figcaption><span>SENZOVIA</span>{link(lang,'flag',c['flagLink'])}</figcaption></figure></div><div class="wrap principle-strip">{''.join(f'<span><i aria-hidden="true">0{i+1}</i>{esc(v)}</span>' for i,v in enumerate(c['principles']))}</div></section>
 <section class="wrap section"><div class="section-heading"><div><div class="eyebrow">01 / SENZOVIA</div><h2>{esc(c['quick'])}</h2></div><p>{esc(c['quickIntro'])}</p></div>{topic_cards(lang,c)}</section>
-<section class="feature"><div class="wrap feature-grid"><div class="feature-copy"><div class="eyebrow">{esc(c['featured'])} / ESX</div><h2>{esc(c['featureTitle'])}</h2><p>{esc(c['featureText'])}</p>{link(lang,'education',c['featureLink'],'button dark')}</div><div class="feature-facts"><div class="esx-mark" aria-hidden="true">ESX<span>·</span></div><span class="badge">{esc(c['draftLabel'])}</span><div class="fact-row"><strong>5</strong><span>{esc(c['five'])}</span></div><div class="fact-row"><strong>2<span>+</span></strong><span>{esc(c['two'])}</span></div></div></div></section>
+<section class="feature"><div class="wrap feature-grid"><div class="feature-copy"><div class="eyebrow">{esc(c['featured'])} / ESX</div><h2>{esc(c['featureTitle'])}</h2><p>{esc(c['featureText'])}</p>{link(lang,'education',PUBLICATION_LABELS[lang]['esxSummary'],'button dark')} {link(lang,'education-full',PUBLICATION_LABELS[lang]['esxFull'],'button outline')}</div><div class="feature-facts"><div class="esx-mark" aria-hidden="true">ESX<span>·</span></div><span class="badge">{esc(c['draftLabel'])}</span><div class="fact-row"><strong>5</strong><span>{esc(c['five'])}</span></div><div class="fact-row"><strong>2<span>+</span></strong><span>{esc(c['two'])}</span></div></div></div></section>
 <section class="wrap section"><div class="section-heading"><div><div class="eyebrow">02 / SENZOVIA</div><h2>{esc(c['latest'])}</h2></div>{link(lang,'publications',c['allDocs'],'text-link')}</div>{notice_cards(lang,c)}</section>'''
 def priority(lang,c):
     rows=''
     for i,t in enumerate(c['topics']):
-        rows+=f'''<div class="priority-row"><h2><button class="accordion-button" aria-expanded="{str(i==0).lower()}" aria-controls="priority-{i}"><span class="priority-number">0{i+1}</span><span>{esc(t['title'])}</span><span class="plus" aria-hidden="true"></span></button></h2><div class="accordion-panel" id="priority-{i}" {'hidden' if i else ''}><div class="priority-detail"><p>{esc(t['sections'][0][1])}</p><div>{badge(c)}{link(lang,t['id'],c['read'],'button dark')}</div></div></div></div>'''
+        rows+=f'''<div class="priority-row"><h2><button class="accordion-button" aria-expanded="{str(i==0).lower()}" aria-controls="priority-{i}"><span class="priority-number">0{i+1}</span><span>{esc(t['title'])}</span><span class="plus" aria-hidden="true"></span></button></h2><div class="accordion-panel" id="priority-{i}" {'hidden' if i else ''}><div class="priority-detail"><p>{esc(t['sections'][0][1])}</p><div>{badge(c)}{link(lang,t['id'],PUBLICATION_LABELS[lang]['summary'],'button dark')}</div></div></div></div>'''
     return intro(lang,c,c['nav'][1],c['priorityIntro'])+f'<div class="wrap priorities-layout"><div class="priority-index" aria-hidden="true"><span>SENZOVIA</span><strong id="priority-counter">01</strong><span>01 — 06</span></div><div class="accordion">{rows}</div></div><div class="wrap after-priorities">{scope_box(lang,c)}</div>'
 def documents(lang,c):
     docs=[(t['id'],t['title'],t['desc'],'proposal',f'P-{i+1:02}') for i,t in enumerate(c['topics'])]+[('flag',c['notices'][0][0],c['notices'][0][1],'record','N-01'),('scope',c['scope'],c['scopeText'],'record','N-02')]
@@ -109,7 +111,7 @@ def reference_page(lang,c):
     'es':['Reino Unido','Estados Unidos','Canadá','Singapur','Nueva Zelanda','Australia','Francia','Alemania','Países Bajos','Bélgica','Suiza','Austria','Suecia','Noruega','Finlandia','Dinamarca','Corea del Sur','España','Sudáfrica','Brasil','Polonia']}
     return intro(lang,c,c['sources'],c['sourcesText'])+'<section class="wrap reference-list">'+''.join(f'<a href="{u}" rel="noreferrer"><span>{i+1:02}</span><strong>{names[lang][i]}</strong><small>{esc(u.replace("https://", ""))}</small></a>' for i,(_,u,_) in enumerate(refs))+'</section><div class="wrap open-source"><a href="https://github.com/alphagov/govuk-frontend">GOV.UK Frontend</a><a href="https://github.com/uswds/uswds">USWDS</a><a href="https://github.com/motiondivision/motion">Motion</a></div>'
 def search_page(lang,c):
-    return intro(lang,c,c['search'],c['searchHint'])+f'''<section class="wrap search-page"><form id="search-form" role="search"><label class="sr-only" for="search-input">{esc(c['search'])}</label><input type="search" id="search-input" name="q" placeholder="{esc(c['searchHint'])}" autocomplete="off"><button class="button dark" type="submit">{icon('search')}{esc(c['search'])}</button></form><p id="search-status" role="status"></p><div id="search-results"></div><noscript>{link(lang,'publications',c['allDocs'])}</noscript></section>'''
+    return intro(lang,c,c['search'],c['searchHint'])+f'''<section class="wrap search-page"><form id="search-form" role="search"><label class="sr-only" for="search-input">{esc(c['search'])}</label><input type="search" id="search-input" name="q" placeholder="{esc(c['searchHint'])}" autocomplete="off"><button class="button dark" type="submit">{icon('search')}{esc(c['search'])}</button></form>{search_controls(lang,c)}<p id="search-status" role="status"></p><div id="search-results"></div><noscript>{link(lang,'publications',c['allDocs'])}</noscript></section>'''
 
 (OUT/'assets/documents').mkdir(parents=True,exist_ok=True)
 for lang in LANGS:
@@ -138,7 +140,9 @@ for lang in LANGS:
                 'text': full_text,
                 'url': url(lang, route),
                 'type': 'proposal',
-                'code': f'P-{i+1:02}-FULL'
+                'code': f'P-{i+1:02}-FULL',
+                'topic': topic_id, 'format': 'full',
+                'sections': search_sections(ROOT, lang, topic_id)
             })
         elif route=='priorities': title=c['nav'][1];desc=c['priorityIntro'];body=priority(lang,c)
         elif route=='publications': title=c['nav'][2];desc=c['docsIntro'];body=documents(lang,c)
@@ -161,7 +165,9 @@ for lang in LANGS:
             text=f'{c["government"]}\n{title}\n{code} | {c[typ]}\n{c["updated"]}: {c["date"]}\n\n{desc}\n\n'+'\n\n'.join(h+'\n'+p for h,p in items)
             if typ=='proposal':text+='\n\n'+c['scope']+'\n'+c['scopeText']
             (OUT/f'assets/documents/{lang}-{code}.txt').write_text(text+'\n')
-            search.append({'title':title,'description':desc,'text':' '.join(p for _,p in items),'url':url(lang,route),'type':typ,'code':code})
+            search.append({'title':title,'description':desc,'text':' '.join(h+' '+p for h,p in items),'url':url(lang,route),'type':typ,'code':code,'topic':route if typ=='proposal' else '',
+                           'format':'summary' if typ=='proposal' else 'record',
+                           'sections':[{'anchor':f'section-{n+1}','heading':h,'text':p} for n,(h,p) in enumerate(items)]})
         folder=OUT/lang/('' if route=='home' else route);folder.mkdir(parents=True,exist_ok=True)
         (folder/'index.html').write_text(head(lang,c,route,title,desc)+f'<main id="main"><div id="top"></div>{body}</main>'+foot(lang,c))
     (OUT/f'assets/search-{lang}.json').write_text(json.dumps(search,ensure_ascii=False))

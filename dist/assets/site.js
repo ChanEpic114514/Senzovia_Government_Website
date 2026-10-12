@@ -48,17 +48,150 @@ window.addEventListener('scroll',()=>{if(!scrollPending){requestAnimationFrame(u
 if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));}
 const searchForm=document.querySelector('#search-form');
 if(searchForm){
- const input=document.querySelector('#search-input'),results=document.querySelector('#search-results'),status=document.querySelector('#search-status');
- let documents=[];
- const normalise=s=>s.normalize('NFKC').toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
- const render=()=>{
-  const query=input.value.trim(),words=normalise(query).split(/\s+/).filter(Boolean);
-  const matches=documents.filter(d=>!words.length||words.every(w=>normalise(d.title+' '+d.description+' '+d.text+' '+d.code).includes(w)));
-  results.replaceChildren();status.textContent=matches.length?labels.results+' · '+matches.length+' '+labels.count:labels.empty;
-  matches.forEach(d=>{const card=document.createElement('article');card.className='result-item';const tag=document.createElement('span');tag.className='badge '+d.type;tag.textContent=labels[d.type];const heading=document.createElement('h2'),a=document.createElement('a');a.href=d.url;a.textContent=d.title;heading.append(a);const desc=document.createElement('p');desc.textContent=d.description;card.append(tag,heading,desc);results.append(card)});
- };
- input.value=new URLSearchParams(location.search).get('q')||'';
- fetch('/assets/search-'+body.dataset.lang+'.json').then(r=>{if(!r.ok)throw new Error('index');return r.json()}).then(d=>{documents=d;render()}).catch(()=>{status.textContent=labels.empty;const a=document.createElement('a');a.href='/'+body.dataset.lang+'/publications/';a.textContent=document.querySelector('#primary-nav a:nth-child(3)').textContent;results.append(a)});
- searchForm.addEventListener('submit',e=>{e.preventDefault();history.replaceState(null,'',location.pathname+(input.value.trim()?'?q='+encodeURIComponent(input.value.trim()):''));render()});
- input.addEventListener('input',render);
+ const input = document.querySelector('#search-input');
+ const results = document.querySelector('#search-results');
+ const status = document.querySelector('#search-status');
+ const topicFilter = document.querySelector('#search-topic');
+ const formatFilter = document.querySelector('#search-format');
+ const extra = JSON.parse(document.querySelector('#search-extra-labels').textContent);
+ let documents = [];
+ let loaded = false;
+ const normalise = value => value.normalize('NFKC').toLowerCase()
+   .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+ // Keep source offsets so accent-insensitive matches highlight original text.
+ function matchRanges(text, words) {
+  let folded = '', offsets = [], source = 0;
+  for (const character of text) {
+   const normalized = normalise(character);
+   for (let i = 0; i < normalized.length; i++) offsets.push([source, source + character.length]);
+   folded += normalized;
+   source += character.length;
+  }
+  const ranges = [];
+  for (const word of words) {
+   let at = folded.indexOf(word);
+   while (at !== -1) {
+    ranges.push([offsets[at][0], offsets[at + word.length - 1][1]]);
+    at = folded.indexOf(word, at + word.length);
+   }
+  }
+  ranges.sort((a,b) => a[0] - b[0]);
+  return ranges.reduce((merged, range) => {
+   const last = merged[merged.length - 1];
+   if (last && range[0] <= last[1]) last[1] = Math.max(last[1], range[1]);
+   else merged.push([...range]);
+   return merged;
+  }, []);
+ }
+
+ function highlight(node, text, words) {
+  let offset = 0;
+  for (const [start, end] of matchRanges(text, words)) {
+   node.append(document.createTextNode(text.slice(offset, start)));
+   const mark = document.createElement('mark');
+   mark.textContent = text.slice(start, end);
+   node.append(mark);
+   offset = end;
+  }
+  node.append(document.createTextNode(text.slice(offset)));
+ }
+
+ function excerpt(text, words) {
+  const first = matchRanges(text, words)[0];
+  const start = Math.max(0, (first ? first[0] : 0) - 65);
+  const end = Math.min(text.length, start + 260);
+  return (start ? '…' : '') + text.slice(start, end) + (end < text.length ? '…' : '');
+ }
+
+ function bestSection(record, words) {
+  if (!words.length) return null;
+  let best = null, bestScore = 0;
+  for (const section of record.sections || []) {
+   const text = normalise(section.heading + ' ' + section.text);
+   const score = words.filter(word => text.includes(word)).length;
+   if (score > bestScore) { best = section; bestScore = score; }
+  }
+  return best;
+ }
+
+ function render() {
+  if (!loaded) return;
+  const words = [...new Set(normalise(input.value.trim()).split(/\s+/).filter(Boolean))];
+  const matches = documents.filter(d =>
+   (!topicFilter.value || d.topic === topicFilter.value) &&
+   (!formatFilter.value || d.format === formatFilter.value) &&
+   words.every(word => normalise(d.title + ' ' + d.description + ' ' + d.text + ' ' + d.code).includes(word))
+  );
+  results.replaceChildren();
+  status.textContent = matches.length ? labels.results + ' · ' + matches.length + ' ' + labels.count : labels.empty;
+  for (const d of matches) {
+   const section = bestSection(d, words);
+   const target = d.url + (section ? '#' + section.anchor : '');
+   const card = document.createElement('article');
+   card.className = 'result-item';
+   const tag = document.createElement('span');
+   tag.className = 'badge ' + d.type;
+   tag.textContent = labels[d.type];
+   const format = document.createElement('span');
+   format.className = 'search-format';
+   format.textContent = extra[d.format + 'Format'] || '';
+   const heading = document.createElement('h2');
+   const a = document.createElement('a');
+   a.href = target;
+   highlight(a, d.title, words);
+   heading.append(a);
+   card.append(tag, format, heading);
+   if (section) {
+    const paragraph = document.createElement('p');
+    paragraph.className = 'search-section';
+    const link = document.createElement('a');
+    link.href = target;
+    highlight(link, section.heading, words);
+    paragraph.append(link);
+    card.append(paragraph);
+   }
+   const desc = document.createElement('p');
+   highlight(desc, section ? excerpt(section.text || section.heading, words) : (words.length ? excerpt(d.text, words) : d.description), words);
+   card.append(desc);
+   results.append(card);
+  }
+ }
+
+ function restoreQuery() {
+  const params = new URLSearchParams(location.search);
+  input.value = params.get('q') || '';
+  for (const [select, key] of [[topicFilter, 'topic'], [formatFilter, 'format']]) {
+   const value = params.get(key) || '';
+   select.value = [...select.options].some(option => option.value === value) ? value : '';
+  }
+ }
+ function update() {
+  const params = new URLSearchParams();
+  if (input.value.trim()) params.set('q', input.value.trim());
+  if (topicFilter.value) params.set('topic', topicFilter.value);
+  if (formatFilter.value) params.set('format', formatFilter.value);
+  history.replaceState(null, '', location.pathname + (params.size ? '?' + params.toString() : ''));
+  render();
+ }
+ restoreQuery();
+ fetch('/assets/search-'+body.dataset.lang+'.json').then(r => {
+  if (!r.ok) throw new Error('index');
+  return r.json();
+ }).then(data => {
+  documents = data;
+  loaded = true;
+  render();
+ }).catch(() => {
+  status.textContent = extra.searchError;
+  const a = document.createElement('a');
+  a.href='/'+body.dataset.lang+'/publications/';
+  a.textContent = document.querySelector('#primary-nav a:nth-child(3)').textContent;
+  results.append(a);
+ });
+ searchForm.addEventListener('submit', event => { event.preventDefault(); update(); });
+ input.addEventListener('input', update);
+ topicFilter.addEventListener('change', update);
+ formatFilter.addEventListener('change', update);
+ window.addEventListener('popstate', () => { restoreQuery(); render(); });
 }

@@ -7,7 +7,7 @@ root=Path(__file__).parent/'dist'
 errors=[]
 class Page(HTMLParser):
  def __init__(self,text):
-  super().__init__();self.refs=[];self.ids=[];self.lang=None;self.h1=0;self.flags=[];self.selects=[];self.feed(text)
+  super().__init__();self.refs=[];self.ids=[];self.lang=None;self.h1=0;self.flags=[];self.selects=[];self.language_select=False;self.feed(text)
  def handle_starttag(self,tag,attrs):
   a=dict(attrs)
   if tag=='html':self.lang=a.get('lang')
@@ -16,7 +16,10 @@ class Page(HTMLParser):
   if tag in ['a','link'] and 'href' in a:self.refs.append(a['href'])
   if tag in ['img','script'] and 'src' in a:self.refs.append(a['src'])
   if tag=='img':self.flags.append(a)
-  if tag=='option':self.selects.append(a.get('value'))
+  if tag=='select':self.language_select=a.get('id')=='language-select'
+  if tag=='option' and self.language_select:self.selects.append(a.get('value'))
+ def handle_endtag(self,tag):
+  if tag=='select':self.language_select=False
 pages=list(root.rglob('*.html'));parsed={p:Page(p.read_text()) for p in pages}
 for p,page in parsed.items():
  if page.h1!=1:errors.append(f'{p}: h1 count {page.h1}')

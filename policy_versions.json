@@ -1,0 +1,50 @@
+{
+  "education": {
+    "reference": "P-01-FULL",
+    "published": "2026-10-10",
+    "updated": "2026-10-10",
+    "version": "1.0",
+    "history": [
+      {
+        "version": "1.0",
+        "date": "2026-10-10",
+        "change": "initial",
+        "commit": "2c5e58f12f7c077f37961432db1584183a42d2ec"
+      }
+    ]
+  },
+  "research": {
+    "reference": "P-02-FULL",
+    "published": "2026-10-10",
+    "updated": "2026-10-10",
+    "version": "1.0",
+    "history": [
+      {
+        "version": "1.0",
+        "date": "2026-10-10",
+        "change": "initial",
+        "commit": "e5ba578d05aac2b259b2dd370a441cc5ea14c236"
+      }
+    ]
+  },
+  "rights": {
+    "reference": "P-03-FULL",
+    "published": "2026-10-11",
+    "updated": "2026-10-11",
+    "version": "1.1",
+    "history": [
+      {
+        "version": "1.0",
+        "date": "2026-10-11",
+        "change": "initial",
+        "commit": "e06c576db15403ffa85e671a52fbe3a92a45ae5b"
+      },
+      {
+        "version": "1.1",
+        "date": "2026-10-11",
+        "change": "revised",
+        "commit": "185c402157faa17daa998e94ab1e6a2606f3d183"
+      }
+    ]
+  }
+}

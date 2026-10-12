@@ -1,6 +1,7 @@
 import html
 import json
 from pathlib import Path
+from publication_tools import metadata_html
 
 
 LABELS = {
@@ -170,6 +171,7 @@ def render_policy(root, lang, topic, content):
         '<article class="article-body">'
         f'<p class="policy-back">'
         f'<a href="/{lang}/{topic["id"]}/">{escape(labels[3])}</a></p>'
+        f'{metadata_html(lang, topic["id"], content)}'
         f'{"".join(rendered)}'
         f'<aside class="scope-note">'
         f'<strong>{escape(content["scope"])}</strong>'

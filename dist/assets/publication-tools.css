@@ -1,0 +1,15 @@
+/* Styles are scoped to the approved metadata and search additions. */
+.policy-version { margin: 0 0 2rem; padding: 1rem 0; border-block: 1px solid #d9dcdf; }
+.policy-version dl { display: flex; flex-wrap: wrap; gap: 1rem 2rem; margin: 0 0 1rem; }
+.policy-version dt { font-size: .8rem; color: #555b61; }
+.policy-version dd { margin: .2rem 0 0; font-weight: 600; }
+.policy-version summary { cursor: pointer; text-decoration: underline; text-underline-offset: .2em; }
+.policy-version ol { padding-left: 1.5rem; }
+.policy-version details p { font-size: .875rem; }
+.search-facets { display: flex; flex-wrap: wrap; gap: 1rem; margin: 1.25rem 0; }
+.search-facets label { display: grid; gap: .4rem; flex: 1 1 12rem; }
+.search-facets select { min-height: 44px; max-width: 100%; width: 100%; padding: .6rem; border: 1px solid #71777c; background: white; color: #121416; font: inherit; }
+.search-page mark { background: #ffe6a1; color: #121416; }
+.search-page .search-section { font-weight: 600; margin-bottom: .5rem; }
+.search-page .search-format { font-size: .85rem; color: #555b61; margin-left: .75rem; }
+.search-facets select:focus-visible, .policy-version summary:focus-visible { outline: 3px solid #9c1735; outline-offset: 3px; }
