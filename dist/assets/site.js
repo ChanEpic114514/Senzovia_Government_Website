@@ -175,7 +175,7 @@ if(searchForm){
   render();
  }
  restoreQuery();
- fetch('/assets/search-'+body.dataset.lang+'.json').then(r => {
+ fetch('/assets/search-'+body.dataset.lang+'.json?v=20261012-sections-1').then(r => {
   if (!r.ok) throw new Error('index');
   return r.json();
  }).then(data => {

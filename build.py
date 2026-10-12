@@ -50,8 +50,10 @@ def head(lang,c,route,title,desc):
     options=''.join(f'<option value="{url(k,route)}" lang="{k}" {"selected" if k==lang else ""}>{data[k]["name"]}</option>' for k in LANGS)
     nav=''.join(link(lang,r,label,'current' if route==r or (r=='priorities' and route in [t['id'] for t in c['topics']]) else '') for r,label in zip(['home','priorities','publications','about'],c['nav']))
     alternates=''.join(f'<link rel="alternate" hreflang="{k}" href="{url(k,route)}">' for k in LANGS)
+    search_version = hashlib.sha256((OUT/'assets/site.js').read_bytes()).hexdigest()[:12]
+    script_source = '/assets/site.js' + (f'?v={search_version}' if route == 'search' else '')
     extra_styles = '<link rel="stylesheet" href="/assets/publication-tools.css">' if route == 'search' or route.endswith('-full') else ''
-    return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)} | {esc(c['government'])}</title><meta name="description" content="{esc(desc)}"><meta name="theme-color" content="#121416"><link rel="icon" href="/assets/senzovia-flag.jpeg" type="image/jpeg"><link rel="stylesheet" href="/assets/site.css">{alternates}{extra_styles}<script src="/assets/site.js" defer></script><link rel="stylesheet" href="/assets/flag-intro.css">
+    return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)} | {esc(c['government'])}</title><meta name="description" content="{esc(desc)}"><meta name="theme-color" content="#121416"><link rel="icon" href="/assets/senzovia-flag.jpeg" type="image/jpeg"><link rel="stylesheet" href="/assets/site.css">{alternates}{extra_styles}<script src="{script_source}" defer></script><link rel="stylesheet" href="/assets/flag-intro.css">
 <script src="/assets/flag-intro.js" defer></script><link rel="stylesheet" href="/assets/pride-particles.css">
 <script src="/assets/pride-particles.js" defer></script><link rel="stylesheet" href="/assets/theme-gallery.css">
 <script src="/assets/theme-gallery.js" defer></script></head><body data-lang="{lang}" data-route="{route}" data-motion-on="{esc(c['motionOn'])}" data-motion-off="{esc(c['motionOff'])}">
