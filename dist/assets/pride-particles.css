@@ -1,0 +1,132 @@
+.pride-panel {
+  margin: 0 auto 56px;
+  color: #f5f5fa;
+  background: #090b14;
+  border: 1px solid #292c40;
+  overflow: hidden;
+}
+
+.pride-heading,
+.pride-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 22px 28px;
+}
+
+.pride-heading {
+  border-bottom: 1px solid #ffffff18;
+}
+
+.pride-heading h2 {
+  margin: 0;
+  font-size: clamp(18px, 2.5vw, 25px);
+}
+
+.pride-heading span {
+  font-size: 11px;
+  letter-spacing: .22em;
+  color: #b6b9cc;
+}
+
+.pride-stage {
+  position: relative;
+  height: clamp(240px, 46vw, 500px);
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse at 24% 40%, #60284026, transparent 55%),
+    radial-gradient(ellipse at 78% 60%, #35328533, transparent 55%),
+    #090b14;
+}
+
+.pride-stage canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: pan-y;
+}
+
+.pride-fallback {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: min(72%, 480px);
+  aspect-ratio: 3 / 2;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(
+    to bottom,
+    #e40303 0% 16.6667%,
+    #ff8c00 16.6667% 33.3333%,
+    #ffed00 33.3333% 50%,
+    #008026 50% 66.6667%,
+    #004dff 66.6667% 83.3333%,
+    #750787 83.3333% 100%
+  );
+}
+
+.pride-panel.is-live .pride-fallback {
+  visibility: hidden;
+}
+
+.pride-panel.is-static canvas {
+  visibility: hidden;
+}
+
+.pride-caption {
+  border-top: 1px solid #ffffff18;
+}
+
+.pride-caption p {
+  margin: 0;
+  color: #c5c8d8;
+  font-size: 14px;
+  flex: 1 1 230px;
+}
+
+.pride-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pride-controls button {
+  font: inherit;
+  font-size: 13px;
+  color: #f5f5fa;
+  background: #ffffff0d;
+  border: 1px solid #74788e;
+  padding: 9px 15px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.pride-controls button:hover {
+  background: #ffffff20;
+}
+
+.pride-controls button:focus-visible {
+  outline: 3px solid #ffed00;
+  outline-offset: 4px;
+}
+
+.pride-controls button:disabled {
+  opacity: .45;
+  cursor: default;
+}
+
+@media (max-width: 600px) {
+  .pride-heading,
+  .pride-caption {
+    padding: 18px;
+  }
+}
+
+@media print {
+  .pride-panel {
+    display: none;
+  }
+}
