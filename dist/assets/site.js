@@ -98,8 +98,15 @@ if(searchForm){
  }
 
  function excerpt(text, words) {
-  const first = matchRanges(text, words)[0];
-  const start = Math.max(0, (first ? first[0] : 0) - 65);
+  const phrase = words.length > 1 ? matchRanges(text, [words.join(' ')])[0] : null;
+  const ranges = phrase ? [phrase] : matchRanges(text, words);
+  let start = 0, bestScore = -1;
+  for (const range of ranges) {
+   const candidate = Math.max(0, range[0] - 65);
+   const sample = normalise(text.slice(candidate, candidate + 260));
+   const score = words.filter(word => sample.includes(word)).length;
+   if (score > bestScore) { start = candidate; bestScore = score; }
+  }
   const end = Math.min(text.length, start + 260);
   return (start ? '…' : '') + text.slice(start, end) + (end < text.length ? '…' : '');
  }
