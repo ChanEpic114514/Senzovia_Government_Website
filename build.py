@@ -50,7 +50,8 @@ def head(lang,c,route,title,desc):
     nav=''.join(link(lang,r,label,'current' if route==r or (r=='priorities' and route in [t['id'] for t in c['topics']]) else '') for r,label in zip(['home','priorities','publications','about'],c['nav']))
     alternates=''.join(f'<link rel="alternate" hreflang="{k}" href="{url(k,route)}">' for k in LANGS)
     return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)} | {esc(c['government'])}</title><meta name="description" content="{esc(desc)}"><meta name="theme-color" content="#121416"><link rel="icon" href="/assets/senzovia-flag.jpeg" type="image/jpeg"><link rel="stylesheet" href="/assets/site.css">{alternates}<script src="/assets/site.js" defer></script><link rel="stylesheet" href="/assets/flag-intro.css">
-<script src="/assets/flag-intro.js" defer></script></head><body data-lang="{lang}" data-route="{route}" data-motion-on="{esc(c['motionOn'])}" data-motion-off="{esc(c['motionOff'])}">
+<script src="/assets/flag-intro.js" defer></script><link rel="stylesheet" href="/assets/pride-particles.css">
+<script src="/assets/pride-particles.js" defer></script></head><body data-lang="{lang}" data-route="{route}" data-motion-on="{esc(c['motionOn'])}" data-motion-off="{esc(c['motionOff'])}">
 <a class="skip" href="#main">{esc(c['skip'])}</a><div class="reading-line" aria-hidden="true"></div>
 <div class="utility"><div class="wrap utility-inner"><span>{esc(c['portal'])}</span><span class="utility-right">{esc(c['date'])}</span></div></div>
 <header class="site-header"><div class="wrap masthead"><a class="brand" href="{url(lang,'home')}" aria-label="{esc(c['government'])}">{flag(c,'brand-flag')}<span><strong>SENZOVIA</strong><small>{esc(c['government'])}</small></span></a>
