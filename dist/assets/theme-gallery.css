@@ -1,0 +1,273 @@
+/* Independent theme gallery for the Senzovia static portal. */
+
+.hero-copy .st-launch {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 18px;
+  padding: 12px 0;
+  border: 0;
+  border-bottom: 1px solid #737b80;
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  text-align: left;
+}
+
+.st-launch::before {
+  content: "01 — 06";
+  font: 12px monospace;
+  color: #bcc8ce;
+}
+
+.st-launch::after {
+  content: "↗";
+  font-size: 24px;
+}
+
+.st-dialog {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #101416;
+  color: #f5f1e8;
+  overscroll-behavior: contain;
+  color-scheme: dark;
+}
+
+.st-dialog::backdrop {
+  background: #101416;
+}
+
+.st-dialog .st-shell {
+  display: grid;
+  grid-template-rows: auto minmax(160px, 1fr) auto auto;
+  gap: 16px;
+  height: 100%;
+  min-height: 620px;
+  padding:
+    max(18px, env(safe-area-inset-top))
+    4vw
+    max(18px, env(safe-area-inset-bottom));
+}
+
+.st-dialog .st-header,
+.st-dialog .st-tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.st-dialog .st-mark {
+  font: 14px Georgia, serif;
+  letter-spacing: .18em;
+}
+
+.st-dialog .st-note {
+  display: block;
+  font-size: 12px;
+  color: #bec8cd;
+  letter-spacing: 0;
+}
+
+.st-dialog button,
+.st-dialog .st-link {
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid #617078;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.st-dialog button:hover,
+.st-dialog .st-link:hover {
+  background: #263137;
+}
+
+.st-dialog button:disabled {
+  opacity: .45;
+}
+
+.st-dialog :is(button, a):focus-visible,
+.st-launch:focus-visible {
+  outline: 3px solid #f0bf84;
+  outline-offset: 4px;
+}
+
+.st-dialog .st-stage {
+  position: relative;
+  min-height: 0;
+  overflow: hidden;
+  isolation: isolate;
+  background: #0b0e10;
+  border: 1px solid #344047;
+}
+
+.st-dialog .st-layer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.st-dialog .st-layer img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.st-dialog .st-echo {
+  filter: saturate(.45) brightness(.7);
+}
+
+.st-dialog .st-message {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  padding: 24px;
+  text-align: center;
+  color: #cad5da;
+}
+
+.st-dialog .st-caption {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  gap: 14px 32px;
+}
+
+.st-dialog .st-count {
+  font: 12px monospace;
+  letter-spacing: .15em;
+  color: #b9c6cc;
+}
+
+.st-dialog .st-title {
+  margin: 8px 0 0;
+  max-width: 1000px;
+  font-size: clamp(24px, 3.5vw, 56px);
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: -.025em;
+  text-wrap: balance;
+}
+
+.st-dialog .st-link {
+  white-space: nowrap;
+}
+
+.st-dialog .st-nav {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.st-dialog .st-topic {
+  position: relative;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  min-width: 0;
+  padding: 12px 10px;
+  text-align: left;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
+.st-dialog .st-topic b {
+  font: 12px monospace;
+  color: #b9c6cc;
+}
+
+.st-dialog .st-topic[aria-pressed="true"] {
+  border-color: #f0bf84;
+  background: #263137;
+}
+
+.st-dialog .st-meter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #f0bf84;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+@media (max-width: 700px) {
+  .st-dialog .st-shell {
+    padding-inline: 16px;
+    min-height: 650px;
+    gap: 12px;
+  }
+
+  .st-dialog .st-header {
+    align-items: start;
+  }
+
+  .st-dialog .st-tools {
+    gap: 8px;
+  }
+
+  .st-dialog .st-tools button {
+    padding: 8px 10px;
+  }
+
+  .st-dialog .st-mark {
+    font-size: 12px;
+  }
+
+  .st-dialog .st-note {
+    max-width: 135px;
+    font-size: 11px;
+    margin-top: 4px;
+  }
+
+  .st-dialog .st-caption {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .st-dialog .st-link {
+    justify-self: start;
+  }
+
+  .st-dialog .st-nav {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .st-dialog .st-topic {
+    display: block;
+    padding: 10px 8px;
+  }
+
+  .st-dialog .st-topic b {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+
+@media print {
+  .st-launch,
+  .st-dialog {
+    display: none !important;
+  }
+}
+/* Keep each moving image layer opaque. */
+.st-dialog .st-layer {
+  background: #0b0e10;
+}
