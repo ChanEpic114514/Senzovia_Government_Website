@@ -1,0 +1,120 @@
+.science-launch-row {
+  margin-top: 24px;
+}
+
+.science-intro {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  height: 100dvh;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  background: #101113;
+  color: #f5f2eb;
+  opacity: 1;
+  transition: opacity 300ms ease;
+  color-scheme: dark;
+}
+
+.science-intro::backdrop {
+  background: #101113;
+  transition: background-color 300ms ease;
+}
+
+.science-intro.is-closing {
+  opacity: 0;
+}
+
+.science-intro.is-closing::backdrop {
+  background: transparent;
+}
+
+.science-intro__header {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  min-height: 64px;
+  box-sizing: border-box;
+  padding: 12px max(24px, env(safe-area-inset-right)) 12px
+    max(24px, env(safe-area-inset-left));
+  border-bottom: 1px solid #303134;
+  background: #101113;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.science-intro__brand {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+}
+
+.science-intro__title {
+  flex: 1;
+  color: #b9babf;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+}
+
+.science-intro__skip {
+  margin-left: auto;
+  padding: 10px 14px;
+  border: 1px solid #66666c;
+  background: #101113;
+  color: #f5f2eb;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.science-intro__skip:hover {
+  background: #292a2e;
+}
+
+.science-intro__skip:focus-visible {
+  outline: 2px solid #f5f2eb;
+  outline-offset: 4px;
+}
+
+.science-intro__stage {
+  position: absolute;
+  inset: 65px 0 0;
+}
+
+.science-intro__canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .science-intro__title {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .science-intro,
+  .science-intro::backdrop {
+    transition: none;
+  }
+}
+
+.reduce-motion .science-intro,
+.reduce-motion .science-intro::backdrop {
+  transition: none;
+}
+
+@media print {
+  .science-launch-row,
+  .science-intro {
+    display: none !important;
+  }
+}
