@@ -1,0 +1,108 @@
+.principles-launch-row {
+  margin-top: 16px;
+}
+
+.principles-launch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  max-width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #aaa;
+  background: transparent;
+  color: #f5f2eb;
+  font: inherit;
+  text-align: center;
+  cursor: pointer;
+}
+
+.principles-launch:hover {
+  background: #ffffff14;
+}
+
+.principles-film {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  height: 100dvh;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  background: #101113;
+  color: #f5f2eb;
+  color-scheme: dark;
+  opacity: 1;
+  transition: opacity 300ms ease;
+}
+
+.principles-film::backdrop {
+  background: #101113;
+  transition: background-color 300ms ease;
+}
+
+.principles-film.is-closing {
+  opacity: 0;
+}
+
+.principles-film.is-closing::backdrop {
+  background: transparent;
+}
+
+.principles-film__stage {
+  position: absolute;
+  inset: 0;
+}
+
+.principles-film__canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.principles-film__skip {
+  position: absolute;
+  z-index: 1;
+  top: max(20px, env(safe-area-inset-top));
+  right: max(20px, env(safe-area-inset-right));
+  min-height: 44px;
+  padding: 10px 18px;
+  border: 1px solid #777;
+  background: #101113;
+  color: #f5f2eb;
+  font: 14px Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.principles-film__skip:hover {
+  background: #292a2e;
+}
+
+.principles-launch:focus-visible,
+.principles-film__skip:focus-visible {
+  outline: 2px solid #f5f2eb;
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .principles-film,
+  .principles-film::backdrop {
+    transition: none;
+  }
+}
+
+.reduce-motion .principles-film,
+.reduce-motion .principles-film::backdrop {
+  transition: none;
+}
+
+@media print {
+  .principles-launch-row,
+  .principles-film {
+    display: none !important;
+  }
+}
