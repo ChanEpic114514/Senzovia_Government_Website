@@ -61,10 +61,14 @@ def head(lang,c,route,title,desc):
         '<link rel="stylesheet" href="/assets/principles-intro.css?v=1">'
         '<script src="/assets/principles-intro.js?v=1" defer></script>'
     ) if route == 'home' else ''
+    education_assets = (
+        '<link rel="stylesheet" href="/assets/education-intro.css?v=2">'
+        '<script src="/assets/education-intro.js?v=2" defer></script>'
+    ) if route in ("education", "education-full") else ""
     return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)} | {esc(c['government'])}</title><meta name="description" content="{esc(desc)}"><meta name="theme-color" content="#121416"><link rel="icon" href="/assets/senzovia-flag.jpeg" type="image/jpeg"><link rel="stylesheet" href="/assets/site.css">{alternates}{extra_styles}<script src="{script_source}" defer></script><link rel="stylesheet" href="/assets/flag-intro.css">
 <script src="/assets/flag-intro.js" defer></script><link rel="stylesheet" href="/assets/pride-particles.css">
 <script src="/assets/pride-particles.js" defer></script><link rel="stylesheet" href="/assets/theme-gallery.css">
-<script src="/assets/theme-gallery.js" defer></script>{science_assets}{principles_assets}</head><body data-lang="{lang}" data-route="{route}" data-motion-on="{esc(c['motionOn'])}" data-motion-off="{esc(c['motionOff'])}">
+<script src="/assets/theme-gallery.js" defer></script>{science_assets}{principles_assets}{education_assets}</head><body data-lang="{lang}" data-route="{route}" data-motion-on="{esc(c['motionOn'])}" data-motion-off="{esc(c['motionOff'])}">
 <a class="skip" href="#main">{esc(c['skip'])}</a><div class="reading-line" aria-hidden="true"></div>
 <div class="utility"><div class="wrap utility-inner"><span>{esc(c['portal'])}</span><span class="utility-right">{esc(c['date'])}</span></div></div>
 <header class="site-header"><div class="wrap masthead"><a class="brand" href="{url(lang,'home')}" aria-label="{esc(c['government'])}">{flag(c,'brand-flag')}<span><strong>SENZOVIA</strong><small>{esc(c['government'])}</small></span></a>
