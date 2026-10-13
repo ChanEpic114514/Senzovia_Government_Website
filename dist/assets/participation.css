@@ -1,0 +1,145 @@
+.participation-layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(0, 2fr);
+  align-items: start;
+  gap: 64px;
+  padding-block: 12px 80px;
+}
+
+.participation-layout h2 {
+  font-size: 1.15rem;
+  margin-bottom: 14px;
+}
+
+.participation-aside > h2:not(:first-child) {
+  margin-top: 32px;
+}
+
+.participation-aside p {
+  color: var(--muted);
+}
+
+.participation-aside a {
+  overflow-wrap: anywhere;
+}
+
+.participation-aside ul {
+  padding-left: 20px;
+}
+
+.participation-aside li + li {
+  margin-top: 12px;
+}
+
+.participation-aside nav {
+  display: grid;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.participation-form {
+  display: grid;
+  gap: 24px;
+  min-width: 0;
+}
+
+.participation-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.participation-field {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.participation-field label {
+  font-weight: 600;
+}
+
+.participation-field input,
+.participation-field select,
+.participation-field textarea {
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  padding: 12px;
+  border: 1px solid #697078;
+  border-radius: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+  font-size: 16px;
+}
+
+.participation-field textarea {
+  resize: vertical;
+  line-height: 1.65;
+}
+
+.participation-field textarea:focus-visible {
+  outline: 3px solid #b30017;
+  outline-offset: 5px;
+}
+
+.participation-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.participation-check input {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  margin: 3px 0 0;
+  accent-color: var(--ink);
+}
+
+.participation-notice {
+  padding: 24px;
+  background: var(--wash);
+  border-left: 3px solid var(--red);
+}
+
+.participation-provider-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  margin-top: 16px;
+}
+
+.participation-handoff {
+  color: var(--muted);
+}
+
+.participation-form > button {
+  justify-self: start;
+  min-height: 48px;
+  min-width: 140px;
+}
+
+.participation-form .participation-honey {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  .participation-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 36px;
+  }
+}
+
+@media (max-width: 540px) {
+  .participation-pair {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .participation-notice {
+    padding: 18px;
+  }
+}
