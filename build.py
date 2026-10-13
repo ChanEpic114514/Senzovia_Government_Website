@@ -1,6 +1,7 @@
 from pathlib import Path
 import json, html, hashlib, re
 from policy_pages import LABELS, render_policy
+from participation import footer_links, privacy_text, render_participation
 from publication_tools import LABELS as PUBLICATION_LABELS, search_controls, search_sections
 
 ROOT = Path(__file__).parent
@@ -10,6 +11,7 @@ for lang in ['zh-Hant','ja','ko','fr','es']:
     data[lang] = json.loads((ROOT/f'content-{lang}.json').read_text())
 LANGS = ['en','zh-Hans','zh-Hant','ja','ko','fr','es']
 ROUTES = ['home','priorities','publications','about','flag','education','research','rights','culture','governance','reconstruction','scope','accessibility','privacy','references','search']
+ROUTES += ["contact", "consultation"]
 TOPICS_WITH_FULL_POLICIES = {'education','research','rights'}
 ROUTES += [f'{topic["id"]}-full' for topic in data["en"]["topics"] if topic["id"] in TOPICS_WITH_FULL_POLICIES]
 refs = [
@@ -53,6 +55,8 @@ def head(lang,c,route,title,desc):
     search_version = hashlib.sha256((OUT/'assets/site.js').read_bytes()).hexdigest()[:12]
     script_source = '/assets/site.js' + (f'?v={search_version}' if route == 'search' else '')
     extra_styles = '<link rel="stylesheet" href="/assets/publication-tools.css">' if route == 'search' or route.endswith('-full') else ''
+    if route in ("contact", "consultation"):
+        extra_styles += '<link rel="stylesheet" href="/assets/participation.css?v=1">'
     science_assets = (
         '<link rel="stylesheet" href="/assets/science-intro.css?v=1">'
         '<script src="/assets/science-intro.js?v=1" defer></script>'
@@ -75,7 +79,7 @@ def head(lang,c,route,title,desc):
 <div class="tools"><label class="language-control">{icon('globe')}<span class="sr-only">{esc(c['language'])}</span><select id="language-select" aria-label="{esc(c['language'])}">{options}</select></label><a class="search-trigger" href="{url(lang,'search')}">{icon('search')}<span>{esc(c['search'])}</span></a></div></div>
 <div class="nav-shell"><div class="wrap"><button class="mobile-menu" aria-expanded="false" aria-controls="primary-nav">{icon('menu')}{esc(c['menu'])}</button><nav id="primary-nav" aria-label="{esc(c['menu'])}">{nav}<span class="nav-indicator" aria-hidden="true"></span></nav></div></div></header>'''
 def foot(lang,c):
-    return f'''<footer><div class="wrap"><div class="footer-top"><div><div class="footer-wordmark">SENZOVIA<span>.</span></div><p>{esc(c['footerLine'])}</p></div><a class="top-link" href="#top">{esc(c['top'])}</a></div><div class="footer-links">{link(lang,'about',c['aboutTitle'])}{link(lang,'accessibility',c['access'])}{link(lang,'privacy',c['privacy'])}{link(lang,'references',c['sources'])}<button class="motion-toggle">{esc(c['motionOn'])}</button></div><div class="footer-bottom"><span>© 2026 {esc(c['footer'])}</span><span>{esc(c['updated'])} · 2026-10-03</span></div></div></footer><script type="application/json" id="search-labels">{json.dumps({k:c[k] for k in ['empty','results','count','proposal','record']},ensure_ascii=False)}</script></body></html>'''
+    return f'''<footer><div class="wrap"><div class="footer-top"><div><div class="footer-wordmark">SENZOVIA<span>.</span></div><p>{esc(c['footerLine'])}</p></div><a class="top-link" href="#top">{esc(c['top'])}</a></div><div class="footer-links">{link(lang,'about',c['aboutTitle'])}{link(lang,'accessibility',c['access'])}{link(lang,'privacy',c['privacy'])}{link(lang,'references',c['sources'])}{footer_links(lang)}<button class="motion-toggle">{esc(c['motionOn'])}</button></div><div class="footer-bottom"><span>© 2026 {esc(c['footer'])}</span><span>{esc(c['updated'])} · 2026-10-03</span></div></div></footer><script type="application/json" id="search-labels">{json.dumps({k:c[k] for k in ['empty','results','count','proposal','record']},ensure_ascii=False)}</script></body></html>'''
 def crumbs(lang,c,title):
     return f'<div class="wrap breadcrumb">{link(lang,"home",c["nav"][0])}<span aria-hidden="true">/</span><span>{esc(title)}</span></div>'
 def intro(lang,c,title,desc,kicker=''):
@@ -130,6 +134,7 @@ def search_page(lang,c):
 (OUT/'assets/documents').mkdir(parents=True,exist_ok=True)
 for lang in LANGS:
     c=data[lang]
+    c["privacyText"] = privacy_text(lang)
     assert set(c)==set(data['en']), (lang,set(data['en'])-set(c))
     search=[]
     for route in ROUTES:
@@ -158,6 +163,11 @@ for lang in LANGS:
                 'topic': topic_id, 'format': 'full',
                 'sections': search_sections(ROOT, lang, topic_id)
             })
+        elif route in ("contact", "consultation"):
+            title, desc, participation_body = render_participation(
+                lang, c, route
+            )
+            body = intro(lang, c, title, desc) + participation_body
         elif route=='priorities': title=c['nav'][1];desc=c['priorityIntro'];body=priority(lang,c)
         elif route=='publications': title=c['nav'][2];desc=c['docsIntro'];body=documents(lang,c)
         elif route.removesuffix('-full') in [t['id'] for t in c['topics']]:
