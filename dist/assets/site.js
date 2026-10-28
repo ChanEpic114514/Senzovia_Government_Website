@@ -17,7 +17,7 @@ const languages=document.querySelector('#language-select');
 languages?.addEventListener('change',()=>{savePreference('senzovia-language',languages.value.split('/')[1]);location.assign(languages.value+ (body.dataset.route==='search'?location.search:''));});
 if(location.pathname==='/'){
  const preferred=readPreference('senzovia-language');
- if(preferred&&['en','zh-Hans','zh-Hant','ja','ko','fr','es'].includes(preferred)&&preferred!=='en')location.replace('/'+preferred+'/');
+ if(preferred&&['en','zh-Hans','zh-Hant','ja','ko','fr','es','art-x-kamotish'].includes(preferred)&&preferred!=='en')location.replace('/'+preferred+'/');
 }
 const menu=document.querySelector('.mobile-menu'),nav=document.querySelector('#primary-nav');
 menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));nav.classList.toggle('is-open',open)});
@@ -86,6 +86,8 @@ if(searchForm){
  }
 
  function highlight(node, text, words) {
+  // Keep Kamotish commands and phonetic syllables intact for glyph rendering.
+  if (body.dataset.lang === 'art-x-kamotish') { node.textContent = text; return; }
   let offset = 0;
   for (const [start, end] of matchRanges(text, words)) {
    node.append(document.createTextNode(text.slice(offset, start)));
@@ -98,6 +100,13 @@ if(searchForm){
  }
 
  function excerpt(text, words) {
+  if (body.dataset.lang === 'art-x-kamotish') {
+   // End at punctuation, never inside a command, tone or phonetic syllable.
+   const sentences = text.match(/[^。！？]+[。！？]?/g) || [text];
+   const best = sentences.reduce((a, b) =>
+    words.filter(w => normalise(b).includes(w)).length > words.filter(w => normalise(a).includes(w)).length ? b : a);
+   return (text.startsWith(best) ? '' : '…') + best + (text.endsWith(best) ? '' : '…');
+  }
   const phrase = words.length > 1 ? matchRanges(text, [words.join(' ')])[0] : null;
   const ranges = phrase ? [phrase] : matchRanges(text, words);
   let start = 0, bestScore = -1;
@@ -193,7 +202,8 @@ if(searchForm){
   status.textContent = extra.searchError;
   const a = document.createElement('a');
   a.href='/'+body.dataset.lang+'/publications/';
-  a.textContent = document.querySelector('#primary-nav a:nth-child(3)').textContent;
+  const navLabel = document.querySelector('#primary-nav a:nth-child(3)');
+  a.textContent = navLabel.querySelector('[data-kamotish-source]')?.dataset.kamotishSource || navLabel.textContent;
   results.append(a);
  });
  searchForm.addEventListener('submit', event => { event.preventDefault(); update(); });

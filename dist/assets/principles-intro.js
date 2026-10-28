@@ -39,6 +39,8 @@
     ]
   };
 
+  LABELS["art-x-kamotish"] = ["pu-rin-si-pol\\e\\3a-ni-mei-shon\\e\\3觀", "跳過", "fu-ri-dom", "知", "o-por-tiu-ni-ti"];
+
   const labels = LABELS[document.documentElement.lang] || LABELS.en;
   const words = labels.slice(2);
 

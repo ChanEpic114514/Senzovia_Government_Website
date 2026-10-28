@@ -113,7 +113,7 @@
     "motionOn": "Reducir animaciones",
     "motionOff": "Activar animaciones",
     "top": "Volver arriba",
-    "accessText": "El portal ofrece títulos semánticos, navegación por teclado, indicadores de foco, un enlace al contenido principal, siete idiomas y documentos imprimibles. Las animaciones respetan la preferencia de movimiento reducido del dispositivo y pueden desactivarse aquí. El texto puede ampliarse desde el navegador. Esta edición no ha pasado una auditoría independiente de accesibilidad.",
+    "accessText": "El portal ofrece títulos semánticos, navegación por teclado, indicadores de foco, un enlace al contenido principal, ocho idiomas y documentos imprimibles. Las animaciones respetan la preferencia de movimiento reducido del dispositivo y pueden desactivarse aquí. El texto puede ampliarse desde el navegador. Esta edición no ha pasado una auditoría independiente de accesibilidad.",
     "privacyText": "El sitio no ofrece cuentas, formularios de solicitud ni pagos. La búsqueda se realiza en el navegador sin enviar consultas a un servicio externo. Las preferencias de idioma y animación se guardan en este dispositivo. No hay scripts de publicidad ni de analítica. El proveedor de alojamiento puede tratar datos técnicos de acceso según sus propias políticas. Los enlaces externos llevan a sitios independientes.",
     "sourcesText": "Antes de programar se estudiaron 21 sitios oficiales de gobiernos nacionales: jerarquía de la información, navegación, lenguaje y estructura documental. Se utilizan como referencias de diseño y no implican respaldo ni afiliación. También se consultaron los proyectos de código abierto GOV.UK Frontend, USWDS y Motion.",
     "principles": [

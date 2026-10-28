@@ -39,6 +39,9 @@ LABELS = {
 }
 
 
+from kamotish_locale import LABELS as KAMOTISH
+LABELS["art-x-kamotish"] = KAMOTISH["policy"]
+
 def escape(value):
     return html.escape(str(value), quote=True)
 

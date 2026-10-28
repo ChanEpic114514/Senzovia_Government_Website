@@ -114,7 +114,7 @@
     "motionOn": "Reduce motion",
     "motionOff": "Enable motion",
     "top": "Back to top",
-    "accessText": "The portal provides semantic headings, keyboard navigation, visible focus indicators, a skip link, seven language editions and printable documents. Animations respect your device's reduced-motion preference; you can also disable them here. Text can be enlarged using your browser. This edition has not undergone an independent accessibility audit.",
+    "accessText": "The portal provides semantic headings, keyboard navigation, visible focus indicators, a skip link, eight language editions and printable documents. Animations respect your device's reduced-motion preference; you can also disable them here. Text can be enlarged using your browser. This edition has not undergone an independent accessibility audit.",
     "privacyText": "This website does not provide accounts, application forms or payments. Search runs in your browser and does not submit queries to a search service. Language and motion preferences are stored on this device. The website includes no analytics or advertising scripts. The hosting provider may process technical access information under its own policies. External reference links lead to independently operated websites.",
     "sourcesText": "Before implementation, 21 national government websites were reviewed for information hierarchy, navigation, language and publication structure. These references inform the portal's design; they do not imply endorsement or affiliation. GOV.UK Frontend, USWDS and Motion were also consulted as open-source implementation references.",
     "principles": [
@@ -354,7 +354,7 @@
     "motionOn": "减少动态效果",
     "motionOff": "启用动态效果",
     "top": "返回顶部",
-    "accessText": "本门户提供语义化标题、键盘导航、清晰的焦点提示、跳转至正文的链接、七种语言版本及适合打印的文件页面。动画遵循设备的减少动态效果设置，也可通过本站按钮关闭。可使用浏览器放大文字。本版尚未经独立无障碍审核。",
+    "accessText": "本门户提供语义化标题、键盘导航、清晰的焦点提示、跳转至正文的链接、八种语言版本及适合打印的文件页面。动画遵循设备的减少动态效果设置，也可通过本站按钮关闭。可使用浏览器放大文字。本版尚未经独立无障碍审核。",
     "privacyText": "本网站不提供账户、申请表或付款功能。搜索在浏览器中执行，不向搜索服务提交关键词。语言与动态效果偏好保存在本设备中。网站不包含统计分析或广告脚本；托管服务商可能依其政策处理技术访问记录。外部参考链接指向独立运营的网站。",
     "sourcesText": "编程前已研究 21 个国家的政府官方网站，比较信息层次、导航、语言与公开文件结构。这些网站仅作为设计参考，不表示认可或隶属关系。同时查阅了 GOV.UK Frontend、USWDS 与 Motion 等开源项目。",
     "principles": [

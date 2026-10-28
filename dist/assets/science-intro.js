@@ -33,6 +33,8 @@
       "Esta animación de partículas es una interpretación artística, no una representación de datos científicos."]
   };
 
+  LABELS["art-x-kamotish"] = ["sai-ens\\e\\3a-ni-mei-shon\\e\\3觀", "跳過", "sai-ens\\kou-i-no-vei-shon", "好奇", "si-chak-cher", "發見", "fu-ri-dom", "發見\\e\\3追", "a-ni-mei-shon\\wou\\3ar-te\\e\\3表達。a-ni-mei-shon\\wou\\3ri-ser-chi\\e\\3dei-ta\\ha實\\e\\3示\\pou\\2\\chi\\4\\wu\\2\\le\\4。"];
+
   const labels = LABELS[document.documentElement.lang] || LABELS.en;
   const make = (tag, className, value) => {
     const element = document.createElement(tag);

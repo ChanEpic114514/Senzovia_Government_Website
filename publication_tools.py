@@ -142,6 +142,9 @@ LABELS = {'en': {'summary': 'Read policy summary',
 VERSIONS = json.loads((Path(__file__).parent / "policy_versions.json").read_text(encoding="utf-8"))
 
 
+from kamotish_locale import LABELS as KAMOTISH
+LABELS["art-x-kamotish"] = KAMOTISH["publication"]
+
 def metadata_html(lang, topic, content):
     labels = LABELS[lang]
     record = VERSIONS[topic]

@@ -1,4 +1,5 @@
 from pathlib import Path
+from locales import LANGS
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
 import hashlib,json
@@ -35,8 +36,8 @@ for p,page in parsed.items():
  for img in page.flags:
   if 'flag' in img.get('class', '').split() and img.get('src')!='/assets/senzovia-flag.jpeg':errors.append(f'{p}: unexpected flag')
   if not img.get('alt'):errors.append(f'{p}: missing image alt')
- if p.name=='index.html' and len(page.selects)!=7:errors.append(f'{p}: language coverage {len(page.selects)}')
-for lang in ['en','zh-Hans','zh-Hant','ja','ko','fr','es']:
+ if p.name=='index.html' and len(page.selects)!=len(LANGS):errors.append(f'{p}: language coverage {len(page.selects)}')
+for lang in LANGS:
  index=json.loads((root/f'assets/search-{lang}.json').read_text())
  if len(index)!=12:errors.append(f'{lang}: search records {len(index)}')
  for d in index:
@@ -54,4 +55,4 @@ for lang in ['en','zh-Hans','zh-Hant','ja','ko','fr','es']:
 expected='15821ce299ab785bd3f58e39d9c674d2d6060e40edc956080d1738cc11b57c65'
 assert hashlib.sha256((root/'assets/senzovia-flag.jpeg').read_bytes()).hexdigest()==expected
 assert not errors,'\n'.join(errors)
-print(json.dumps({'html_pages':len(pages),'internal_links':'passed','language_links':'7 per page','search_documents':84,'download_documents':len(list((root/'assets/documents').glob('*.txt'))),'flag':'byte-for-byte identical','errors':errors}))
+print(json.dumps({'html_pages':len(pages),'internal_links':'passed','language_links':f'{len(LANGS)} per page','search_documents':12*len(LANGS),'download_documents':len(list((root/'assets/documents').glob('*.txt'))),'flag':'byte-for-byte identical','errors':errors}))

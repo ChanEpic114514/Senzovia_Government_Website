@@ -1,0 +1,240 @@
+{
+  "name": "Kamotish · 卡谋语",
+  "government": "sen-zou-vi-a\\e\\3ga-ver-nans",
+  "portal": "sen-zou-vi-a\\e\\3ga-van-man\\e\\3in-for-mei-shon\\e\\3门",
+  "nav": [
+    "web-sait\\e\\3首",
+    "国\\e\\3di-ve-lop-man\\e\\3pu-rai-o-ri-ti",
+    "dok-kiu-man-te\\ha-pab-lik",
+    "sen-zou-vi-a\\e\\3介"
+  ],
+  "hero": [
+    "pab-lik\\e\\3事",
+    "国\\e\\3di-ve-lop-man"
+  ],
+  "intro": "web-sait\\wou\\3sen-zou-vi-a\\e\\3国\\e\\3di-ve-lop-man\\e\\3方\\kou-yu-du-kei-shon\\e\\3pou-le-cei\\kou-ri-ser-chi\\e\\3pou-le-cei\\kou-pab-lik\\e\\3生\\e\\3pou-le-cei\\ou示\\pou\\2\\chi\\4。",
+  "eyebrow": "SENZOVIA",
+  "explore": "国\\e\\3di-ve-lop-man\\e\\3pu-rai-o-ri-ti\\e\\3阅",
+  "flagLink": "国\\e\\3旗",
+  "flag": "sen-zou-vi-a\\e\\3旗",
+  "quick": "dok-kiu-man-te\\e\\3阅\\ha-to-pik",
+  "quickIntro": "web-sait\\wou\\3pou-le-cei\\e\\3pu-rin-si-pol\\kou-pou-le-cei\\e\\3si-koup\\kou-pou-le-cei\\e\\3di-ve-lop-man\\ha-pu-rou-pou-zal\\ou示\\pou\\2\\chi\\4。",
+  "featured": "yu-du-kei-shon\\kou-ri-ser-chi",
+  "featureTitle": "a-ka-de-mik\\e\\3学\\ha深\\kou探索\\ha-in-di-pen-den-te\\e\\3时\\e\\3护",
+  "featureText": "ESX\\wou\\3a-ka-de-mik\\e\\3深\\kou-sab-jek-te\\e\\3择\\e\\3au-to-no-mi\\kou-ri-ser-chi\\ha-in-di-pen-den-te\\e\\3时\\ou护。\\e-na-sho-na-li-ti\\kou家\\e\\3in-kam\\wou\\3yu-du-kei-shon\\e\\3o-por-tiu-ni-ti\\ou阻\\bou\\3\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。",
+  "featureLink": "ESX\\e\\3fu-reim-wer-ke\\e\\3阅",
+  "five": "su-kuul\\ha-a-per-se-kon-da-ri\\e\\3sab-jek-te",
+  "two": "言\\ha至少2",
+  "draftLabel": "fu-reim-wer-ke\\ha-pu-rou-pou-zal",
+  "latest": "dok-kiu-man-te\\ha-pab-lik\\e\\3择\\e\\3阅",
+  "allDocs": "\\ku-dok-kiu-man-te\\ha-pab-lik",
+  "read": "pab-li-kei-shon\\e\\3si-koup\\e\\3阅",
+  "search": "ser-chi",
+  "searchHint": "pou-le-cei\\kou-yu-du-kei-shon\\kou旗\\e\\3ser-chi…",
+  "results": "ser-chi\\e\\3ri-zal-te",
+  "empty": "其\\wou\\3dok-kiu-man-te\\ha相关\\ou得\\pou\\2\\chi\\4\\wu\\2\\le\\4。\\e-人\\wou\\3ser-chi\\e\\3词\\ha别\\ou试\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。",
+  "close": "闭",
+  "menu": "men-yu",
+  "language": "言",
+  "skip": "dok-kiu-man-te\\e\\3主\\e\\3部\\te\\hou行\\pou\\sou",
+  "onPage": "web-sait\\e\\3此\\e\\3页\\e\\3索",
+  "back": "国\\e\\3pu-rai-o-ri-ti\\te\\hou归\\pou\\sou",
+  "download": "dok-kiu-man-te\\e\\3daun-loud",
+  "print": "此\\e\\3页\\e\\3pu-rin-te",
+  "updated": "web-sait\\e\\3ver-shon\\e\\3日",
+  "date": "2026年10月3日",
+  "status": "dok-kiu-man-te\\e\\3tai-pe",
+  "proposal": "pou-le-cei\\ha-pu-rou-pou-zal",
+  "record": "in-for-mei-shon\\e\\3注",
+  "all": "\\ku-dok-kiu-man-te",
+  "filter": "dok-kiu-man-te\\ha-pab-lik\\e\\3fil-ter",
+  "count": "dok-kiu-man-te",
+  "related": "in-for-mei-shon\\ha相关",
+  "scope": "pab-li-kei-shon\\e\\3si-koup",
+  "scopeText": "pou-le-cei\\ha-pu-rou-pou-zal\\wou\\3di-ve-lop-man\\e\\3方\\ha-pu-rou-pou-zal\\ou示。pou-le-cei\\ha-pu-rou-pou-zal\\wou\\3lou\\ha生效\\kou-e-li-ji-bi-li-ti\\ha申请\\kou-fai-nans\\e\\3约\\kou-pab-lik\\e\\3ser-vis\\ha开\\pou\\2\\chi\\4\\wu\\2\\le\\4。",
+  "aboutTitle": "sen-zou-vi-a\\e\\3介",
+  "aboutIntro": "国\\e\\3建\\e\\3pu-ro-jek-te\\ha个人\\e\\3fu-ri-dom\\kou-o-por-tiu-ni-ti\\ha-i-kual\\kou知\\e\\3用",
+  "aboutSections": [
+    [
+      "国\\e\\3bak-gu-raun-de",
+      "sen-zou-vi-a\\wou\\3战\\e\\3后\\e\\3国。国\\e\\3pur-pos\\wou\\3实现\\ha持续\\ou需。\\e-web-sait\\wou\\3战争\\e\\3时\\kou领土\\e\\3pu-lan\\kou-re-kon-si-chak-shon\\e\\3ri-zal-te\\ha未确认\\ou加\\bou\\3\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。"
+    ],
+    [
+      "pu-rin-si-pol\\kou-pu-rai-o-ri-ti",
+      "pou-le-cei\\e\\3方\\wou\\3择\\ha-au-to-no-mi\\kou-i-kual\\kou学\\ha严\\kou-sai-ens\\e\\3探索\\kou-in-ter-na-shen-noul\\e\\3开放\\ou来自。web-sait\\wou\\3\\ku-pu-rin-si-pol\\ou-pou-le-cei\\ha-pu-rou-pou-zal\\te\\hou转。web-sait\\wou\\3pou-le-cei\\ha-pu-rou-pou-zal\\ou改革\\ha完\\te\\hou称\\pou\\2\\chi\\4\\wu\\2\\le\\4。"
+    ],
+    [
+      "kal-cher\\kou-ai-den-ti-ti",
+      "sen-zou-vi-a\\sou\\3己\\e\\3旗。web-sait\\wou\\3国\\ha别\\e\\3旗\\ou代\\pou\\2\\chi\\4\\wu\\2\\le\\4。\\e-kal-cher\\e\\3di-ve-lop-man\\wou\\3个人\\e\\3表达\\kou言\\e\\3择\\kou生\\e\\3方\\ha别\\e\\3交流\\e\\3时\\ou留\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。"
+    ],
+    [
+      "web-sait\\e\\3性质",
+      "sen-zou-vi-a\\wou\\3国\\ha虚构\\e\\3建\\e\\3pu-ro-jek-te。web-sait\\wou\\3设定\\ha已确\\kou-pou-le-cei\\ha-pu-rou-pou-zal\\ou-sen-zou-vi-a\\e\\3ga-van-man\\e\\3in-for-mei-shon\\e\\3web-sait\\e\\3方\\ga示。\\e-web-sait\\wou\\3lou\\e\\3dok-kiu-man-te\\kou-ai-den-ti-ti\\e\\3卡\\kou-pab-lik\\e\\3fan-ding\\ou予\\bou\\3\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal。此\\e\\3版\\wou\\3人口\\kou首都\\kou官员\\kou-kon-si-ti-tiu-shon\\e\\3pu-lan\\ou载\\pou\\2\\chi\\4\\wu\\2\\le\\4。"
+    ]
+  ],
+  "flagIntro": "web-sait\\e\\3此\\e\\3页\\wou\\3国\\e\\3旗\\ou图\\ha所予\\ga全\\te示\\pou\\2\\chi\\4。",
+  "flagNotes": [
+    [
+      "图\\ha参考",
+      "图\\wou\\3黑\\kou红\\kou白\\kou-2\\e\\3星\\kou中\\e\\3曲线\\ou原\\te留。图\\e\\3宽\\e\\3高\\e\\3比\\wou\\3-3:2\\pou\\2\\chi\\4。"
+    ],
+    [
+      "示\\kou用",
+      "web-sait\\wou\\3JPEG\\ha原\\ou用。web-sait\\wou\\3图\\ou裁\\pou\\2\\chi\\4\\wu\\2\\le\\4。web-sait\\wou\\3色\\ou改\\pou\\2\\chi\\4\\wu\\2\\le\\4。web-sait\\wou\\3旗\\ou重绘\\pou\\2\\chi\\4\\wu\\2\\le\\4。web-sait\\wou\\3旗\\e\\3面\\ou动\\pou\\2\\chi\\4\\wu\\2\\le\\4。daun-loud\\e\\3dok-kiu-man-te\\wou\\3图\\ha原\\e\\3同\\pou\\2\\chi\\4。"
+    ],
+    [
+      "sim-bo-li-zam\\e\\3释",
+      "此\\e\\3版\\sou\\3色\\kou星\\kou中\\e\\3形\\e\\3sim-bo-li-zam\\e\\3释\\ha正式\\pou\\2\\chi\\4\\wu\\2\\le\\4。\\e-web-sait\\wou\\3sim-bo-li-zam\\ha未确\\ou赋\\bou\\3\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。"
+    ]
+  ],
+  "original": "旗\\e\\3图\\ha原\\e\\3daun-loud",
+  "viewOriginal": "图\\ha原\\kou全\\e\\3观",
+  "docsIntro": "其\\wou\\3pou-le-cei\\ha-pu-rou-pou-zal\\kou-in-for-mei-shon\\e\\3注\\ou-dok-kiu-man-te\\e\\3tai-pe\\ga阅。日\\wou\\3lou\\e\\3通\\e\\3日\\pou\\2\\chi\\4\\wu\\2\\le\\4。日\\wou\\3web-sait\\e\\3ver-shon\\e\\3日\\pou\\2\\chi\\4。",
+  "priorityIntro": "国\\e\\3di-ve-lop-man\\e\\3-6\\e\\3域\\ha相关",
+  "notices": [
+    [
+      "国\\e\\3旗：图\\ha参考\\kou示\\e\\3规范",
+      "web-sait\\wou\\3旗\\ou图\\ha原\\ga示\\pou\\2\\chi\\4。"
+    ],
+    [
+      "ESX：sab-jek-te\\e\\3择\\e\\3au-to-no-mi\\kou-ri-ser-chi\\e\\3pas",
+      "yu-du-kei-shon\\e\\3pu-rou-pou-zal\\wou\\3a-ka-de-mik\\e\\3深\\kou探索\\ha-au-to-no-mi\\kou-o-por-tiu-ni-ti\\ha-fair\\ou护\\pou\\2\\chi\\4。"
+    ],
+    [
+      "dok-kiu-man-te\\ha-pab-lik\\e\\3si-koup\\kou-tai-pe",
+      "web-sait\\wou\\3pou-le-cei\\ha-pu-rou-pou-zal\\kou-in-for-mei-shon\\ha已确\\ou分。web-sait\\wou\\3pab-li-kei-shon\\e\\3si-koup\\ou明示\\pou\\2\\chi\\4。"
+    ]
+  ],
+  "footer": "sen-zou-vi-a\\e\\3ga-ver-nans",
+  "footerLine": "国\\e\\3in-for-mei-shon · pou-le-cei\\e\\3方 · dok-kiu-man-te\\ha-pab-lik",
+  "access": "ak-se-si-bi-li-ti",
+  "privacy": "pu-rai-va-si\\e\\3注",
+  "sources": "web-sait\\ha参考",
+  "motionOn": "a-ni-mei-shon\\e\\3减",
+  "motionOff": "a-ni-mei-shon\\e\\3启",
+  "top": "顶\\te\\hou归\\pou\\sou",
+  "accessText": "web-sait\\sou\\3标题\\ha语义\\kou键\\e\\3nav-i-gei-shon\\kou焦点\\ha明\\kou正文\\e\\3链接\\kou-8\\e\\3言\\e\\3版\\kou页\\ha-pu-rin-te。a-ni-mei-shon\\wou\\3设备\\e\\3减\\e\\3pu-re-fe-rens\\ou从。\\e-人\\wou\\3字\\e\\3大\\ou增\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal。web-sait\\wou\\3ak-se-si-bi-li-ti\\e\\3ri-viu\\ha-in-di-pen-den-te\\ou受\\pou\\2\\chi\\4\\wu\\2\\le\\4。",
+  "privacyText": "web-sait\\wou\\3kon-tak-te\\kou-kon-sal-tei-shon\\e\\3for-me\\ou供。web-sait\\wou\\3用人\\e\\3帳\\kou支付\\e\\3服務\\ou供\\pou\\2\\chi\\4\\wu\\2\\le\\4。ser-chi\\wou\\3用人\\e\\3瀏覽器\\te行。言\\kou-a-ni-mei-shon\\e\\3偏好\\wou\\3\\bi\\ou此\\e\\3機器\\te存。\\e-托管\\e\\3服務人\\wou\\3技術\\e\\3訪問記錄\\ou處理\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal。web-sait\\e\\3閱\\ha僅\\wou\\3for-me\\e\\3in-for-mei-shon\\ou送\\pou\\2\\chi\\4\\wu\\2\\le\\4。 交\\e\\3in-for-mei-shon\\wou\\3\\bi\\ou-FormSubmit\\teGmail\\e\\3ii-meil\\haSenzovians@gmail.com\\te\\hou送。此\\e\\3服務\\wou\\3in-for-mei-shon\\ou各自\\e\\3pou-le-cei\\te處理。in-for-mei-shon\\wou\\3\\bi\\ou-kon-tak-te\\e\\3ii-meil箱\\te閱\\kou後續處理\\hou存。\\e-人\\wou\\3删除\\e\\3求\\ou同ii-meil\\te\\hou送\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal。交\\e\\3in-for-mei-shon\\wou\\3\\bi\\ou自動公開\\pou\\2\\chi\\4\\wu\\2\\le\\4。\\e-人\\wou\\3in-for-mei-shon\\ha人\\kou敏感\\kou他人\\e\\3pu-rai-va-si\\e\\3資料\\ou不交\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。",
+  "sourcesText": "其\\wou\\3-21\\e\\3国\\e\\3sen-zou-vi-a\\e\\3ga-van-man\\e\\3web-sait\\e\\3si-chak-cher\\kou-nav-i-gei-shon\\kou言\\kou-dok-kiu-man-te\\e\\3si-chak-cher\\tou研。\\lou\\3web-sait\\ha参考\\wou\\3设计\\e\\3参考。\\lou\\3web-sait\\ha参考\\wou\\3web-sait\\e\\3认可\\kou隶属\\e\\3证\\pou\\2\\chi\\4\\wu\\2\\le\\4。其\\wou\\3GOV.UKFrontEnd\\kouUSWDS\\kouMotion\\tou阅\\pou\\2\\chi\\4。",
+  "principles": [
+    "个人\\e\\3au-to-no-mi",
+    "o-por-tiu-ni-ti\\ha-i-kual",
+    "知\\kou探索"
+  ],
+  "topics": [
+    {
+      "id": "education",
+      "title": "yu-du-kei-shon\\kou学",
+      "desc": "ESX\\kou-sab-jek-te\\e\\3择\\e\\3au-to-no-mi\\kou-ri-ser-chi\\e\\3pas\\kou-yu-du-kei-shon\\e\\3o-por-tiu-ni-ti",
+      "sections": [
+        [
+          "pou-le-cei\\e\\3pur-pos",
+          "\\e-yu-du-kei-shon\\wou\\3a-ka-de-mik\\e\\3根基\\kou探索\\e\\3时\\kou-au-to-no-mi\\ou建\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-e-va-liu-ei-shon\\wou\\3理解\\kou用\\ou重\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-e-va-liu-ei-shon\\wou\\3记\\ha机械\\ou依\\bou\\3\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。"
+        ],
+        [
+          "ESX\\e\\3si-chak-cher\\ha-pu-rou-pou-zal",
+          "\\e-学\\xi\\2\\wou\\3-5\\e\\3sab-jek-te\\ou学\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-学\\xi\\2\\wou\\3ri-ser-chi\\ou课\\e\\3外\\te志愿\\te参\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-学\\xi\\2\\wou\\3ri-ser-chi\\ha其\\e\\3a-ka-de-mik\\e\\3域\\te相关\\ou-5sis\\e\\3sab-jek-te\\te\\hou计\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-学\\xi\\2\\wou\\3至少2\\e\\3言\\ou学\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。2sis\\e\\3言\\wou\\3家\\e\\3言\\ha必需\\pou\\2\\chi\\4\\wu\\2\\le\\4。"
+        ],
+        [
+          "ad-mi-shon\\kou-se-paot",
+          "\\e-su-kuul\\ha-a-per-se-kon-da-ri\\e\\3ad-mi-shon\\kou-yu-ni-ver-si-ti\\e\\3ad-mi-shon\\wou\\3na-sho-na-li-ti\\ou区别\\e\\3由\\te\\hou用\\bou\\3\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-yu-ni-ver-si-ti\\e\\3ad-mi-shon\\wou\\3a-ka-de-mik\\e\\3ri-ku-ai-er-man\\ou先\\te验\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-其\\wou\\3活动\\ha别\\ou后\\te评\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-学\\xi\\2\\ha家\\e\\3in-kam\\ha低\\wou\\3活动\\e\\3fan-ding\\ou自动\\te得\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。fan-ding\\e\\3si-tan-dad\\kou执行\\e\\3pu-lan\\wou\\3已确\\pou\\2\\chi\\4\\wu\\2\\le\\4。"
+        ]
+      ]
+    },
+    {
+      "id": "research",
+      "title": "sai-ens\\kou-i-no-vei-shon",
+      "desc": "sai-ens\\e\\3探索\\kou-sof-te-wer\\kouAI\\kou工程\\e\\3实践",
+      "sections": [
+        [
+          "pou-le-cei\\e\\3pur-pos",
+          "\\e-sai-ens\\e\\3探索\\ha严\\wou\\3ri-zal-te\\ha实际\\e\\3值\\ou连\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。pou-le-cei\\wou\\3sof-te-wer\\e\\3工程\\kouAI\\kou-dei-ta\\e\\3sai-ens\\kou-fi-ziks\\kou-ro-bo-tiks\\ou重。pou-le-cei\\wou\\3人\\kou-sou-shal\\e\\3sis-tem\\e\\3ri-ser-chi\\ou亦\\te重\\pou\\2\\chi\\4。"
+        ],
+        [
+          "ri-ser-chi\\e\\3pas",
+          "\\e-其\\wou\\3团队\\ha小\\ou问题\\ha重要\\e\\3研\\kou原型\\ha可运行\\e\\3建\\kou-ri-zal-te\\e\\3评\\hou助\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-学\\e\\3pas\\ha-pu-rou-pou-zal\\wou\\3理论\\kou-eks-pe-ri-men-te\\kou产品\\e\\3开发\\ou连\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-ri-ser-chi\\wou\\3kom-pe-ti-shon\\kou奖\\ou唯一\\e\\3pur-pos\\te\\hou用\\bou\\3\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。"
+        ],
+        [
+          "e-va-liu-ei-shon\\kou-ri-sor-sis",
+          "\\e-e-va-liu-ei-shon\\ha-pu-rou-pou-zal\\wou\\3重复\\e\\3a-bi-li-ti\\kou实际\\e\\3值\\kou限\\kou-sou-shal\\e\\3im-pak-te\\ou虑\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。此\\e\\3版\\wou\\3项目\\e\\3bad-jet\\kou-fan-ding\\e\\3ku-rai-tii-ri-a\\kou-ri-ser-chi\\e\\3in-si-ti-tiu-shon\\e\\3设\\ou定\\pou\\2\\chi\\4\\wu\\2\\le\\4。"
+        ]
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "fu-ri-dom\\kou-o-por-tiu-ni-ti\\ha-i-kual",
+      "desc": "个人\\e\\3择\\kou-jen-der\\e\\3i-kual\\kou-o-por-tiu-ni-ti\\ha先赋\\e\\3限\\e\\3外",
+      "sections": [
+        [
+          "个人\\e\\3au-to-no-mi",
+          "\\e-pou-le-cei\\ha-pu-rou-pou-zal\\wou\\3表达\\e\\3方\\kou兴趣\\kou人生\\e\\3pu-lan\\e\\3择\\e\\3fu-ri-dom\\ou护\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-jen-der\\e\\3期待\\kou家\\e\\3pas\\e\\3要求\\kou-job\\e\\3pas\\e\\3要求\\wou\\3个人\\e\\3o-por-tiu-ni-ti\\ou定\\bou\\3\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。"
+        ],
+        [
+          "o-por-tiu-ni-ti\\ha-i-kual",
+          "jen-der\\e\\3i-kual\\kou-yu-du-kei-shon\\e\\3na-sho-na-li-ti\\e\\3排斥\\e\\3反\\wou\\3pou-le-cei\\e\\3方\\e\\3根基\\ha重要。\\e-家\\e\\3经济\\wou\\3ri-ser-chi\\kou学\\kou活动\\e\\3参与\\ou阻\\bou\\3\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。"
+        ],
+        [
+          "执行\\e\\3事",
+          "\\e-有效\\e\\3保障\\wou\\3pu-rou-si-jer\\ha明\\kou-ri-viu\\e\\3pas\\ha可及\\kou-ri-sor-sis\\ha足\\ou需\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。此\\e\\3pu-rou-pou-zal\\wou\\3rait\\e\\3法案\\kou申诉\\e\\3in-si-ti-tiu-shon\\kou执行\\e\\3机制\\ha已立\\ou宣\\pou\\2\\chi\\4\\wu\\2\\le\\4。"
+        ]
+      ]
+    },
+    {
+      "id": "culture",
+      "title": "kal-cher\\kou-in-ter-na-shen-noul\\e\\3交流",
+      "desc": "ai-den-ti-ti\\ha-in-di-pen-den-te\\kou言\\e\\3择\\kou-kal-cher\\e\\3理解",
+      "sections": [
+        [
+          "kal-cher\\e\\3方",
+          "\\e-pab-lik\\e\\3kal-cher\\wou\\3表达\\e\\3方\\ha别\\ou容\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-言\\kou-ar-te\\kou-miu-zeik\\kou生\\wou\\3交流\\ou助\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-其\\wou\\3ai-den-ti-ti\\e\\3范式\\ha唯一\\ou强制\\bou\\3\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。"
+        ],
+        [
+          "言\\kou交流",
+          "\\e-yu-du-kei-shon\\e\\3pu-rou-pou-zal\\wou\\3至少2\\e\\3言\\e\\3学\\kou个人\\e\\3择\\ha实质\\ou护\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-言\\kou-sou-shal\\e\\3比较\\e\\3ri-ser-chi\\kou-sou-shal\\e\\3lin-guis-tiks\\wou\\3in-ter-na-shen-noul\\e\\3理解\\ou增\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。"
+        ],
+        [
+          "探索\\kou自然\\e\\3环境",
+          "cha-vel\\kou自然\\e\\3景\\kou-sou-shal\\ha别\\e\\3观\\wou\\3kal-cher\\e\\3方\\e\\3来。\\e-其\\wou\\3环境\\e\\3意识\\kou闲\\e\\3时\\ou好\\e\\3生\\e\\3理解\\te容\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。此\\e\\3版\\wou\\3国\\e\\3节\\kou遗产\\e\\3录\\kou法定\\e\\3言\\kou地理\\e\\3in-for-mei-shon\\ou载\\pou\\2\\chi\\4\\wu\\2\\le\\4。"
+        ]
+      ]
+    },
+    {
+      "id": "governance",
+      "title": "pab-lik\\e\\3pou-le-cei\\kou-a-kaun-ta-bi-li-ti",
+      "desc": "e-vi-dens\\kou实际\\e\\3执行\\kou-di-si-zhon\\e\\3修\\e\\3a-bi-li-ti",
+      "sections": [
+        [
+          "di-si-zhon\\e\\3me-sod",
+          "\\e-其\\wou\\3问题\\kou限\\ou明示\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-其\\wou\\3方案\\kou可能\\e\\3ri-zal-te\\ou比评\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-tek-no-lo-ji\\e\\3a-bi-li-ti\\kou-pur-pos\\ha远\\wou\\3pou-le-cei\\e\\3对象\\e\\3关怀\\ou连\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。"
+        ],
+        [
+          "保障\\ha-pu-rou-pou-zal",
+          "\\e-试点\\kou论证\\ha-pab-lik\\kou-ri-viu\\e\\3o-por-tiu-ni-ti\\wou\\3个人\\e\\3择\\ou过度\\e\\3规划\\kou-gu-reid\\e\\3目标\\ha僵\\e\\3外\\te护\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal。保障\\wou\\3sis-tem\\e\\3设计\\ha-pu-rou-pou-zal。保障\\wou\\3in-si-ti-tiu-shon\\ha现行\\e\\3叙述\\pou\\2\\chi\\4\\wu\\2\\le\\4。"
+        ],
+        [
+          "e-va-liu-ei-shon\\kou调整",
+          "\\e-pu-lan\\wou\\3e-vi-dens\\kou环境\\e\\3变\\te调整\\ou容\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-e-va-liu-ei-shon\\wou\\3实际\\e\\3ri-zal-te\\kou人\\e\\3生\\e\\3kuo-li-ti\\kou可量\\e\\3表现\\ou虑\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。此\\e\\3版\\wou\\3kon-si-ti-tiu-shon\\e\\3si-chak-cher\\kou部门\\kou官员\\ou定\\pou\\2\\chi\\4\\wu\\2\\le\\4。"
+        ]
+      ]
+    },
+    {
+      "id": "reconstruction",
+      "title": "战\\e\\3后\\e\\3di-ve-lop-man",
+      "desc": "国\\e\\3pur-pos\\kou-pab-lik\\e\\3生\\ha持续\\e\\3建\\e\\3方",
+      "sections": [
+        [
+          "bak-gu-raun-de\\ha已确",
+          "既有\\e\\3国\\e\\3叙述\\te，sen-zou-vi-a\\wou\\3战\\e\\3后\\e\\3国。国\\e\\3pur-pos\\wou\\3实现\\ha已确\\pou\\2\\chi\\4\\wu\\2\\le\\4。\\e-此\\e\\3版\\wou\\3战争\\e\\3日\\kou交战\\e\\3方\\kou领土\\e\\3ri-zal-te\\ou加\\bou\\3\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。"
+        ],
+        [
+          "di-ve-lop-man\\e\\3方\\ha-pu-rou-pou-zal",
+          "\\e-yu-du-kei-shon\\kou-sai-ens\\e\\3a-bi-li-ti\\kou个人\\e\\3fu-ri-dom\\kou-o-por-tiu-ni-ti\\ha-i-kual\\wou\\3发展\\e\\3下\\e\\3阶段\\e\\3根基\\te\\hou成\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-长期\\e\\3pu-lan\\wou\\3生\\kou休\\kou兴趣\\ha-in-di-pen-den-te\\e\\3发展\\e\\3时\\ou留\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。"
+        ],
+        [
+          "in-for-mei-shon\\ha需完善",
+          "\\e-re-kon-si-chak-shon\\e\\3pu-lan\\sou\\3需要\\e\\3e-va-liu-ei-shon\\kou责任\\e\\3in-si-ti-tiu-shon\\kou-ri-sor-sis\\e\\3pu-lan\\kou目标\\ha可验证\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal。\\e-web-sait\\wou\\3re-kon-si-chak-shon\\e\\3统计\\kou支出\\e\\3额\\kou完成\\e\\3比\\ha无依据\\ou发\\bou\\3\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。"
+        ]
+      ]
+    }
+  ]
+}

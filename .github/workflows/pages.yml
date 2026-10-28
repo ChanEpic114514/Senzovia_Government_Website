@@ -22,10 +22,13 @@ jobs:
         run: python3 -X utf8 build.py
       - name: Verify pages, links, languages and original flag
         run: python3 -X utf8 verify.py
+      - name: Check Kamotish translations and search helpers
+        run: |
+          python3 -X utf8 tests/kamotish.py
+          node tests/search_helpers.cjs
       - name: Check JavaScript syntax
         run: |
-          node --check dist/assets/site.js
-          node --check dist/assets/flag-intro.js
+          for script in dist/assets/*.js tools/*.cjs; do node --check "$script"; done
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Prepare project website paths

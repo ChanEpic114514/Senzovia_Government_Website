@@ -249,6 +249,9 @@ TEXT = {
 }
 
 
+from kamotish_locale import LABELS as KAMOTISH
+TEXT["art-x-kamotish"] = KAMOTISH["participation"]
+
 def esc(value):
     return escape(str(value), quote=True)
 
