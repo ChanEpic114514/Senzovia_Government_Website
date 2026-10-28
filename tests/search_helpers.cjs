@@ -5,7 +5,7 @@ const vm = require('node:vm');
 const code = fs.readFileSync('dist/assets/site.js', 'utf8');
 const start = code.indexOf(' const normalise =');
 const end = code.indexOf(' function render()', start);
-const scope = {};
+const scope = {body: {dataset: {lang: 'en'}}};
 vm.runInNewContext(code.slice(start, end) + '\nthis.helpers = {normalise, matchRanges, excerpt, bestSection};', scope);
 const {normalise, matchRanges, excerpt, bestSection} = scope.helpers;
 assert.equal(normalise('ÉGALITÉ'), 'egalite');
@@ -23,3 +23,12 @@ assert.equal(bestSection(education, []), null);
 const funding = bestSection(education, ['global', 'education', 'endowment']);
 assert.ok(excerpt(funding.text, ['global', 'education', 'endowment']).includes('Global Education Endowment'));
 console.log('Search helpers passed: Latin accents, CJK, Korean, full-width text, excerpts and real section target.');
+
+// A matched Kamotish run must retain whole commands, tones and syllables.
+scope.body.dataset.lang = 'art-x-kamotish';
+const source = 'yu-du-kei-shon\\e\\3'.repeat(80);
+assert.equal(excerpt(source, ['kei']), source);
+
+const first = '其\\wou\\3字\\ou讀\\pou\\2\\chi\\4。';
+const second = 'ESX\\wou\\3學\\pou\\2\\chi\\4。';
+assert.equal(excerpt(first + second, ['esx']), '…' + second);

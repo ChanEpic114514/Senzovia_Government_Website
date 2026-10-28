@@ -1,0 +1,19 @@
+/* Local Kamotish text uses a shared SVG sprite; no network fonts are needed. */
+html[lang="art-x-kamotish"] { --kamotish-line-height: 1.9; }
+html[lang="art-x-kamotish"] :is(p,li,dd,figcaption,.notice,.scope-note) { line-height: var(--kamotish-line-height); }
+.kamo-run { display:inline; overflow-wrap:anywhere; word-break:normal; }
+.kamo-ink { display:inline; }
+.kamo-ink svg.kamo { display:inline-block; width:1em; height:1em; margin:0 .055em; vertical-align:-.14em; overflow:visible; fill:currentColor; }
+.kamo-ink .kamo-sp { display:inline-block; width:.4em; }
+.kamo-readable { position:absolute!important; width:1px!important; height:1px!important; padding:0!important; margin:-1px!important; overflow:hidden!important; clip:rect(0,0,0,0)!important; white-space:nowrap!important; border:0!important; }
+html[lang="art-x-kamotish"] :is(h1,h2,h3) { overflow-wrap:anywhere; line-height:1.5; }
+html[lang="art-x-kamotish"] .tools { flex-wrap:wrap; }
+html[lang="art-x-kamotish"] select { max-width:100%; }
+html[lang="art-x-kamotish"] .hero-copy h1 { font-size:clamp(2.1rem,5.5vw,5rem); }
+@media print {
+ .kamo-ink svg.kamo { print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+ .kamo-run { break-inside:auto; }
+}
+/* The original TOC styles every direct span as a fixed-width section number. */
+html[lang="art-x-kamotish"] .toc>a>.kamo-run { font-family:inherit; font-size:inherit; flex:1 1 0; min-width:0; margin-top:0; }
+html[lang="art-x-kamotish"] :is(button,a,.button)>.kamo-run { min-width:0; }

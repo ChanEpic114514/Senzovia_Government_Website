@@ -66,6 +66,8 @@
       }
     };
 
+  translations["art-x-kamotish"] = {"open": "ESX\\e\\3探索", "skip": "跳過", "title": "yu-du-kei-shon\\e\\3sis-tem X", "description": "a-ni-mei-shon\\wou\\3空間\\ha抽象\\e\\3持續變\\teESX\\e\\3字\\ou最後留白\\ga示\\pou\\2\\chi\\4。"};
+
     const language =
       document.documentElement.lang ||
       document.body.dataset.lang ||

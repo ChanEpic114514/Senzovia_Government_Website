@@ -1,0 +1,142 @@
+{
+  "policy": [
+    "pab-li-kei-shon\\e\\3範圍\\e\\3注",
+    "pou-le-cei\\e\\3dok-kiu-man-te\\ha-ful\\e\\3閱",
+    "pou-le-cei\\e\\3dok-kiu-man-te\\ha-ful",
+    "pou-le-cei\\e\\3sam-ma-ri\\te\\hou歸",
+    "此\\e\\3言\\e\\3pou-le-cei\\e\\3dok-kiu-man-te\\ha-ful\\wou\\3已發\\pou\\2\\chi\\4\\wu\\2\\le\\4。"
+  ],
+  "publication": {
+    "summary": "pou-le-cei\\e\\3sam-ma-ri\\e\\3閱",
+    "esxSummary": "ESX\\e\\3sam-ma-ri\\e\\3閱",
+    "esxFull": "ESX\\e\\3pou-le-cei\\ha-ful\\e\\3閱",
+    "reference": "dok-kiu-man-te\\e\\3號",
+    "published": "發\\e\\3日",
+    "updated": "最後\\e\\3改\\e\\3日",
+    "version": "ver-shon",
+    "history": "改正\\e\\3記錄",
+    "initial": "pou-le-cei\\ha-ful\\wou\\3\\bi\\ou初\\te發\\pou\\2\\chi\\4。",
+    "revised": "pou-le-cei\\e\\3文\\wou\\3\\bi\\ou改正\\pou\\2\\chi\\4。",
+    "dateNote": "日\\wou\\3此\\e\\3倉\\e\\3發\\e\\3記錄\\e\\3基。日\\wou\\3立法\\e\\3通\\e\\3日\\pou\\2\\chi\\4\\wu\\2\\le\\4。",
+    "topic": "to-pik",
+    "allTopics": "\\ku-to-pik",
+    "format": "dok-kiu-man-te\\e\\3形",
+    "allFormats": "\\ku-dok-kiu-man-te\\e\\3形",
+    "summaryFormat": "pou-le-cei\\e\\3sam-ma-ri",
+    "fullFormat": "pou-le-cei\\ha-ful",
+    "recordFormat": "in-for-mei-shon\\e\\3注",
+    "searchError": "ser-chi\\wou\\3暫時可用\\pou\\2\\chi\\4\\wu\\2\\le\\4。再試\\pou\\sou"
+  },
+  "participation": {
+    "contact": "kon-tak-te\\kou-fiid-bak",
+    "consultation": "kon-sal-tei-shon\\ha-pab-lik",
+    "contact_intro": "\\e-人\\wou\\3web-sait\\e\\3行人\\e\\3kon-tak-te\\kou-web-sait\\e\\3問題\\e\\3ri-por-te\\kou-pou-le-cei\\e\\3意見\\e\\3交\\ou行\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。",
+    "consultation_intro": "yu-du-kei-shon\\kou-sai-ens\\e\\3ri-ser-chi\\kou-o-por-tiu-ni-ti\\ha-i-kual\\e\\3pou-le-cei\\ha-pu-rou-pou-zal\\e\\3意見\\e\\3交",
+    "process": "交\\e\\3意見\\e\\3處理\\e\\3法",
+    "contact_process": "web-sait\\e\\3行人\\wou\\3in-for-mei-shon\\ou閱。web-sait\\sou\\3各\\e\\3in-for-mei-shon\\e\\3返答\\e\\3保證\\kou返答\\e\\3期限\\pou\\2\\chi\\4\\wu\\2\\le\\4。\\e-人\\ha返答需\\wou\\3ii-meil\\ou留\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。",
+    "consultation_process": "kon-sal-tei-shon\\wou\\3持續開。kon-sal-tei-shon\\sou\\3截止\\e\\3日\\pou\\2\\chi\\4\\wu\\2\\le\\4。in-for-mei-shon\\wou\\3pou-le-cei\\e\\3審\\e\\3用。in-for-mei-shon\\wou\\3投票\\kou採用\\e\\3保證\\pou\\2\\chi\\4\\wu\\2\\le\\4。\\e-web-sait\\wou\\3返答\\e\\3sam-ma-ri\\ha將來有\\ou此\\e\\3頁\\te發\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal。web-sait\\wou\\3發\\e\\3日\\ou定\\pou\\2\\chi\\4\\wu\\2\\le\\4。",
+    "closed": "此\\e\\3kon-sal-tei-shon\\wou\\3\\tou止。\\e-人\\wou\\3kon-tak-te\\e\\3頁\\ou今亦用\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。",
+    "read": "pou-le-cei\\ha相關\\e\\3交前\\e\\3閱",
+    "required": "星號\\e\\3標\\e\\3項\\wou\\3必需。名\\kou-ii-meil\\wou\\3自願\\pou\\2\\chi\\4。",
+    "name": "名或ai-den-ti-ti\\ha化",
+    "email": "返答\\e\\3ii-meil",
+    "category": "in-for-mei-shon\\e\\3類",
+    "subject": "to-pik",
+    "message": "in-for-mei-shon\\e\\3内容",
+    "policy": "pou-le-cei\\ha相關",
+    "choose": "選\\pou\\sou",
+    "section": "章或段\\ha相關",
+    "position": "se-paot或質疑\\e\\3條款\\kou理由",
+    "change": "pu-rou-pou-zal\\e\\3改正",
+    "evidence": "e-vi-dens\\kou經歷\\kou可能im-pak-te\\e\\3考",
+    "privacy": "in-for-mei-shon\\e\\3處理\\e\\3注",
+    "notice": "交\\e\\3in-for-mei-shon\\wou\\3\\bi\\ou-FormSubmit\\teGmail\\e\\3ii-meil\\haSenzovians@gmail.com\\te\\hou送。此\\e\\3服務\\wou\\3in-for-mei-shon\\ou各自\\e\\3pou-le-cei\\te處理。in-for-mei-shon\\wou\\3\\bi\\ou-kon-tak-te\\e\\3ii-meil箱\\te閱\\kou後續處理\\hou存。\\e-人\\wou\\3删除\\e\\3求\\ou同ii-meil\\te\\hou送\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal。交\\e\\3in-for-mei-shon\\wou\\3\\bi\\ou自動公開\\pou\\2\\chi\\4\\wu\\2\\le\\4。\\e-人\\wou\\3in-for-mei-shon\\ha人\\kou敏感\\kou他人\\e\\3pu-rai-va-si\\e\\3資料\\ou不交\\sou\\ou\\wu\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。",
+    "consent": "吾\\wou\\3in-for-mei-shon\\e\\3處理\\e\\3注\\tou閱。吾\\wou\\3此\\e\\3in-for-mei-shon\\e\\3交\\ou-FormSubmit\\ga同意\\pou\\2\\chi\\4。",
+    "quote": "吾\\wou\\3吾\\e\\3部分意見\\e\\3pab-lik\\e\\3kon-sal-tei-shon\\e\\3sam-ma-ri\\te引用\\ou名\\kou-ii-meil無\\te許。此\\wou\\3自願\\e\\3選\\pou\\2\\chi\\4。",
+    "send": "交",
+    "handoff": "下一步\\wou\\3FormSubmit\\e\\3驗證\\kou交\\e\\3確認。\\e-人\\wou\\3ii-meil\\ou交\\e\\3失敗\\te直接送\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal\\pou\\2\\chi\\4。",
+    "direct": "ii-meil\\e\\3直接送",
+    "provider": "FormSubmit\\e\\3pu-rai-va-si\\e\\3注",
+    "google": "Google\\e\\3pu-rai-va-si\\e\\3注",
+    "base_privacy": "web-sait\\wou\\3kon-tak-te\\kou-kon-sal-tei-shon\\e\\3for-me\\ou供。web-sait\\wou\\3用人\\e\\3帳\\kou支付\\e\\3服務\\ou供\\pou\\2\\chi\\4\\wu\\2\\le\\4。ser-chi\\wou\\3用人\\e\\3瀏覽器\\te行。言\\kou-a-ni-mei-shon\\e\\3偏好\\wou\\3\\bi\\ou此\\e\\3機器\\te存。\\e-托管\\e\\3服務人\\wou\\3技術\\e\\3訪問記錄\\ou處理\\e\\a\\hou\\2\\wou\\3pu-rou-pou-zal。web-sait\\e\\3閱\\ha僅\\wou\\3for-me\\e\\3in-for-mei-shon\\ou送\\pou\\2\\chi\\4\\wu\\2\\le\\4。",
+    "categories": [
+      "kon-sal-tei-shon\\ha一般",
+      "web-sait\\e\\3問題",
+      "pou-le-cei\\e\\3意見"
+    ]
+  },
+  "animations": {
+    "flag": {
+      "government": "sen-zou-vi-a\\e\\3ga-van-man",
+      "skip": "a-ni-mei-shon\\e\\3跳過",
+      "flag": "国\\e\\3旗",
+      "subtitle": "sen-zou-vi-a\\e\\3国\\e\\3旗",
+      "counter": "国\\e\\3象徵 / 001",
+      "dialog": "sen-zou-vi-a\\e\\3旗\\e\\3示",
+      "open": "国\\e\\3旗\\e\\3a-ni-mei-shon\\e\\3觀"
+    },
+    "education": {
+      "open": "ESX\\e\\3探索",
+      "skip": "跳過",
+      "title": "yu-du-kei-shon\\e\\3sis-tem X",
+      "description": "a-ni-mei-shon\\wou\\3空間\\ha抽象\\e\\3持續變\\teESX\\e\\3字\\ou最後留白\\ga示\\pou\\2\\chi\\4。"
+    },
+    "science": [
+      "sai-ens\\e\\3a-ni-mei-shon\\e\\3觀",
+      "跳過",
+      "sai-ens\\kou-i-no-vei-shon",
+      "好奇",
+      "si-chak-cher",
+      "發見",
+      "fu-ri-dom",
+      "發見\\e\\3追",
+      "a-ni-mei-shon\\wou\\3ar-te\\e\\3表達。a-ni-mei-shon\\wou\\3ri-ser-chi\\e\\3dei-ta\\ha實\\e\\3示\\pou\\2\\chi\\4\\wu\\2\\le\\4。"
+    ],
+    "principles": [
+      "pu-rin-si-pol\\e\\3a-ni-mei-shon\\e\\3觀",
+      "跳過",
+      "fu-ri-dom",
+      "知",
+      "o-por-tiu-ni-ti"
+    ],
+    "gallery": [
+      "6\\e\\3to-pik\\e\\3探索",
+      "跳過",
+      "圖\\e\\3載…",
+      "圖\\wou\\3可用\\pou\\2\\chi\\4\\wu\\2\\le\\4。to-pik\\e\\3閱\\pou\\sou"
+    ],
+    "pride": [
+      "fu-ri-dom\\kou-o-por-tiu-ni-ti\\ha-i-kual",
+      "旗\\e\\3面\\te指\\e\\3移\\lou\\3輕觸\\te粒\\e\\3動\\e\\3始",
+      "暫止",
+      "續",
+      "再演",
+      "6\\e\\3色\\e\\3LGBTQ+\\e\\3驕傲旗",
+      "a-ni-mei-shon\\e\\3減\\wou\\3\\bi\\ou啟。此\\wou\\3靜\\e\\3示\\pou\\2\\chi\\4。",
+      "旗\\e\\3示\\ha靜"
+    ]
+  },
+  "countries": [
+    "英文国",
+    "美國",
+    "ka-na-da",
+    "新加坡",
+    "niu-zi-lan-de",
+    "au-si-chai-li-a",
+    "fu-rans",
+    "jer-ma-ni",
+    "ne-zer-lan-de",
+    "bel-jam",
+    "sui-tser-lan-de",
+    "au-si-chui-a",
+    "sui-den",
+    "nor-wei",
+    "fin-lan-de",
+    "den-mar-ke",
+    "南韓",
+    "si-pein",
+    "南a-fu-ri-ka",
+    "bu-ra-zil",
+    "pou-lan-de"
+  ]
+}

@@ -1,4 +1,7 @@
 from pathlib import Path
+from locales import LANGS
+from kamotish_locale import LABELS as KAMOTISH
+from kamotish_render import render_page, finalize_assets
 import json, html, hashlib, re
 from policy_pages import LABELS, render_policy
 from participation import footer_links, privacy_text, render_participation
@@ -7,9 +10,8 @@ from publication_tools import LABELS as PUBLICATION_LABELS, search_controls, sea
 ROOT = Path(__file__).parent
 OUT = ROOT / 'dist'
 data = json.loads((ROOT/'content.json').read_text())
-for lang in ['zh-Hant','ja','ko','fr','es']:
+for lang in LANGS[2:]:
     data[lang] = json.loads((ROOT/f'content-{lang}.json').read_text())
-LANGS = ['en','zh-Hans','zh-Hant','ja','ko','fr','es']
 ROUTES = ['home','priorities','publications','about','flag','education','research','rights','culture','governance','reconstruction','scope','accessibility','privacy','references','search']
 ROUTES += ["contact", "consultation"]
 TOPICS_WITH_FULL_POLICIES = {'education','research','rights'}
@@ -69,7 +71,10 @@ def head(lang,c,route,title,desc):
         '<link rel="stylesheet" href="/assets/education-intro.css?v=2">'
         '<script src="/assets/education-intro.js?v=2" defer></script>'
     ) if route in ("education", "education-full") else ""
-    return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)} | {esc(c['government'])}</title><meta name="description" content="{esc(desc)}"><meta name="theme-color" content="#121416"><link rel="icon" href="/assets/senzovia-flag.jpeg" type="image/jpeg"><link rel="stylesheet" href="/assets/site.css">{alternates}{extra_styles}<script src="{script_source}" defer></script><link rel="stylesheet" href="/assets/flag-intro.css">
+    site_styles = '/assets/site.css'
+    if lang == 'art-x-kamotish':
+        site_styles += '?v=' + hashlib.sha256((OUT/'assets/site.css').read_bytes()).hexdigest()[:12]
+    return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)} | {esc(c['government'])}</title><meta name="description" content="{esc(desc)}"><meta name="theme-color" content="#121416"><link rel="icon" href="/assets/senzovia-flag.jpeg" type="image/jpeg"><link rel="stylesheet" href="{site_styles}">{alternates}{extra_styles}<script src="{script_source}" defer></script><link rel="stylesheet" href="/assets/flag-intro.css">
 <script src="/assets/flag-intro.js" defer></script><link rel="stylesheet" href="/assets/pride-particles.css">
 <script src="/assets/pride-particles.js" defer></script><link rel="stylesheet" href="/assets/theme-gallery.css">
 <script src="/assets/theme-gallery.js" defer></script>{science_assets}{principles_assets}{education_assets}</head><body data-lang="{lang}" data-route="{route}" data-motion-on="{esc(c['motionOn'])}" data-motion-off="{esc(c['motionOff'])}">
@@ -127,6 +132,7 @@ def reference_page(lang,c):
     'ko':['영국','미국','캐나다','싱가포르','뉴질랜드','호주','프랑스','독일','네덜란드','벨기에','스위스','오스트리아','스웨덴','노르웨이','핀란드','덴마크','대한민국','스페인','남아프리카공화국','브라질','폴란드'],
     'fr':['Royaume-Uni','États-Unis','Canada','Singapour','Nouvelle-Zélande','Australie','France','Allemagne','Pays-Bas','Belgique','Suisse','Autriche','Suède','Norvège','Finlande','Danemark','Corée du Sud','Espagne','Afrique du Sud','Brésil','Pologne'],
     'es':['Reino Unido','Estados Unidos','Canadá','Singapur','Nueva Zelanda','Australia','Francia','Alemania','Países Bajos','Bélgica','Suiza','Austria','Suecia','Noruega','Finlandia','Dinamarca','Corea del Sur','España','Sudáfrica','Brasil','Polonia']}
+    names['art-x-kamotish'] = KAMOTISH['countries']
     return intro(lang,c,c['sources'],c['sourcesText'])+'<section class="wrap reference-list">'+''.join(f'<a href="{u}" rel="noreferrer"><span>{i+1:02}</span><strong>{names[lang][i]}</strong><small>{esc(u.replace("https://", ""))}</small></a>' for i,(_,u,_) in enumerate(refs))+'</section><div class="wrap open-source"><a href="https://github.com/alphagov/govuk-frontend">GOV.UK Frontend</a><a href="https://github.com/uswds/uswds">USWDS</a><a href="https://github.com/motiondivision/motion">Motion</a></div>'
 def search_page(lang,c):
     return intro(lang,c,c['search'],c['searchHint'])+f'''<section class="wrap search-page"><form id="search-form" role="search"><label class="sr-only" for="search-input">{esc(c['search'])}</label><input type="search" id="search-input" name="q" placeholder="{esc(c['searchHint'])}" autocomplete="off"><button class="button dark" type="submit">{icon('search')}{esc(c['search'])}</button></form>{search_controls(lang,c)}<p id="search-status" role="status"></p><div id="search-results"></div><noscript>{link(lang,'publications',c['allDocs'])}</noscript></section>'''
@@ -151,6 +157,12 @@ for lang in LANGS:
             desc = topic['desc']
 
             full_body, full_text = render_policy(ROOT, lang, topic, c)
+            if lang == 'art-x-kamotish':
+                download = f'/assets/documents/{lang}-P-{i+1:02}-FULL.txt'
+                (OUT / download.lstrip('/')).write_text(title + '\n\n' + full_text + '\n')
+                actions = (f'<div class="document-actions"><a class="button outline" download href="{download}">{esc(c["download"])}</a>'
+                           f'<button class="button outline print-button">{esc(c["print"])}</button></div>')
+                full_body = full_body.replace('</article></div>', actions + '</article></div>')
             body = intro(lang, c, title, desc, c['proposal']) + full_body
 
             search.append({
@@ -193,10 +205,14 @@ for lang in LANGS:
                            'format':'summary' if typ=='proposal' else 'record',
                            'sections':[{'anchor':f'section-{n+1}','heading':h,'text':p} for n,(h,p) in enumerate(items)]})
         folder=OUT/lang/('' if route=='home' else route);folder.mkdir(parents=True,exist_ok=True)
-        (folder/'index.html').write_text(head(lang,c,route,title,desc)+f'<main id="main"><div id="top"></div>{body}</main>'+foot(lang,c))
+        page = head(lang,c,route,title,desc)+f'<main id="main"><div id="top"></div>{body}</main>'+foot(lang,c)
+        if lang == 'art-x-kamotish':
+            page = render_page(page)
+        (folder/'index.html').write_text(page)
     (OUT/f'assets/search-{lang}.json').write_text(json.dumps(search,ensure_ascii=False))
 # English default is a complete useful page, not a redirect or loading placeholder.
+kamotish_assets = finalize_assets()
 (OUT/'index.html').write_text((OUT/'en/index.html').read_text())
 (OUT/'404.html').write_text('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Senzovia — 404</title><link rel="stylesheet" href="/assets/site.css"><main class="wrap simple-content"><p>SENZOVIA</p><h1>404</h1><p>This page could not be found.</p><a class="button dark" href="/">Government of Senzovia</a></main></html>')
 (ROOT/'RESEARCH.md').write_text('# Senzovia — pre-implementation research\n\nReviewed 2026-10-03 before first product-source implementation. Successful national sources: 21. Inaccessible Irish, Japanese and Icelandic homepages and thin Portuguese output were excluded from the count. Australia.gov.au redirected, so PM&C was read instead.\n\n| Country | Official source | Observed structure and adaptation |\n|---|---|---|\n'+'\n'.join(f'| {n} | {u} | {note} |' for n,u,note in refs)+'\n\n## Design synthesis\nTopic-first navigation; content-status labels; publication metadata; persistent seven-language selector; national-symbol page; high-contrast typography; keyboard-accessible disclosure controls. The flag is copied byte-for-byte, never drawn in CSS or SVG. Visual source review used extracted page structures, not screenshot-based pixel analysis.\n\n## Open-source research\n- https://github.com/alphagov/govuk-frontend — reviewed navigation and accessibility approach.\n- https://github.com/uswds/uswds/blob/develop/packages/usa-accordion/src/index.js — source read directly before implementation; adopted the linked aria-controls/aria-expanded, single-open disclosure behaviour, independently implemented without vendoring its CommonJS dependency graph.\n- https://github.com/motiondivision/motion/blob/main/packages/motion/README.md — reviewed animation and view-transition examples. Native CSS/WAAPI chosen for this static site; Motion is not shipped.\n\n## Content provenance\nUser-confirmed: Senzovia name, supplied flag, post-war state, national goals not yet confirmed achieved. User educational proposals: five upper-secondary subjects, at least two languages, voluntary extracurricular research or fifth research subject, nationality-neutral admissions, low-income activity support, academics before activities for university selection. Other programme text is explicitly proposed policy based on user interests and values, not enacted national law. No biography, personal school records, financial details or private conversations are published. Historical Chinese state name not asserted as current. No invented flag symbolism, capital, population, leaders, constitution, budgets, geographical claims or diplomatic recognition.\n\n## Editions\nEnglish, Simplified Chinese, Traditional Chinese, Japanese, Korean, French and Spanish. Traditional Chinese converted using OpenCC s2twp and retained as a checked-in editable source file; remaining editions independently authored.\n')
-print(json.dumps({'pages':len(LANGS)*len(ROUTES)+2,'languages':LANGS,'flag_sha256':hashlib.sha256((OUT/'assets/senzovia-flag.jpeg').read_bytes()).hexdigest(),'research_sources':len(refs)}))
+print(json.dumps({'pages':len(LANGS)*len(ROUTES)+2,'languages':LANGS,'flag_sha256':hashlib.sha256((OUT/'assets/senzovia-flag.jpeg').read_bytes()).hexdigest(),'research_sources':len(refs),'kamotish_assets':kamotish_assets}))

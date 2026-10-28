@@ -88,6 +88,8 @@
     ]
   };
 
+  labels["art-x-kamotish"] = ["fu-ri-dom\\kou-o-por-tiu-ni-ti\\ha-i-kual", "旗\\e\\3面\\te指\\e\\3移\\lou\\3輕觸\\te粒\\e\\3動\\e\\3始", "暫止", "續", "再演", "6\\e\\3色\\e\\3LGBTQ+\\e\\3驕傲旗", "a-ni-mei-shon\\e\\3減\\wou\\3\\bi\\ou啟。此\\wou\\3靜\\e\\3示\\pou\\2\\chi\\4。", "旗\\e\\3示\\ha靜"];
+
   const text = labels[document.documentElement.lang] || labels.en;
   const panel = document.createElement("figure");
 

@@ -84,10 +84,13 @@
     }
   };
 
+  STRINGS["art-x-kamotish"] = {"government": "sen-zou-vi-a\\e\\3ga-van-man", "skip": "a-ni-mei-shon\\e\\3跳過", "flag": "国\\e\\3旗", "subtitle": "sen-zou-vi-a\\e\\3国\\e\\3旗", "counter": "国\\e\\3象徵 / 001", "dialog": "sen-zou-vi-a\\e\\3旗\\e\\3示", "open": "国\\e\\3旗\\e\\3a-ni-mei-shon\\e\\3觀"};
+
   let active = null;
 
   function locale() {
     const lang = (document.documentElement.lang || 'en').toLowerCase();
+    if (lang === 'art-x-kamotish') return lang;
     if (lang.startsWith('zh')) {
       return /tw|hk|hant|mo/.test(lang) ? 'zh-TW' : 'zh-CN';
     }

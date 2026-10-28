@@ -108,6 +108,8 @@
     ]
   };
 
+  labels["art-x-kamotish"] = ["6\\e\\3to-pik\\e\\3探索", "跳過", "圖\\e\\3載…", "圖\\wou\\3可用\\pou\\2\\chi\\4\\wu\\2\\le\\4。to-pik\\e\\3閱\\pou\\sou"];
+
   const text = labels[document.body.dataset.lang] || labels.en;
   const root = document.documentElement;
   const motionQuery = matchMedia("(prefers-reduced-motion: reduce)");
